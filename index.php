@@ -3,135 +3,121 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Subnautica PDA</title>
-  <meta name="description" content="A second screen companion app for the game Subanutica.">
+  <title>No man's Guide</title>
+  <meta name="description" content="A second screen companion app for the game No Man's Sky.">
   <meta name="author" content="Benjamin Miles">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" src="js/vue.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/select2.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/select2.min.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
 <body>
     <div id="app">
-        <h1 id="title"><span>SUB</span>NAUTICA PDA</h1>
-        <div id="pda">
-            <div id="screen">
-                <div id="tabs">
-                    <button class="tab active" id="list" aria-label="List" title="List" v-on:click="loadPane('list')">
-                        <svg viewBox="0 0 36 34">
-                            <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="18" y1="2.9648" x2="18" y2="30.6665">
-                                <stop offset="0" style="stop-color:#F3F9FD"/>
-                                <stop offset="1" style="stop-color:#79D1F6"/>
-                            </linearGradient>
-                            <path d="M19,5.951v17.716h-2V5.951C13.646,2.734,2.895,2.147,1,4.042v22.625c6.5,0,12.438-0.563,17,4
-            c4.563-4.563,10.5-4,17-4V4.042C33.105,2.147,22.354,2.734,19,5.951z"/>
-                        </svg>
-                    </button>
-                    <button class="tab" id="items" aria-label="Items" title="Items" v-on:click="loadPane('items')">
-                        <svg viewBox="0 0 34 34">
-                            <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="17.2026" y1="1.0273" x2="17.2026" y2="32.7651">
-                            <stop offset="0" style="stop-color:#F3F9FD"/>
-                            <stop offset="1" style="stop-color:#79D1F6"/>
-                        </linearGradient>
-                            <path d="M8.927,2.374l3.447,3.447c1.725,1.725,1.725,4.522,0,6.247c-1.725,1.725-4.521,1.725-6.246,0
-            L2.681,8.621c-2.102,4.176-1.777,8.947,1.209,11.932c2.98,2.98,7.74,3.31,11.912,1.219l10.994,10.994l6.275-6.276L22.077,15.495
-            c2.092-4.171,1.763-8.932-1.218-11.913C17.874,0.597,13.104,0.273,8.927,2.374z"/>
-                        </svg>
-                    </button>
-                    <button class="tab" id="notes" aria-label="Notes" title="Notes" v-on:click="loadPane('notes')">
-                        <svg viewBox="0 0 36 34">
-                            <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="18" y1="1.6665" x2="18" y2="31.6665">
-                                <stop offset="0" style="stop-color:#F3F9FD"/>
-                                <stop offset="1" style="stop-color:#79D1F6"/>
-                            </linearGradient>
-                            <path d="M24.817,1.667H1v30h34V11.85L24.817,1.667z M6,6.667h13v2H6V6.667z M6,11.667h13v2H6V11.667z
-            M31,23.667H6v-2h25V23.667z M31,18.667H6v-2h25V18.667z M24,12.667v-7l7,7H24z"/>
-                        </svg>
-                    </button>
-                </div>
-                <div id="heading">
-                    <h2>List</h2>
-                </div>
-                <div id="panes">
-                    <div class="pane" id="list-pane">
-                        <div id="list-container">
-                            <div v-if="list.length === 0" class="welcome">
-                                <div id="spoiler">
-                                    <!-- "Alert" by Gautam Arora, IN: https://thenounproject.com/term/alert/574450/ -->
-                                    <svg viewBox="0 0 12 12">
-                                        <path d="M10.447693,11.402344H1.553162c-0.561523,0-1.063477-0.290039-1.34375-0.776367    c-0.280273-0.485352-0.280273-1.06543,0.000977-1.550781l4.447266-7.702148C4.936951,0.887695,5.43988,0.597656,6.000427,0.597656    s1.063477,0.290039,1.34375,0.775391l4.446289,7.702148c0.280273,0.486328,0.280273,1.066406,0,1.551758    S11.00824,11.402344,10.447693,11.402344z M6.000427,1.597656c-0.095703,0-0.333984,0.026367-0.476562,0.275391L1.075623,9.575195    c-0.143555,0.249023-0.047852,0.46875,0,0.551758s0.19043,0.275391,0.477539,0.275391h8.894531    c0.287109,0,0.428711-0.192383,0.476562-0.275391s0.144531-0.302734,0-0.551758L6.477966,1.873047    C6.334412,1.624023,6.09613,1.597656,6.000427,1.597656z"></path>
-                                        <path d="M6.085388,7.578125c-0.276367,0-0.5-0.223633-0.5-0.5v-2.75293c0-0.276367,0.223633-0.5,0.5-0.5    s0.5,0.223633,0.5,0.5v2.75293C6.585388,7.354492,6.361755,7.578125,6.085388,7.578125z"></path>
-                                        <circle cx="6.085185" cy="8.744164" r="0.6"></circle>
-                                    </svg>
-                                    <span><b>Spoiler Alert!</b> If you have not yet completed <i>Subnautica</i>, you <b>will</b> encounter spoilers using this app.</span>
-                                    <!-- "Alert" by Gautam Arora, IN: https://thenounproject.com/term/alert/574450/ -->
-                                    <svg viewBox="0 0 12 12">
-                                        <path d="M10.447693,11.402344H1.553162c-0.561523,0-1.063477-0.290039-1.34375-0.776367    c-0.280273-0.485352-0.280273-1.06543,0.000977-1.550781l4.447266-7.702148C4.936951,0.887695,5.43988,0.597656,6.000427,0.597656    s1.063477,0.290039,1.34375,0.775391l4.446289,7.702148c0.280273,0.486328,0.280273,1.066406,0,1.551758    S11.00824,11.402344,10.447693,11.402344z M6.000427,1.597656c-0.095703,0-0.333984,0.026367-0.476562,0.275391L1.075623,9.575195    c-0.143555,0.249023-0.047852,0.46875,0,0.551758s0.19043,0.275391,0.477539,0.275391h8.894531    c0.287109,0,0.428711-0.192383,0.476562-0.275391s0.144531-0.302734,0-0.551758L6.477966,1.873047    C6.334412,1.624023,6.09613,1.597656,6.000427,1.597656z"></path>
-                                        <path d="M6.085388,7.578125c-0.276367,0-0.5-0.223633-0.5-0.5v-2.75293c0-0.276367,0.223633-0.5,0.5-0.5    s0.5,0.223633,0.5,0.5v2.75293C6.585388,7.354492,6.361755,7.578125,6.085388,7.578125z"></path>
-                                        <circle cx="6.085185" cy="8.744164" r="0.6"></circle>
-                                    </svg>
-                                </div>
-                                <h1>Welcome aboard, Captain.</h1>
-                                <p><b>Subnautica PDA</b> is a second-screen companion app for the game <a href="https://subnautica.com/" target="_blank" title="Subnautica Official Site"><i>Subnautica</i></a>. It was made to assist with crafting recipes and other helpful reminders. It is best used on a phone or tablet, while playing the game on PC or console.</p>
-                                <p>To use <b>Subnautica PDA</b>: Click the <b>wrench</b> icon for a complete list of blueprints. Click a category to see the items in that category, and click on an item to add it to your personal List. Those items will appear here, in place of this welcome message. To get back to this message, just clear out your List, by clicking the <b>eye</b> next to each item. To keep any other miscellaneous reminders, use the Notes view by clicking the <b>note</b> icon. All of your items and notes will be saved if you leave the app and return later.</p>
-                                <p>This app uses material from the <a href="https://subnautica.fandom.com/wiki/Subnautica_Wiki" target="_blank">Subnautica Wiki</a> at <a href="https://www.fandom.com/" target="_blank">Fandom</a> and is licensed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-Share Alike License</a>.</p>
-                            </div>
-                            <div v-for="(item, index) in list" class="list-item">
-                                <div class="controls">
-                                    <button v-on:click="removeFromList(index)" aria-label="Remove" title="Remove">
-                                        <svg viewBox="0 0 77.79 45.1">
-                                            <!-- "Eye" by Poups, FR: https://thenounproject.com/term/eye/3350406/ -->
-                                            <path d="M77.29,22.68a44.82,44.82,0,0,0-76.74-2L0,21.54l.5.88a44.92,44.92,0,0,0,39,22.68A44.66,44.66,0,0,0,77.25,24.4l.54-.85ZM39.47,41.76A41.55,41.55,0,0,1,3.92,21.64a41.48,41.48,0,0,1,70,1.81A41.29,41.29,0,0,1,39.47,41.76Z"></path>
-                                            <path d="M38.9,10.53a12,12,0,1,0,12,12A12,12,0,0,0,38.9,10.53Zm0,20.7a8.68,8.68,0,1,1,8.67-8.68A8.68,8.68,0,0,1,38.9,31.23Z"></path>
-                                        </svg>
-                                    </button>
-                                    <div v-if="item.recipe" class="quantity-buttons">
-                                        <button v-on:click="changeQuantity('+',index)" aria-label="Increase Quantity" title="Increase Quantity">+</button>
-                                        <button v-on:click="changeQuantity('-',index)" aria-label="Decrease Quantity" title="Decrease Quantity">-</button>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img :src="item.name | slug | img_src" />
-                                    <div class="label">
-                                        <span v-if="item.recipe" class="yield">{{ item.recipe.yield }}</span>
-                                        <span>{{ item.name }}</span>
-                                    </div>
-                                </div>
-                                <div class="data">
-                                    <h3 v-if="item.location">Found in:</h3>
-                                    <div v-if="item.location" class="location">
-                                        {{ item.location }}
-                                    </div>
-                                    <h3 v-if="item.recipe">Crafted from:</h3>
-                                    <div v-if="item.recipe" class="recipe">
-                                        <div v-for="ingredient in item.recipe.ingredients" class="ingredient">
-                                            <span class="quantity">{{ ingredient.quantity }}</span>
-                                            <img :src="ingredient.name | slug | img_src" />
-                                            <span class="name">{{ ingredient.name }}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pane" id="items-pane" style="display:none;">
-                        <div id="items-container">
-                            <div v-for="(group, groupindex) in groups" class="group collapsed" :id="group.name | slug">
-                                <h3 v-on:click="toggle(group.name)">{{ group.name }}</h3>
-                                <div v-for="(item, itemindex) in group.items" class="item" v-on:click="addToList(groupindex,itemindex)">
-                                    <img :src="item.name | slug | img_src" />
-                                    <span>{{ item.name }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pane" id="notes-pane" style="display:none;">
-                        <textarea v-model="notes" placeholder="Keep your notes here."></textarea>
-                    </div>
-                </div>
+        <section id="header">
+            <div class="brand">
+                    <svg class="logo" viewBox="0 0 74 128">
+                        <polygon id="d" points="37,127 1,49 37,1 73,49 "/>
+                        <polygon id="br" fill="#FFFFFF" points="36.847,60.552 71.906,48.906 72,49 37.153,61.448 "/>
+                        <path id="c" fill="#FF0000" d="M55,49c0,9.941-8.059,18-18,18V31C46.941,31,55,39.059,55,49z"/>
+                        <polygon id="tr" fill="#FFFFFF" points="72,49 37,37 37,2 "/>
+                        <polygon id="l" fill="#FFFFFF" points="2.452,49.005 37,37 1.5,49 36.847,61.448 37.153,60.552 "/>
+                        <polygon id="m" fill="#FFFFFF" points="37,2 37.75,61 37,126 36.25,61 "/>
+                    </svg>
+                <h1 class="title">No Man's Guide</h1>
+                <h6 class="tagline">An unofficial companion-app for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h6>
             </div>
+            <div class="menu">
+                <ul class="nav">
+                    <li class="ships">
+                        <button class="toggle">
+                            <svg id="ship-icon" viewBox="0 0 400 400">
+                                <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
+                                <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
+                                <polygon class="fill" points="90.625,136.852 200.001,73.703 309.375,136.852  309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <polygon class="border" fill="none" stroke="#000000" stroke-width="11.5" stroke-miterlimit="10" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <path class="icon" d="M213.15,214.075l-3.775-100.013h-20.313l-3.775,100.013c-30.578,0.267-47.788,19.162-47.788,27.175v11.875H150 c0-7.479,16.205-17.611,33.834-0.516l-1.022,27.078h32.813l-1.021-27.078c17.629-17.096,33.834-6.963,33.834,0.516h12.5V241.25 C260.938,233.237,243.729,214.342,213.15,214.075z"/>
+                            </svg>
+                            <span>Ships</span>
+                        </button>
+                        <div class="drawer">
+                            <h3>Ships</h3>
+                            <ul></ul>	
+                        </div>		
+                    </li>
+                    <li class="frigates">
+                        <button class="toggle">
+                            <svg id="frigate-icon" viewBox="0 0 400 400">
+                                <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
+                                <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
+                                <polygon class="fill" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <polygon class="border" fill="none" stroke="#000000" stroke-width="11.5" stroke-miterlimit="10" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <path class="icon" d="M279.688,175h-14.063v-18.75c-13.625,0-26.164,14-30.026,18.75H150l-16.072,12.5h-19.866V200h68.842 c10.452,7.064,36.394,23.869,50.064,26.268v1.857c0,19.531,18.125,25,18.125,25v-28.689l28.594-27.248V175L279.688,175z"/>
+                                </svg>
+                            <span>Frigates</span>
+                        </button>
+                        <div class="drawer">
+                            <h3>Frigates</h3>
+                            <ul></ul>	
+                        </div>
+                    </li>
+                    <li class="discoveries">
+                        <button class="toggle">
+                            <svg id="base-icon" viewBox="0 0 400 400">
+                                <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
+                                <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.833 200.001,55.664 325,127.833 325,272.169 200.001,344.336 75,272.169 "/>
+                                <polygon class="fill" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <polygon class="border" fill="none" stroke="#000000" stroke-width="11.5" stroke-miterlimit="10" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+                                <path class="icon" d="M278.125,241.986h-156.25v-15.625h156.25V241.986z M200,139.063c-75.552,0-78.125,74.844-78.125,74.844h25 c0-7.769,6.295-15.47,14.063-15.47S175,206.141,175,213.906h103.125C278.125,213.906,275.552,139.063,200,139.063z"/>
+                                </svg>
+                            <span>Discoveries</span>
+                        </button>
+                        <div class="drawer">
+                            <h3>Discoveries</h3>
+                            <ul></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="search">
+                <select class="select2" name="search" style="width:100%;"></select>
+            </div>
+        </section>
+
+        <section id="resources">
+            <div class="resource" id="carbon">
+                <div class="title">Carbon</div>
+                <div class="value">15</div>
+                <img alt="Carbon" src="https://bcgm3.com/dev/nmg/img/item/carbon.png">
+            </div>
+            <div id="details">
+                <p class="description"><strong class="type">Unrefined Organic Element.</strong> Used in building, recharging the <a href="/Mining_Beam">Mining Beam</a> and as fuel for some machines.</p>
+                <div class="recipe">&nbsp;</div>
+            </div>
+        </section>
+
+        <section id="credits">
+            <div>
+                <div><small>Most data and images from the <a href="https://nomanssky.gamepedia.com/" target="_blank">No Man's Sky Wiki on Gamepedia</a>, licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://www.bcgm3.com/dev/nmg/img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
+                <div><small>Some data and images from the <a href="https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki" target="_blank">No Man's Sky Wiki on Fandom</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img src="https://www.bcgm3.com/dev/nmg/img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
+            </div>
+        </section>
+
+        <div class="hex"></div>
+        <div class="slideshow">
+            <div class="slide zero show"></div>
+            <div class="slide one"></div>
+            <div class="slide two"></div>
+            <div class="slide three"></div>
+            <div class="slide four"></div>
+            <div class="slide five"></div>
+            <div class="slide six"></div>
+            <div class="slide seven"></div>
+            <div class="slide eight"></div>
+            <div class="slide nine"></div>
         </div>
-        <div id="bkg"></div>
     </div>
     <script type="text/javascript" src="js/app.js"></script>
 </body>

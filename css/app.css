@@ -1,0 +1,457 @@
+@charset "UTF-8";
+/* VARS */
+/* RESET */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,600");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+html, body {
+  min-height: 100vh; }
+
+/* FONTS */
+html, body {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 5vw;
+  font-weight: 300; }
+
+.light, small {
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 600; }
+
+h1 {
+  font-size: 5vw; }
+
+h2 {
+  font-size: 4.4vw; }
+
+h3 {
+  font-size: 3.8vw; }
+
+h4 {
+  font-size: 3.2vw; }
+
+h5 {
+  font-size: 2.6vw; }
+
+h6 {
+  font-size: 2vw; }
+
+/* LINKS */
+a {
+  color: inherit; }
+
+a, button {
+  cursor: pointer;
+  cursor: url("https://bcgm3.com/dev/nmg/cursor/nmg_cursor_active.svg") 25 25, pointer; }
+
+/* HEADER */
+#header {
+  align-items: center;
+  background: linear-gradient(to right, rgba(64, 150, 238, 0) 0%, rgba(64, 150, 238, 0.3) 20%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 6vw;
+  padding: 2vw; }
+  #header .logo {
+    height: 16vw;
+    float: left;
+    margin-right: 2vw;
+    filter: drop-shadow(0 0 0.75vw rgba(255, 255, 255, 0.7));
+    transition: all 0.5s; }
+    #header .logo #d, #header .logo #tr, #header .logo #c {
+      transition: all 0.25s; }
+    #header .logo #d {
+      opacity: 0.9; }
+    #header .logo #tr {
+      opacity: 0.7; }
+    #header .logo:hover {
+      filter: drop-shadow(0 0 0.25vw rgba(255, 255, 255, 0.5));
+      transform: scale(1.1); }
+      #header .logo:hover #d, #header .logo:hover #tr {
+        opacity: 1; }
+      #header .logo:hover #c {
+        transform: scale(1.1) translate(-3%, -3%); }
+  #header .title, #header .tagline {
+    display: none;
+    float: left;
+    text-shadow: 0 0.2vw 0.2vw rgba(0, 0, 0, 0.6); }
+  #header .title {
+    margin-top: 1vw; }
+
+.menu .nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end; }
+
+.menu .toggle {
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  padding: 1vw; }
+  .menu .toggle:hover #ship-icon .fill {
+    fill: #cb3109; }
+  .menu .toggle:hover #frigate-icon .fill {
+    fill: #217851; }
+  .menu .toggle:hover #base-icon .fill {
+    fill: #0063b8; }
+  .menu .toggle span {
+    display: none; }
+  .menu .toggle svg {
+    width: 16vw; }
+    .menu .toggle svg .fill {
+      fill: #fff;
+      transition: fill 0.125s ease-in; }
+    .menu .toggle svg .border, .menu .toggle svg .inner-ring, .menu .toggle svg .outer-ring {
+      fill: none; }
+
+.search {
+  width: 100%;
+  margin: 1vw 2vw 2vw; }
+
+.select2-container .select2-selection--single {
+  border-bottom: none;
+  cursor: inherit;
+  height: unset;
+  margin: 0 auto;
+  padding: 1.5vw 0 1vw; }
+
+.select2-container,
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #000; }
+
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 70vh; }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: unset;
+  padding: 0 6vw 0 2vw; }
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-width: 2vw 2vw 0 2vw;
+  margin: 0;
+  top: 2.5vw;
+  right: 2vw;
+  left: unset;
+  bottom: unset; }
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-width: 0 2vw 2vw 2vw; }
+
+/* DRAWER */
+.drawer {
+  border-top: 1.25vw solid #ca2616;
+  box-shadow: 0 1vw 0.25vw rgba(0, 0, 0, 0.5);
+  display: none;
+  position: absolute;
+  top: 20vw;
+  right: 10vw;
+  z-index: 2; }
+  .drawer h3 {
+    background: linear-gradient(45deg, #cc381a, #86160a);
+    border-top: 0.5vw solid #721301;
+    padding: 2vw 2vw 0.25vw;
+    text-align: left;
+    text-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.5); }
+    .drawer h3:after {
+      display: block;
+      content: '•';
+      position: absolute;
+      top: 0.25vw;
+      right: 0.75vw; }
+  .drawer ul {
+    background: #274a50;
+    border-bottom: 1.25vw solid #1e4046;
+    list-style: none;
+    padding: 1vw 2vw 1.5vw; }
+    .drawer ul li:before {
+      content: "";
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 3vw;
+      height: 3vw;
+      display: inline-block;
+      margin-right: 0.75vw;
+      bottom: -0.75vw; }
+    .drawer ul li.base:before {
+      background-image: url("https://bcgm3.com/dev/nmg/img/icon/base.svg"); }
+    .drawer ul li.frigate:before {
+      background-image: url("https://bcgm3.com/dev/nmg/img/icon/frigate.svg"); }
+    .drawer ul li.planet:before {
+      background-image: url("https://bcgm3.com/dev/nmg/img/icon/planet.svg");
+      background-size: 80%;
+      background-position: center; }
+    .drawer ul li.ship:before {
+      background-image: url("https://bcgm3.com/dev/nmg/img/icon/ship.svg"); }
+    .drawer ul li.system:before {
+      background-image: url("https://bcgm3.com/dev/nmg/img/icon/system.svg"); }
+
+/* BODY */
+html {
+  background-color: #000;
+  color: #fff; }
+
+body {
+  cursor: auto;
+  cursor: url("https://bcgm3.com/dev/nmg/cursor/nmg_cursor_normal.svg") 17 17, auto;
+  padding: 6vw 0 0; }
+
+/* SECTION */
+section {
+  margin: 0 auto 4vw; }
+
+/* CONTAINERS */
+div[class^="container-"] {
+  padding: 0 2.5vw; }
+
+/* RESOURCES */
+#resources {
+  text-align: center; }
+
+.resource {
+  background: #bb3832;
+  border: 0.5vw solid #fff;
+  margin: 0 auto 6vw;
+  padding: 0 0 3vw 0;
+  width: 70vw; }
+  .resource img {
+    display: block;
+    height: auto;
+    width: 100%; }
+  .resource .title {
+    background: #fff;
+    color: #000;
+    font-size: 6.5vw;
+    font-weight: 600;
+    padding: 1.5vw 0 1vw;
+    text-align: center; }
+  .resource .value {
+    background: #fff;
+    bottom: 0;
+    color: #000;
+    font-size: 6vw;
+    font-weight: 600;
+    left: 0;
+    padding: 2vw 2vw 1vw;
+    position: absolute;
+    margin: 0 0 -0.25vw -0.25vw; }
+    .resource .value:after {
+      content: url("https://bcgm3.com/dev/nmg/img/icon/units.svg");
+      display: block;
+      float: right;
+      height: 6vw;
+      width: 6vw;
+      margin-left: 2vw; }
+
+/* DESCRIPTION */
+.description {
+  display: none;
+  margin: 0 0 6vw;
+  padding: 0 14vw;
+  text-align: left; }
+
+/* RECIPE */
+.recipe {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  margin: 0 auto 6vw;
+  padding: 3vw 1vw;
+  width: 70vw; }
+
+.ingredient {
+  border-radius: 0.25vw;
+  display: inline-block;
+  padding: 2vw 2vw 1vw;
+  text-shadow: 0 0.2vw 0.2vw rgba(0, 0, 0, 0.6); }
+
+/* RESOURCES */
+.resource,
+.ingredient {
+  background: #f5a920;
+  transition: background 0.25s; }
+  .resource:hover,
+  .ingredient:hover {
+    background: #d88f0a; }
+
+#heat_capacitor,
+#poly_fibre {
+  background: #0063b8; }
+  #heat_capacitor:hover,
+  #poly_fibre:hover {
+    background: #004885; }
+
+#frost_crystal {
+  background: #1a4fd1; }
+  #frost_crystal:hover {
+    background: #143ea4; }
+
+#star_bulb {
+  background: #288fae; }
+  #star_bulb:hover {
+    background: #1e6d85; }
+
+#faecium {
+  background: #7a4e31; }
+  #faecium:hover {
+    background: #563722; }
+
+#cryo_pump,
+#hot_ice,
+#semiconductor,
+#superconductor {
+  background: #217851; }
+  #cryo_pump:hover,
+  #hot_ice:hover,
+  #semiconductor:hover,
+  #superconductor:hover {
+    background: #165036; }
+
+#enriched_carbon,
+#thermic_condensate {
+  background: #4f7950; }
+  #enriched_carbon:hover,
+  #thermic_condensate:hover {
+    background: #3b5a3c; }
+
+#sulphurine {
+  background: #265e3b; }
+  #sulphurine:hover {
+    background: #173a24; }
+
+#cactus_flesh {
+  background: #259525; }
+  #cactus_flesh:hover {
+    background: #1b6c1b; }
+
+#solanium {
+  background: #cc4d16; }
+  #solanium:hover {
+    background: #9e3c11; }
+
+#gamma_root {
+  background: #c7841b; }
+  #gamma_root:hover {
+    background: #9a6615; }
+
+#radon {
+  background: #4d3883; }
+  #radon:hover {
+    background: #38295f; }
+
+#condensed_carbon {
+  background: #cb3109; }
+  #condensed_carbon:hover {
+    background: #9a2507; }
+
+#phosphorus {
+  background: #dc2400; }
+  #phosphorus:hover {
+    background: #a91c00; }
+
+#stasis_device {
+  background: #ffbb00; }
+  #stasis_device:hover {
+    background: #cc9600; }
+
+#nitrogen {
+  background: #dc9324; }
+  #nitrogen:hover {
+    background: #b1761c; }
+
+/* TABLES */
+table {
+  border: 0.125vw solid;
+  width: 100%;
+  border-collapse: collapse; }
+
+thead {
+  background: rgba(255, 255, 255, 0.2); }
+
+th, td {
+  padding: 0.5vw; }
+
+th:first-child,
+td:first-child {
+  border-right: 0.125vw solid; }
+
+tr:nth-child(even) td:nth-child(even) {
+  background: rgba(255, 255, 255, 0.1); }
+
+/* Background: Hex pattern and color overlay */
+.hex {
+  background-image: url("https://bcgm3.com/dev/nmg/img/bkg/hex.png"), linear-gradient(45deg, rgba(19, 29, 39, 0.2), rgba(163, 185, 198, 0.2));
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+  background-position: bottom left;
+  background-size: cover;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1; }
+
+/* Background: Screenshot slideshow */
+.slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -2; }
+  .slideshow .slide {
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+    .slideshow .slide.zero {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/0.jpg"); }
+    .slideshow .slide.one {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/1.jpg"); }
+    .slideshow .slide.two {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/2.jpg"); }
+    .slideshow .slide.three {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/3.jpg"); }
+    .slideshow .slide.four {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/4.jpg"); }
+    .slideshow .slide.five {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/5.jpg"); }
+    .slideshow .slide.six {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/6.jpg"); }
+    .slideshow .slide.seven {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/7.jpg"); }
+    .slideshow .slide.eight {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/8.jpg"); }
+    .slideshow .slide.nine {
+      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/9.jpg"); }
+    .slideshow .slide.show {
+      opacity: 1; }
+
+/* CREDITS */
+#credits {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 2vw; }
+  #credits .creativecommons {
+    height: 3vw;
+    top: 0.25vw; }
