@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>No man's Guide</title>
+  <title>No Man's Guide</title>
   <meta name="description" content="A second screen companion app for the game No Man's Sky.">
   <meta name="author" content="Benjamin Miles">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' class="ship-icon" viewBox="0 0 400 400">
+    <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
+    <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
+    <polygon class="fill" fill="#FFFFFF" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+    <polygon class="border" fill="none" stroke="#000000" stroke-width="11.5" stroke-miterlimit="10" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+    <path class="icon" d="M213.15,214.075l-3.775-100.013h-20.313l-3.775,100.013c-30.578,0.267-47.788,19.162-47.788,27.175v11.875H150 c0-7.479,16.205-17.611,33.834-0.516l-1.022,27.078h32.813l-1.021-27.078c17.629-17.096,33.834-6.963,33.834,0.516h12.5V241.25 C260.938,233.237,243.729,214.342,213.15,214.075z"/>
+</svg>

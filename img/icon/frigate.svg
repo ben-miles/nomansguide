@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' class="frigate-icon" viewBox="0 0 400 400">
+<polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 
+	200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
+<polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 
+	200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
+<polygon class="fill" fill="#FFFFFF" points="90.625,136.852 200.001,73.703 309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+<polygon class="border" fill="none" stroke="#000000" stroke-width="11.5" stroke-miterlimit="10" points="90.625,136.852 200.001,73.703 
+	309.375,136.852 309.375,263.148 200.001,326.297 90.625,263.148 "/>
+<path class="icon" d="M279.688,175h-14.063v-18.75c-13.625,0-26.164,14-30.026,18.75H150l-16.072,12.5h-19.866V200h68.842
+	c10.452,7.064,36.394,23.869,50.064,26.268v1.857c0,19.531,18.125,25,18.125,25v-28.689l28.594-27.248V175L279.688,175z"/>
+</svg>

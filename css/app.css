@@ -49,7 +49,7 @@ a {
 
 a, button {
   cursor: pointer;
-  cursor: url("https://bcgm3.com/dev/nmg/cursor/nmg_cursor_active.svg") 25 25, pointer; }
+  cursor: url("/cursor/nmg_cursor_active.svg") 25 25, pointer; }
 
 /* HEADER */
 #header {
@@ -183,17 +183,17 @@ a, button {
       margin-right: 0.75vw;
       bottom: -0.75vw; }
     .drawer ul li.base:before {
-      background-image: url("https://bcgm3.com/dev/nmg/img/icon/base.svg"); }
+      background-image: url("/img/icon/base.svg"); }
     .drawer ul li.frigate:before {
-      background-image: url("https://bcgm3.com/dev/nmg/img/icon/frigate.svg"); }
+      background-image: url("/img/icon/frigate.svg"); }
     .drawer ul li.planet:before {
-      background-image: url("https://bcgm3.com/dev/nmg/img/icon/planet.svg");
+      background-image: url("/img/icon/planet.svg");
       background-size: 80%;
       background-position: center; }
     .drawer ul li.ship:before {
-      background-image: url("https://bcgm3.com/dev/nmg/img/icon/ship.svg"); }
+      background-image: url("/img/icon/ship.svg"); }
     .drawer ul li.system:before {
-      background-image: url("https://bcgm3.com/dev/nmg/img/icon/system.svg"); }
+      background-image: url("/img/icon/system.svg"); }
 
 /* BODY */
 html {
@@ -202,7 +202,7 @@ html {
 
 body {
   cursor: auto;
-  cursor: url("https://bcgm3.com/dev/nmg/cursor/nmg_cursor_normal.svg") 17 17, auto;
+  cursor: url("/cursor/nmg_cursor_normal.svg") 17 17, auto;
   padding: 6vw 0 0; }
 
 /* SECTION */
@@ -245,7 +245,7 @@ div[class^="container-"] {
     position: absolute;
     margin: 0 0 -0.25vw -0.25vw; }
     .resource .value:after {
-      content: url("https://bcgm3.com/dev/nmg/img/icon/units.svg");
+      content: url("/img/icon/units.svg");
       display: block;
       float: right;
       height: 6vw;
@@ -393,7 +393,7 @@ tr:nth-child(even) td:nth-child(even) {
 
 /* Background: Hex pattern and color overlay */
 .hex {
-  background-image: url("https://bcgm3.com/dev/nmg/img/bkg/hex.png"), linear-gradient(45deg, rgba(19, 29, 39, 0.2), rgba(163, 185, 198, 0.2));
+  background-image: url("/img/bkg/hex.png"), linear-gradient(45deg, rgba(19, 29, 39, 0.2), rgba(163, 185, 198, 0.2));
   background-attachment: fixed;
   background-blend-mode: lighten;
   background-position: bottom left;
@@ -426,25 +426,25 @@ tr:nth-child(even) td:nth-child(even) {
     height: 100%;
     width: 100%; }
     .slideshow .slide.zero {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/0.jpg"); }
+      background-image: url("/img/bkg/0.jpg"); }
     .slideshow .slide.one {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/1.jpg"); }
+      background-image: url("/img/bkg/1.jpg"); }
     .slideshow .slide.two {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/2.jpg"); }
+      background-image: url("/img/bkg/2.jpg"); }
     .slideshow .slide.three {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/3.jpg"); }
+      background-image: url("/img/bkg/3.jpg"); }
     .slideshow .slide.four {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/4.jpg"); }
+      background-image: url("/img/bkg/4.jpg"); }
     .slideshow .slide.five {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/5.jpg"); }
+      background-image: url("/img/bkg/5.jpg"); }
     .slideshow .slide.six {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/6.jpg"); }
+      background-image: url("/img/bkg/6.jpg"); }
     .slideshow .slide.seven {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/7.jpg"); }
+      background-image: url("/img/bkg/7.jpg"); }
     .slideshow .slide.eight {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/8.jpg"); }
+      background-image: url("/img/bkg/8.jpg"); }
     .slideshow .slide.nine {
-      background-image: url("https://bcgm3.com/dev/nmg/img/bkg/9.jpg"); }
+      background-image: url("/img/bkg/9.jpg"); }
     .slideshow .slide.show {
       opacity: 1; }
 
