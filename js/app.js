@@ -714,7 +714,7 @@ function loadItem(item){
 	$("#resources .title").text(item.name);
 	$("#resources .resource").attr("id", nameToSlug(item.name));
 	$("#resources .value").text(item.value.toLocaleString());
-	$("#resources img").attr("src", "https://www.bcgm3.com/dev/nmg/img/item/" + nameToSlug(item.name) + ".png");
+	$("#resources img").attr("src", "img/item/" + nameToSlug(item.name) + ".png");
 	$("#resources .description").html("<strong class=\"type\">" + item.type + ".</strong> " + item.description);
 	if(item.ingredients){
 		var $recipe = $("<div>").addClass("recipe").html("");

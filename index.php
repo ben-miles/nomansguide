@@ -90,7 +90,7 @@
             <div class="resource" id="carbon">
                 <div class="title">Carbon</div>
                 <div class="value">15</div>
-                <img alt="Carbon" src="https://bcgm3.com/dev/nmg/img/item/carbon.png">
+                <img alt="Carbon" src="img/item/carbon.png">
             </div>
             <div id="details">
                 <p class="description"><strong class="type">Unrefined Organic Element.</strong> Used in building, recharging the <a href="/Mining_Beam">Mining Beam</a> and as fuel for some machines.</p>
@@ -100,8 +100,8 @@
 
         <section id="credits">
             <div>
-                <div><small>Most data and images from the <a href="https://nomanssky.gamepedia.com/" target="_blank">No Man's Sky Wiki on Gamepedia</a>, licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://www.bcgm3.com/dev/nmg/img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
-                <div><small>Some data and images from the <a href="https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki" target="_blank">No Man's Sky Wiki on Fandom</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img src="https://www.bcgm3.com/dev/nmg/img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
+                <div><small>Most data and images from the <a href="https://nomanssky.gamepedia.com/" target="_blank">No Man's Sky Wiki on Gamepedia</a>, licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
+                <div><small>Some data and images from the <a href="https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki" target="_blank">No Man's Sky Wiki on Fandom</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
             </div>
         </section>
 
