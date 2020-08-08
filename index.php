@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/select2.min.js"></script>
-
+  <link rel="icon" href="favicon.png">
   <link rel="stylesheet" type="text/css" href="css/select2.min.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
