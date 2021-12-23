@@ -2,19 +2,30 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>No Man's Guide</title>
-  <meta name="description" content="A second screen companion app for the game No Man's Sky.">
-  <meta name="author" content="Benjamin Miles">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/select2.min.js"></script>
-  <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" type="text/css" href="css/select2.min.css">
-  <link rel="stylesheet" type="text/css" href="css/app.css">
+	<meta charset="utf-8">
+	<title>No Man's Guide</title>
+	<meta name="description" content="A second screen companion app for the game No Man's Sky.">
+	<meta name="author" content="Benjamin Miles">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
+	<!-- End Google Tag Manager -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/select2.min.js"></script>
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MC9RX7K"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
     <div id="app">
         <section id="header">
             <div class="brand">
