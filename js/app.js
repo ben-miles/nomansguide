@@ -900,6 +900,8 @@ var app = new Vue({
     el: '#app',
     data: {
 		items: items,
+		selected_item: "glass",
+        games_all: [],
         games_pinned: [],
         games_recent: [],
         user: {},
@@ -907,6 +909,9 @@ var app = new Vue({
     },
     methods: {
 		load_item: function(item_id){
+			this.selected_item = item_id;
+		},
+        getSteamData: function(endpoint) {
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/assets/proxy.php?endpoint=' + endpoint + '&steam_user_id=' + steam_user_id, true);
             xhr.responseType = 'json';
@@ -1027,6 +1032,11 @@ var app = new Vue({
     },
 	computed: {
 		item_selected(){
+			return this.items.filter(item => {
+				return item.id === this.selected_item;
+			})
+		},
+		games_all_filtered() {
 			return this.games_all.filter(game => {
 				return game.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
 			})

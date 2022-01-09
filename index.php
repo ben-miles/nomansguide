@@ -28,6 +28,7 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
     <div id="app">
+
         <section id="header">
             <div class="brand">
                     <svg class="logo" viewBox="0 0 74 128">
@@ -99,6 +100,10 @@
         </section>
 
         <section id="resources">
+
+		<button v-for="item in items" v-on:click="load_item(item.id)">{{item.name}}</button>
+		<div v-for="item in item_selected" style="border:1px solid red;">{{item.name}}</div>
+
             <div class="resource" id="carbon">
                 <div class="title">Carbon</div>
                 <div class="value">15</div>
