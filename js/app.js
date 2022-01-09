@@ -3,441 +3,527 @@
 | DATA > CRAFTING
 |--------------------------------------------------------------------------
 */
-var items = {
-	"stasis_device": {
-		"name": "Stasis Device",
-		"type": "Highly Refined Technology",
-		"description": "A device specifically crafted to keep lifeforms alive for thousands of years longer than their natural lifespan. Such a device requires great skill to manufacture, as not only is it technically complex, but the consequences for a user in the event of malfunction would be disastrous.",
-		"value": 15600000,
-		"ingredients": [
+var items = [
+	{
+		id: "stasis_device",
+		name: "Stasis Device",
+		type: "Highly Refined Technology",
+		description: "A device specifically crafted to keep lifeforms alive for thousands of years longer than their natural lifespan. Such a device requires great skill to manufacture, as not only is it technically complex, but the consequences for a user in the event of malfunction would be disastrous.",
+		value: 15600000,
+		ingredients: [
 			{
-				"name": "Quantum Processor",
-				"quantity": 1 },
-			 {
-				 "name": "Cryogenic Chamber",
-				 "quantity": 1 },
-			 {
-				 "name": "Iridesite",
-				 "quantity": 1 }
-		 ]
-	 },
-	
-	"quantum_processor": {
-		"name": "Quantum Processor",
-		"type": "Advanced Crafted Product",
-		"description": "A highly advanced computational device, essential for the complex calculations involved in warp travel.",
-		"value": 5200000,
-		"ingredients": [
-		{
-				"name": "Circuit Board",
-				"quantity": 1 }, 
+				name: "Quantum Processor",
+				quantity: 1 
+			},
 			{
-				"name": "Superconductor",
-				"quantity": 1 }
+				name: "Cryogenic Chamber",
+				quantity: 1
+			},
+			{
+				name: "Iridesite",
+				quantity: 1 
+			}
 		]
 	},
-	
-	"cryogenic_chamber": {
-		"name": "Cryogenic Chamber",
-		"type": "Advanced Crafted Product",
-		"description": "A low temperature chamber, designed to prevent the natural decay of organic matter.",
-		"value": 3800000,
-		"ingredients": [{
-				"name": "Living Glass",
-				"quantity": 1 }, 
+	{
+		id: "quantum_processor",
+		name: "Quantum Processor",
+		type: "Advanced Crafted Product",
+		description: "A highly advanced computational device, essential for the complex calculations involved in warp travel.",
+		value: 5200000,
+		ingredients: [
 			{
-				"name": "Cryo-Pump",
-				"quantity": 1 }]
-	},
-	
-	"iridesite": {
-		"name": "Iridesite",
-		"type": "Enriched Alloy Metal",
-		"description": "Advanced light metal alloy traded throughout the galactic Outer Edge. Often used in the interiors of trading shuttles to reduce weight as they ascend from planets with high gravitational fields.",
-		"value": 150000,
-		"ingredients": [{
-				"name": "Aronium",
-				"quantity": 1 }, 
+				name: "Circuit Board",
+				quantity: 1
+			}, 
 			{
-				"name": "Magno Gold",
-				"quantity": 1 }, 
-			{
-				"name": "Grantine",
-				"quantity": 1 }]
-	},
-	
-	"circuit_board": {
-	"name": "Circuit Board",
-	"type": "Advanced Agricultural Product",
-	"description": "Stackable, semi-flexible circuit board made from a highly durable synthetic polymer.",
-	"value": 916250,
-	"ingredients": [{
-				"name": "Poly Fibre",
-				"quantity": 1 }, 
-			{
-				"name": "Heat Capacitor",
-				"quantity": 1 }]
-	},
-	
-	"poly_fibre": {
-	"name": "Poly Fibre",
-	"type": "Advanced Agricultural Product",
-	"description": "A connective fibre for electronics, made from an advanced synthetic polymer and capable of serving as a conduit for power and data.",
-	"value": 130000,
-	"ingredients": [{
-				"name": "Cactus Flesh",
-				"quantity": 100 }, 
-			{
-				"name": "Star Bulb",
-				"quantity": 200 }]
-},
-	
-	"heat_capacitor": {
-	"name": "Heat Capacitor",
-	"type": "Advanced Agricultural Product",
-	"description": "A thermal regulator produced from refined organic material. It is unique in its ability to produce, dissipate and distribute heat as required.",
-	"value": 180000,
-	"ingredients": [{
-				"name": "Frost Crystal",
-				"quantity": 100 }, 
-			{
-				"name": "Solanium",
-				"quantity": 200 }]
-},
-	
-	"superconductor": {
-	"name": "Superconductor",
-	"type": "Manufactured Gas Product",
-	"description": "An advanced conductive material, the superconductor further enriches the field-warping power of the Semiconductor.",
-	"value": 2000000,
-	"ingredients": [{
-				"name": "Enriched Carbon",
-				"quantity": 1 }, 
-			{
-				"name": "Semiconductor",
-				"quantity": 1 }]
-},
-	
-	"enriched_carbon": {
-	"name": "Enriched Carbon",
-	"type": "Enhanced Gas Product",
-	"description": "A refined product, taking ordinary carbon and boosting it with radioactive energy.",
-	"value": 50000,
-	"ingredients": [{
-				"name": "Radon",
-				"quantity": 250 }, 
-			{
-				"name": "Condensed Carbon",
-				"quantity": 50 }]
-},
-	
-	"semiconductor": {
-	"name": "Semiconductor",
-	"type": "Manufactured Gas Product",
-	"description": "An advanced material useful in many electronic devices, with its own in-built temperature regulator.",
-	"value": 400000,
-	"ingredients": [{
-				"name": "Thermic Condensate",
-				"quantity": 1 }, 
-			{
-				"name": "Nitrogen Salt",
-				"quantity": 1 }]
-},
-	
-	"thermic_condensate": {
-	"name": "Thermic Condensate",
-	"type": "Enhanced Gas Product",
-	"description": "A refined product, holding the energy potential of heated atmospheric gas in a stable state until required.",
-	"value": 50000,
-	"ingredients": [{
-				"name": "Sulphurine",
-				"quantity": 250 }, 
-			{
-				"name": "Condensed Carbon",
-				"quantity": 50 }]
-},
-	
-	"nitrogen_salt": {
-	"name": "Nitrogen Salt",
-	"type": "Enhanced Gas Product",
-	"description": "A refined product, this is a powerful organic fertiliser in an easily distributed form.",
-	"value": 50000,
-	"ingredients": [{
-				"name": "Nitrogen",
-				"quantity": 250 }, 
-			{
-				"name": "Condensed Carbon",
-				"quantity": 50 }]
-},
-	
-	"living_glass": {
-	"name": "Living Glass",
-	"type": "Advanced Agricultural Product",
-	"description": "An advanced building material, this glass has been imbued with organic compounds that allow it to react to the environment. Microbes within the glass filter harmful light of all wavelengths and balance the atmosphere as required.",
-	"value": 566000,
-	"ingredients": [{
-				"name": "Glass",
-				"quantity": 5 }, 
-			{
-				"name": "Lubricant",
-				"quantity": 1 }]
-},
-	
-	"glass": {
-	"name": "Glass",
-	"type": "Advanced Agricultural Product",
-	"description": "Shatter-proof, scratch-resistant glass with a self-cleaning, UV-cured coating, for general construction use.",
-	"value": 200,
-	"ingredients": [{
-				"name": "Frost Crystal",
-				"quantity": 250 }]
-},
-	
-	"lubricant": {
-	"name": "Lubricant",
-	"type": "Advanced Agricultural Product",
-	"description": "A synthetic lubricant that reduces wear and prolongs the lifespan of technologies with moving parts.",
-	"value": 110000,
-	"ingredients": [{
-				"name": "Gamma Root",
-				"quantity": 400 }, 
-			{
-				"name": "Faecium",
-				"quantity": 50 }]
-},
-	
-	"cryo_pump": {
-	"name": "Cryo Pump",
-	"type": "Manufactured Gas Product",
-	"description": "An advanced, self-regulating hybrid material, the Cryo-Pump distributes heat across itself with near perfect efficiency, making it vital in the creation of thermal regulators.",
-	"value": 1500000,
-	"ingredients": [{
-				"name": "Hot Ice",
-				"quantity": 1 }, 
-			{
-				"name": "Thermic Condensate",
-				"quantity": 1 }]
-},
-	
-	"hot_ice": {
-	"name": "Hot Ice",
-	"type": "Manufactured Gas Product",
-	"description": "A paradoxical material, made less mysterious by its relative ease of manufacture.",
-	"value": 400000,
-	"ingredients": [{
-				"name": "Enriched Carbon",
-				"quantity": 1 }, 
-			{
-				"name": "Nitrogen Salt",
-				"quantity": 1 }]
-},
-	
-	"aronium": {
-	"name": "Aronium",
-	"type": "Alloy Metal",
-	"description": "A lightweight and highly malleable alloy. Crafted from Paraffinium and Chlorine. In high demand on the Galactic Trade Network due to its utility in the construction of planetside outposts and facilities.",
-	"value": 25000,
-	"ingredients": [{
-				"name": "Paraffinium",
-				"quantity": 50 }, 
-			{
-				"name": "Ionised Cobalt",
-				"quantity": 50 }]
-},
-	
-	"magno_gold": {
-	"name": "Magno Gold",
-	"type": "Alloy Metal",
-	"description": "Highly prized and lustrous alloy. Popular with traders of all known primary galactic races. Crafted from Ionised Cobalt and Phosphorus. Easily recognisable by its bright red glow and strong magnetic field.",
-	"value": 25000,
-	"ingredients": [{
-				"name": "Phosphorus",
-				"quantity": 50 }, 
-			{
-				"name": "Ionised Cobalt",
-				"quantity": 50 }]
-},
-	
-	"grantine": {
-		"name": "Grantine",
-		"type": "Alloy Metal",
-		"description": "Soft workable alloy favored by artisans throughout the known galaxy. A popular trading good, with many galactic shipping paths devoted to its sale and transport.",
-		"value": 25000,
-		"ingredients": [
-			{
-				"name": "Dioxite",
-				"quantity": 50 },
-			{
-				"name": "Ionised Cobalt",
-				"quantity": 50 }
+				name: "Superconductor",
+				quantity: 1
+			}
 		]
 	},
-	
-	"ionised_cobalt": {
-		"name": "Ionised Cobalt",
-		"type": "Processed Subterranean Mineral",
-		"description": "A highly energised form of Cobalt, this processed metal can be used to create Advanced Ion Batteries, a conveniently portable source of energy for the Exosuit. In widespread use as a key component in the creation of advanced technologies and structures.",
-		"value": 401
+	{
+		id: "cryogenic_chamber",
+		name: "Cryogenic Chamber",
+		type: "Advanced Crafted Product",
+		description: "A low temperature chamber, designed to prevent the natural decay of organic matter.",
+		value: 3800000,
+		ingredients: [
+			{
+				name: "Living Glass",
+				quantity: 1
+			}, 
+			{
+				name: "Cryo-Pump",
+				quantity: 1
+			}
+		]
 	},
-	
-	"dioxite": {
-		"name": "Dioxite",
-		"type": "Localized Earth Element",
-		"description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a frozen environment.",
-		"value": 62
+	{
+		id: "iridesite",
+		name: "Iridesite",
+		type: "Enriched Alloy Metal",
+		description: "Advanced light metal alloy traded throughout the galactic Outer Edge. Often used in the interiors of trading shuttles to reduce weight as they ascend from planets with high gravitational fields.",
+		value: 150000,
+		ingredients: [
+			{
+				name: "Aronium",
+				quantity: 1
+			}, 
+			{
+				name: "Magno Gold",
+				quantity: 1
+			}, 
+			{
+				name: "Grantine",
+				quantity: 1
+			}
+		]
 	},
-	
-	"phosphorus": {
-		"name": "Phosphorus",
-		"type": "Localised Earth Element",
-		"description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a scorched environment.",
-		"value": 62
+	{
+		id: "circuit_board",
+		name: "Circuit Board",
+		type: "Advanced Agricultural Product",
+		description: "Stackable, semi-flexible circuit board made from a highly durable synthetic polymer.",
+		value: 916250,
+		ingredients: [
+			{
+				name: "Poly Fibre",
+				quantity: 1
+			},
+			{
+				name: "Heat Capacitor",
+				quantity: 1
+			}
+		]
+	},	
+	{
+		id: "poly_fibre", 
+		name: "Poly Fibre",
+		type: "Advanced Agricultural Product",
+		description: "A connective fibre for electronics, made from an advanced synthetic polymer and capable of serving as a conduit for power and data.",
+		value: 130000,
+		ingredients: [
+			{
+				name: "Cactus Flesh",
+				quantity: 100
+			},
+			{
+				name: "Star Bulb",
+				quantity: 200
+			}
+		]
 	},
-	
-	"paraffinium": {
-		"name": "Paraffinium",
-		"type": "Localised Earth Element",
-		"description": "Local mineral extract, typically found in large deposits or extracted from common materials after inspection with an Analysis Visor. Typically found on planets with a tropical environment.",
-		"value": 62
+	{
+		id: "heat_capacitor",
+		name: "Heat Capacitor",
+		type: "Advanced Agricultural Product",
+		description: "A thermal regulator produced from refined organic material. It is unique in its ability to produce, dissipate and distribute heat as required.",
+		value: 180000,
+		ingredients: [
+			{
+				name: "Frost Crystal",
+				quantity: 100
+			},
+			{
+				name: "Solanium",
+				quantity: 200
+			}
+		]
 	},
-	
-	"condensed_carbon": {
-		"name": "Condensed Carbon",
-		"type": "Refined Organic Element",
-		"description": "Advanced material, processed from regular carbon in a Refiner. The increased molecule density offers a substantially improved energy-per-gram ratio. Occasionally found in crystalline form. Harvesting large crystals may require an Advanced Mining Laser.",
-		"value": 24
+	{
+		id: "superconductor",
+		name: "Superconductor",
+		type: "Manufactured Gas Product",
+		description: "An advanced conductive material, the superconductor further enriches the field-warping power of the Semiconductor.",
+		value: 2000000,
+		ingredients: [
+			{
+				name: "Enriched Carbon",
+				quantity: 1
+			},
+			{
+				name: "Semiconductor",
+				quantity: 1
+			}
+		]
 	},
-	
-	"sulphurine": {
-		"name": "Sulphurine",
-		"type": "Compressed Atmospheric Gas",
-		"description": "A pungent atmospheric gas. High concentrations are extremely hazardous to organic life. With the aid of specialised machinery, can be extracted from the atmospheres of Scorched and Desert planets.",
-		"value": 20
+	{
+		id: "enriched_carbon",
+		name: "Enriched Carbon",
+		type: "Enhanced Gas Product",
+		description: "A refined product, taking ordinary carbon and boosting it with radioactive energy.",
+		value: 50000,
+		ingredients: [
+			{
+				name: "Radon",
+				quantity: 250
+			},
+			{
+				name: "Condensed Carbon",
+				quantity: 50
+			}
+		]
 	},
-	
-	"nitrogen": {
-		"name": "Nitrogen",
-		"type": "Compressed Atmospheric Gas",
-		"description": "A reactive atmospheric gas found wherever there is organic life. Nitrogen is readily harvested from the atmospheres of Lush and Toxic planets.",
-		"value": 20
+	{
+		id: "semiconductor",
+		name: "Semiconductor",
+		type: "Manufactured Gas Product",
+		description: "An advanced material useful in many electronic devices, with its own in-built temperature regulator.",
+		value: 400000,
+		ingredients: [
+			{
+				name: "Thermic Condensate",
+				quantity: 1
+			}, 
+			{
+				name: "Nitrogen Salt",
+				quantity: 1
+			}
+		]
 	},
-	
-	"radon": {
-		"name": "Radon",
-		"type": "Compressed Atmospheric Gas",
-		"description": "A colourless, odourless gas with a relatively short half-life. Found in both Radioactive and Frozen atmospheres, this gas is produced by the decay of other high-energy elements.",
-		"value": 20
+	{
+		id: "thermic_condensate",
+		name: "Thermic Condensate",
+		type: "Enhanced Gas Product",
+		description: "A refined product, holding the energy potential of heated atmospheric gas in a stable state until required.",
+		value: 50000,
+		ingredients: [
+			{
+				name: "Sulphurine",
+				quantity: 250
+			}, 
+			{
+				name: "Condensed Carbon",
+				quantity: 50
+			}
+		]
 	},
-	
-	"faecium": {
-		"name": "Faecium",
-		"type": "Harvested Agricultural Substance",
-		"description": "A foul-smelling compound that can be harvested from the Gutrot Flower, or less desirably from the faecal matter of some species. Creatures can be fed to encourage the formation and deposition of faecium crystals.",
-		"value": 30
+	{
+		id: "nitrogen_salt",
+		name: "Nitrogen Salt",
+		type: "Enhanced Gas Product",
+		description: "A refined product, this is a powerful organic fertiliser in an easily distributed form.",
+		value: 50000,
+		ingredients: [
+			{
+				name: "Nitrogen",
+				quantity: 250
+			}, 
+			{
+				name: "Condensed Carbon",
+				quantity: 50
+			}
+		]
 	},
-	
-	"gamma_root": {
-		"name": "Gamma Root",
-		"type": "Harvested Agricultural Substance",
-		"description": "A strange substance that seems to slowly shift the air around it. It is found in the roots of the Gamma Weed plant. Gamma Weed requires high background radiation to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
-		"value": 16
+	{
+		id: "living_glass",
+		name: "Living Glass",
+		type: "Advanced Agricultural Product",
+		description: "An advanced building material, this glass has been imbued with organic compounds that allow it to react to the environment. Microbes within the glass filter harmful light of all wavelengths and balance the atmosphere as required.",
+		value: 566000,
+		ingredients: [
+			{
+				name: "Glass",
+				quantity: 5
+			}, 
+			{
+				name: "Lubricant",
+				quantity: 1
+			}
+		]
 	},
-	
-	"frost_crystal": {
-		"name": "Frost Crystal",
-		"type": "Harvested Agricultural Substance",
-		"description": "A beautiful blue crystal, this organic compound possesses both great hardiness and a shimmering translucence. It is harvested from the leaves of Frostwort. Frostwort requires frozen conditions to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
-		"value": 12
+	{
+		id: "glass",
+		name: "Glass",
+		type: "Advanced Agricultural Product",
+		description: "Shatter-proof, scratch-resistant glass with a self-cleaning, UV-cured coating, for general construction use.",
+		value: 200,
+		ingredients: [
+			{
+				name: "Frost Crystal",
+				quantity: 250
+			}
+		]
 	},
-	
-	"solanium": {
-		"name": "Solanium",
-		"type": "Harvested Agricultural Substance",
-		"description": "A powerful chemical that has resisted attempts at synthesis. It can be harvested from the bark of the Solar Vine. The vine requires a hot climate to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
-		"value": 70
+	{
+		id: "lubricant",
+		name: "Lubricant",
+		type: "Advanced Agricultural Product",
+		description: "A synthetic lubricant that reduces wear and prolongs the lifespan of technologies with moving parts.",
+		value: 110000,
+		ingredients: [
+			{
+				name: "Gamma Root",
+				quantity: 400
+			}, 
+			{
+				name: "Faecium",
+				quantity: 50
+			}
+		]
 	},
-	
-	"star_bulb": {
-		"name": "Star Bulb",
-		"type": "Harvested Agricultural Substance",
-		"description": "A beautiful gemstone, this prized product is the engorged, luminescent berry of the Star Bramble. The host plant requires lush conditions to thrive in the wild but can be farmed in all environments with the aid of a Hydroponic Tray.",
-		"value": 32
+	{
+		id: "cryo_pump",
+		name: "Cryo Pump",
+		type: "Manufactured Gas Product",
+		description: "An advanced, self-regulating hybrid material, the Cryo-Pump distributes heat across itself with near perfect efficiency, making it vital in the creation of thermal regulators.",
+		value: 1500000,
+		ingredients: [
+			{
+				name: "Hot Ice",
+				quantity: 1
+			}, 
+			{
+				name: "Thermic Condensate",
+				quantity: 1
+			}
+		]
 	},
-	
-	"cactus_flesh": {
-		"name": "Cactus Flesh",
-		"type": "Harvested Agricultural Substance",
-		"description": "Succulent, edible cactus flesh from the Echinocactus plant. As well as being juicy on the tongue, the flesh has many industrial uses. The Echinocactus thrives only on desert planets, but can be farmed in all environments with the aid of a Hydroponics Tray.",
-		"value": 28
+	{
+		id: "hot_ice",
+		name: "Hot Ice",
+		type: "Manufactured Gas Product",
+		description: "A paradoxical material, made less mysterious by its relative ease of manufacture.",
+		value: 400000,
+		ingredients: [
+			{
+				name: "Enriched Carbon",
+				quantity: 1
+			}, 
+			{
+				name: "Nitrogen Salt",
+				quantity: 1
+			}
+		]
 	},
-	
-	"fusion_ignitor":{
-		"name": "Fusion Ignitor",
-		"type": "Highly Refined Technology",
-		"description": "A highly advanced piece of technology for use in the next generation of power plants. Producing a fusion core requires both intricate scientific skills and complex industrial processes.",
-		"value": 15600000
+	{
+		id: "aronium",
+		name: "Aronium",
+		type: "Alloy Metal",
+		description: "A lightweight and highly malleable alloy. Crafted from Paraffinium and Chlorine. In high demand on the Galactic Trade Network due to its utility in the construction of planetside outposts and facilities.",
+		value: 25000,
+		ingredients: [
+			{
+				name: "Paraffinium",
+				quantity: 50
+			}, 
+			{
+				name: "Ionised Cobalt",
+				quantity: 50
+			}
+		]
 	},
-	"portable_reactor":{
-		"name": "Portable Reactor",
-		"type": "Advanced Crafted Product",
-		"description": "A miniature self-controlled nuclear reactor. Generates sub-stellar levels of energy in a hassle-free, widely compatible fuel module.",
-		"value": 4200000
+	{
+		id: "magno_gold",
+		name: "Magno Gold",
+		type: "Alloy Metal",
+		description: "Highly prized and lustrous alloy. Popular with traders of all known primary galactic races. Crafted from Ionised Cobalt and Phosphorus. Easily recognisable by its bright red glow and strong magnetic field.",
+		value: 25000,
+		ingredients: [
+			{
+				name: "Phosphorus",
+				quantity: 50
+			}, 
+			{
+				name: "Ionised Cobalt",
+				quantity: 50
+			}
+		]
 	},
-	"fusion_accelerant":{
-		"name": "Fusion Accelerant",
-		"type": "Manufactured Gas Product",
-		"description": "An advanced fuel source, made from a perfect blend of high potential energy organic materials.",
-		"value": 1500000
+	{
+		id: "grantine",
+		name: "Grantine",
+		type: "Alloy Metal",
+		description: "Soft workable alloy favored by artisans throughout the known galaxy. A popular trading good, with many galactic shipping paths devoted to its sale and transport.",
+		value: 25000,
+		ingredients: [
+			{
+				name: "Dioxite",
+				quantity: 50
+			},
+			{
+				name: "Ionised Cobalt",
+				quantity: 50
+			}
+		]
 	},
-	"organic_catalyst":{
-		"name": "Organic Catalyst",
-		"type": "Manufactured Gas Product",
-		"description": "A catalytic material used in the creation of many organic fertilizers.",
-		"value": 320000
+	{
+		id: "ionised_cobalt",
+		name: "Ionised Cobalt",
+		type: "Processed Subterranean Mineral",
+		description: "A highly energised form of Cobalt, this processed metal can be used to create Advanced Ion Batteries, a conveniently portable source of energy for the Exosuit. In widespread use as a key component in the creation of advanced technologies and structures.",
+		value: 401
 	},
-	"liquid_explosive":{
-		"name": "Liquid Explosive",
-		"type": "Advanced Agricultural Product",
-		"description": "A general purpose high explosive, offered in liquid form for convenience of transport and deployment. Do not drink.",
-		"value": 800500
+	{
+		id: "dioxite",
+		name: "Dioxite",
+		type: "Localized Earth Element",
+		description: "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a frozen environment.",
+		value: 62
 	},
-	"unstable_gel":{
-		"name": "Unstable Gel",
-		"type": "Advanced Agricultural Product",
-		"description": "A highly reactive gel, this substance is both energy-rich and dangerous to touch.",
-		"value": 50000
+	{
+		id: "phosphorus",
+		name: "Phosphorus",
+		type: "Localised Earth Element",
+		description: "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a scorched environment.",
+		value: 62
 	},
-	"acid":{
-		"name": "Acid",
-		"type": "Advanced Agricultural Product",
-		"description": "Dilute acid for high current generation in diverse power cells.",
-		"value": 188000
+	{
+		id: "paraffinium",
+		name: "Paraffinium",
+		type: "Localised Earth Element",
+		description: "Local mineral extract, typically found in large deposits or extracted from common materials after inspection with an Analysis Visor. Typically found on planets with a tropical environment.",
+		value: 62
 	},
-	"geodesite":{
-		"name": "Geodesite",
-		"type": "Enriched Alloy Metal",
-		"description": "Advanced and durable alloy primarily used in starship hull construction and deep-space exploration drone technology.",
-		"value": 150000
+	{
+		id: "condensed_carbon", 
+		name: "Condensed Carbon",
+		type: "Refined Organic Element",
+		description: "Advanced material, processed from regular carbon in a Refiner. The increased molecule density offers a substantially improved energy-per-gram ratio. Occasionally found in crystalline form. Harvesting large crystals may require an Advanced Mining Laser.",
+		value: 24
 	},
-	"dirty_bronze":{
-		"name": "Dirty Bronze",
-		"type": "Alloy Metal",
-		"description": "A popular metal alloy with a wide variety of uses. 'Dirty Bronze' has shed its scientific name in favor of the popular term for its colour.",
-		"value": 25000
+	{
+		id: "sulphurine", 
+		name: "Sulphurine",
+		type: "Compressed Atmospheric Gas",
+		description: "A pungent atmospheric gas. High concentrations are extremely hazardous to organic life. With the aid of specialised machinery, can be extracted from the atmospheres of Scorched and Desert planets.",
+		value: 20
 	},
-	"lemmium":{
-		"name": "Lemmium",
-		"type": "Alloy Metal",
-		"description": "Pure Ferrite alloy. Crafted from Pure Ferrite and Uranium. Used extensively in starship freighter construction due to its sheer strength. A hardcore material popular on the Galactic Trade Network.",
-		"value": 25000
+	{
+		id: "nitrogen", 
+		name: "Nitrogen",
+		type: "Compressed Atmospheric Gas",
+		description: "A reactive atmospheric gas found wherever there is organic life. Nitrogen is readily harvested from the atmospheres of Lush and Toxic planets.",
+		value: 20
 	},
-	"herox":{
-		"name": "Herox",
-		"type": "Alloy Metal",
-		"description": "Herox is a tradeable that can be crafted, found in containers or purchased.",
-		"value": 25000
+	{
+		id: "radon",
+		name: "Radon",
+		type: "Compressed Atmospheric Gas",
+		description: "A colourless, odourless gas with a relatively short half-life. Found in both Radioactive and Frozen atmospheres, this gas is produced by the decay of other high-energy elements.",
+		value: 20
+	},
+	{
+		id: "faecium", 
+		name: "Faecium",
+		type: "Harvested Agricultural Substance",
+		description: "A foul-smelling compound that can be harvested from the Gutrot Flower, or less desirably from the faecal matter of some species. Creatures can be fed to encourage the formation and deposition of faecium crystals.",
+		value: 30
+	},
+	{
+		id: "gamma_root", 
+		name: "Gamma Root",
+		type: "Harvested Agricultural Substance",
+		description: "A strange substance that seems to slowly shift the air around it. It is found in the roots of the Gamma Weed plant. Gamma Weed requires high background radiation to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		value: 16
+	},
+	{
+		id: "frost_crystal",
+		name: "Frost Crystal",
+		type: "Harvested Agricultural Substance",
+		description: "A beautiful blue crystal, this organic compound possesses both great hardiness and a shimmering translucence. It is harvested from the leaves of Frostwort. Frostwort requires frozen conditions to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		value: 12
+	},
+	{
+		id: "solanium",
+		name: "Solanium",
+		type: "Harvested Agricultural Substance",
+		description: "A powerful chemical that has resisted attempts at synthesis. It can be harvested from the bark of the Solar Vine. The vine requires a hot climate to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		value: 70
+	},
+	{
+		id: "star_bulb",
+		name: "Star Bulb",
+		type: "Harvested Agricultural Substance",
+		description: "A beautiful gemstone, this prized product is the engorged, luminescent berry of the Star Bramble. The host plant requires lush conditions to thrive in the wild but can be farmed in all environments with the aid of a Hydroponic Tray.",
+		value: 32
+	},
+	{
+		id: "cactus_flesh",
+		name: "Cactus Flesh",
+		type: "Harvested Agricultural Substance",
+		description: "Succulent, edible cactus flesh from the Echinocactus plant. As well as being juicy on the tongue, the flesh has many industrial uses. The Echinocactus thrives only on desert planets, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		value: 28
+	},
+	{
+		id: "fusion_ignitor",
+		name: "Fusion Ignitor",
+		type: "Highly Refined Technology",
+		description: "A highly advanced piece of technology for use in the next generation of power plants. Producing a fusion core requires both intricate scientific skills and complex industrial processes.",
+		value: 15600000
+	},
+	{
+		id: "portable_reactor",
+		name: "Portable Reactor",
+		type: "Advanced Crafted Product",
+		description: "A miniature self-controlled nuclear reactor. Generates sub-stellar levels of energy in a hassle-free, widely compatible fuel module.",
+		value: 4200000
+	},
+	{
+		id: "fusion_accelerant",
+		name: "Fusion Accelerant",
+		type: "Manufactured Gas Product",
+		description: "An advanced fuel source, made from a perfect blend of high potential energy organic materials.",
+		value: 1500000
+	},
+	{
+		id: "organic_catalyst",
+		name: "Organic Catalyst",
+		type: "Manufactured Gas Product",
+		description: "A catalytic material used in the creation of many organic fertilizers.",
+		value: 320000
+	},
+	{
+		id: "liquid_explosive",
+		name: "Liquid Explosive",
+		type: "Advanced Agricultural Product",
+		description: "A general purpose high explosive, offered in liquid form for convenience of transport and deployment. Do not drink.",
+		value: 800500
+	},
+	{
+		id: "unstable_gel",
+		name: "Unstable Gel",
+		type: "Advanced Agricultural Product",
+		description: "A highly reactive gel, this substance is both energy-rich and dangerous to touch.",
+		value: 50000
+	},
+	{
+		id: "acid",
+		name: "Acid",
+		type: "Advanced Agricultural Product",
+		description: "Dilute acid for high current generation in diverse power cells.",
+		value: 188000
+	},
+	{
+		id: "geodesite",
+		name: "Geodesite",
+		type: "Enriched Alloy Metal",
+		description: "Advanced and durable alloy primarily used in starship hull construction and deep-space exploration drone technology.",
+		value: 150000
+	},
+	{
+		id: "dirty_bronze",
+		name: "Dirty Bronze",
+		type: "Alloy Metal",
+		description: "A popular metal alloy with a wide variety of uses. 'Dirty Bronze' has shed its scientific name in favor of the popular term for its colour.",
+		value: 25000
+	},
+	{
+		id: "lemmium",
+		name: "Lemmium",
+		type: "Alloy Metal",
+		description: "Pure Ferrite alloy. Crafted from Pure Ferrite and Uranium. Used extensively in starship freighter construction due to its sheer strength. A hardcore material popular on the Galactic Trade Network.",
+		value: 25000
+	},
+	{
+		id: "herox",
+		name: "Herox",
+		type: "Alloy Metal",
+		description: "Herox is a tradeable that can be crafted, found in containers or purchased.",
+		value: 25000
 	}
-};
+];
 
 /*
 |--------------------------------------------------------------------------
