@@ -12,14 +12,17 @@ var items = [
 		value: 15600000,
 		ingredients: [
 			{
+				id: "quantum_processor",
 				name: "Quantum Processor",
 				quantity: 1 
 			},
 			{
+				id: "cryogenic_chamber",
 				name: "Cryogenic Chamber",
 				quantity: 1
 			},
 			{
+				id: "iridesite",
 				name: "Iridesite",
 				quantity: 1 
 			}
@@ -33,10 +36,12 @@ var items = [
 		value: 5200000,
 		ingredients: [
 			{
+				id: "circuit_board",
 				name: "Circuit Board",
 				quantity: 1
 			}, 
 			{
+				id: "superconductor",
 				name: "Superconductor",
 				quantity: 1
 			}
@@ -50,10 +55,12 @@ var items = [
 		value: 3800000,
 		ingredients: [
 			{
+				id: "living_glass",
 				name: "Living Glass",
 				quantity: 1
 			}, 
 			{
+				id: "cryo_pump",
 				name: "Cryo-Pump",
 				quantity: 1
 			}
@@ -67,14 +74,17 @@ var items = [
 		value: 150000,
 		ingredients: [
 			{
+				id: "aronium",
 				name: "Aronium",
 				quantity: 1
 			}, 
 			{
+				id: "magno_gold",
 				name: "Magno Gold",
 				quantity: 1
 			}, 
 			{
+				id: "grantine",
 				name: "Grantine",
 				quantity: 1
 			}
@@ -88,10 +98,12 @@ var items = [
 		value: 916250,
 		ingredients: [
 			{
+				id: "poly_fibre",
 				name: "Poly Fibre",
 				quantity: 1
 			},
 			{
+				id: "heat_capacitor",
 				name: "Heat Capacitor",
 				quantity: 1
 			}
@@ -105,10 +117,12 @@ var items = [
 		value: 130000,
 		ingredients: [
 			{
+				id: "cactus_flesh",
 				name: "Cactus Flesh",
 				quantity: 100
 			},
 			{
+				id: "star_bulb",
 				name: "Star Bulb",
 				quantity: 200
 			}
@@ -122,10 +136,12 @@ var items = [
 		value: 180000,
 		ingredients: [
 			{
+				id: "frost_crystal",
 				name: "Frost Crystal",
 				quantity: 100
 			},
 			{
+				id: "solanium",
 				name: "Solanium",
 				quantity: 200
 			}
@@ -139,10 +155,12 @@ var items = [
 		value: 2000000,
 		ingredients: [
 			{
+				id: "enriched_carbon",
 				name: "Enriched Carbon",
 				quantity: 1
 			},
 			{
+				id: "semiconductor",
 				name: "Semiconductor",
 				quantity: 1
 			}
@@ -156,10 +174,12 @@ var items = [
 		value: 50000,
 		ingredients: [
 			{
+				id: "radon",
 				name: "Radon",
 				quantity: 250
 			},
 			{
+				id: "condensed_carbon",
 				name: "Condensed Carbon",
 				quantity: 50
 			}
@@ -173,10 +193,12 @@ var items = [
 		value: 400000,
 		ingredients: [
 			{
+				id: "thermic_condensate",
 				name: "Thermic Condensate",
 				quantity: 1
 			}, 
 			{
+				id: "nitrogen_salt",
 				name: "Nitrogen Salt",
 				quantity: 1
 			}
@@ -190,10 +212,12 @@ var items = [
 		value: 50000,
 		ingredients: [
 			{
+				id: "sulphurine",
 				name: "Sulphurine",
 				quantity: 250
 			}, 
 			{
+				id: "condensed_carbon",
 				name: "Condensed Carbon",
 				quantity: 50
 			}
@@ -207,10 +231,12 @@ var items = [
 		value: 50000,
 		ingredients: [
 			{
+				id: "nitrogen",
 				name: "Nitrogen",
 				quantity: 250
 			}, 
 			{
+				id: "condensed_carbon",
 				name: "Condensed Carbon",
 				quantity: 50
 			}
@@ -224,10 +250,12 @@ var items = [
 		value: 566000,
 		ingredients: [
 			{
+				id: "glass",
 				name: "Glass",
 				quantity: 5
 			}, 
 			{
+				id: "lubricant",
 				name: "Lubricant",
 				quantity: 1
 			}
@@ -241,6 +269,7 @@ var items = [
 		value: 200,
 		ingredients: [
 			{
+				id: "frost_crystal",
 				name: "Frost Crystal",
 				quantity: 250
 			}
@@ -254,10 +283,12 @@ var items = [
 		value: 110000,
 		ingredients: [
 			{
+				id: "gamma_root",
 				name: "Gamma Root",
 				quantity: 400
 			}, 
 			{
+				id: "faecium",
 				name: "Faecium",
 				quantity: 50
 			}
@@ -271,10 +302,12 @@ var items = [
 		value: 1500000,
 		ingredients: [
 			{
+				id: "hot_ice",
 				name: "Hot Ice",
 				quantity: 1
 			}, 
 			{
+				id: "thermic_condensate",
 				name: "Thermic Condensate",
 				quantity: 1
 			}
@@ -288,10 +321,12 @@ var items = [
 		value: 400000,
 		ingredients: [
 			{
+				id: "enriched_carbon",
 				name: "Enriched Carbon",
 				quantity: 1
 			}, 
 			{
+				id: "nitrogen_salt",
 				name: "Nitrogen Salt",
 				quantity: 1
 			}
@@ -305,10 +340,12 @@ var items = [
 		value: 25000,
 		ingredients: [
 			{
+				id: "paraffinium",
 				name: "Paraffinium",
 				quantity: 50
 			}, 
 			{
+				id: "ionised_cobalt",
 				name: "Ionised Cobalt",
 				quantity: 50
 			}
@@ -322,10 +359,12 @@ var items = [
 		value: 25000,
 		ingredients: [
 			{
+				id: "phosphorus",
 				name: "Phosphorus",
 				quantity: 50
 			}, 
 			{
+				id: "ionised_cobalt",
 				name: "Ionised Cobalt",
 				quantity: 50
 			}
@@ -339,10 +378,12 @@ var items = [
 		value: 25000,
 		ingredients: [
 			{
+				id: "dioxite",
 				name: "Dioxite",
 				quantity: 50
 			},
 			{
+				id: "ionised_cobalt",
 				name: "Ionised Cobalt",
 				quantity: 50
 			}
