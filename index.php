@@ -101,17 +101,23 @@
 
         <section id="resources">
 
-		<button v-for="item in items" v-on:click="load_item(item.id)">{{item.name}}</button>
-		<div v-for="item in item_selected" style="border:1px solid red;">{{item.name}}</div>
-
-            <div class="resource" id="carbon">
-                <div class="title">Carbon</div>
-                <div class="value">15</div>
-                <img alt="Carbon" src="img/item/carbon.png">
+			<ul>
+				<li v-for="item in items">
+					<button v-on:click="load_item(item.id)">{{item.name}}</button>
+				</li>
+			</ul>
+		
+			<div v-for="item in item_selected" class="resource" :id="item.id">
+                <div class="title">{{item.name}}</div>
+                <div class="value">{{item.value}}</div>
+                <img :alt="item.name" :src="'img/item/' + item.id + '.png'">
             </div>
-            <div id="details">
-                <p class="description"><strong class="type">Unrefined Organic Element.</strong> Used in building, recharging the <a href="/Mining_Beam">Mining Beam</a> and as fuel for some machines.</p>
-                <div class="recipe">&nbsp;</div>
+
+            <div v-for="item in item_selected" id="details">
+                <p class="description">{{item.description}}</p>
+                <div v-if="item.ingredients" class="recipe">
+					<a v-for="ingredient in item.ingredients" v-on:click="load_item(ingredient.id)" class="ingredient">{{ingredient.quantity}}x {{ingredient.name}}</a>
+				</div>
             </div>
         </section>
 

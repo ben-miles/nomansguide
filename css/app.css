@@ -254,7 +254,7 @@ div[class^="container-"] {
 
 /* DESCRIPTION */
 .description {
-  display: none;
+  /* display: none; */
   margin: 0 0 6vw;
   padding: 0 14vw;
   text-align: left; }
