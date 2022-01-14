@@ -816,7 +816,7 @@ var app = new Vue({
     data: {
 		items: items,
 		selected_item: "stasis_device",
-		// search: ''
+		filter: ''
     },
     methods: {
 		load_item: function(item_id){
@@ -829,11 +829,11 @@ var app = new Vue({
 				return item.id === this.selected_item;
 			})
 		},
-		// games_all_filtered() {
-		// 	return this.games_all.filter(game => {
-		// 		return game.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
-		// 	})
-		// }
+		items_filtered() {
+			return this.items.filter(item => {
+				return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
+			})
+		}
 	},
 	beforeMount(){},
 	mounted(){},
