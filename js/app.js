@@ -559,86 +559,86 @@ var items = [
 |--------------------------------------------------------------------------
 */
 
-var discoveries = [
-	{
-		name: "Activated Copper (A)",
-		type: "base",
-		planet: "Eswo",
-		system: {
-			name: "Dugotorui",
-			lifeform: "Vy'keen",
-			conflict: "High",
-			economy: {
-				type: "High Tech",
-				tier: "Wealthy" }
-		}
-	},
-	{
-		name: "Phosphorus (S)",
-		type: "base",
-		planet: "Eframon",
-		system: {
-			name: "Yeframyon",
-			lifeform: "Gek",
-			conflict: "Stable",
-			economy: {
-				type: "Metal Processing",
-				tier: "Booming" }
-		}
-	},
-	{
-		name: "Sulphurion (S)",
-		type: "base",
-		planet: "Eframon",
-		system: {
-			name: "Yeframyon",
-			lifeform: "Gek",
-			conflict: "Stable",
-			economy: {
-				type: "Metal Processing",
-				tier: "Booming" }
-		}
-	},
-	{
-		name: "Anomolous Planet: Sharded",
-		type: "planet",
-		planet: "Utessfie Unom",
-		system: {
-			name: "Lubingro",
-			lifeform: "Vy'keen",
-			conflict: "Aggressive",
-			economy: {
-				type: "Mass Production",
-				tier: "Adequate" }
-		}
-	},
-	{
-		name: "Anomolous Planet: Fractured",
-		type: "planet",
-		planet: "Rayso XVI",
-		system: {
-			name: "Suzdalny IV",
-			lifeform: "Korvax",
-			conflict: "Peaceful",
-			economy: {
-				type: "Manufacturing",
-				tier: "Comfortable" }
-		}
-	},
-	{
-		name: "Storm Crystals",
-		type: "planet",
-		planet: "Naciss",
-		system: {
-			name: "Uttenh-Tara",
-			lifeform: "Gek",
-			conflict: "Peaceful",
-			economy: {
-				type: "Mercantile",
-				tier: "Comfortable" }
-		}
-	}
-];
+// var discoveries = [
+// 	{
+// 		name: "Activated Copper (A)",
+// 		type: "base",
+// 		planet: "Eswo",
+// 		system: {
+// 			name: "Dugotorui",
+// 			lifeform: "Vy'keen",
+// 			conflict: "High",
+// 			economy: {
+// 				type: "High Tech",
+// 				tier: "Wealthy" }
+// 		}
+// 	},
+// 	{
+// 		name: "Phosphorus (S)",
+// 		type: "base",
+// 		planet: "Eframon",
+// 		system: {
+// 			name: "Yeframyon",
+// 			lifeform: "Gek",
+// 			conflict: "Stable",
+// 			economy: {
+// 				type: "Metal Processing",
+// 				tier: "Booming" }
+// 		}
+// 	},
+// 	{
+// 		name: "Sulphurion (S)",
+// 		type: "base",
+// 		planet: "Eframon",
+// 		system: {
+// 			name: "Yeframyon",
+// 			lifeform: "Gek",
+// 			conflict: "Stable",
+// 			economy: {
+// 				type: "Metal Processing",
+// 				tier: "Booming" }
+// 		}
+// 	},
+// 	{
+// 		name: "Anomolous Planet: Sharded",
+// 		type: "planet",
+// 		planet: "Utessfie Unom",
+// 		system: {
+// 			name: "Lubingro",
+// 			lifeform: "Vy'keen",
+// 			conflict: "Aggressive",
+// 			economy: {
+// 				type: "Mass Production",
+// 				tier: "Adequate" }
+// 		}
+// 	},
+// 	{
+// 		name: "Anomolous Planet: Fractured",
+// 		type: "planet",
+// 		planet: "Rayso XVI",
+// 		system: {
+// 			name: "Suzdalny IV",
+// 			lifeform: "Korvax",
+// 			conflict: "Peaceful",
+// 			economy: {
+// 				type: "Manufacturing",
+// 				tier: "Comfortable" }
+// 		}
+// 	},
+// 	{
+// 		name: "Storm Crystals",
+// 		type: "planet",
+// 		planet: "Naciss",
+// 		system: {
+// 			name: "Uttenh-Tara",
+// 			lifeform: "Gek",
+// 			conflict: "Peaceful",
+// 			economy: {
+// 				type: "Mercantile",
+// 				tier: "Comfortable" }
+// 		}
+// 	}
+// ];
 
 /*
 |--------------------------------------------------------------------------
@@ -646,12 +646,12 @@ var discoveries = [
 |--------------------------------------------------------------------------
 */
 
-var freighter = {
-	name: "bigOlSexiBoi",
-	class: "B",
-	slots: "17+4",
-	value: 10900000
-};
+// var freighter = {
+// 	name: "bigOlSexiBoi",
+// 	class: "B",
+// 	slots: "17+4",
+// 	value: 10900000
+// };
 
 /*
 |--------------------------------------------------------------------------
@@ -659,68 +659,68 @@ var freighter = {
 |--------------------------------------------------------------------------
 */
 
-var frigates = [
-	{
-		name: "looksLikeWeMadeIt",
-		type: "Trade",
-		class: "S",
-		repair: {
-			material: "Pure Ferrite",
-			quantity: 25 
-		} 
-	},
-	{
-		name: "CS The Talon of Clouds",
-		type: "Science",
-		class: "A",
-		repair: {
-			material: "Silver",
-			quantity: 50 
-		} 
-	},
-	{
-		name: "SV Forge of the Hijanag",
-		type: "Science",
-		class: "B",
-		repair: {
-			material: "Pure Ferrite",
-			quantity: 25 
-		} 
-	},
-	{
-		name: "SS The Hammer of Flight",
-		type: "Combat",
-		class: "B",
-		repair: {
-			material: "Pure Ferrite",
-			quantity: 25 
-		} 
-	},
-	{
-		name: "getWrecked",
-		type: "Science",
-		class: "C",
-		repair: [ 
-			{
-				material: "Gold",
-				quantity: 20 
-			},
-			{
-				material: "Oxygen",
-				quantity: 20 
-			} 
-		]
-	},
-	{
-		name: "CS4-Kubar",
-		type: "Trade",
-		class: "A",
-		repair: {
-			material: "Tritium",
-			quantity: 15 
-		}
-	}
-];
+// var frigates = [
+// 	{
+// 		name: "looksLikeWeMadeIt",
+// 		type: "Trade",
+// 		class: "S",
+// 		repair: {
+// 			material: "Pure Ferrite",
+// 			quantity: 25 
+// 		} 
+// 	},
+// 	{
+// 		name: "CS The Talon of Clouds",
+// 		type: "Science",
+// 		class: "A",
+// 		repair: {
+// 			material: "Silver",
+// 			quantity: 50 
+// 		} 
+// 	},
+// 	{
+// 		name: "SV Forge of the Hijanag",
+// 		type: "Science",
+// 		class: "B",
+// 		repair: {
+// 			material: "Pure Ferrite",
+// 			quantity: 25 
+// 		} 
+// 	},
+// 	{
+// 		name: "SS The Hammer of Flight",
+// 		type: "Combat",
+// 		class: "B",
+// 		repair: {
+// 			material: "Pure Ferrite",
+// 			quantity: 25 
+// 		} 
+// 	},
+// 	{
+// 		name: "getWrecked",
+// 		type: "Science",
+// 		class: "C",
+// 		repair: [ 
+// 			{
+// 				material: "Gold",
+// 				quantity: 20 
+// 			},
+// 			{
+// 				material: "Oxygen",
+// 				quantity: 20 
+// 			} 
+// 		]
+// 	},
+// 	{
+// 		name: "CS4-Kubar",
+// 		type: "Trade",
+// 		class: "A",
+// 		repair: {
+// 			material: "Tritium",
+// 			quantity: 15 
+// 		}
+// 	}
+// ];
 
 /*
 |--------------------------------------------------------------------------
@@ -728,127 +728,50 @@ var frigates = [
 |--------------------------------------------------------------------------
 */
 
-var ships = [
-	{
-		name: "orangeBird",
-		type: "Exotic",
-		class: "S",
-		slots: "20+6",
-		value: 12000000
-	},
-	{
-		name: "theGreatWhiteBat",
-		type: "Exotic",
-		class: "S",
-		slots: "19+6",
-		value: 10250000
-	},
-	{
-		name: "ittyBittyBaby",
-		type: "Exotic",
-		class: "S",
-		slots: "18+5",
-		value: 8700000
-	},
-	{
-		name: "lilOlBlueBird",
-		type: "Exotic",
-		class: "S",
-		slots: "18+5",
-		value: 8700000
-	},
-	{
-		name: "oneEyedWilly",
-		type: "Explorer",
-		class: "A",
-		slots: "27+7",
-		value: 7250000
-	},
-	{
-		name: "snowy",
-		type: "Explorer",
-		class: "S",
-		slots: "19+5",
-		value: 1875000
-	},	
-];
-
-/*
-|--------------------------------------------------------------------------
-| FUNCTIONS
-|--------------------------------------------------------------------------
-*/
-
-// Builds a select of aggregated player data
-var data;
-function buildSearch() {
-	data = [];
-	var i = 0;
-	for(var item in items){
-		var option = {};
-		option.id = item;
-		option.text = slugToName(item);
-		data.push(option);
-		i++;
-	};
-	data.unshift({id:'',text:''}); // Add "empty" object at beginning so the placeholder attr shows
-}
-buildSearch();
-
-// Builds a menu of player's ship(s)
-function buildMenuShips() {
-	ships.forEach(function(ship){
-		$("<li/>", {"class": "ship", "id": ship.name})
-			.html("<strong>" + ship.name + "</strong> <br/><small>" + ship.type + " (" + ship.class + ") // " + ship.slots + " slots // " + ship.value.toLocaleString() + "</small>")
-			.appendTo(".ships ul");
-	});
-}
-
-// Builds a menu of player's freighter + frigate(s)
-function buildMenuFrigates() {
-	frigates.forEach(function(frigate){
-		$("<li/>", {"class": "frigate", "id": frigate.name})
-			.html("<strong>" + frigate.name + "</strong> <br/><small>" + frigate.type + " (" + frigate.class + ") // Repair: " + frigate.repair.quantity + " " + frigate.repair.material + "</small>")
-			.appendTo(".frigates ul");
-	});
-}
-
-// Builds a menu of player's discoveries
-function buildMenuDiscoveries() {
-	discoveries.forEach(function(discovery){
-		var planet = (discovery.planet) ? discovery.planet  + " // ": "";
-		$("<li/>", {"class": "location " + discovery.type})
-			.html("<strong>" + discovery.name + "</strong> <br/><small>" + planet + discovery.system.name + " // " + discovery.system.lifeform + ", " + discovery.system.economy.type + ":" + discovery.system.economy.tier + ", " + discovery.system.conflict + "</small>")
-			.appendTo(".discoveries ul");
-	});
-}
-
-// Load an item
-function loadItem(item){
-	$("#resources .title").text(item.name);
-	$("#resources .resource").attr("id", nameToSlug(item.name));
-	$("#resources .value").text(item.value.toLocaleString());
-	$("#resources img").attr("src", "img/item/" + nameToSlug(item.name) + ".png");
-	$("#resources .description").html("<strong class=\"type\">" + item.type + ".</strong> " + item.description);
-	if(item.ingredients){
-		var $recipe = $("<div>").addClass("recipe").html("");
-	item.ingredients.forEach(function(ingredient, index){
-			slug = nameToSlug(ingredient.name);
-			var $ingredient = $("<a/>", {"class": "ingredient", "id": slug}).text( ingredient.quantity + ' ' + ingredient.name).appendTo($recipe);
-			if(index < (item.ingredients.length) - 1){
-				$recipe.append(" + ")
-			}
-		});
-		// $recipe.append(" = ");
-		// slug = item.name.toLowerCase();
-		// slug = slug.replace(/\s+/g, '_');
-		// $("<a>").addClass("ingredient").data('item', slug).text(item.name).appendTo($recipe);	
-		$("#resources .recipe").replaceWith($recipe);
-	} else {
-		$("#resources .recipe").hide();
-	}
-	selectItem();
-};
+// var ships = [
+// 	{
+// 		name: "orangeBird",
+// 		type: "Exotic",
+// 		class: "S",
+// 		slots: "20+6",
+// 		value: 12000000
+// 	},
+// 	{
+// 		name: "theGreatWhiteBat",
+// 		type: "Exotic",
+// 		class: "S",
+// 		slots: "19+6",
+// 		value: 10250000
+// 	},
+// 	{
+// 		name: "ittyBittyBaby",
+// 		type: "Exotic",
+// 		class: "S",
+// 		slots: "18+5",
+// 		value: 8700000
+// 	},
+// 	{
+// 		name: "lilOlBlueBird",
+// 		type: "Exotic",
+// 		class: "S",
+// 		slots: "18+5",
+// 		value: 8700000
+// 	},
+// 	{
+// 		name: "oneEyedWilly",
+// 		type: "Explorer",
+// 		class: "A",
+// 		slots: "27+7",
+// 		value: 7250000
+// 	},
+// 	{
+// 		name: "snowy",
+// 		type: "Explorer",
+// 		class: "S",
+// 		slots: "19+5",
+// 		value: 1875000
+// 	},	
+// ];
 
 // Drawer Toggle Buttons
 $(".menu .toggle").click(function(){
@@ -873,190 +796,25 @@ setInterval(function () {
 	$imageEls.eq(index - 1).removeClass('show');
 }, 10000);
 
-// Convert a Name to a slug
-function nameToSlug(name){
-	var slug = name.replace(/ /g,"_");
-	return slug.toLowerCase();
-}
-
-// Convert a slug to a Name
-function slugToName(slug){
-	if(slug.includes("_")){
-		slug = slug.split("_");
-		var name = [];
-		var word;
-		slug.forEach(function(word){
-			name.push( word.charAt(0).toUpperCase() + word.slice(1) );
-		});
-		name = name.join(" ");
-	}
-	else {
-		var name = slug.charAt(0).toUpperCase() + slug.slice(1);
-	}
-	return name;
-}
-
-// On Click of Ingredient link, pass that ingredient.name to loadItem() function. 
-function selectItem() {
-	$('a.ingredient').on("click", function(){
-		var thisItem = $(this).attr("id");
-		loadItem(items[thisItem]);
-		$('.select2').val(thisItem).trigger('change');
-	});
-}
-
-/*
-|--------------------------------------------------------------------------
-| RUN
-|--------------------------------------------------------------------------
-*/
-
 // On document ready, execute starter functions
 $(document).ready(function(){
-	buildMenuShips();
-	buildMenuFrigates();
-	buildMenuDiscoveries();
-	// loadItem(items.stasis_device);
 	$('.select2').select2({data:data, placeholder: "Resources"}).change(function(){
 		var selected = $(this).find(':selected').val();
 		loadItem(items[selected]);
 	});
 });
 
-/* Vue */
 var app = new Vue({
     el: '#app',
     data: {
 		items: items,
 		selected_item: "stasis_device",
-        // games_all: [],
-        // games_pinned: [],
-        // games_recent: [],
-        // user: {},
 		// search: ''
     },
     methods: {
 		load_item: function(item_id){
 			this.selected_item = item_id;
-		},
-        // getSteamData: function(endpoint) {
-        //     var xhr = new XMLHttpRequest();
-        //     xhr.open('GET', '/assets/proxy.php?endpoint=' + endpoint + '&steam_user_id=' + steam_user_id, true);
-        //     xhr.responseType = 'json';
-        //     xhr.onload = function() {
-        //       var status = xhr.status;
-        //       if (status === 200) {
-        //         switch(endpoint) {
-        //             case "GetPlayerSummaries":
-        //                 app.user = this.response.response.players[0];
-        //                 break;
-        //             // case "GetUserStatsForGame":
-        //             //     app.maybenotgonnausethis = this.response.playerstats;
-        //             //     break;
-        //             case "GetOwnedGames":
-		// 				app.games_all = this.response.response.games;
-		// 				app.games_all.sort(function(a, b) {
-		// 					var textA = a.name.toUpperCase();
-		// 					var textB = b.name.toUpperCase();
-		// 					return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-		// 				});
-        //                 break;
-        //             case "GetRecentlyPlayedGames":
-        //                 app.games_recent = this.response.response.games;
-        //                 break;
-        //         }
-        //       } else {
-        //         // console.log('fail');
-        //       }
-        //     };
-        //     xhr.send();
-        // },
-		// flexibleTextareas: function(){
-		// 	var textareas = document.getElementsByTagName( "textarea" );
-		// 	for( var textarea of textareas ){
-		// 		textarea.style.height = textarea.scrollHeight + "px";
-		// 		textarea.addEventListener( "input", function(e){
-		// 			e.target.style.height = "auto";
-		// 			e.target.style.height = e.target.scrollHeight + "px";
-		// 		});
-		// 	}
-		// },
-		// log: function(element){
-		// 	console.log(element);
-		// },
-        // pin: function(data){
-        //     this.games_pinned.push(data);
-		// 	// Save to DB
-		// 	app.saveToDB();
-        // }, 
-        // confirmUnpin: function(index, event){
-        //     var confirmationDialog = event.target.parentElement.firstChild;
-        //     confirmationDialog.style.display = 'flex';
-        // },
-		// cancelUnpin: function(event){
-        //     var confirmationDialog = event.target.parentElement;
-        //     confirmationDialog.style.display = 'none';
-        // },
-        // unpin: function(index){
-        //     this.games_pinned.splice(index, 1);
-		// 	// Save to DB
-		// 	app.saveToDB();
-        // }, 
-        // update_alert: function(){
-        //     alert('updated!');
-        // },
-		// updateModalPins: function(){
-		// 	// Get IDs of all pinned games
-		// 	var appid_array = [];
-		// 	app.games_pinned.forEach(game_pinned => { 
-		// 		appid_array.push(game_pinned.appid); 
-		// 	});
-		// 	// Get all Modal Game nodes
-		// 	var modal = document.getElementsByClassName('modal')[0];
-		// 	var modal_games = modal.getElementsByClassName('game');
-		// 	// Loop through Modal Game nodes
-		// 	for( var modal_game of modal_games ){
-		// 		// Identify the Pin button
-		// 		var pinButton = modal_game.getElementsByClassName('pin')[0];
-		// 		// If their id's matches one of those from the user's pinned games,
-		// 		if(appid_array.includes(parseInt(modal_game.id))){
-		// 			// Add "pinned" to its class
-		// 			modal_game.classList.add('pinned');
-		// 			// Disable the Pin button
-		// 			pinButton.disabled = true;
-		// 		// Otherwise, 
-		// 		} else {
-		// 			// Remove "pinned" from its class
-		// 			modal_game.classList.remove('pinned');
-		// 			// Enable the Pin button
-		// 			pinButton.disabled = false;
-		// 		}
-		// 	}
-		// },
-        // saveData: function(index, event){
-        //     // Prevent saving on every keypress, by resetting a timer...
-        //     window.clearTimeout(timer);
-        //     timer = window.setTimeout(function(){
-		// 		// Save to Vue Data
-        //         app.games_pinned[index].notes = event.target.value;
-        //         // Save to DB
-        //         app.saveToDB();
-        //     }, 3000); 
-        // },
-		// saveToDB: function(){
-		// 	dataString = JSON.stringify(app.games_pinned);
-		// 	var xhr = new XMLHttpRequest();
-		// 	xhr.open('GET', '/assets/save.php?data=' + dataString, true);
-		// 	xhr.onload = function() {
-		// 		var status = xhr.status;
-		// 		if (status === 200) {
-		// 			// console.log(xhr.responseText);
-		// 		} else {
-		// 			// console.log('fail');
-		// 		}
-		// 	};
-		// 	xhr.send();
-		// }
+		}
     },
 	computed: {
 		item_selected(){
@@ -1068,28 +826,9 @@ var app = new Vue({
 		// 	return this.games_all.filter(game => {
 		// 		return game.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
 		// 	})
-		// },
-		// games_recent_filtered() {
-		// 	return this.games_recent.filter(game => {
-		// 		return game.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1;
-		// 	})
 		// }
 	},
-    beforeMount(){
-        // if(steam_user_id){
-		// 	this.getSteamData("GetPlayerSummaries");
-        //     this.getSteamData("GetOwnedGames");
-        //     this.getSteamData("GetRecentlyPlayedGames");
-		// 	if(user_data){
-        //         this.games_pinned = user_data;
-        //     }
-        // }
-	},
-	mounted(){
-		// this.flexibleTextareas();
-     },
-     updated(){
-		// this.flexibleTextareas();
-		// this.updateModalPins();
-     }
+	beforeMount(){},
+	mounted(){},
+	updated(){}
 })
