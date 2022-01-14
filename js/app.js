@@ -549,7 +549,14 @@ var items = [
 		name: "Unstable Gel",
 		type: "Advanced Agricultural Product",
 		description: "A highly reactive gel, this substance is both energy-rich and dangerous to touch.",
-		value: 50000
+		value: 50000,
+		ingredients: [
+			{
+				id: "cactus_flesh",
+				name: "Cactus Flesh",
+				quantity: 200
+			}
+		]
 	},
 ];
 
