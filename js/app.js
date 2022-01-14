@@ -9,7 +9,19 @@ var items = [
 		name: "Acid",
 		type: "Advanced Agricultural Product",
 		description: "Dilute acid for high current generation in diverse power cells.",
-		value: 188000
+		value: 188000,
+		ingredients: [
+			{
+				id: "mordite",
+				name: "Mordite",
+				quantity: 25
+			}, 
+			{
+				id: "fungal_mould",
+				name: "Fungal Mould",
+				quantity: 600
+			}
+		]
 	},
 	{
 		id: "aronium",
@@ -40,7 +52,7 @@ var items = [
 	{
 		id: "carbon",
 		name: "Carbon",
-		symbol: "C",
+		description: "The building block of all organic life. Of critical importance to space travelers, as Carbon is used to recharge mining equipment. The Mining Laser will harvest Carbon from trees, plants, and all other forms of vegetation.",
 		value: 12
 	},
 	{
@@ -63,15 +75,29 @@ var items = [
 		]
 	},	
 	{
+		id: "cobalt", 
+		name: "Cobalt",
+		type: "Subterranean Mineral",
+		description: "Mined from underground minerals, cobalt is found in plentiful supply in caves and caverns. Useful in the manufacture of Ion Batteries. It is used in the creation of several technologies and structures, and can be processed in a Refiner to make the most of its inherent charge.",
+		value: 198
+	},	
+	{
 		id: "condensed_carbon", 
 		name: "Condensed Carbon",
 		type: "Refined Organic Element",
 		description: "Advanced material, processed from regular carbon in a Refiner. The increased molecule density offers a substantially improved energy-per-gram ratio. Occasionally found in crystalline form. Harvesting large crystals may require an Advanced Mining Laser.",
-		value: 24
+		value: 24,
+		ingredients: [
+			{
+				id: "carbon",
+				name: "Carbon",
+				quantity: 2
+			}
+		]
 	},
 	{
 		id: "cryo_pump",
-		name: "Cryo Pump",
+		name: "Cryo-Pump",
 		type: "Manufactured Gas Product",
 		description: "An advanced, self-regulating hybrid material, the Cryo-Pump distributes heat across itself with near perfect efficiency, making it vital in the creation of thermal regulators.",
 		value: 1500000,
@@ -119,7 +145,19 @@ var items = [
 		name: "Dirty Bronze",
 		type: "Alloy Metal",
 		description: "A popular metal alloy with a wide variety of uses. 'Dirty Bronze' has shed its scientific name in favor of the popular term for its colour.",
-		value: 25000
+		value: 25000,
+		ingredients: [
+			{
+				id: "pyrite",
+				name: "Pyrite",
+				quantity: 50
+			}, 
+			{
+				id: "pure_ferrite",
+				name: "Pure Ferrite",
+				quantity: 100
+			}
+		]
 	},
 	{
 		id: "enriched_carbon",
@@ -159,14 +197,43 @@ var items = [
 		name: "Fusion Accelerant",
 		type: "Manufactured Gas Product",
 		description: "An advanced fuel source, made from a perfect blend of high potential energy organic materials.",
-		value: 1500000
+		value: 1500000,
+		ingredients: [
+			{
+				id: "organic_catalyst",
+				name: "Organic Catalyst",
+				quantity: 1
+			},
+			{
+				id: "nitrogen_salt",
+				name: "Nitrogen Salt",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "fusion_ignitor",
 		name: "Fusion Ignitor",
 		type: "Highly Refined Technology",
 		description: "A highly advanced piece of technology for use in the next generation of power plants. Producing a fusion core requires both intricate scientific skills and complex industrial processes.",
-		value: 15600000
+		value: 15600000,
+		ingredients: [
+			{
+				id: "portable_reactor",
+				name: "Portable Reactor",
+				quantity: 1
+			},
+			{
+				id: "quantum_processor",
+				name: "Quantum Processor",
+				quantity: 1
+			},
+			{
+				id: "geodesite",
+				name: "Geodesite",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "gamma_root", 
@@ -180,7 +247,24 @@ var items = [
 		name: "Geodesite",
 		type: "Enriched Alloy Metal",
 		description: "Advanced and durable alloy primarily used in starship hull construction and deep-space exploration drone technology.",
-		value: 150000
+		value: 150000,
+		ingredients: [
+			{
+				id: "dirty_bronze",
+				name: "Dirty Bronze",
+				quantity: 1
+			},
+			{
+				id: "herox",
+				name: "Herox",
+				quantity: 1
+			},
+			{
+				id: "lemmium",
+				name: "Lemmium",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "glass",
@@ -239,7 +323,19 @@ var items = [
 		name: "Herox",
 		type: "Alloy Metal",
 		description: "Herox is a tradeable that can be crafted, found in containers or purchased.",
-		value: 25000
+		value: 25000,
+		ingredients: [
+			{
+				id: "ammonia",
+				name: "Ammonia",
+				quantity: 50
+			},
+			{
+				id: "ionised_cobalt",
+				name: "Ionised Cobalt",
+				quantity: 50
+			}
+		]
 	},
 	{
 		id: "hot_ice",
@@ -265,7 +361,15 @@ var items = [
 		name: "Ionised Cobalt",
 		type: "Processed Subterranean Mineral",
 		description: "A highly energised form of Cobalt, this processed metal can be used to create Advanced Ion Batteries, a conveniently portable source of energy for the Exosuit. In widespread use as a key component in the creation of advanced technologies and structures.",
-		value: 401
+		value: 401,
+		ingredients: [
+			{
+				id: "cobalt",
+				name: "Cobalt",
+				quantity: 2
+			}
+		]
+
 	},
 	{
 		id: "iridesite",
@@ -296,7 +400,19 @@ var items = [
 		name: "Lemmium",
 		type: "Alloy Metal",
 		description: "Pure Ferrite alloy. Crafted from Pure Ferrite and Uranium. Used extensively in starship freighter construction due to its sheer strength. A hardcore material popular on the Galactic Trade Network.",
-		value: 25000
+		value: 25000,
+		ingredients: [
+			{
+				id: "uranium",
+				name: "Uranium",
+				quantity: 50
+			}, 
+			{
+				id: "pure_ferrite",
+				name: "Pure Ferrite",
+				quantity: 100
+			}
+		]
 	},
 	{
 		id: "living_glass",
@@ -322,7 +438,19 @@ var items = [
 		name: "Liquid Explosive",
 		type: "Advanced Agricultural Product",
 		description: "A general purpose high explosive, offered in liquid form for convenience of transport and deployment. Do not drink.",
-		value: 800500
+		value: 800500,
+		ingredients: [
+			{
+				id: "acid",
+				name: "Acid",
+				quantity: 1
+			}, 
+			{
+				id: "unstable_gel",
+				name: "Unstable Gel",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "lubricant",
@@ -345,7 +473,7 @@ var items = [
 	},
 	{
 		id: "magno_gold",
-		name: "Magno Gold",
+		name: "Magno-Gold",
 		type: "Alloy Metal",
 		description: "Highly prized and lustrous alloy. Popular with traders of all known primary galactic races. Crafted from Ionised Cobalt and Phosphorus. Easily recognisable by its bright red glow and strong magnetic field.",
 		value: 25000,
@@ -393,7 +521,19 @@ var items = [
 		name: "Organic Catalyst",
 		type: "Manufactured Gas Product",
 		description: "A catalytic material used in the creation of many organic fertilizers.",
-		value: 320000
+		value: 320000,
+		ingredients: [
+			{
+				id: "thermic_condensate",
+				name: "Thermic Condensate",
+				quantity: 1
+			}, 
+			{
+				id: "enricheded_carbon",
+				name: "Enriched Carbon",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "paraffinium",
@@ -433,7 +573,19 @@ var items = [
 		name: "Portable Reactor",
 		type: "Advanced Crafted Product",
 		description: "A miniature self-controlled nuclear reactor. Generates sub-stellar levels of energy in a hassle-free, widely compatible fuel module.",
-		value: 4200000
+		value: 4200000,
+		ingredients: [
+			{
+				id: "liquid_explosive",
+				name: "Liquid Explosive",
+				quantity: 1
+			}, 
+			{
+				id: "fusion_accelerant",
+				name: "Fusion Accelerant",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "quantum_processor",
@@ -460,6 +612,25 @@ var items = [
 		type: "Compressed Atmospheric Gas",
 		description: "A colourless, odourless gas with a relatively short half-life. Found in both Radioactive and Frozen atmospheres, this gas is produced by the decay of other high-energy elements.",
 		value: 20
+	},
+	{
+		id: "semiconductor",
+		name: "Semiconductor",
+		type: "Manufactured Gas Product",
+		description: "An advanced material useful in many electronic devices, with its own in-built temperature regulator. Crafted from Thermic Condensate and Nitrogen Salt.",
+		value: 15600000,
+		ingredients: [
+			{
+				id: "thermic_condensate",
+				name: "Thermic Condensate",
+				quantity: 1 
+			},
+			{
+				id: "nitrogen_salt",
+				name: "Nitrogen Salt",
+				quantity: 1
+			}
+		]
 	},
 	{
 		id: "solanium",
