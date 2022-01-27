@@ -45,7 +45,7 @@
             <div class="menu">
                 <ul class="nav">
                     <li class="ships">
-                        <button class="toggle">
+                        <button class="toggle" v-on:click="toggleDrawer('ships')">
                             <svg id="ship-icon" viewBox="0 0 400 400">
                                 <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
                                 <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
@@ -61,7 +61,7 @@
                         </div>		
                     </li>
                     <li class="frigates">
-                        <button class="toggle">
+                        <button class="toggle" v-on:click="toggleDrawer('frigates')">
                             <svg id="frigate-icon" viewBox="0 0 400 400">
                                 <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
                                 <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.831 200.001,55.664 325,127.831 325,272.167 200.001,344.336 75,272.167 "/>
@@ -77,7 +77,7 @@
                         </div>
                     </li>
                     <li class="discoveries">
-                        <button class="toggle">
+                        <button class="toggle" v-on:click="toggleDrawer('discoveries')">
                             <svg id="base-icon" viewBox="0 0 400 400">
                                 <polygon class="outer-ring" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" stroke-opacity="0.65" points="43.75,109.789 200.001,19.577 356.25,109.789 356.25,290.211 200.001,380.424 43.75,290.211 "/>
                                 <polygon class="inner-ring" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-miterlimit="10" stroke-opacity="0.85" points="75,127.833 200.001,55.664 325,127.833 325,272.169 200.001,344.336 75,272.169 "/>

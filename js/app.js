@@ -992,6 +992,14 @@ var app = new Vue({
     methods: {
 		load_item: function(item_id){
 			this.selected_item = item_id;
+		},
+		toggleDrawer: function(drawerClass){
+			var drawer = document.querySelector(`.${drawerClass} .drawer`);
+			if(drawer.style.display == 'block'){
+				drawer.style.display = 'none';
+			} else {
+				drawer.style.display = 'block';
+			}
 		}
     },
 	computed: {
