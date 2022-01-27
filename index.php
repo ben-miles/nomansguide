@@ -14,11 +14,11 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/select2.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+	<!-- <script type="text/javascript" src="js/select2.min.js"></script> -->
 	<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.min.js"></script>
 	<link rel="icon" href="favicon.png">
-	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/select2.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
@@ -94,9 +94,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="search">
+            <!-- <div class="search">
                 <select class="select2" name="search" style="width:100%;"></select>
-            </div>
+            </div> -->
         </section>
 
         <section id="resources">

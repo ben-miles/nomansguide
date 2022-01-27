@@ -952,35 +952,35 @@ var items = [
 // ];
 
 // Drawer Toggle Buttons
-$(".menu .toggle").click(function(){
-	// Close all other open drawers
-	var $this_class = $(this).parent().attr("class");
-	if( $(".drawer:visible").not("." + $this_class + " .drawer") ){
-		$(".drawer:visible").not("." + $this_class + " .drawer").toggle("fast");
-	}
-	// Toggle this drawer
-	$(this).next().toggle("fast");
-});
+// $(".menu .toggle").click(function(){
+// 	// Close all other open drawers
+// 	var $this_class = $(this).parent().attr("class");
+// 	if( $(".drawer:visible").not("." + $this_class + " .drawer") ){
+// 		$(".drawer:visible").not("." + $this_class + " .drawer").toggle("fast");
+// 	}
+// 	// Toggle this drawer
+// 	$(this).next().toggle("fast");
+// });
 
 // Slideshow
-var index = 0;
-$imageEls = $('.slide');
-setInterval(function () {
-	// Get the next index.  If at end, restart to the beginning.
-	index = index + 1 < $imageEls.length ? index + 1 : 0;
-	// Show the next image.
-	$imageEls.eq(index).addClass('show');
-	// Hide the previous image.
-	$imageEls.eq(index - 1).removeClass('show');
-}, 10000);
+// var index = 0;
+// $imageEls = $('.slide');
+// setInterval(function () {
+// 	// Get the next index.  If at end, restart to the beginning.
+// 	index = index + 1 < $imageEls.length ? index + 1 : 0;
+// 	// Show the next image.
+// 	$imageEls.eq(index).addClass('show');
+// 	// Hide the previous image.
+// 	$imageEls.eq(index - 1).removeClass('show');
+// }, 10000);
 
 // On document ready, execute starter functions
-$(document).ready(function(){
-	$('.select2').select2({data:data, placeholder: "Resources"}).change(function(){
-		var selected = $(this).find(':selected').val();
-		loadItem(items[selected]);
-	});
-});
+// $(document).ready(function(){
+// 	$('.select2').select2({data:data, placeholder: "Resources"}).change(function(){
+// 		var selected = $(this).find(':selected').val();
+// 		loadItem(items[selected]);
+// 	});
+// });
 
 var app = new Vue({
     el: '#app',
