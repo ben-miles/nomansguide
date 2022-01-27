@@ -89,7 +89,12 @@
                         </button>
                         <div class="drawer">
                             <h3>Discoveries</h3>
-                            <ul></ul>
+                            <input v-model="filter" id="filter" type="text" placeholder="Start typing to filter items...">
+							<ul>
+								<li v-for="item in items_filtered">
+									<button v-on:click="load_item(item.id)">{{item.name}}</button>
+								</li>
+							</ul>
                         </div>
                     </li>
                 </ul>
@@ -101,13 +106,7 @@
 
         <section id="resources">
 
-			<input v-model="filter" id="filter" type="text" placeholder="Start typing to filter items...">
-
-			<ul>
-				<li v-for="item in items_filtered">
-					<button v-on:click="load_item(item.id)">{{item.name}}</button>
-				</li>
-			</ul>
+			
 		
 			<div v-for="item in item_selected" class="resource" :id="item.id">
                 <div class="title">{{item.name}}</div>
