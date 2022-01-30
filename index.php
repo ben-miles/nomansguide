@@ -119,7 +119,7 @@
             </div>
         </section>
 
-        <section id="credits">
+        <section id="footer">
             <div>
                 <div><small>Most data and images from the <a href="https://nomanssky.gamepedia.com/" target="_blank">No Man's Sky Wiki on Gamepedia</a>, licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
                 <div><small>Some data and images from the <a href="https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki" target="_blank">No Man's Sky Wiki on Fandom</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>

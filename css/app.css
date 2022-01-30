@@ -343,10 +343,12 @@ div[class^="container-"] {
   #nitrogen:hover {
     background: #b1761c; }
 
-/* CREDITS */
-#credits {
-  color: rgba(255, 255, 255, 0.5);
-  padding: 0 2vw; }
-  #credits .creativecommons {
+/* FOOTER */
+#footer {
+	color: rgba(255, 255, 255, 0.5);
+	padding: 0 2vw;
+}
+#footer .creativecommons {
     height: 3vw;
-    top: 0.25vw; }
+    top: 0.25vw;
+}
