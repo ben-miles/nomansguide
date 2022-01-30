@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* VARS */
+
 /* RESET */
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,600");
 *,
@@ -117,35 +117,6 @@ a, button {
 .search {
   width: 100%;
   margin: 1vw 2vw 2vw; }
-
-.select2-container .select2-selection--single {
-  border-bottom: none;
-  cursor: inherit;
-  height: unset;
-  margin: 0 auto;
-  padding: 1.5vw 0 1vw; }
-
-.select2-container,
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-  color: #000; }
-
-.select2-container--default .select2-results > .select2-results__options {
-  max-height: 70vh; }
-
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-  line-height: unset;
-  padding: 0 6vw 0 2vw; }
-
-.select2-container--default .select2-selection--single .select2-selection__arrow b {
-  border-width: 2vw 2vw 0 2vw;
-  margin: 0;
-  top: 2.5vw;
-  right: 2vw;
-  left: unset;
-  bottom: unset; }
-
-.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
-  border-width: 0 2vw 2vw 2vw; }
 
 /* DRAWER */
 .drawer {
@@ -371,82 +342,6 @@ div[class^="container-"] {
   background: #dc9324; }
   #nitrogen:hover {
     background: #b1761c; }
-
-/* TABLES */
-table {
-  border: 0.125vw solid;
-  width: 100%;
-  border-collapse: collapse; }
-
-thead {
-  background: rgba(255, 255, 255, 0.2); }
-
-th, td {
-  padding: 0.5vw; }
-
-th:first-child,
-td:first-child {
-  border-right: 0.125vw solid; }
-
-tr:nth-child(even) td:nth-child(even) {
-  background: rgba(255, 255, 255, 0.1); }
-
-/* Background: Hex pattern and color overlay */
-.hex {
-  background-image: url("../img/bkg/hex.png"), linear-gradient(45deg, rgba(19, 29, 39, 0.2), rgba(163, 185, 198, 0.2));
-  background-attachment: fixed;
-  background-blend-mode: lighten;
-  background-position: bottom left;
-  background-size: cover;
-  mix-blend-mode: soft-light;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1; }
-
-/* Background: Screenshot slideshow */
-.slideshow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  z-index: -2; }
-  .slideshow .slide {
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%; }
-    .slideshow .slide.zero {
-      background-image: url("../img/bkg/0.jpg"); }
-    .slideshow .slide.one {
-      background-image: url("../img/bkg/1.jpg"); }
-    .slideshow .slide.two {
-      background-image: url("../img/bkg/2.jpg"); }
-    .slideshow .slide.three {
-      background-image: url("../img/bkg/3.jpg"); }
-    .slideshow .slide.four {
-      background-image: url("../img/bkg/4.jpg"); }
-    .slideshow .slide.five {
-      background-image: url("../img/bkg/5.jpg"); }
-    .slideshow .slide.six {
-      background-image: url("../img/bkg/6.jpg"); }
-    .slideshow .slide.seven {
-      background-image: url("../img/bkg/7.jpg"); }
-    .slideshow .slide.eight {
-      background-image: url("../img/bkg/8.jpg"); }
-    .slideshow .slide.nine {
-      background-image: url("../img/bkg/9.jpg"); }
-    .slideshow .slide.show {
-      opacity: 1; }
 
 /* CREDITS */
 #credits {

@@ -14,11 +14,8 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
-	<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
-	<!-- <script type="text/javascript" src="js/select2.min.js"></script> -->
 	<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.min.js"></script>
 	<link rel="icon" href="favicon.png">
-	<!-- <link rel="stylesheet" type="text/css" href="css/select2.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 
@@ -129,19 +126,6 @@
             </div>
         </section>
 
-        <div class="hex"></div>
-        <div class="slideshow">
-            <div class="slide zero show"></div>
-            <div class="slide one"></div>
-            <div class="slide two"></div>
-            <div class="slide three"></div>
-            <div class="slide four"></div>
-            <div class="slide five"></div>
-            <div class="slide six"></div>
-            <div class="slide seven"></div>
-            <div class="slide eight"></div>
-            <div class="slide nine"></div>
-        </div>
     </div>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
