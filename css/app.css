@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* RESET */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,600");
 *,
 *:before,
 *:after {
@@ -14,34 +13,35 @@ html, body {
   min-height: 100vh; }
 
 /* FONTS */
+@font-face {
+	font-family: "geosanslight-nmsregular";
+	src: url("/fonts/geonms-webfont.eot");
+	src: url("/fonts/geonms-webfont.eot?#iefix") format("embedded-opentype"), 
+	url("/fonts/geonms-webfont.woff") format("woff"), 
+	url("/fonts/geonms-webfont.ttf") format("truetype"), 
+	url("/fonts/geonms-webfont.svg#geosanslight-nmsregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,600");
+
 html, body {
-  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
-  font-size: 5vw;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   font-weight: 300; }
 
-.light, small {
+.light, 
+small {
   font-weight: 100; }
 
-h1, h2, h3, h4, h5, h6, b, strong {
-  font-weight: 600; }
-
-h1 {
-  font-size: 5vw; }
-
-h2 {
-  font-size: 4.4vw; }
-
-h3 {
-  font-size: 3.8vw; }
-
-h4 {
-  font-size: 3.2vw; }
-
-h5 {
-  font-size: 2.6vw; }
-
-h6 {
-  font-size: 2vw; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
+}
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+h3 { font-size: 30px; }
+h4 { font-size: 20px; }
 
 /* LINKS */
 a {
