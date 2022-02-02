@@ -529,7 +529,7 @@ var items = [
 				quantity: 1
 			}, 
 			{
-				id: "enricheded_carbon",
+				id: "enriched_carbon",
 				name: "Enriched Carbon",
 				quantity: 1
 			}
