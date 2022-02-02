@@ -30,6 +30,16 @@ html, body {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300; }
+	background-color: #000;
+	background-image: url("/img/bkg/sm.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+@media ( min-width: 721px ) {
+	body {
+		background-image: url("/img/bkg/lg.jpg");
+	}
+}
 
 .light, 
 small {
