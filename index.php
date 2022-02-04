@@ -28,16 +28,20 @@
 
         <section id="header">
             <div class="brand">
-                    <svg class="logo" viewBox="0 0 74 128">
-                        <polygon id="d" points="37,127 1,49 37,1 73,49 "/>
-                        <polygon id="br" fill="#FFFFFF" points="36.847,60.552 71.906,48.906 72,49 37.153,61.448 "/>
-                        <path id="c" fill="#FF0000" d="M55,49c0,9.941-8.059,18-18,18V31C46.941,31,55,39.059,55,49z"/>
-                        <polygon id="tr" fill="#FFFFFF" points="72,49 37,37 37,2 "/>
-                        <polygon id="l" fill="#FFFFFF" points="2.452,49.005 37,37 1.5,49 36.847,61.448 37.153,60.552 "/>
-                        <polygon id="m" fill="#FFFFFF" points="37,2 37.75,61 37,126 36.25,61 "/>
+				<a class="logo" href="#" target="_self">
+                    <svg id="atlas" viewBox="0 0 74 128">
+                        <polygon id="diamond" points="37,127 1,49 37,1 73,49 "/>
+                        <polygon id="bottom-right" points="36.847,60.552 71.906,48.906 72,49 37.153,61.448 "/>
+                        <path id="core" d="M55,49c0,9.941-8.059,18-18,18V31C46.941,31,55,39.059,55,49z"/>
+                        <polygon id="top-right" points="72,49 37,37 37,2 "/>
+                        <polygon id="left" points="2.452,49.005 37,37 1.5,49 36.847,61.448 37.153,60.552 "/>
+                        <polygon id="middle" points="37,2 37.75,61 37,126 36.25,61 "/>
                     </svg>
-                <h1 class="title">No Man's Guide</h1>
-                <h6 class="tagline">An unofficial companion-app for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h6>
+				</a>
+				<div class="title">
+					<h1 class="site-title">No Man's Guide</h1>
+					<h2 class="tagline">An unofficial companion-app for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h2>
+				</div>
             </div>
             <div class="menu">
                 <ul class="nav">
@@ -104,15 +108,15 @@
 					<div class="row">
 						<div class="column">
 							<div class="stats" :id="item.id">
-								<h2 class="title">{{item.name}}</h2>
+								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value}}</h3>
 								<img :alt="item.name" :src="'img/item/' + item.id + '.png'">
 							</div>
 						</div>
 						<div class="column">
-							<div class="item-details" id="details">
+							<div class="details">
 								<p class="description">{{item.description}}</p>
-								<div v-if="item.ingredients">
+								<div class="crafting" v-if="item.ingredients">
 									<h3>Crafted from:</h3>
 									<div class="recipe">
 										<div v-for="ingredient in item.ingredients">
