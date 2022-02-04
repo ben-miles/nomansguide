@@ -731,6 +731,10 @@ var items = [
 	},
 ];
 
+// todo: fill in missing data 
+// todo: fill in missing color data for new resources 
+// todo: refactor css item ids into classes?
+
 var app = new Vue({
     el: '#app',
     data: {

@@ -96,34 +96,44 @@
                     </li>
                 </ul>
             </div>
-            <!-- <div class="search">
-                <select class="select2" name="search" style="width:100%;"></select>
-            </div> -->
         </section>
 
-        <section id="resources">
-
-			
-		
-			<div v-for="item in item_selected" class="resource" :id="item.id">
-                <div class="title">{{item.name}}</div>
-                <div class="value">{{item.value}}</div>
-                <img :alt="item.name" :src="'img/item/' + item.id + '.png'">
-            </div>
-
-            <div v-for="item in item_selected" id="details">
-                <p class="description">{{item.description}}</p>
-                <div v-if="item.ingredients" class="recipe">
-					<a v-for="ingredient in item.ingredients" v-on:click="load_item(ingredient.id)" class="ingredient">{{ingredient.quantity}}x {{ingredient.name}}</a>
+        <section id="body">
+			<div class="resource" v-for="item in item_selected">
+				<div class="container">
+					<div class="row">
+						<div class="column">
+							<div class="stats" :id="item.id">
+								<h2 class="title">{{item.name}}</h2>
+								<h3 class="value">{{item.value}}</h3>
+								<img :alt="item.name" :src="'img/item/' + item.id + '.png'">
+							</div>
+						</div>
+						<div class="column">
+							<div class="item-details" id="details">
+								<p class="description">{{item.description}}</p>
+								<div v-if="item.ingredients">
+									<h3>Crafted from:</h3>
+									<div class="recipe">
+										<div v-for="ingredient in item.ingredients">
+											<span class="quantity">{{ingredient.quantity}}x</span>
+											<a v-on:click="load_item(ingredient.id)" class="ingredient" :id="ingredient.id">
+											<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+											{{ingredient.name}}
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-            </div>
-        </section>
+			</div>
+		</section>
 
         <section id="footer">
-            <div>
-                <div><small>Most data and images from the <a href="https://nomanssky.gamepedia.com/" target="_blank">No Man's Sky Wiki on Gamepedia</a>, licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
-                <div><small>Some data and images from the <a href="https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki" target="_blank">No Man's Sky Wiki on Fandom</a>, licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license.</small></div>
-            </div>
+			<div class="copyright">© <?php echo date("Y"); ?> <a href="https://benmiles.com/" target="_blank">Ben Miles</a>. <a>No Man's Guide</a> is not affiliated with No Man's Sky or Hello Games. </div>
+            <div class="credits">Some data and images sourced from <a href="https://nomanssky.fandom.com/" target="_blank">No Man's Sky Wiki</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license. </div>
         </section>
 
     </div>
