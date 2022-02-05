@@ -71,7 +71,7 @@ a, button {
 
 /* HEADER */
 #header {
-	align-items: center;
+	align-items: flex-end;
 	background: rgba(9, 7, 20, 0.6);
 	border-bottom: solid 2px #e0b142;
 	display: flex;
@@ -176,70 +176,75 @@ a, button {
 	justify-content: flex-end;
 }
 .menu .toggle {
-  background: transparent;
-  border: none;
-  color: #fff;
-  outline: none;
+	background: transparent;
+	border: none;
+	border-radius: 5px 5px 0 0;
+	color: #9fa2aa;
+	outline: none;
+	text-transform: uppercase;
+	font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: -10px;
+	padding: 10px;
 }
-.menu .toggle:hover #ship-icon .fill {
-fill: #cb3109;
-}
-.menu .toggle:hover #frigate-icon .fill {
-fill: #217851;
-}
-.menu .toggle:hover #base-icon .fill {
-fill: #0063b8;
-}
-.menu .toggle span {
-display: none;
-}
-.menu .toggle svg {
-height: 64px;
-}
-.menu .toggle svg .fill {
-	fill: #fff;
-	transition: fill 0.125s ease-in;
-}
-.menu .toggle svg .border, .menu .toggle svg .inner-ring, .menu .toggle svg .outer-ring {
-	fill: none;
+.menu .toggle:hover {
+	background: #e0b142;
+	color: #2e2c13;
+	outline: none;
+	text-transform: uppercase;
+	text-shadow: 2px 0 2px rgba(0,0,0,0.25);
+	font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight:600;
+	letter-spacing: 1px;
+	padding: 10px;
 }
 
 /* FILTER */
 #filter {
-  width: 100%;
+	border: none;
+	border-radius: 0;
+	font-size: 16px;
+	outline: none;
+	padding: 8px;
+  	width: 100%;
 }
 
 /* DRAWER */
 .drawer {
-	border-top: 1.25vw solid #ca2616;
-	box-shadow: 0 1vw 0.25vw rgba(0, 0, 0, 0.5);
 	display: none;
 	position: absolute;
-	top: 114px;
-	right: 72px;
+	top: 40px;
+	right: 0px;
 	z-index: 2;
 	max-height: 80vh;
 	overflow-y: auto;
 }
-.drawer h3 {
+.drawer.open {
+	display: block;
+}
+/* .drawer h3 {
 	background: linear-gradient(45deg, #cc381a, #86160a);
 	border-top: 0.5vw solid #721301;
 	padding: 2vw 2vw 0.25vw;
 	text-align: left;
 	text-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.5);
-}
-.drawer h3:after {
+} */
+/* .drawer h3:after {
 	display: block;
 	content: '•';
 	position: absolute;
 	top: 0.25vw;
 	right: 0.75vw;
-}
+} */
 .drawer ul {
 	background: #274a50;
-	border-bottom: 8px solid #1e4046;
+	/* border-bottom: 8px solid #1e4046; */
 	list-style: none;
 	padding: 12px;
+	width: 200px;
 }
 /* .drawer ul li:before {
 	content: "";

@@ -1046,6 +1046,16 @@ var app = new Vue({
 			return this.items.filter(item => {
 				return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 			})
+		},
+		items_raw_materials() {
+			return this.items.filter(item => {
+				return item.type === "Raw Materials";
+			})
+		},
+		items_crafted_products() {
+			return this.items.filter(item => {
+				return item.type === "Crafted Products";
+			})
 		}
 	},
 	beforeMount(){},
