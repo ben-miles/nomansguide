@@ -1027,13 +1027,26 @@ var app = new Vue({
 		load_item: function(item_id){
 			this.selected_item = item_id;
 		},
-		toggleDrawer: function(drawerClass){
-			var drawer = document.querySelector(`.${drawerClass} .drawer`);
-			if(drawer.style.display == 'block'){
-				drawer.style.display = 'none';
-			} else {
-				drawer.style.display = 'block';
-			}
+		toggleDrawer: function(drawerId){
+			var allDrawers = document.getElementsByClassName("nav-item");
+			var thisDrawer = document.querySelector(`#${drawerId} .drawer`);
+			// Close other drawers
+			// for (var i = 0; i < allDrawers.length; i++) {
+				// console.log(allDrawers[i]);
+				// if(allDrawers[i].id != drawerId){
+					// console.log(allDrawers[i].id)
+					// console.log(allDrawers[i]);
+					// var otherDrawer = allDrawers[i].getElementsByClassName(".drawer");
+					// console.log(otherDrawer);
+					// otherDrawer.classList.remove("open");
+				// }
+				// console.log(allDrawers[i].classList);
+				// otherDrawers.classList.remove("open");
+				// console.log(allDrawers[i]);
+			// }
+			// Toggle this drawer
+			thisDrawer.classList.toggle("open");
+			// console.log(thisDrawer.classList);
 		}
     },
 	computed: {
