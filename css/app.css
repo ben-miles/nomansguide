@@ -246,6 +246,10 @@ a, button {
 	padding: 12px;
 	width: 200px;
 }
+.drawer img {
+	height: 32px;
+	width: 32px;
+}
 /* .drawer ul li:before {
 	content: "";
 	background-repeat: no-repeat;
@@ -315,7 +319,7 @@ a, button {
 /* RESOURCES */
 .stats {
 	border: 8px solid #fff;
-	margin: 0 auto 36px;
+	margin: 0 auto 32px;
 	max-width: 512px;
 }
 .stats img {
@@ -353,10 +357,10 @@ a, button {
 /* DETAILS */
 .details {
 	max-width: 512px;
-	margin: 0 auto 36px;
+	margin: 0 auto 32px;
 }
 .description {
-	margin: 0 auto 36px;
+	margin: 0 auto 32px;
 	text-align: left;
 }
 
@@ -373,12 +377,12 @@ a, button {
   justify-content: center;
   align-items: flex-start;
   font-size: 24px;
-  margin: 0 auto 36px;
+  margin: 0 auto 32px;
   padding: 24px 24px 12px;
 }
 .quantity {
 	display: inline-block;
-	height: 36px;
+	height: 32px;
 	bottom: 10px;
 	margin-right: 8px;
 }
@@ -392,8 +396,8 @@ a, button {
   text-shadow: 0 0.2vw 0.2vw rgba(0, 0, 0, 0.6);
 }
 .ingredient img {
-	height: 36px;
-	width: 36px;
+	height: 32px;
+	width: 32px;
 	margin-right: 12px;
 }
 .recipe > div:not(:last-of-type):after {
@@ -501,7 +505,7 @@ a, button {
 /* FOOTER */
 #footer {
 	color: rgba(255, 255, 255, 0.5);
-	padding: 36px;
+	padding: 32px;
 	font-size: 12px;
 	text-align: center;
 }

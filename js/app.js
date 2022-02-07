@@ -392,7 +392,7 @@ var items = [
 				quantity: 250
 			}
 		]
-	},	
+	},
 	{
 		id: "gold", 
 		name: "Gold",
@@ -1009,6 +1009,300 @@ var items = [
 		type: "Raw Materials",
 		description: "An unnaturally thick liquid of dubious colour. Its origins are impossible to fathom. Appears to have some mild magnetic properties.",
 		value: 20
+	},
+	{
+		id: "mind_control_device",
+		name: "Mind Control Device",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. The mind control device plugs into the ship's trading and communications systems, allowing the Fleet Commander to gain the upper hand in any negotiation.",
+		value: 75000
+	},
+	{
+		id: "holographic_analyser",
+		name: "Holographic Analyser",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This powerful analytic computer overclocks the existing fleet systems, allowing for faster-than-light calculations. Heat is a problem, and the chips do not last long.",
+		value: 75000
+	},
+	{
+		id: "mineral_compressor",
+		name: "Mineral Compressor",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. The mineral compressor allows fleet mining crews to liquidise the substances they extract, for both faster processing and easier transportation.",
+		value: 75000
+	},
+	{
+		id: "explosive_drones",
+		name: "Explosive Drones",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This pack of autonomous explosives have been programmed to launch from the fleet and pilot themselves directly towards hostile vessels. Extremely dangerous.",
+		value: 75000
+	},
+	{
+		id: "fuel_oxidiser",
+		name: "Fuel Oxidiser",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This powerful fuel upgrade overloads frigate engines, allowing for faster-than-usual travel.",
+		value: 75000
+	},
+	{
+		id: "metal_plating",
+		name: "Metal Plating",
+		type: "Crafted Products",
+		description: "A lightweight metal product, heavily used in the manufacture of starship parts and deployable technology. A mainstay of the construction industries of all known primary species.	Crafted from Ferrite Dust.",
+		value: 800
+	},
+	{
+		id: "carbon_nanotubes",
+		name: "Carbon Nanotubes",
+		type: "Crafted Products",
+		description: "Metres and metres of high capacity carbon nanotubes. Their high tensile strength and mild conductivity make these a key component in many advanced technologies.",
+		value: 500
+	},
+	{
+		id: "hermetic_seal",
+		name: "Hermetic Seal",
+		type: "Crafted Products",
+		description: "A high-performance carbon seal, able to withstand both the harsh interstellar environment and the rigours of intensive, high-energy industrial use. User is advised to regularly check seal integrity after installation.",
+		value: 800
+	},
+	{
+		id: "microprocessor",
+		name: "Microprocessor",
+		type: "Crafted Products",
+		description: "A compact, low-heat microchip. Assembled from processed Chromatic Metal, created from one of several specialised terrain metals. Used in the creation of a wide range of advanced technologies.",
+		value: 2000
+	},
+	{
+		id: "antimatter_housing",
+		name: "Antimatter Housing",
+		type: "Crafted Products",
+		description: "Secure antimatter containment device, required before Antimatter can be safely secured as Warp Cells. Rebound Oxygen forms a protective gas pocket, preventing the antimatter from reacting with the surrounding casing.",
+		value: 6500
+	},
+	{
+		id: "antimatter",
+		name: "Antimatter",
+		type: "Crafted Products",
+		description: "Contained negative matter and baryogenesis antiparticles. The vast energy potential of antimatter makes it highly valuable. 95% of existing antimatter consumption is in the powering of starship hyperdrives. WARNING: uncontained usage is not recommended.",
+		value: 5233
+	},
+	{
+		id: "warp_cell",
+		name: "Warp Cell",
+		type: "Crafted Products",
+		description: "This antimatter-based fuel is one of the few power sources capable of meeting the incredible energy requirements of a starship hyperdrive. Secured within a robust housing, the cell is guaranteed paradox-free during FTL travel.",
+		value: 46750
+	},
+	{
+		id: "warp_hypercore",
+		name: "Warp Hypercore",
+		type: "Crafted Products",
+		description: "A high-capacity antimatter-based fuel, this cell harnesses an internal black hole generator to power starship hyperdrives across multiple warp jumps. Cell walls are specially designed to reflect any reality paradoxes back towards the heart of the unit, where they generate additional power.",
+		value: 46750
+	},
+	{
+		id: "fungal_cluster",
+		name: "Fungal Cluster",
+		type: "Crafted Products",
+		description: "A spherical fungus with internal gills, found only in toxic biomes. Fungal Clusters can be transplanted for cultivation, yielding a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Toxic climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 3
+	},
+	{
+		id: "frostwort",
+		name: "Frostwort",
+		type: "Crafted Products",
+		description: "A large crystal flower with radiant blue blooms, found only in snowy biomes. Frostwort can be farmed and makes a reliable crop, and its adaptation to harsh conditions results in highly frequent harvests. Suitable for hydroponic indoor planting. Ensure Frozen climate before planting outdoors. Approximate growing time: 1 hour",
+		value: 3
+	},
+	{
+		id: "gamma_weed",
+		name: "Gamma Weed",
+		type: "Crafted Products",
+		description: "A luminous, leafy flowering plant that thrives in radioactive biomes and can be cultivated to yield a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Radioactive climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 16
+	},
+	{
+		id: "echinocactus",
+		name: "Echinocactus",
+		type: "Crafted Products",
+		description: "Native to barren biomes and capable of withstanding long periods of drought, Echinocactus is an edible succulent that responds well to cultivation, yielding a large but occasional harvest. Suitable for hydroponic indoor planting. Ensure Barren climate before planting outdoors. Approximate growing time: 16 hours",
+		value: 3
+	},
+	{
+		id: "star_bramble",
+		name: "Star Bramble",
+		type: "Crafted Products",
+		description: "A medium-sized, farmable plant that yields an occasional harvest of valuable Star Bulbs. Suitable for hydroponic indoor planting. Ensure Lush climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 3
+	},
+	{
+		id: "solar_vine",
+		name: "Solar Vine",
+		type: "Crafted Products",
+		description: "This 'living rock' is adapted to live in the extreme heat of scorched biomes. However, it can be farmed in most environments and, once established, yields a moderate harvest. Suitable for hydroponic indoor planting. Ensure Hot climate before planting outdoors. Approximate growing time: 16 hours",
+		value: 3
+	},
+	{
+		id: "mordite_root",
+		name: "Mordite Root",
+		type: "Crafted Products",
+		description: "An inedible tuber that produces a small yield of Mordite crystals. A peaceful alternative to the process of harvesting Mordite from the corpses of creatures. Mordite Root must be grown in a Hydroponics Tray. Approximate growing time: 8 hours",
+		value: 3
+	},
+	{
+		id: "gutrot_flower",
+		name: "Gutrot Flower",
+		type: "Crafted Products",
+		description: "A foul-smelling, farmable flower that replicates the chemical structure of faecal matter. When planted inside, yields a harvest of Faecium. A good alternative to collecting Faecium by hand, which requires feeding creatures and then harvesting their droppings. Gutrot Flowers must be grown in a Hydroponics Tray. Approximate growing time: 4 hours",
+		value: 3
+	},
+	{
+		id: "gravitino_host",
+		name: "Gravitino Host",
+		type: "Crafted Products",
+		description: "A strange, potentially parasitic plant that yields an occasional harvest of the highly tradable commodity, Gravitino Balls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
+		value: 3
+	},
+	{
+		id: "venom_urchin",
+		name: "Venom Urchin",
+		type: "Crafted Products",
+		description: "A small, innocuous looking plant whose leaves periodically secrete a small amount of potent Sac Venom, a valuable trading commodity. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 3 hours 20 mins",
+		value: 3
+	},
+	{
+		id: "albumen_pearl_orb",
+		name: "Albumen Pearl Orb",
+		type: "Crafted Products",
+		description: "A medium-sized, farmable Crystal Orb that yields an occasional harvest of valuable Albumen Pearls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
+		value: 3
+	},
+	{
+		id: "nipnip",
+		name: "NipNip",
+		type: "Crafted Products",
+		description: "This medicinal herb is known for its pungent buds, which are harvested to produce Gek Nip. NipNip thrives in dank environments, and often grows as a weed. Suitable for hydroponic planting indoors. Needs a tropical or humid climate before planting outdoors.",
+		value: 3
+	},
+	{
+		id: "amino_chamber",
+		name: "Amino Chamber",
+		type: "Crafted Products",
+		description: "A specialist biological catalyzation device. This unit takes advantage of naturally occurring enzymes in order to facilitate increased energy yields and faster processing in a wide range of advanced technologies.",
+		value: 12300
+	},
+	{
+		id: "hydraulic_wiring",
+		name: "Hydraulic Wiring",
+		type: "Crafted Products",
+		description: "Specialist wiring and control threads, this flexible material allows the transmission of power and signals, as well as offering direct manipulation of remote components. Used in the creation of a wide range of advanced technologies.",
+		value: 3600
+	},
+	{
+		id: "magnetic_resonator",
+		name: "Magnetic Resonator",
+		type: "Crafted Products",
+		description: "An electromagnetic frequency oscillator, able to function in a wide-range of conditions thanks to both ferrous and non-ferrous magnetic properties. Used in the creation of a wide range of advanced technologies.",
+		value: 6150
+	},
+	{
+		id: "quantum_computer",
+		name: "Quantum Computer",
+		type: "Crafted Products",
+		description: "An extremely fast advanced processing unit. Allows real-time solving of otherwise impossible calculations. However, protection against decoherence is not guaranteed. Used in the creation of a wide range of advanced technologies.",
+		value: 4200
+	},
+	{
+		id: "solar_mirror",
+		name: "Solar Mirror",
+		type: "Crafted Products",
+		description: "A specialist optical component. Employing an impossibly polished surface, this mirror is able to selectively filter different wavelengths of light, changing its reflective pattern based on nearby magnetic fields. Used in the creation of a wide range of advanced technologies.",
+		value: 6150
+	},
+	{
+		id: "di_hydrogen_jelly",
+		name: "Di-hydrogen Jelly",
+		type: "Crafted Products",
+		description: "A faintly-glowing jelly. Its gentle light and soft wobble belie the fact that this sticky gel is both highly toxic and highly flammable. Skin contact is to be avoided at all costs. Synthesised from Di-hydrogen.",
+		value: 200
+	},
+	{
+		id: "projectile_ammunition",
+		name: "Projectile Ammunition",
+		type: "Crafted Products",
+		description: "Advanced munition fragments, constructed to fit Universal Multi-Tool Standard 07/FF1. Easily inserted into the Boltcaster, Pulse Spitter and Scatter Blaster via the Multi-Tool clip reloading system.",
+		value: 1
+	},
+	{
+		id: "unstable_plasma",
+		name: "Unstable Plasma",
+		type: "Crafted Products",
+		description: "Densely-packed fuel capsule for use in the Plasma Launcher. Contained highly-pressurised electro-thermal energy for use in land disruption grenade technology.",
+		value: 5750
+	},
+	{
+		id: "ion_battery",
+		name: "Ion Battery",
+		type: "Crafted Products",
+		description: "Convenient and optimised power storage unit. Used in a wide variety of defensive and hazard protection systems. Constructed by fusing Ferrite Dust with underground Cobalt. Frequently found ready-made in cylindrical metal containers.",
+		value: 200
+	},
+	{
+		id: "starshield_battery",
+		name: "Starshield Battery",
+		type: "Crafted Products",
+		description: "A power storage unit optimised for use in starship defensive systems. Tritium-fuelled capacitors provide quick-release charge for the Deflector Shield, but would overload smaller-scale equipment.",
+		value: 500
+	},
+	{
+		id: "life_support_gel",
+		name: "Life Support Gel",
+		type: "Crafted Products",
+		description: "Emergency life support fuel. Synthesised from rocket fuel crystals and carbon, this gel offers a temporary boost to Life Support systems. Long-term impact on a user's lungs is currently unknown.",
+		value: 200
+	},
+	{
+		id: "starship_launch_fuel",
+		name: "Starship Launch Fuel",
+		type: "Crafted Products",
+		description: "Highly reactive solid-state fuel, required to fuel Starship Launch Thrusters. Created from crystallized Di-hydrogen, found in blue deposits on all worlds.",
+		value: 450
+	},
+	{
+		id: "frigate_fuel_50_tonnes",
+		name: "Frigate Fuel (50 Tonnes)",
+		type: "Crafted Products",
+		description: "A small barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 20000
+	},
+	{
+		id: "frigate_fuel_100_tonnes",
+		name: "Frigate Fuel (100 Tonnes)",
+		type: "Crafted Products",
+		description: "A large barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 40000
+	},
+	{
+		id: "frigate_fuel_200_tonnes",
+		name: "Frigate Fuel (200 Tonnes)",
+		type: "Crafted Products",
+		description: "A huge barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 80000
+	},
+	{
+		id: "wiring_loom",
+		name: "Wiring Loom",
+		type: "Crafted Products",
+		description: "A prefabricated circuit board, designed for flexible use in a large range of technology components. The module features an integrated nanite processor, allowing it to be quickly configured for a wide variety of uses.",
+		value: 25000
+	},
+	{
+		id: "hydrothermal_fuel_cell",
+		name: "Hydrothermal Fuel Cell",
+		type: "Crafted Products",
+		description: "A high thermal energy fuel, contained within a standardised fuel cell. Used to fuel the Humboldt Drive that powers the Nautilon submarine. Created with a mix of organic compounds (Carbon and cyto-phosphates) and localised mineral salts.",
+		value: 7200
 	}
 ];
 

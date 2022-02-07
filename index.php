@@ -14,7 +14,8 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
-	<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.min.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
+	<!-- <script type="text/javascript" src="https://unpkg.com/vue/dist/vue.min.js"></script> -->
 	<link rel="icon" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
@@ -50,7 +51,7 @@
                         <div class="drawer">
                             <ul>
 								<li v-for="item in items_crafted_products">
-									<button v-on:click="load_item(item.id)">{{item.name}}</button>
+									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -60,7 +61,7 @@
                         <div class="drawer">
                             <ul>
 								<li v-for="item in items_raw_materials">
-									<button v-on:click="load_item(item.id)">{{item.name}}</button>
+									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -71,7 +72,7 @@
                             <input v-model="filter" id="filter" type="text" placeholder="Start typing to filter items...">
 							<ul>
 								<li v-for="item in items_filtered">
-									<button v-on:click="load_item(item.id)">{{item.name}}</button>
+									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -100,8 +101,8 @@
 										<div v-for="ingredient in item.ingredients">
 											<span class="quantity">{{ingredient.quantity}}x</span>
 											<a v-on:click="load_item(ingredient.id)" class="ingredient" :id="ingredient.id">
-											<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
-											{{ingredient.name}}
+												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+												{{ingredient.name}}
 											</a>
 										</div>
 									</div>
