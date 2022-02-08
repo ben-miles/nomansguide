@@ -46,6 +46,16 @@
             </div>
             <div class="menu">
                 <ul class="nav">
+					<li class="nav-item" id="curiosities">
+                        <button class="toggle" v-on:click="toggleDrawer('curiosities')">Curiosities</button>
+                        <div class="drawer">
+                            <ul>
+								<li v-for="item in items_curiosities">
+									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
+								</li>
+							</ul>
+                        </div>
+                    </li>
                     <li class="nav-item" id="crafted-products">
                         <button class="toggle" v-on:click="toggleDrawer('crafted-products')">Crafted Products</button>
                         <div class="drawer">

@@ -1303,6 +1303,300 @@ var items = [
 		type: "Crafted Products",
 		description: "A high thermal energy fuel, contained within a standardised fuel cell. Used to fuel the Humboldt Drive that powers the Nautilon submarine. Created with a mix of organic compounds (Carbon and cyto-phosphates) and localised mineral salts.",
 		value: 7200
+	},
+	{
+		id: "quad_servo",
+		name: "Quad Servo",
+		type: "Curiosities",
+		description: "A highly sprung motor arm salvaged from inside of a Sentinel patrol unit. It occasionally twitches, as if experiencing the echo of combat.",
+		value: 20000
+	},
+	{
+		id: "walker_brain",
+		name: "Walker Brain",
+		type: "Curiosities",
+		description: "Shifting nanite clusters sewn together with a pugneum filament, this circuit is painfully hot to the touch. A sinister purple light leaks from deep within its wiring, changing in intensity as it watches its holder.",
+		value: 35000
+	},
+	{
+		id: "geode",
+		name: "Geode",
+		type: "Curiosities",
+		description: "An unusually vibrant and potentially valuable lump of rock.",
+		value: 3280
+	},
+	{
+		id: "crystal_fragment",
+		name: "Crystal Fragment",
+		type: "Curiosities",
+		description: "A crystalline shard with an unusually dense structure. Potentially highly valuable.",
+		value: 3280
+	},
+	{
+		id: "tritium_hypercluster",
+		name: "Tritium Hypercluster",
+		type: "Curiosities",
+		description: "A shard of pure crystalised Tritium.",
+		value: 3280
+	},
+	{
+		id: "gold_nugget",
+		name: "Gold Nugget",
+		type: "Curiosities",
+		description: "A highly valuable ore chunk, ready to be processed into Gold.",
+		value: 3280
+	},
+	{
+		id: "glowing_mineral",
+		name: "Glowing Mineral",
+		type: "Curiosities",
+		description: "Though its surface is dirtied and dull, polishing this rock reveals a deep inner glow, a glitter beneath a subtly iridescent surface.",
+		value: 3280
+	},
+	{
+		id: "anomaly_detector",
+		name: "Anomaly Detector",
+		type: "Curiosities",
+		description: "A single-use geometric beacon that probes the surrounding area for near-space anomalies. Such objects are highly unpredictable. Select the Detector and use Begin Scan to begin the location process.",
+		value: 3280
+	},
+	{
+		id: "emergency_broadcast_receiver",
+		name: "Emergency Broadcast Receiver",
+		type: "Curiosities",
+		description: "A single-use receiver that scans for distress signals on freighter frequencies. Derelict or abandoned freighters often contain high-value salvage. Select the Receiver and use Tune Signal to begin the location process.",
+		value: 3280
+	},
+	{
+		id: "sac_venom",
+		name: "Sac Venom",
+		type: "Curiosities",
+		description: "Stabilized poison sample initially produced by aquatic urchin creatures. A rare and expensive item on the Galactic Trade Network.",
+		value: 608000
+	},
+	{
+		id: "gravitino_ball",
+		name: "Gravitino Ball",
+		type: "Curiosities",
+		description: "A supersymmetric particle cluster created by divergent super-gravitational forces. A micro-rift is created as they form, and extraction of the orb prompts a localised reality weakening. Sentinel forces will respond to stablise any such anomaly. Can be sold at a Galactic Trade Terminal.",
+		value: 40024
+	},
+	{
+		id: "albumen_pearl",
+		name: "Albumen Pearl",
+		type: "Curiosities",
+		description: "Gemstone formed over the course of centuries within the egg of a super-incubatory species. Extremely rare.",
+		value: 10640
+	},
+	{
+		id: "vortex_cube",
+		name: "Vortex Cube",
+		type: "Curiosities",
+		description: "An ancient object, unearthed from the depths of a planetary cave system. Its surface is cold to the touch, and is curiously polished despite its age. A fusion of metal and rock, these cubes have proved resistant to industrial processing. As such, they are of value only to collectors. Can be sold at a Galactic Trade Terminal.",
+		value: 5800
+	},
+	{
+		id: "larval_core",
+		name: "Larval Core",
+		type: "Curiosities",
+		description: "A pulsating jellied orb, this gooey sphere is warm to the touch. Its stench triggers a primal fear in mortal beings, a deep-seated gnawing that begs you to drop it and flee.",
+		value: 69875
+	},
+	{
+		id: "storm_crystal",
+		name: "Storm Crystal",
+		type: "Curiosities",
+		description: "A rare and highly valuable cluster of storm crystals. These crystalline structures thrive in stormy conditions, and naturally attract lighting strikes, becoming spectacularly luminescent when ionised. Exclusively found on extreme weather planets.",
+		value: 129150
+	},
+	{
+		id: "living_pearl",
+		name: "Living Pearl",
+		type: "Curiosities",
+		description: "Born in the hearts of enormous glowing molluscs found deep underwater. Unlike most pearls, this sample is no unliving calcite. Some trace of the mother-clam's consciousness remains within the gem, giving it a lingering, haunting beauty.",
+		value: 4797.5
+	},
+	{
+		id: "crystal_sulphide",
+		name: "Crystal Sulphide",
+		type: "Curiosities",
+		description: "Formed in the incredible, high-pressure furnace of planetary cores, these rich mineral deposits have an almost glass-like quality. Has a wide variety of industrial uses, taking advantage of both its mineral content and its extreme strength under pressure.",
+		value: 7410
+	},
+	{
+		id: "hadal_core",
+		name: "Hadal Core",
+		type: "Curiosities",
+		description: "A highly-pressurised fleshy orb. One can feel it push back when touched, a flash of bioluminescence stirring in the inky black core of this mysterious object.",
+		value: 92625
+	},
+	{
+		id: "hypnotic_eye",
+		name: "Hypnotic Eye",
+		type: "Curiosities",
+		description: "The eye is cold, almost frozen, to the touch. Nonetheless, it is impossible to escape the feeling it is somehow still alive. Extended exposure is not recommended. Do not stare back into the eye. Do not stare back. Do not stare back.",
+		value: 57000
+	},
+	{
+		id: "vykeen_tablet",
+		name: "Vy'keen Tablet",
+		type: "Curiosities",
+		description: "A stone tablet bearing line after line of intricate runes. The words are unintelligible, an ancient dialect forgotten by all but the oldest of the Vy'keen elders. The hand that carved this stone must have been extraordinary. The stonework is precise, delicate - and yet perfectly conveys the unyielding aggression its writer clearly possessed.",
+		value: 1250
+	},
+	{
+		id: "divergence_cube",
+		name: "Divergence Cube",
+		type: "Curiosities",
+		description: "A glitching, pulsing data unit. It does not seem to belong in this reality. The cube gives the impression of a silent scream, the frozen cries of hundreds of lost minds trapped within.",
+		value: 3015
+	},
+	{
+		id: "mind_arc",
+		name: "Mind Arc",
+		type: "Curiosities",
+		description: "A strange piece of technology, a gift from beyond the stars. It shimmers in a way that suggests it is not fully in this world.",
+		value: 1000
+	},
+	{
+		id: "soul_engine",
+		name: "Soul Engine",
+		type: "Curiosities",
+		description: "A powerful organic computing unit. A glitching beat drives this miracle circuit, performing cycle after cycle in an endless, furious loop of calculation.",
+		value: 1000
+	},
+	{
+		id: "gek_relic",
+		name: "Gek Relic",
+		type: "Curiosities",
+		description: "A metal statuette of a creature with a coin placed in its beak. Popular with many traders who see it as an emblem of fair commerce and peace.",
+		value: 23375
+	},
+	{
+		id: "geknip",
+		name: "GekNip",
+		type: "Curiosities",
+		description: "Edible product much beloved by the Gek. Allows beaked traders to release delightfully scented packets of gas for a prolonged period of time. GekNip gas packets are considered an art form, and the truest representation of the Gek soul.",
+		value: 20625
+	},
+	{
+		id: "nipnip_buds",
+		name: "NipNip Buds",
+		type: "Curiosities",
+		description: "A pungent bud harvested from the NipNip plant, often used to produce GekNip.",
+		value: 17776
+	},
+	{
+		id: "vykeen_effigy",
+		name: "Vy'keen Effigy",
+		type: "Curiosities",
+		description: "A small wooden icon carved into the shape of a Sentinel drone. Used by warriors to enter a temporary trance-like state that eliminates their kind's need for sleep.",
+		value: 24750
+	},
+	{
+		id: "vykeen_dagger",
+		name: "Vy'keen Dagger",
+		type: "Curiosities",
+		description: "Largely ceremonial weapon. A vital part of Vy'keen tradition and culture.",
+		value: 11688
+	},
+	{
+		id: "korvax_casing",
+		name: "Korvax Casing",
+		type: "Curiosities",
+		description: "The metallic shell of a disconnected electronic lifeform that was too distant from its own kind to be refreshed with a new entity. Highly prized by all species, not least its own.",
+		value: 22000
+	},
+	{
+		id: "korvax_cube",
+		name: "Korvax Cube",
+		type: "Curiosities",
+		description: "Device used by the Korvax for the storage of historical and cultural information.",
+		value: 13063
+	},
+	{
+		id: "captured_nanode",
+		name: "Captured Nanode",
+		type: "Curiosities",
+		description: "Atlas Seed containing zonally-shifted quasi-stellar substrate. Warning: do not allow matrix to commune with this dimensional space.",
+		value: 1000
+	},
+	{
+		id: "englobed_shade",
+		name: "Englobed Shade",
+		type: "Curiosities",
+		description: "This Atlas Shell holds the remains of a parasitic space-borne lifeform, most likely of extra-dimensional origins.",
+		value: 1000
+	},
+	{
+		id: "noospheric_orb",
+		name: "Noospheric Orb",
+		type: "Curiosities",
+		description: "An Atlas Seed capable of resonating on humanoid telepathic frequencies; may attempt to subsume any subordinate intellect in close proximity.",
+		value: 1000
+	},
+	{
+		id: "dark_matter",
+		name: "Dark Matter",
+		type: "Curiosities",
+		description: "An Atlas Seed shell encompassing a void element harvested from the collapse state of the last universe. Toxic if ingested.",
+		value: 1000
+	},
+	{
+		id: "dawns_end",
+		name: "Dawn's End",
+		type: "Curiosities",
+		description: "Sculpted tau neutrino-boson matrix fixed within an irreplaceable Atlas Seed shell. May be semi-sentient.",
+		value: 1000
+	},
+	{
+		id: "photic_jade",
+		name: "Photic Jade",
+		type: "Curiosities",
+		description: "This irreplaceable Atlas Seed is a form of matter-adapted photons coalesced into physical solidity by unknown means.",
+		value: 1000
+	},
+	{
+		id: "state_phasure",
+		name: "State Phasure",
+		type: "Curiosities",
+		description: "For unknown reasons, this unique Atlas Seed has been phased out of alignment with this quantum reality. Contents cannot be determined.",
+		value: 1000
+	},
+	{
+		id: "novae_reclaiment",
+		name: "Novae Reclaiment",
+		type: "Curiosities",
+		description: "Atlas Seed contains neutronium elements from a catastrophic supernova event that obliterated a sentient civilization in an earlier era.",
+		value: 1000
+	},
+	{
+		id: "modified_quanta",
+		name: "Modified Quanta",
+		type: "Curiosities",
+		description: "This one-of-a-kind Atlas Seed holds an aesthetically pleasing mathematical construct salvaged from the simulation of an alternate reality.",
+		value: 1000
+	},
+	{
+		id: "heart_of_the_sun",
+		name: "Heart of the Sun",
+		type: "Curiosities",
+		description: "An Atlas Seed containing a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
+		value: 1000
+	},
+	{
+		id: "hex_core",
+		name: "Hex Core",
+		type: "Curiosities",
+		description: "This strange energy orb constantly vibrates, emitting a low-frequency drone. Slight variations in the pattern repeat over and over, almost as if it is attempting to relay a message.",
+		value: 16
+	},
+	{
+		id: "void_egg",
+		name: "Void Egg",
+		type: "Curiosities",
+		description: "An anomalous egg. The shell is tough and leathery, and twitches when touched. A faint tapping can be heard within. From time to time, it appears to sing.",
+		value: 3200
 	}
 ];
 
@@ -1340,19 +1634,24 @@ var app = new Vue({
 				return item.id === this.selected_item;
 			})
 		},
-		items_filtered() {
+		items_filtered(){
 			return this.items.filter(item => {
 				return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 			})
 		},
-		items_raw_materials() {
+		items_raw_materials(){
 			return this.items.filter(item => {
 				return item.type === "Raw Materials";
 			})
 		},
-		items_crafted_products() {
+		items_crafted_products(){
 			return this.items.filter(item => {
 				return item.type === "Crafted Products";
+			})
+		},
+		items_curiosities(){
+			return this.items.filter(item => {
+				return item.type === "Curiosities";
 			})
 		}
 	},
