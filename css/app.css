@@ -189,7 +189,8 @@ a, button {
 	margin-bottom: -10px;
 	padding: 10px;
 }
-.menu .toggle:hover {
+.menu .toggle:hover,
+.menu .open .toggle {
 	background: #e0b142;
 	color: #2e2c13;
 	outline: none;
@@ -214,69 +215,29 @@ a, button {
 
 /* DRAWER */
 .drawer {
+	backdrop-filter: blur(8px);
+	background: rgba(9,7,20,0.6);
 	display: none;
 	position: absolute;
 	top: 40px;
 	right: 0px;
 	z-index: 2;
-	max-height: 80vh;
+	max-height: calc( 100vh - 90px - 77px );
 	overflow-y: auto;
-}
-.drawer.open {
-	display: block;
-}
-/* .drawer h3 {
-	background: linear-gradient(45deg, #cc381a, #86160a);
-	border-top: 0.5vw solid #721301;
-	padding: 2vw 2vw 0.25vw;
-	text-align: left;
-	text-shadow: 0 0.25vw 0.25vw rgba(0, 0, 0, 0.5);
-} */
-/* .drawer h3:after {
-	display: block;
-	content: '•';
-	position: absolute;
-	top: 0.25vw;
-	right: 0.75vw;
-} */
-.drawer ul {
-	background: #274a50;
-	/* border-bottom: 8px solid #1e4046; */
-	list-style: none;
 	padding: 12px;
-	width: 200px;
+	width: 300px;
+}
+.open .drawer {
+	display: block;
+}
+.drawer ul {
+	list-style: none;
 }
 .drawer img {
 	height: 32px;
 	width: 32px;
+	margin-right: 4px;
 }
-/* .drawer ul li:before {
-	content: "";
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 3vw;
-	height: 3vw;
-	display: inline-block;
-	margin-right: 0.75vw;
-	bottom: -0.75vw;
-}
-.drawer ul li.base:before {
-	content: url("/img/icon/base.svg");
-}
-.drawer ul li.frigate:before {
-	content: url("/img/icon/frigate.svg");
-}
-.drawer ul li.planet:before {
-	content: url("/img/icon/planet.svg");
-	background-size: 80%;
-	background-position: center;
-}
-.drawer ul li.ship:before {
-	content: url("/img/icon/ship.svg");
-}
-.drawer ul li.system:before {
-	content: url("/img/icon/system.svg");
-} */
 
 /* BODY */
 #body {

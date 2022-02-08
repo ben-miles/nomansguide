@@ -1311,36 +1311,27 @@ var items = [
 // todo: refactor css item ids into classes?
 
 var app = new Vue({
-    el: '#app',
+    el: "#app",
     data: {
 		items: items,
 		selected_item: "stasis_device",
-		filter: ''
+		filter: ""
     },
     methods: {
 		load_item: function(item_id){
 			this.selected_item = item_id;
 		},
 		toggleDrawer: function(drawerId){
-			var allDrawers = document.getElementsByClassName("nav-item");
-			var thisDrawer = document.querySelector(`#${drawerId} .drawer`);
-			// Close other drawers
-			// for (var i = 0; i < allDrawers.length; i++) {
-				// console.log(allDrawers[i]);
-				// if(allDrawers[i].id != drawerId){
-					// console.log(allDrawers[i].id)
-					// console.log(allDrawers[i]);
-					// var otherDrawer = allDrawers[i].getElementsByClassName(".drawer");
-					// console.log(otherDrawer);
-					// otherDrawer.classList.remove("open");
-				// }
-				// console.log(allDrawers[i].classList);
-				// otherDrawers.classList.remove("open");
-				// console.log(allDrawers[i]);
-			// }
+			// Close any other open drawers
+			var allDrawers = document.getElementsByClassName("drawer");
+			for(var i = 0; i < allDrawers.length; i++){
+				if(allDrawers[i].parentNode.id != drawerId){
+					allDrawers[i].parentNode.classList.remove("open");
+				}
+			}
 			// Toggle this drawer
-			thisDrawer.classList.toggle("open");
-			// console.log(thisDrawer.classList);
+			var thisDrawer = document.querySelector(`#${drawerId} .drawer`);
+			thisDrawer.parentNode.classList.toggle("open");
 		}
     },
 	computed: {
