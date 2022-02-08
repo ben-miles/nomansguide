@@ -242,6 +242,7 @@ a, button {
 /* BODY */
 #body {
 	padding: 12px 0;
+	min-height: calc( 100vh - 90px - 77px );
 }
 @media ( min-width: 768px ) {
 	#body {
@@ -331,15 +332,15 @@ a, button {
 	margin-bottom: 10px;
 }
 .recipe {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 1vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 24px;
-  margin: 0 auto 32px;
-  padding: 24px 24px 12px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 24px;
+	margin: 0 auto 32px;
+	padding: 24px 24px 12px;
 }
 .quantity {
 	display: inline-block;
@@ -466,7 +467,7 @@ a, button {
 /* FOOTER */
 #footer {
 	color: rgba(255, 255, 255, 0.5);
-	padding: 32px;
+	padding: 32px 16px 16px;
 	font-size: 12px;
 	text-align: center;
 }
