@@ -52,6 +52,41 @@ var items = [
 		value: 949
 	},
 	{
+		id: "albumen_pearl",
+		name: "Albumen Pearl",
+		type: "Curiosities",
+		description: "Gemstone formed over the course of centuries within the egg of a super-incubatory species. Extremely rare.",
+		value: 10640
+	},
+	{
+		id: "albumen_pearl_orb",
+		name: "Albumen Pearl Orb",
+		type: "Crafted Products",
+		description: "A medium-sized, farmable Crystal Orb that yields an occasional harvest of valuable Albumen Pearls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
+		value: 3
+	},
+	{
+		id: "anomaly_detector",
+		name: "Anomaly Detector",
+		type: "Curiosities",
+		description: "A single-use geometric beacon that probes the surrounding area for near-space anomalies. Such objects are highly unpredictable. Select the Detector and use Begin Scan to begin the location process.",
+		value: 3280
+	},
+	{
+		id: "antimatter",
+		name: "Antimatter",
+		type: "Crafted Products",
+		description: "Contained negative matter and baryogenesis antiparticles. The vast energy potential of antimatter makes it highly valuable. 95% of existing antimatter consumption is in the powering of starship hyperdrives. WARNING: uncontained usage is not recommended.",
+		value: 5233
+	},
+	{
+		id: "antimatter_housing",
+		name: "Antimatter Housing",
+		type: "Crafted Products",
+		description: "Secure antimatter containment device, required before Antimatter can be safely secured as Warp Cells. Rebound Oxygen forms a protective gas pocket, preventing the antimatter from reacting with the surrounding casing.",
+		value: 6500
+	},
+	{
 		id: "aronium",
 		name: "Aronium",
 		type: "Raw Materials",
@@ -92,11 +127,25 @@ var items = [
 		value: 234
 	},
 	{
+		id: "captured_nanode",
+		name: "Captured Nanode",
+		type: "Curiosities",
+		description: "Atlas Seed containing zonally-shifted quasi-stellar substrate. Warning: do not allow matrix to commune with this dimensional space.",
+		value: 1000
+	},
+	{
 		id: "carbon",
 		name: "Carbon",
 		type: "Raw Materials",
 		description: "The building block of all organic life. Of critical importance to space travelers, as Carbon is used to recharge mining equipment. The Mining Laser will harvest Carbon from trees, plants, and all other forms of vegetation.",
 		value: 12
+	},
+	{
+		id: "carbon_nanotubes",
+		name: "Carbon Nanotubes",
+		type: "Crafted Products",
+		description: "Metres and metres of high capacity carbon nanotubes. Their high tensile strength and mild conductivity make these a key component in many advanced technologies.",
+		value: 500
 	},
 	{
 		id: "chlorine",
@@ -197,19 +246,40 @@ var items = [
 			}
 		]
 	},
-	// {
-	// 	id: "cursed_dust",
-	// 	name: "Cursed Dust",
-	// 	type: "Raw Materials",
-	// 	description: "A powdery desert soil, slick with the gland expressions of a colossal sandworm. Historically, some have regarded this dust the divine parent of such worms. It smells curiously sweet. Cursed Dust gathers in the terrain of planets blighted by titan worm activity.",
-	// 	value: 959
-	// },
+	{
+		id: "crystal_fragment",
+		name: "Crystal Fragment",
+		type: "Curiosities",
+		description: "A crystalline shard with an unusually dense structure. Potentially highly valuable.",
+		value: 3280
+	},
+	{
+		id: "crystal_sulphide",
+		name: "Crystal Sulphide",
+		type: "Curiosities",
+		description: "Formed in the incredible, high-pressure furnace of planetary cores, these rich mineral deposits have an almost glass-like quality. Has a wide variety of industrial uses, taking advantage of both its mineral content and its extreme strength under pressure.",
+		value: 7410
+	},
 	{
 		id: "cyto_phosphate",
 		name: "Cyto-Phosphate",
 		type: "Raw Materials",
 		description: "A blue-green organic compound produced during the metabolic cycle of deep-sea plantlife. Rich in soluble energy, cyto-phosphates are crucial in many submarine technologies. The Mining Laser will harvest cyto-phosphate compounds from underwater flora.",
 		value: 201
+	},
+	{
+		id: "dark_matter",
+		name: "Dark Matter",
+		type: "Curiosities",
+		description: "An Atlas Seed shell encompassing a void element harvested from the collapse state of the last universe. Toxic if ingested.",
+		value: 1000
+	},
+	{
+		id: "dawns_end",
+		name: "Dawn's End",
+		type: "Curiosities",
+		description: "Sculpted tau neutrino-boson matrix fixed within an irreplaceable Atlas Seed shell. May be semi-sentient.",
+		value: 1000
 	},
 	{
 		id: "deuterium",
@@ -224,6 +294,13 @@ var items = [
 		type: "Raw Materials",
 		description: "A stable, crystalline form of hydrogen remarkable both for its extreme energy density and its stability at atmospheric pressures. Common to all worlds, Di-hydrogen is found in the form of large blue crystals. It is a key component of Starship Launch Fuel.",
 		value: 34
+	},
+	{
+		id: "di_hydrogen_jelly",
+		name: "Di-hydrogen Jelly",
+		type: "Crafted Products",
+		description: "A faintly-glowing jelly. Its gentle light and soft wobble belie the fact that this sticky gel is both highly toxic and highly flammable. Skin contact is to be avoided at all costs. Synthesised from Di-hydrogen.",
+		value: 200
 	},
 	{
 		id: "dioxite",
@@ -252,11 +329,39 @@ var items = [
 		]
 	},
 	{
+		id: "divergence_cube",
+		name: "Divergence Cube",
+		type: "Curiosities",
+		description: "A glitching, pulsing data unit. It does not seem to belong in this reality. The cube gives the impression of a silent scream, the frozen cries of hundreds of lost minds trapped within.",
+		value: 3015
+	},
+	{
+		id: "echinocactus",
+		name: "Echinocactus",
+		type: "Crafted Products",
+		description: "Native to barren biomes and capable of withstanding long periods of drought, Echinocactus is an edible succulent that responds well to cultivation, yielding a large but occasional harvest. Suitable for hydroponic indoor planting. Ensure Barren climate before planting outdoors. Approximate growing time: 16 hours",
+		value: 3
+	},
+	{
+		id: "emergency_broadcast_receiver",
+		name: "Emergency Broadcast Receiver",
+		type: "Curiosities",
+		description: "A single-use receiver that scans for distress signals on freighter frequencies. Derelict or abandoned freighters often contain high-value salvage. Select the Receiver and use Tune Signal to begin the location process.",
+		value: 3280
+	},
+	{
 		id: "emeril",
 		name: "Emeril",
 		type: "Raw Materials",
 		description: "A chromatic metal, generated by fusion in the heart of a star. Emeril is found on planets orbiting green stars, and can be placed in a Refiner to create purified Chromatic Metal for use in the manufacture of advanced technologies.",
 		value: 348
+	},
+	{
+		id: "englobed_shade",
+		name: "Englobed Shade",
+		type: "Curiosities",
+		description: "This Atlas Shell holds the remains of a parasitic space-borne lifeform, most likely of extra-dimensional origins.",
+		value: 1000
 	},
 	{
 		id: "enriched_carbon",
@@ -278,6 +383,13 @@ var items = [
 		]
 	},
 	{
+		id: "explosive_drones",
+		name: "Explosive Drones",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This pack of autonomous explosives have been programmed to launch from the fleet and pilot themselves directly towards hostile vessels. Extremely dangerous.",
+		value: 75000
+	},
+	{
 		id: "faecium", 
 		name: "Faecium",
 		type: "Raw Materials",
@@ -292,18 +404,60 @@ var items = [
 		value: 14
 	},
 	{
+		id: "frigate_fuel_50_tonnes",
+		name: "Frigate Fuel (50 Tonnes)",
+		type: "Crafted Products",
+		description: "A small barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 20000
+	},
+	{
+		id: "frigate_fuel_100_tonnes",
+		name: "Frigate Fuel (100 Tonnes)",
+		type: "Crafted Products",
+		description: "A large barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 40000
+	},
+	{
+		id: "frigate_fuel_200_tonnes",
+		name: "Frigate Fuel (200 Tonnes)",
+		type: "Crafted Products",
+		description: "A huge barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		value: 80000
+	},
+	{
 		id: "frost_crystal",
 		name: "Frost Crystal",
 		type: "Raw Materials",
 		description: "A beautiful blue crystal, this organic compound possesses both great hardiness and a shimmering translucence. It is harvested from the leaves of Frostwort. Frostwort requires frozen conditions to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
 		value: 12
+	},
+	{
+		id: "frostwort",
+		name: "Frostwort",
+		type: "Crafted Products",
+		description: "A large crystal flower with radiant blue blooms, found only in snowy biomes. Frostwort can be farmed and makes a reliable crop, and its adaptation to harsh conditions results in highly frequent harvests. Suitable for hydroponic indoor planting. Ensure Frozen climate before planting outdoors. Approximate growing time: 1 hour",
+		value: 3
 	},	
+	{
+		id: "fungal_cluster",
+		name: "Fungal Cluster",
+		type: "Crafted Products",
+		description: "A spherical fungus with internal gills, found only in toxic biomes. Fungal Clusters can be transplanted for cultivation, yielding a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Toxic climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 3
+	},
 	{
 		id: "fungal_mould",
 		name: "Fungal Mould",
 		type: "Raw Materials",
 		description: "An oddly-glowing substance, harvested from the gills of Fungal Clusters. The host plant requires a toxic climate to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
 		value: 16
+	},
+	{
+		id: "fuel_oxidiser",
+		name: "Fuel Oxidiser",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This powerful fuel upgrade overloads frigate engines, allowing for faster-than-usual travel.",
+		value: 75000
 	},
 	{
 		id: "fusion_accelerant",
@@ -356,6 +510,34 @@ var items = [
 		value: 16
 	},
 	{
+		id: "gamma_weed",
+		name: "Gamma Weed",
+		type: "Crafted Products",
+		description: "A luminous, leafy flowering plant that thrives in radioactive biomes and can be cultivated to yield a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Radioactive climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 16
+	},
+	{
+		id: "gek_relic",
+		name: "Gek Relic",
+		type: "Curiosities",
+		description: "A metal statuette of a creature with a coin placed in its beak. Popular with many traders who see it as an emblem of fair commerce and peace.",
+		value: 23375
+	},
+	{
+		id: "geknip",
+		name: "GekNip",
+		type: "Curiosities",
+		description: "Edible product much beloved by the Gek. Allows beaked traders to release delightfully scented packets of gas for a prolonged period of time. GekNip gas packets are considered an art form, and the truest representation of the Gek soul.",
+		value: 20625
+	},
+	{
+		id: "geode",
+		name: "Geode",
+		type: "Curiosities",
+		description: "An unusually vibrant and potentially valuable lump of rock.",
+		value: 3280
+	},
+	{
 		id: "geodesite",
 		name: "Geodesite",
 		type: "Crafted Products",
@@ -394,11 +576,25 @@ var items = [
 		]
 	},
 	{
+		id: "glowing_mineral",
+		name: "Glowing Mineral",
+		type: "Curiosities",
+		description: "Though its surface is dirtied and dull, polishing this rock reveals a deep inner glow, a glitter beneath a subtly iridescent surface.",
+		value: 3280
+	},
+	{
 		id: "gold", 
 		name: "Gold",
 		type: "Raw Materials",
 		description: "Highly valuable interstellar trading mineral, typically mined from asteroids. Occasionally found in underground planetary deposits. Universally prized for its beauty and versatility.",
 		value: 353
+	},
+	{
+		id: "gold_nugget",
+		name: "Gold Nugget",
+		type: "Curiosities",
+		description: "A highly valuable ore chunk, ready to be processed into Gold.",
+		value: 3280
 	},
 	{
 		id: "grantine",
@@ -420,6 +616,41 @@ var items = [
 		]
 	},
 	{
+		id: "gravitino_ball",
+		name: "Gravitino Ball",
+		type: "Curiosities",
+		description: "A supersymmetric particle cluster created by divergent super-gravitational forces. A micro-rift is created as they form, and extraction of the orb prompts a localised reality weakening. Sentinel forces will respond to stablise any such anomaly. Can be sold at a Galactic Trade Terminal.",
+		value: 40024
+	},
+	{
+		id: "gravitino_host",
+		name: "Gravitino Host",
+		type: "Crafted Products",
+		description: "A strange, potentially parasitic plant that yields an occasional harvest of the highly tradable commodity, Gravitino Balls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
+		value: 3
+	},
+	{
+		id: "gutrot_flower",
+		name: "Gutrot Flower",
+		type: "Crafted Products",
+		description: "A foul-smelling, farmable flower that replicates the chemical structure of faecal matter. When planted inside, yields a harvest of Faecium. A good alternative to collecting Faecium by hand, which requires feeding creatures and then harvesting their droppings. Gutrot Flowers must be grown in a Hydroponics Tray. Approximate growing time: 4 hours",
+		value: 3
+	},
+	{
+		id: "hadal_core",
+		name: "Hadal Core",
+		type: "Curiosities",
+		description: "A highly-pressurised fleshy orb. One can feel it push back when touched, a flash of bioluminescence stirring in the inky black core of this mysterious object.",
+		value: 92625
+	},
+	{
+		id: "heart_of_the_sun",
+		name: "Heart of the Sun",
+		type: "Curiosities",
+		description: "An Atlas Seed containing a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
+		value: 1000
+	},
+	{
 		id: "heat_capacitor",
 		name: "Heat Capacitor",
 		type: "Crafted Products",
@@ -437,6 +668,13 @@ var items = [
 				quantity: 200
 			}
 		]
+	},
+	{
+		id: "hermetic_seal",
+		name: "Hermetic Seal",
+		type: "Crafted Products",
+		description: "A high-performance carbon seal, able to withstand both the harsh interstellar environment and the rigours of intensive, high-energy industrial use. User is advised to regularly check seal integrity after installation.",
+		value: 800
 	},
 	{
 		id: "herox",
@@ -458,6 +696,20 @@ var items = [
 		]
 	},
 	{
+		id: "hex_core",
+		name: "Hex Core",
+		type: "Curiosities",
+		description: "This strange energy orb constantly vibrates, emitting a low-frequency drone. Slight variations in the pattern repeat over and over, almost as if it is attempting to relay a message.",
+		value: 16
+	},
+	{
+		id: "holographic_analyser",
+		name: "Holographic Analyser",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. This powerful analytic computer overclocks the existing fleet systems, allowing for faster-than-light calculations. Heat is a problem, and the chips do not last long.",
+		value: 75000
+	},
+	{
 		id: "hot_ice",
 		name: "Hot Ice",
 		type: "Crafted Products",
@@ -477,11 +729,39 @@ var items = [
 		]
 	},
 	{
+		id: "hydraulic_wiring",
+		name: "Hydraulic Wiring",
+		type: "Crafted Products",
+		description: "Specialist wiring and control threads, this flexible material allows the transmission of power and signals, as well as offering direct manipulation of remote components. Used in the creation of a wide range of advanced technologies.",
+		value: 3600
+	},
+	{
+		id: "hydrothermal_fuel_cell",
+		name: "Hydrothermal Fuel Cell",
+		type: "Crafted Products",
+		description: "A high thermal energy fuel, contained within a standardised fuel cell. Used to fuel the Humboldt Drive that powers the Nautilon submarine. Created with a mix of organic compounds (Carbon and cyto-phosphates) and localised mineral salts.",
+		value: 7200
+	},
+	{
+		id: "hypnotic_eye",
+		name: "Hypnotic Eye",
+		type: "Curiosities",
+		description: "The eye is cold, almost frozen, to the touch. Nonetheless, it is impossible to escape the feeling it is somehow still alive. Extended exposure is not recommended. Do not stare back into the eye. Do not stare back. Do not stare back.",
+		value: 57000
+	},
+	{
 		id: "indium",
 		name: "Indium",
 		type: "Raw Materials",
 		description: "A chromatic metal, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets. Indium is found on planets orbiting blue stars, and can be placed in a Refiner to create purified Chromatic Metal for use in the manufacture of advanced technologies.",
 		value: 464
+	},
+	{
+		id: "ion_battery",
+		name: "Ion Battery",
+		type: "Crafted Products",
+		description: "Convenient and optimised power storage unit. Used in a wide variety of defensive and hazard protection systems. Constructed by fusing Ferrite Dust with underground Cobalt. Frequently found ready-made in cylindrical metal containers.",
+		value: 200
 	},
 	{
 		id: "ionised_cobalt",
@@ -530,6 +810,27 @@ var items = [
 		value: 41
 	},
 	{
+		id: "korvax_casing",
+		name: "Korvax Casing",
+		type: "Curiosities",
+		description: "The metallic shell of a disconnected electronic lifeform that was too distant from its own kind to be refreshed with a new entity. Highly prized by all species, not least its own.",
+		value: 22000
+	},
+	{
+		id: "korvax_cube",
+		name: "Korvax Cube",
+		type: "Curiosities",
+		description: "Device used by the Korvax for the storage of historical and cultural information.",
+		value: 13063
+	},
+	{
+		id: "larval_core",
+		name: "Larval Core",
+		type: "Curiosities",
+		description: "A pulsating jellied orb, this gooey sphere is warm to the touch. Its stench triggers a primal fear in mortal beings, a deep-seated gnawing that begs you to drop it and flee.",
+		value: 69875
+	},
+	{
 		id: "lemmium",
 		name: "Lemmium",
 		type: "Crafted Products",
@@ -547,6 +848,13 @@ var items = [
 				quantity: 100
 			}
 		]
+	},
+	{
+		id: "life_support_gel",
+		name: "Life Support Gel",
+		type: "Crafted Products",
+		description: "Emergency life support fuel. Synthesised from rocket fuel crystals and carbon, this gel offers a temporary boost to Life Support systems. Long-term impact on a user's lungs is currently unknown.",
+		value: 200
 	},
 	{
 		id: "living_glass",
@@ -567,6 +875,13 @@ var items = [
 			}
 		]
 	},
+	{
+		id: "living_pearl",
+		name: "Living Pearl",
+		type: "Curiosities",
+		description: "Born in the hearts of enormous glowing molluscs found deep underwater. Unlike most pearls, this sample is no unliving calcite. Some trace of the mother-clam's consciousness remains within the gem, giving it a lingering, haunting beauty.",
+		value: 4797.5
+	},	
 	{
 		id: "living_slime",
 		name: "Living Slime",
@@ -613,6 +928,13 @@ var items = [
 		]
 	},
 	{
+		id: "magnetic_resonator",
+		name: "Magnetic Resonator",
+		type: "Crafted Products",
+		description: "An electromagnetic frequency oscillator, able to function in a wide-range of conditions thanks to both ferrous and non-ferrous magnetic properties. Used in the creation of a wide range of advanced technologies.",
+		value: 6150
+	},
+	{
 		id: "magnetised_ferrite",
 		name: "Magnetised Ferrite",
 		type: "Raw Materials",
@@ -646,11 +968,74 @@ var items = [
 		value: 41
 	},
 	{
+		id: "metal_plating",
+		name: "Metal Plating",
+		type: "Crafted Products",
+		description: "A lightweight metal product, heavily used in the manufacture of starship parts and deployable technology. A mainstay of the construction industries of all known primary species.	Crafted from Ferrite Dust.",
+		value: 800
+	},
+	{
+		id: "microprocessor",
+		name: "Microprocessor",
+		type: "Crafted Products",
+		description: "A compact, low-heat microchip. Assembled from processed Chromatic Metal, created from one of several specialised terrain metals. Used in the creation of a wide range of advanced technologies.",
+		value: 2000
+	},
+	{
+		id: "mind_arc",
+		name: "Mind Arc",
+		type: "Curiosities",
+		description: "A strange piece of technology, a gift from beyond the stars. It shimmers in a way that suggests it is not fully in this world.",
+		value: 1000
+	},
+	{
+		id: "mind_control_device",
+		name: "Mind Control Device",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. The mind control device plugs into the ship's trading and communications systems, allowing the Fleet Commander to gain the upper hand in any negotiation.",
+		value: 75000
+	},
+	{
+		id: "mineral_compressor",
+		name: "Mineral Compressor",
+		type: "Crafted Products",
+		description: "A temporary frigate upgrade that lasts for one expedition. The mineral compressor allows fleet mining crews to liquidise the substances they extract, for both faster processing and easier transportation.",
+		value: 75000
+	},
+	{
+		id: "modified_quanta",
+		name: "Modified Quanta",
+		type: "Curiosities",
+		description: "This one-of-a-kind Atlas Seed holds an aesthetically pleasing mathematical construct salvaged from the simulation of an alternate reality.",
+		value: 1000
+	},
+	{
 		id: "mordite",
 		name: "Mordite",
 		type: "Raw Materials",
 		description: "Despite much study, little is known about this haunting, crystalline compound. It is released from the cadavers of dying creatures, but can also be specifically cultivated and harvested from the Mordite Root plant.",
 		value: 40
+	},
+	{
+		id: "mordite_root",
+		name: "Mordite Root",
+		type: "Crafted Products",
+		description: "An inedible tuber that produces a small yield of Mordite crystals. A peaceful alternative to the process of harvesting Mordite from the corpses of creatures. Mordite Root must be grown in a Hydroponics Tray. Approximate growing time: 8 hours",
+		value: 3
+	},
+	{
+		id: "nipnip",
+		name: "NipNip",
+		type: "Crafted Products",
+		description: "This medicinal herb is known for its pungent buds, which are harvested to produce Gek Nip. NipNip thrives in dank environments, and often grows as a weed. Suitable for hydroponic planting indoors. Needs a tropical or humid climate before planting outdoors.",
+		value: 3
+	},
+	{
+		id: "nipnip_buds",
+		name: "NipNip Buds",
+		type: "Curiosities",
+		description: "A pungent bud harvested from the NipNip plant, often used to produce GekNip.",
+		value: 17776
 	},
 	{
 		id: "nitrogen", 
@@ -677,6 +1062,20 @@ var items = [
 				quantity: 50
 			}
 		]
+	},
+	{
+		id: "noospheric_orb",
+		name: "Noospheric Orb",
+		type: "Curiosities",
+		description: "An Atlas Seed capable of resonating on humanoid telepathic frequencies; may attempt to subsume any subordinate intellect in close proximity.",
+		value: 1000
+	},
+	{
+		id: "novae_reclaiment",
+		name: "Novae Reclaiment",
+		type: "Curiosities",
+		description: "Atlas Seed contains neutronium elements from a catastrophic supernova event that obliterated a sentient civilization in an earlier era.",
+		value: 1000
 	},
 	{
 		id: "organic_catalyst",
@@ -717,6 +1116,13 @@ var items = [
 		type: "Raw Materials",
 		description: "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a scorched environment.",
 		value: 62
+	},
+	{
+		id: "photic_jade",
+		name: "Photic Jade",
+		type: "Curiosities",
+		description: "This irreplaceable Atlas Seed is a form of matter-adapted photons coalesced into physical solidity by unknown means.",
+		value: 1000
 	},
 	{
 		id: "platinum",
@@ -764,6 +1170,13 @@ var items = [
 		]
 	},
 	{
+		id: "projectile_ammunition",
+		name: "Projectile Ammunition",
+		type: "Crafted Products",
+		description: "Advanced munition fragments, constructed to fit Universal Multi-Tool Standard 07/FF1. Easily inserted into the Boltcaster, Pulse Spitter and Scatter Blaster via the Multi-Tool clip reloading system.",
+		value: 1
+	},
+	{
 		id: "pugneum",
 		name: "Pugneum",
 		type: "Raw Materials",
@@ -783,6 +1196,20 @@ var items = [
 		type: "Raw Materials",
 		description: "Local mineral extract, typically found in large deposits or extracted from common materials after inspection with an Analysis Visor. Typically found on planets with a desert environment.",
 		value: 62
+	},
+	{
+		id: "quad_servo",
+		name: "Quad Servo",
+		type: "Curiosities",
+		description: "A highly sprung motor arm salvaged from inside of a Sentinel patrol unit. It occasionally twitches, as if experiencing the echo of combat.",
+		value: 20000
+	},
+	{
+		id: "quantum_computer",
+		name: "Quantum Computer",
+		type: "Crafted Products",
+		description: "An extremely fast advanced processing unit. Allows real-time solving of otherwise impossible calculations. However, protection against decoherence is not guaranteed. Used in the creation of a wide range of advanced technologies.",
+		value: 4200
 	},
 	{
 		id: "quantum_processor",
@@ -830,6 +1257,13 @@ var items = [
 		type: "Raw Materials",
 		description: "Handfulls of corroded metal, distorted by years of exposure to the harsh environment. Handle with care.",
 		value: 20
+	},
+	{
+		id: "sac_venom",
+		name: "Sac Venom",
+		type: "Curiosities",
+		description: "Stabilized poison sample initially produced by aquatic urchin creatures. A rare and expensive item on the Galactic Trade Network.",
+		value: 608000
 	},
 	{
 		id: "salt",
@@ -893,18 +1327,32 @@ var items = [
 		value: 70
 	},
 	{
+		id: "solar_mirror",
+		name: "Solar Mirror",
+		type: "Crafted Products",
+		description: "A specialist optical component. Employing an impossibly polished surface, this mirror is able to selectively filter different wavelengths of light, changing its reflective pattern based on nearby magnetic fields. Used in the creation of a wide range of advanced technologies.",
+		value: 6150
+	},
+	{
+		id: "solar_vine",
+		name: "Solar Vine",
+		type: "Crafted Products",
+		description: "This 'living rock' is adapted to live in the extreme heat of scorched biomes. However, it can be farmed in most environments and, once established, yields a moderate harvest. Suitable for hydroponic indoor planting. Ensure Hot climate before planting outdoors. Approximate growing time: 16 hours",
+		value: 3
+	},
+	{
+		id: "star_bramble",
+		name: "Star Bramble",
+		type: "Crafted Products",
+		description: "A medium-sized, farmable plant that yields an occasional harvest of valuable Star Bulbs. Suitable for hydroponic indoor planting. Ensure Lush climate before planting outdoors. Approximate growing time: 4 hours",
+		value: 3
+	},
+	{
 		id: "star_bulb",
 		name: "Star Bulb",
 		type: "Raw Materials",
 		description: "A beautiful gemstone, this prized product is the engorged, luminescent berry of the Star Bramble. The host plant requires lush conditions to thrive in the wild but can be farmed in all environments with the aid of a Hydroponic Tray.",
 		value: 32
-	},
-	{
-		id: "sulphurine", 
-		name: "Sulphurine",
-		type: "Raw Materials",
-		description: "A pungent atmospheric gas. High concentrations are extremely hazardous to organic life. With the aid of specialised machinery, can be extracted from the atmospheres of Scorched and Desert planets.",
-		value: 20
 	},
 	{
 		id: "stasis_device",
@@ -929,6 +1377,20 @@ var items = [
 				quantity: 1 
 			}
 		]
+	},
+	{
+		id: "state_phasure",
+		name: "State Phasure",
+		type: "Curiosities",
+		description: "For unknown reasons, this unique Atlas Seed has been phased out of alignment with this quantum reality. Contents cannot be determined.",
+		value: 1000
+	},
+	{
+		id: "sulphurine", 
+		name: "Sulphurine",
+		type: "Raw Materials",
+		description: "A pungent atmospheric gas. High concentrations are extremely hazardous to organic life. With the aid of specialised machinery, can be extracted from the atmospheres of Scorched and Desert planets.",
+		value: 20
 	},
 	{
 		id: "superconductor",
@@ -997,11 +1459,25 @@ var items = [
 		]
 	},
 	{
+		id: "unstable_plasma",
+		name: "Unstable Plasma",
+		type: "Crafted Products",
+		description: "Densely-packed fuel capsule for use in the Plasma Launcher. Contained highly-pressurised electro-thermal energy for use in land disruption grenade technology.",
+		value: 5750
+	},
+	{
 		id: "uranium",
 		name: "Uranium",
 		type: "Raw Materials",
 		description: "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a radioactive environment.",
 		value: 62
+	},
+	{
+		id: "venom_urchin",
+		name: "Venom Urchin",
+		type: "Crafted Products",
+		description: "A small, innocuous looking plant whose leaves periodically secrete a small amount of potent Sac Venom, a valuable trading commodity. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 3 hours 20 mins",
+		value: 3
 	},
 	{
 		id: "viscous_fluids",
@@ -1011,81 +1487,46 @@ var items = [
 		value: 20
 	},
 	{
-		id: "mind_control_device",
-		name: "Mind Control Device",
-		type: "Crafted Products",
-		description: "A temporary frigate upgrade that lasts for one expedition. The mind control device plugs into the ship's trading and communications systems, allowing the Fleet Commander to gain the upper hand in any negotiation.",
-		value: 75000
+		id: "void_egg",
+		name: "Void Egg",
+		type: "Curiosities",
+		description: "An anomalous egg. The shell is tough and leathery, and twitches when touched. A faint tapping can be heard within. From time to time, it appears to sing.",
+		value: 3200
 	},
 	{
-		id: "holographic_analyser",
-		name: "Holographic Analyser",
-		type: "Crafted Products",
-		description: "A temporary frigate upgrade that lasts for one expedition. This powerful analytic computer overclocks the existing fleet systems, allowing for faster-than-light calculations. Heat is a problem, and the chips do not last long.",
-		value: 75000
+		id: "vortex_cube",
+		name: "Vortex Cube",
+		type: "Curiosities",
+		description: "An ancient object, unearthed from the depths of a planetary cave system. Its surface is cold to the touch, and is curiously polished despite its age. A fusion of metal and rock, these cubes have proved resistant to industrial processing. As such, they are of value only to collectors. Can be sold at a Galactic Trade Terminal.",
+		value: 5800
 	},
 	{
-		id: "mineral_compressor",
-		name: "Mineral Compressor",
-		type: "Crafted Products",
-		description: "A temporary frigate upgrade that lasts for one expedition. The mineral compressor allows fleet mining crews to liquidise the substances they extract, for both faster processing and easier transportation.",
-		value: 75000
+		id: "vykeen_dagger",
+		name: "Vy'keen Dagger",
+		type: "Curiosities",
+		description: "Largely ceremonial weapon. A vital part of Vy'keen tradition and culture.",
+		value: 11688
 	},
 	{
-		id: "explosive_drones",
-		name: "Explosive Drones",
-		type: "Crafted Products",
-		description: "A temporary frigate upgrade that lasts for one expedition. This pack of autonomous explosives have been programmed to launch from the fleet and pilot themselves directly towards hostile vessels. Extremely dangerous.",
-		value: 75000
+		id: "vykeen_effigy",
+		name: "Vy'keen Effigy",
+		type: "Curiosities",
+		description: "A small wooden icon carved into the shape of a Sentinel drone. Used by warriors to enter a temporary trance-like state that eliminates their kind's need for sleep.",
+		value: 24750
 	},
 	{
-		id: "fuel_oxidiser",
-		name: "Fuel Oxidiser",
-		type: "Crafted Products",
-		description: "A temporary frigate upgrade that lasts for one expedition. This powerful fuel upgrade overloads frigate engines, allowing for faster-than-usual travel.",
-		value: 75000
+		id: "vykeen_tablet",
+		name: "Vy'keen Tablet",
+		type: "Curiosities",
+		description: "A stone tablet bearing line after line of intricate runes. The words are unintelligible, an ancient dialect forgotten by all but the oldest of the Vy'keen elders. The hand that carved this stone must have been extraordinary. The stonework is precise, delicate - and yet perfectly conveys the unyielding aggression its writer clearly possessed.",
+		value: 1250
 	},
 	{
-		id: "metal_plating",
-		name: "Metal Plating",
-		type: "Crafted Products",
-		description: "A lightweight metal product, heavily used in the manufacture of starship parts and deployable technology. A mainstay of the construction industries of all known primary species.	Crafted from Ferrite Dust.",
-		value: 800
-	},
-	{
-		id: "carbon_nanotubes",
-		name: "Carbon Nanotubes",
-		type: "Crafted Products",
-		description: "Metres and metres of high capacity carbon nanotubes. Their high tensile strength and mild conductivity make these a key component in many advanced technologies.",
-		value: 500
-	},
-	{
-		id: "hermetic_seal",
-		name: "Hermetic Seal",
-		type: "Crafted Products",
-		description: "A high-performance carbon seal, able to withstand both the harsh interstellar environment and the rigours of intensive, high-energy industrial use. User is advised to regularly check seal integrity after installation.",
-		value: 800
-	},
-	{
-		id: "microprocessor",
-		name: "Microprocessor",
-		type: "Crafted Products",
-		description: "A compact, low-heat microchip. Assembled from processed Chromatic Metal, created from one of several specialised terrain metals. Used in the creation of a wide range of advanced technologies.",
-		value: 2000
-	},
-	{
-		id: "antimatter_housing",
-		name: "Antimatter Housing",
-		type: "Crafted Products",
-		description: "Secure antimatter containment device, required before Antimatter can be safely secured as Warp Cells. Rebound Oxygen forms a protective gas pocket, preventing the antimatter from reacting with the surrounding casing.",
-		value: 6500
-	},
-	{
-		id: "antimatter",
-		name: "Antimatter",
-		type: "Crafted Products",
-		description: "Contained negative matter and baryogenesis antiparticles. The vast energy potential of antimatter makes it highly valuable. 95% of existing antimatter consumption is in the powering of starship hyperdrives. WARNING: uncontained usage is not recommended.",
-		value: 5233
+		id: "walker_brain",
+		name: "Walker Brain",
+		type: "Curiosities",
+		description: "Shifting nanite clusters sewn together with a pugneum filament, this circuit is painfully hot to the touch. A sinister purple light leaks from deep within its wiring, changing in intensity as it watches its holder.",
+		value: 35000
 	},
 	{
 		id: "warp_cell",
@@ -1102,507 +1543,19 @@ var items = [
 		value: 46750
 	},
 	{
-		id: "fungal_cluster",
-		name: "Fungal Cluster",
-		type: "Crafted Products",
-		description: "A spherical fungus with internal gills, found only in toxic biomes. Fungal Clusters can be transplanted for cultivation, yielding a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Toxic climate before planting outdoors. Approximate growing time: 4 hours",
-		value: 3
-	},
-	{
-		id: "frostwort",
-		name: "Frostwort",
-		type: "Crafted Products",
-		description: "A large crystal flower with radiant blue blooms, found only in snowy biomes. Frostwort can be farmed and makes a reliable crop, and its adaptation to harsh conditions results in highly frequent harvests. Suitable for hydroponic indoor planting. Ensure Frozen climate before planting outdoors. Approximate growing time: 1 hour",
-		value: 3
-	},
-	{
-		id: "gamma_weed",
-		name: "Gamma Weed",
-		type: "Crafted Products",
-		description: "A luminous, leafy flowering plant that thrives in radioactive biomes and can be cultivated to yield a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Radioactive climate before planting outdoors. Approximate growing time: 4 hours",
-		value: 16
-	},
-	{
-		id: "echinocactus",
-		name: "Echinocactus",
-		type: "Crafted Products",
-		description: "Native to barren biomes and capable of withstanding long periods of drought, Echinocactus is an edible succulent that responds well to cultivation, yielding a large but occasional harvest. Suitable for hydroponic indoor planting. Ensure Barren climate before planting outdoors. Approximate growing time: 16 hours",
-		value: 3
-	},
-	{
-		id: "star_bramble",
-		name: "Star Bramble",
-		type: "Crafted Products",
-		description: "A medium-sized, farmable plant that yields an occasional harvest of valuable Star Bulbs. Suitable for hydroponic indoor planting. Ensure Lush climate before planting outdoors. Approximate growing time: 4 hours",
-		value: 3
-	},
-	{
-		id: "solar_vine",
-		name: "Solar Vine",
-		type: "Crafted Products",
-		description: "This 'living rock' is adapted to live in the extreme heat of scorched biomes. However, it can be farmed in most environments and, once established, yields a moderate harvest. Suitable for hydroponic indoor planting. Ensure Hot climate before planting outdoors. Approximate growing time: 16 hours",
-		value: 3
-	},
-	{
-		id: "mordite_root",
-		name: "Mordite Root",
-		type: "Crafted Products",
-		description: "An inedible tuber that produces a small yield of Mordite crystals. A peaceful alternative to the process of harvesting Mordite from the corpses of creatures. Mordite Root must be grown in a Hydroponics Tray. Approximate growing time: 8 hours",
-		value: 3
-	},
-	{
-		id: "gutrot_flower",
-		name: "Gutrot Flower",
-		type: "Crafted Products",
-		description: "A foul-smelling, farmable flower that replicates the chemical structure of faecal matter. When planted inside, yields a harvest of Faecium. A good alternative to collecting Faecium by hand, which requires feeding creatures and then harvesting their droppings. Gutrot Flowers must be grown in a Hydroponics Tray. Approximate growing time: 4 hours",
-		value: 3
-	},
-	{
-		id: "gravitino_host",
-		name: "Gravitino Host",
-		type: "Crafted Products",
-		description: "A strange, potentially parasitic plant that yields an occasional harvest of the highly tradable commodity, Gravitino Balls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
-		value: 3
-	},
-	{
-		id: "venom_urchin",
-		name: "Venom Urchin",
-		type: "Crafted Products",
-		description: "A small, innocuous looking plant whose leaves periodically secrete a small amount of potent Sac Venom, a valuable trading commodity. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 3 hours 20 mins",
-		value: 3
-	},
-	{
-		id: "albumen_pearl_orb",
-		name: "Albumen Pearl Orb",
-		type: "Crafted Products",
-		description: "A medium-sized, farmable Crystal Orb that yields an occasional harvest of valuable Albumen Pearls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
-		value: 3
-	},
-	{
-		id: "nipnip",
-		name: "NipNip",
-		type: "Crafted Products",
-		description: "This medicinal herb is known for its pungent buds, which are harvested to produce Gek Nip. NipNip thrives in dank environments, and often grows as a weed. Suitable for hydroponic planting indoors. Needs a tropical or humid climate before planting outdoors.",
-		value: 3
-	},
-	{
-		id: "amino_chamber",
-		name: "Amino Chamber",
-		type: "Crafted Products",
-		description: "A specialist biological catalyzation device. This unit takes advantage of naturally occurring enzymes in order to facilitate increased energy yields and faster processing in a wide range of advanced technologies.",
-		value: 12300
-	},
-	{
-		id: "hydraulic_wiring",
-		name: "Hydraulic Wiring",
-		type: "Crafted Products",
-		description: "Specialist wiring and control threads, this flexible material allows the transmission of power and signals, as well as offering direct manipulation of remote components. Used in the creation of a wide range of advanced technologies.",
-		value: 3600
-	},
-	{
-		id: "magnetic_resonator",
-		name: "Magnetic Resonator",
-		type: "Crafted Products",
-		description: "An electromagnetic frequency oscillator, able to function in a wide-range of conditions thanks to both ferrous and non-ferrous magnetic properties. Used in the creation of a wide range of advanced technologies.",
-		value: 6150
-	},
-	{
-		id: "quantum_computer",
-		name: "Quantum Computer",
-		type: "Crafted Products",
-		description: "An extremely fast advanced processing unit. Allows real-time solving of otherwise impossible calculations. However, protection against decoherence is not guaranteed. Used in the creation of a wide range of advanced technologies.",
-		value: 4200
-	},
-	{
-		id: "solar_mirror",
-		name: "Solar Mirror",
-		type: "Crafted Products",
-		description: "A specialist optical component. Employing an impossibly polished surface, this mirror is able to selectively filter different wavelengths of light, changing its reflective pattern based on nearby magnetic fields. Used in the creation of a wide range of advanced technologies.",
-		value: 6150
-	},
-	{
-		id: "di_hydrogen_jelly",
-		name: "Di-hydrogen Jelly",
-		type: "Crafted Products",
-		description: "A faintly-glowing jelly. Its gentle light and soft wobble belie the fact that this sticky gel is both highly toxic and highly flammable. Skin contact is to be avoided at all costs. Synthesised from Di-hydrogen.",
-		value: 200
-	},
-	{
-		id: "projectile_ammunition",
-		name: "Projectile Ammunition",
-		type: "Crafted Products",
-		description: "Advanced munition fragments, constructed to fit Universal Multi-Tool Standard 07/FF1. Easily inserted into the Boltcaster, Pulse Spitter and Scatter Blaster via the Multi-Tool clip reloading system.",
-		value: 1
-	},
-	{
-		id: "unstable_plasma",
-		name: "Unstable Plasma",
-		type: "Crafted Products",
-		description: "Densely-packed fuel capsule for use in the Plasma Launcher. Contained highly-pressurised electro-thermal energy for use in land disruption grenade technology.",
-		value: 5750
-	},
-	{
-		id: "ion_battery",
-		name: "Ion Battery",
-		type: "Crafted Products",
-		description: "Convenient and optimised power storage unit. Used in a wide variety of defensive and hazard protection systems. Constructed by fusing Ferrite Dust with underground Cobalt. Frequently found ready-made in cylindrical metal containers.",
-		value: 200
-	},
-	{
-		id: "starshield_battery",
-		name: "Starshield Battery",
-		type: "Crafted Products",
-		description: "A power storage unit optimised for use in starship defensive systems. Tritium-fuelled capacitors provide quick-release charge for the Deflector Shield, but would overload smaller-scale equipment.",
-		value: 500
-	},
-	{
-		id: "life_support_gel",
-		name: "Life Support Gel",
-		type: "Crafted Products",
-		description: "Emergency life support fuel. Synthesised from rocket fuel crystals and carbon, this gel offers a temporary boost to Life Support systems. Long-term impact on a user's lungs is currently unknown.",
-		value: 200
-	},
-	{
-		id: "starship_launch_fuel",
-		name: "Starship Launch Fuel",
-		type: "Crafted Products",
-		description: "Highly reactive solid-state fuel, required to fuel Starship Launch Thrusters. Created from crystallized Di-hydrogen, found in blue deposits on all worlds.",
-		value: 450
-	},
-	{
-		id: "frigate_fuel_50_tonnes",
-		name: "Frigate Fuel (50 Tonnes)",
-		type: "Crafted Products",
-		description: "A small barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
-		value: 20000
-	},
-	{
-		id: "frigate_fuel_100_tonnes",
-		name: "Frigate Fuel (100 Tonnes)",
-		type: "Crafted Products",
-		description: "A large barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
-		value: 40000
-	},
-	{
-		id: "frigate_fuel_200_tonnes",
-		name: "Frigate Fuel (200 Tonnes)",
-		type: "Crafted Products",
-		description: "A huge barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
-		value: 80000
-	},
-	{
 		id: "wiring_loom",
 		name: "Wiring Loom",
 		type: "Crafted Products",
 		description: "A prefabricated circuit board, designed for flexible use in a large range of technology components. The module features an integrated nanite processor, allowing it to be quickly configured for a wide variety of uses.",
 		value: 25000
-	},
-	{
-		id: "hydrothermal_fuel_cell",
-		name: "Hydrothermal Fuel Cell",
-		type: "Crafted Products",
-		description: "A high thermal energy fuel, contained within a standardised fuel cell. Used to fuel the Humboldt Drive that powers the Nautilon submarine. Created with a mix of organic compounds (Carbon and cyto-phosphates) and localised mineral salts.",
-		value: 7200
-	},
-	{
-		id: "quad_servo",
-		name: "Quad Servo",
-		type: "Curiosities",
-		description: "A highly sprung motor arm salvaged from inside of a Sentinel patrol unit. It occasionally twitches, as if experiencing the echo of combat.",
-		value: 20000
-	},
-	{
-		id: "walker_brain",
-		name: "Walker Brain",
-		type: "Curiosities",
-		description: "Shifting nanite clusters sewn together with a pugneum filament, this circuit is painfully hot to the touch. A sinister purple light leaks from deep within its wiring, changing in intensity as it watches its holder.",
-		value: 35000
-	},
-	{
-		id: "geode",
-		name: "Geode",
-		type: "Curiosities",
-		description: "An unusually vibrant and potentially valuable lump of rock.",
-		value: 3280
-	},
-	{
-		id: "crystal_fragment",
-		name: "Crystal Fragment",
-		type: "Curiosities",
-		description: "A crystalline shard with an unusually dense structure. Potentially highly valuable.",
-		value: 3280
-	},
-	{
-		id: "tritium_hypercluster",
-		name: "Tritium Hypercluster",
-		type: "Curiosities",
-		description: "A shard of pure crystalised Tritium.",
-		value: 3280
-	},
-	{
-		id: "gold_nugget",
-		name: "Gold Nugget",
-		type: "Curiosities",
-		description: "A highly valuable ore chunk, ready to be processed into Gold.",
-		value: 3280
-	},
-	{
-		id: "glowing_mineral",
-		name: "Glowing Mineral",
-		type: "Curiosities",
-		description: "Though its surface is dirtied and dull, polishing this rock reveals a deep inner glow, a glitter beneath a subtly iridescent surface.",
-		value: 3280
-	},
-	{
-		id: "anomaly_detector",
-		name: "Anomaly Detector",
-		type: "Curiosities",
-		description: "A single-use geometric beacon that probes the surrounding area for near-space anomalies. Such objects are highly unpredictable. Select the Detector and use Begin Scan to begin the location process.",
-		value: 3280
-	},
-	{
-		id: "emergency_broadcast_receiver",
-		name: "Emergency Broadcast Receiver",
-		type: "Curiosities",
-		description: "A single-use receiver that scans for distress signals on freighter frequencies. Derelict or abandoned freighters often contain high-value salvage. Select the Receiver and use Tune Signal to begin the location process.",
-		value: 3280
-	},
-	{
-		id: "sac_venom",
-		name: "Sac Venom",
-		type: "Curiosities",
-		description: "Stabilized poison sample initially produced by aquatic urchin creatures. A rare and expensive item on the Galactic Trade Network.",
-		value: 608000
-	},
-	{
-		id: "gravitino_ball",
-		name: "Gravitino Ball",
-		type: "Curiosities",
-		description: "A supersymmetric particle cluster created by divergent super-gravitational forces. A micro-rift is created as they form, and extraction of the orb prompts a localised reality weakening. Sentinel forces will respond to stablise any such anomaly. Can be sold at a Galactic Trade Terminal.",
-		value: 40024
-	},
-	{
-		id: "albumen_pearl",
-		name: "Albumen Pearl",
-		type: "Curiosities",
-		description: "Gemstone formed over the course of centuries within the egg of a super-incubatory species. Extremely rare.",
-		value: 10640
-	},
-	{
-		id: "vortex_cube",
-		name: "Vortex Cube",
-		type: "Curiosities",
-		description: "An ancient object, unearthed from the depths of a planetary cave system. Its surface is cold to the touch, and is curiously polished despite its age. A fusion of metal and rock, these cubes have proved resistant to industrial processing. As such, they are of value only to collectors. Can be sold at a Galactic Trade Terminal.",
-		value: 5800
-	},
-	{
-		id: "larval_core",
-		name: "Larval Core",
-		type: "Curiosities",
-		description: "A pulsating jellied orb, this gooey sphere is warm to the touch. Its stench triggers a primal fear in mortal beings, a deep-seated gnawing that begs you to drop it and flee.",
-		value: 69875
-	},
-	{
-		id: "storm_crystal",
-		name: "Storm Crystal",
-		type: "Curiosities",
-		description: "A rare and highly valuable cluster of storm crystals. These crystalline structures thrive in stormy conditions, and naturally attract lighting strikes, becoming spectacularly luminescent when ionised. Exclusively found on extreme weather planets.",
-		value: 129150
-	},
-	{
-		id: "living_pearl",
-		name: "Living Pearl",
-		type: "Curiosities",
-		description: "Born in the hearts of enormous glowing molluscs found deep underwater. Unlike most pearls, this sample is no unliving calcite. Some trace of the mother-clam's consciousness remains within the gem, giving it a lingering, haunting beauty.",
-		value: 4797.5
-	},
-	{
-		id: "crystal_sulphide",
-		name: "Crystal Sulphide",
-		type: "Curiosities",
-		description: "Formed in the incredible, high-pressure furnace of planetary cores, these rich mineral deposits have an almost glass-like quality. Has a wide variety of industrial uses, taking advantage of both its mineral content and its extreme strength under pressure.",
-		value: 7410
-	},
-	{
-		id: "hadal_core",
-		name: "Hadal Core",
-		type: "Curiosities",
-		description: "A highly-pressurised fleshy orb. One can feel it push back when touched, a flash of bioluminescence stirring in the inky black core of this mysterious object.",
-		value: 92625
-	},
-	{
-		id: "hypnotic_eye",
-		name: "Hypnotic Eye",
-		type: "Curiosities",
-		description: "The eye is cold, almost frozen, to the touch. Nonetheless, it is impossible to escape the feeling it is somehow still alive. Extended exposure is not recommended. Do not stare back into the eye. Do not stare back. Do not stare back.",
-		value: 57000
-	},
-	{
-		id: "vykeen_tablet",
-		name: "Vy'keen Tablet",
-		type: "Curiosities",
-		description: "A stone tablet bearing line after line of intricate runes. The words are unintelligible, an ancient dialect forgotten by all but the oldest of the Vy'keen elders. The hand that carved this stone must have been extraordinary. The stonework is precise, delicate - and yet perfectly conveys the unyielding aggression its writer clearly possessed.",
-		value: 1250
-	},
-	{
-		id: "divergence_cube",
-		name: "Divergence Cube",
-		type: "Curiosities",
-		description: "A glitching, pulsing data unit. It does not seem to belong in this reality. The cube gives the impression of a silent scream, the frozen cries of hundreds of lost minds trapped within.",
-		value: 3015
-	},
-	{
-		id: "mind_arc",
-		name: "Mind Arc",
-		type: "Curiosities",
-		description: "A strange piece of technology, a gift from beyond the stars. It shimmers in a way that suggests it is not fully in this world.",
-		value: 1000
-	},
-	{
-		id: "soul_engine",
-		name: "Soul Engine",
-		type: "Curiosities",
-		description: "A powerful organic computing unit. A glitching beat drives this miracle circuit, performing cycle after cycle in an endless, furious loop of calculation.",
-		value: 1000
-	},
-	{
-		id: "gek_relic",
-		name: "Gek Relic",
-		type: "Curiosities",
-		description: "A metal statuette of a creature with a coin placed in its beak. Popular with many traders who see it as an emblem of fair commerce and peace.",
-		value: 23375
-	},
-	{
-		id: "geknip",
-		name: "GekNip",
-		type: "Curiosities",
-		description: "Edible product much beloved by the Gek. Allows beaked traders to release delightfully scented packets of gas for a prolonged period of time. GekNip gas packets are considered an art form, and the truest representation of the Gek soul.",
-		value: 20625
-	},
-	{
-		id: "nipnip_buds",
-		name: "NipNip Buds",
-		type: "Curiosities",
-		description: "A pungent bud harvested from the NipNip plant, often used to produce GekNip.",
-		value: 17776
-	},
-	{
-		id: "vykeen_effigy",
-		name: "Vy'keen Effigy",
-		type: "Curiosities",
-		description: "A small wooden icon carved into the shape of a Sentinel drone. Used by warriors to enter a temporary trance-like state that eliminates their kind's need for sleep.",
-		value: 24750
-	},
-	{
-		id: "vykeen_dagger",
-		name: "Vy'keen Dagger",
-		type: "Curiosities",
-		description: "Largely ceremonial weapon. A vital part of Vy'keen tradition and culture.",
-		value: 11688
-	},
-	{
-		id: "korvax_casing",
-		name: "Korvax Casing",
-		type: "Curiosities",
-		description: "The metallic shell of a disconnected electronic lifeform that was too distant from its own kind to be refreshed with a new entity. Highly prized by all species, not least its own.",
-		value: 22000
-	},
-	{
-		id: "korvax_cube",
-		name: "Korvax Cube",
-		type: "Curiosities",
-		description: "Device used by the Korvax for the storage of historical and cultural information.",
-		value: 13063
-	},
-	{
-		id: "captured_nanode",
-		name: "Captured Nanode",
-		type: "Curiosities",
-		description: "Atlas Seed containing zonally-shifted quasi-stellar substrate. Warning: do not allow matrix to commune with this dimensional space.",
-		value: 1000
-	},
-	{
-		id: "englobed_shade",
-		name: "Englobed Shade",
-		type: "Curiosities",
-		description: "This Atlas Shell holds the remains of a parasitic space-borne lifeform, most likely of extra-dimensional origins.",
-		value: 1000
-	},
-	{
-		id: "noospheric_orb",
-		name: "Noospheric Orb",
-		type: "Curiosities",
-		description: "An Atlas Seed capable of resonating on humanoid telepathic frequencies; may attempt to subsume any subordinate intellect in close proximity.",
-		value: 1000
-	},
-	{
-		id: "dark_matter",
-		name: "Dark Matter",
-		type: "Curiosities",
-		description: "An Atlas Seed shell encompassing a void element harvested from the collapse state of the last universe. Toxic if ingested.",
-		value: 1000
-	},
-	{
-		id: "dawns_end",
-		name: "Dawn's End",
-		type: "Curiosities",
-		description: "Sculpted tau neutrino-boson matrix fixed within an irreplaceable Atlas Seed shell. May be semi-sentient.",
-		value: 1000
-	},
-	{
-		id: "photic_jade",
-		name: "Photic Jade",
-		type: "Curiosities",
-		description: "This irreplaceable Atlas Seed is a form of matter-adapted photons coalesced into physical solidity by unknown means.",
-		value: 1000
-	},
-	{
-		id: "state_phasure",
-		name: "State Phasure",
-		type: "Curiosities",
-		description: "For unknown reasons, this unique Atlas Seed has been phased out of alignment with this quantum reality. Contents cannot be determined.",
-		value: 1000
-	},
-	{
-		id: "novae_reclaiment",
-		name: "Novae Reclaiment",
-		type: "Curiosities",
-		description: "Atlas Seed contains neutronium elements from a catastrophic supernova event that obliterated a sentient civilization in an earlier era.",
-		value: 1000
-	},
-	{
-		id: "modified_quanta",
-		name: "Modified Quanta",
-		type: "Curiosities",
-		description: "This one-of-a-kind Atlas Seed holds an aesthetically pleasing mathematical construct salvaged from the simulation of an alternate reality.",
-		value: 1000
-	},
-	{
-		id: "heart_of_the_sun",
-		name: "Heart of the Sun",
-		type: "Curiosities",
-		description: "An Atlas Seed containing a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
-		value: 1000
-	},
-	{
-		id: "hex_core",
-		name: "Hex Core",
-		type: "Curiosities",
-		description: "This strange energy orb constantly vibrates, emitting a low-frequency drone. Slight variations in the pattern repeat over and over, almost as if it is attempting to relay a message.",
-		value: 16
-	},
-	{
-		id: "void_egg",
-		name: "Void Egg",
-		type: "Curiosities",
-		description: "An anomalous egg. The shell is tough and leathery, and twitches when touched. A faint tapping can be heard within. From time to time, it appears to sing.",
-		value: 3200
 	}
 ];
 
-// todo: fill in missing data 
-// todo: fill in missing color data for new resources 
-// todo: refactor css item ids into classes?
+// todo: add missing item data (ONGOING)
+// todo: alphabetize existing data (ONGOING)
+// todo: add missing crafting data
+// todo: fill in missing color data for new resources (?) this might not be needed since the new update is more minimalist
+// todo: refactor css item ids into classes (?) again this might not be necessary from a design standpoint, review new game UI
 
 var app = new Vue({
     el: "#app",
