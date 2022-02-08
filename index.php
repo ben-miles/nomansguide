@@ -14,8 +14,8 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
-	<script type="text/javascript" src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
-	<!-- <script type="text/javascript" src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script> -->
+	<script type="text/javascript" src="/js/vue.js"></script>
+	<!-- <script type="text/javascript" src="/js/vue.min.js"></script> -->
 	<link rel="icon" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
