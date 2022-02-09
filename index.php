@@ -130,6 +130,7 @@
         </section>
 
     </div>
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

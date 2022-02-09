@@ -283,11 +283,15 @@ a, button {
 	border: 8px solid #fff;
 	margin: 0 auto 32px;
 	max-width: 512px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
 }
 .stats img {
 	display: block;
 	height: auto;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto 5%;
+	transform: translateZ(64px);
 }
 .stats .name {
 	background: #fff;

@@ -1612,3 +1612,13 @@ var app = new Vue({
 	mounted(){},
 	updated(){}
 })
+
+// Vanilla-Tilt
+VanillaTilt.init(document.querySelector(".stats"), {
+	max: 16,
+	speed: 400,
+	glare: true,
+	"max-glare": 0.75,
+	reverse: true,
+	// reset: false
+});
