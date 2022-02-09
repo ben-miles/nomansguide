@@ -15,7 +15,6 @@
 	})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
 	<script type="text/javascript" src="/js/vue.js"></script>
-	<!-- <script type="text/javascript" src="/js/vue.min.js"></script> -->
 	<link rel="icon" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
@@ -43,7 +42,7 @@
 					<h1 class="site-title">No Man's Guide</h1>
 					<h2 class="tagline">An unofficial field guide for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h2>
 				</div>
-            </div>
+			</div>
             <div class="menu">
                 <ul class="nav">
 					<li class="nav-item" id="curiosities">
@@ -125,7 +124,7 @@
 		</section>
 
         <section id="footer">
-			<div class="copyright">© <?php echo date("Y"); ?> <a href="https://benmiles.com/" target="_blank">Ben Miles</a>. <a>No Man's Guide</a> is not affiliated with No Man's Sky or Hello Games. </div>
+			<div class="copyright">© <?php echo date("Y"); ?> <a href="https://benmiles.com/" target="_blank">Ben Miles</a>. <a href="#" target="_self">No Man's Guide</a> is not affiliated with <a href="https://www.nomanssky.com/" target="_blank">No Man's Sky</a> or <a href="https://hellogames.org/" target="_blank">Hello Games</a>. </div>
             <div class="credits">Some data and images sourced from <a href="https://nomanssky.fandom.com/" target="_blank">No Man's Sky Wiki</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" class="creativecommons"> Creative Commons Attribution 3.0</a> license. </div>
         </section>
 
