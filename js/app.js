@@ -1614,7 +1614,7 @@ var app = new Vue({
 })
 
 // Vanilla-Tilt
-VanillaTilt.init(document.querySelector(".stats"), {
+VanillaTilt.init(document.querySelector(".card"), {
 	max: 16,
 	speed: 400,
 	glare: true,

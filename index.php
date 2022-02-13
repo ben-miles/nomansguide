@@ -95,7 +95,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="column">
-							<div class="stats" :id="item.id">
+							<div class="card" :id="item.id">
 								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
 								<img :alt="item.name" :src="'img/item/' + item.id + '.png'">

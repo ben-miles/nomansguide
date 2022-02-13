@@ -279,21 +279,21 @@ a, button {
 }
 
 /* RESOURCES */
-.stats {
+.card {
 	border: 8px solid #fff;
 	margin: 0 auto 32px;
 	max-width: 512px;
 	transform-style: preserve-3d;
 	transform: perspective(1000px);
 }
-.stats img {
+.card img {
 	display: block;
 	height: auto;
 	width: 90%;
 	margin: 0 auto 5%;
 	transform: translateZ(64px);
 }
-.stats .name {
+.card .name {
 	background: #fff;
 	color: #000;
 	font-size: 36px;
@@ -301,7 +301,7 @@ a, button {
 	padding: 8px;
 	text-align: center;
 }
-.stats .value {
+.card .value {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -311,7 +311,7 @@ a, button {
 	font-weight: 600;
 	padding: 8px 8px 0 0;
 }
-.stats .value:after {
+.card .value:after {
 	content: url("/img/icon/units.svg");
 	display: block;
 	float: right;
@@ -357,7 +357,7 @@ a, button {
 	bottom: 10px;
 	margin-right: 8px;
 }
-.ingredient {
+.ingredient button {
   border-radius: 5px;
   display: inline-flex;
   flex-direction: row;
@@ -380,11 +380,11 @@ a, button {
 }
 
 /* RESOURCES */
-.stats,
+.card,
 .ingredient {
   background: #f5a920;
   transition: background 0.25s; }
-  .resource .stats:hover,
+  .resource .card:hover,
   .ingredient:hover {
     background: #d88f0a; }
 
