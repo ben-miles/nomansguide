@@ -285,6 +285,7 @@ a, button {
 	max-width: 512px;
 	transform-style: preserve-3d;
 	transform: perspective(1000px);
+	box-shadow: 0 4px 48px rgba(0,0,0,.7);
 }
 .card img {
 	display: block;
@@ -328,18 +329,14 @@ a, button {
 .details > * {
 	background: rgb(123,130,163,.2);
     border-top: 1px solid rgba(255,255,255,.5);
+	margin: 0 auto 32px;
 	padding: 12px 24px;
 }
-.description {
-	margin: 0 auto 32px;
-	text-align: left;
+.details > div > h3 {
+	margin-bottom: 10px;
 }
 
 /* CRAFTING */
-.crafting h3 {
-	padding-left: 20px;
-	margin-bottom: 10px;
-}
 .recipe {
 	background: rgba(0,0,0,0.5);
 	border-radius: 10px;
@@ -347,7 +344,6 @@ a, button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	/* font-size: 24px; */
 	margin: 0 auto 32px;
 	padding: 24px 24px 12px;
 }
@@ -357,7 +353,7 @@ a, button {
 	bottom: 10px;
 	margin-right: 8px;
 }
-.ingredient button {
+.ingredient a {
   border-radius: 5px;
   display: inline-flex;
   flex-direction: row;
@@ -371,7 +367,7 @@ a, button {
 	width: 32px;
 	margin-right: 12px;
 }
-.recipe > div:not(:last-of-type):after {
+.ingredient:after {
 	content: "+";
 	display: inline;
 	position: absolute;
@@ -381,11 +377,11 @@ a, button {
 
 /* RESOURCES */
 .card,
-.ingredient {
+.ingredient a {
   background: #f5a920;
   transition: background 0.25s; }
   .resource .card:hover,
-  .ingredient:hover {
+  .ingredient a:hover {
     background: #d88f0a; }
 
 #heat_capacitor,

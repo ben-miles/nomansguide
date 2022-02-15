@@ -104,16 +104,36 @@
 						<div class="column">
 							<div class="details">
 								<p class="description">{{item.description}}</p>
-								<div class="crafting" v-if="item.ingredients">
-									<h3>Crafted from:</h3>
-									<div class="recipe">
-										<div v-for="ingredient in item.ingredients">
+								<div v-if="item.sources" class="sources">
+									<h3>Sources:</h3>
+									<ul>
+										<li v-for="source in item.sources">{{source}}</li>
+									</ul>
+								</div>
+								<div v-if="item.crafting" class="crafting">
+									<h3>Crafting:</h3>
+									<div v-for="recipe in item.crafting" class="recipe">
+										<div v-for="ingredient in recipe.ingredients" class="ingredient">
 											<span class="quantity">{{ingredient.quantity}}x</span>
 											<a v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
 												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
 												{{ingredient.name}}
 											</a>
 										</div>
+										<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
+									</div>
+								</div>
+								<div v-if="item.refining" class="refining">
+									<h3>Refining:</h3>
+									<div v-for="recipe in item.refining" class="recipe">
+										<div v-for="ingredient in recipe.ingredients" class="ingredient">
+											<span class="quantity">{{ingredient.quantity}}x</span>
+											<a v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
+												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+												{{ingredient.name}}
+											</a>
+										</div>
+										<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
 									</div>
 								</div>
 							</div>
