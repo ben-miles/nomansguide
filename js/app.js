@@ -1568,8 +1568,9 @@ var app = new Vue({
 		filter: ""
     },
     methods: {
-		load_item: function(item_id){
+		load_item: function(item_id, item_name){
 			this.selected_item = item_id;
+			// window.history.pushState(item_id, item_name, "/" + item_id);
 		},
 		toggleDrawer: function(drawerId){
 			// Close any other open drawers

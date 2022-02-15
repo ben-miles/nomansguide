@@ -50,7 +50,7 @@
                         <div class="drawer">
                             <ul>
 								<li v-for="item in items_curiosities">
-									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
+									<button v-on:click="load_item(item.id, item.name)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="drawer">
                             <ul>
 								<li v-for="item in items_crafted_products">
-									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
+									<button v-on:click="load_item(item.id, item.name)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -70,7 +70,7 @@
                         <div class="drawer">
                             <ul>
 								<li v-for="item in items_raw_materials">
-									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
+									<button v-on:click="load_item(item.id, item.name)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -81,7 +81,7 @@
                             <input v-model="filter" id="filter" type="text" placeholder="Start typing to filter items...">
 							<ul>
 								<li v-for="item in items_filtered">
-									<button v-on:click="load_item(item.id)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
+									<button v-on:click="load_item(item.id, item.name)"><img :alt="item.name" :src="'img/item/' + item.id + '.png'">{{item.name}}</button>
 								</li>
 							</ul>
                         </div>
@@ -109,7 +109,7 @@
 									<div class="recipe">
 										<div v-for="ingredient in item.ingredients">
 											<span class="quantity">{{ingredient.quantity}}x</span>
-											<a v-on:click="load_item(ingredient.id)" class="ingredient" :id="ingredient.id">
+											<a v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
 												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
 												{{ingredient.name}}
 											</a>
