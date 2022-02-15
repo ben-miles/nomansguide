@@ -1556,6 +1556,9 @@ var items = [
 // todo: add missing crafting data
 // todo: fill in missing color data for new resources (?) this might not be needed since the new update is more minimalist
 // todo: refactor css item ids into classes (?) again this might not be necessary from a design standpoint, review new game UI
+// todo: get pathing working, and push in-app navigation events to browser history
+// todo: fix mobile menu (hide all but "all items," make dropdown more mobile friendly)
+// todo: remove width from .stats (?) and .details;  move to .column's (in form of x% of .container, and .container has varying width per breakpoint),
 
 var app = new Vue({
     el: "#app",
@@ -1619,6 +1622,5 @@ VanillaTilt.init(document.querySelector(".card"), {
 	speed: 400,
 	glare: true,
 	"max-glare": 0.75,
-	reverse: true,
-	// reset: false
+	reverse: true
 });
