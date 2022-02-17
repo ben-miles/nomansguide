@@ -112,28 +112,36 @@
 								</div>
 								<div v-if="item.crafting" class="crafting">
 									<h3>Crafting:</h3>
-									<div v-for="recipe in item.crafting" class="recipe">
-										<div v-for="ingredient in recipe.ingredients" class="ingredient">
-											<span class="quantity">{{ingredient.quantity}}x</span>
-											<a v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
-												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
-												{{ingredient.name}}
-											</a>
+									<div class="recipes">
+										<div v-for="recipe in item.crafting" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
+														<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+														<div class="title">{{ingredient.name}}</div>
+													</a>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
 										</div>
-										<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
 									</div>
 								</div>
 								<div v-if="item.refining" class="refining">
 									<h3>Refining:</h3>
-									<div v-for="recipe in item.refining" class="recipe">
-										<div v-for="ingredient in recipe.ingredients" class="ingredient">
-											<span class="quantity">{{ingredient.quantity}}x</span>
-											<a v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
-												<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
-												{{ingredient.name}}
-											</a>
+									<div class="recipes">
+										<div v-for="recipe in item.refining" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
+														<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+														<div class="title">{{ingredient.name}}</div>
+													</button>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
 										</div>
-										<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
 									</div>
 								</div>
 							</div>

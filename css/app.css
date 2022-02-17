@@ -143,11 +143,11 @@ a, button {
 }
 
 /* SITE TITLE */
-.title {
+.brand .title {
 	display: none;
 }
 @media ( min-width: 576px ) {
-	.title {
+	.brand .title {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -297,7 +297,7 @@ a, button {
 .card img {
 	display: block;
 	height: auto;
-	width: 90%;
+	width: 93.5%;
 	margin: 0 auto 5%;
 	transform: translateZ(64px);
 }
@@ -343,51 +343,69 @@ a, button {
 }
 
 /* CRAFTING */
-.recipe {
-	background: rgba(0,0,0,0.5);
-	border-radius: 10px;
+.recipes {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    align-items: flex-start;
+}
+.recipe {
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 	align-items: flex-start;
-	margin: 0 auto 32px;
-	padding: 12px;
+	flex-wrap: wrap;
+	margin: 0 0 16px;
+	padding: 8px;
+	width: calc( 50% - 8px );
+}
+.yield {
+	font-size: 14px;
+	margin-top: 12px;
+	width: 100%;
+}
+.ingredient {
+	margin: 0 0 2px;
+	white-space: nowrap;
 }
 .quantity {
 	display: inline-block;
-	height: 32px;
-	bottom: 10px;
-	margin-right: 8px;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: right;
+	margin: 0 4px 0 0;
+	min-width: 24px;
+	bottom: 7px;
 }
-.ingredient a {
-  border-radius: 5px;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0 0 12px;
-  padding: 0 12px 0 0;
-  text-shadow: 0 0.2vw 0.2vw rgba(0, 0, 0, 0.6);
+.ingredient button {
+	border: 2px solid #fff;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+}
+.ingredient .title {
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	padding: 4px;
 }
 .ingredient img {
-	height: 32px;
-	width: 32px;
-	margin-right: 12px;
-}
-.ingredient:after {
-	content: "+";
-	display: inline;
-	position: absolute;
-	right: -20px;
-	top: 5px;
+	height: auto;
+	width: 24px;
+	margin-right: 4px;
 }
 
 /* RESOURCES */
 .card,
-.ingredient a {
+.ingredient button {
   background: #f5a920;
   transition: background 0.25s; }
   .resource .card:hover,
-  .ingredient a:hover {
+  .ingredient button:hover {
     background: #d88f0a; }
 
 #heat_capacitor,
