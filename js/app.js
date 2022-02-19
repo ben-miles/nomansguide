@@ -375,6 +375,10 @@ var items = [
 		name: "Basalt",
 		type: "Raw Materials",
 		description: "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a volcanic environment.",
+		sources: [
+			"In resource deposits on Volcanic planets, though not all eligible planets will present deposits.",
+			"As a secondary element in some Minerals on Volcanic planets."
+		],
 		value: 62
 	},
 	{
@@ -382,6 +386,59 @@ var items = [
 		name: "Cactus Flesh",
 		type: "Raw Materials",
 		description: "Succulent, edible cactus flesh from the Echinocactus plant. As well as being juicy on the tongue, the flesh has many industrial uses. The Echinocactus thrives only on desert planets, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		sources: [
+			"As described in the Game description, this element can be recovered from specific Echinocactus plants in desert/barren biomes.",
+			"It can also be found mixed with carbon in carbon-based plants or trees. For easy discovery, scan these flora with your visor and see what elements are in them.",
+			"It should be noted that the spawn rate for the \"classic\" Echinocactus plants is really low and is easier to find the element mixed with other flora found on barren planets.",
+			"With assistance from a Farmer, Cactus Flesh can also be grown as a product of the Echinocactus plant, with a harvest time of 16 hours and a yield of 100."
+		],
+		refining: [
+			{
+				ingredients: [
+					{
+						id: "cactus_flesh",
+						name: "Cactus Flesh",
+						quantity: 1
+					},
+					{
+						id: "pyrite",
+						name: "Pyrite",
+						quantity: 1
+					}
+				],
+				yield: 2
+			},
+			{
+				ingredients: [
+					{
+						id: "pyrite",
+						name: "Pyrite",
+						quantity: 2
+					},
+					{
+						id: "oxygen",
+						name: "Oxygen",
+						quantity: 1
+					}
+				],
+				yield: 1
+			},
+			{
+				ingredients: [
+					{
+						id: "pyrite",
+						name: "Pyrite",
+						quantity: 1
+					},
+					{
+						id: "sulphurine",
+						name: "Sulphurine",
+						quantity: 1
+					}
+				],
+				yield: 1
+			}
+		],
 		value: 28
 	},
 	{
