@@ -144,6 +144,23 @@
 										</div>
 									</div>
 								</div>
+								<div v-if="item.cooking" class="cooking">
+									<h3>Cooking:</h3>
+									<div class="recipes">
+										<div v-for="recipe in item.cooking" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="load_item(ingredient.id, ingredient.name)" :id="ingredient.id">
+														<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+														<div class="title">{{ingredient.name}}</div>
+													</button>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
