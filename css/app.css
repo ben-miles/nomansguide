@@ -242,9 +242,10 @@ a, button {
 /* BODY */
 #body {
 	padding: 12px 0;
+	padding: 64px 0;
 	min-height: calc( 100vh - 90px - 45px );
 }
-@media ( min-width: 768px ) {
+/* @media ( min-width: 768px ) {
 	#body {
 		padding: 24px 0;
 	}
@@ -253,7 +254,7 @@ a, button {
 	#body {
 		padding: 64px 0;
 	}
-}
+} */
 
 /* CONTAINER */
 .container {
@@ -504,10 +505,10 @@ a, button {
 #footer a {
 	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
-	font-weight: 600;
+	font-weight: 500;
 }
 #footer .creativecommons {
-    height: 12px;
-    top: 2px;
-	left: 2px;
+    height: 16px;
+    top: 4px;
+    margin: 0 0 0 3px;
 }
