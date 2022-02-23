@@ -2287,13 +2287,13 @@ var items = [
 	}
 ];
 
-// todo: add missing item data (ONGOING)
-// todo: add missing crafting data (ONGOING)
-// todo: improve crafting recipe styles, more compact
-// todo: fix mobile menu (hide all but "all items," make dropdown more mobile friendly)
-// todo: fill in missing color data for new resources (?) this might not be needed since the new update is more minimalist
-// todo: refactor css item ids into classes (?) again this might not be necessary from a design standpoint, review new game UI
-// todo: get pathing working, and push in-app navigation events to browser history
+// TODOs
+// add missing item data (ONGOING)
+// add missing crafting data (ONGOING)
+// fix mobile menu (hide all but "all items," make dropdown more mobile friendly)
+// add missing color data
+// add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
+// push app navigation events to browser history
 
 var app = new Vue({
     el: "#app",
