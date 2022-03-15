@@ -739,7 +739,292 @@ var items = [
 		type: "raw_materials",
 		description: "A processed metal alloy, created in a Refiner from the stellar metals: Copper, Cadmium, Emeril and Indium. The rarer the stellar metal, the more Chromatic Metal it will produce. This valuable metal is used in the creation of many advanced technologies.",
 		sources: [
-			""
+			"Available for purchase from some Galactic Trade Terminals.",
+			"Can be requested from freighter's captain for rescuing his Freighter from pirates, up to 256 Chromatic Metal.",
+			"Drops from destroyed Pirate ships and NPC ships (standing will decrease) in small amounts, 30-50 Chromatic Metal per ship destroyed.",
+			"Drops from Freighter cargo pods (Sentinels will attack back) or accompanying free floating cargo pods (standing will decrease), 200-250 Chromatic Metal per pod destroyed."
+		],
+		refining: [
+			{
+				ingredients: [
+					{
+						id: "copper",
+						name: "Copper",
+						quantity: 2
+					}
+				],
+				yield: 1
+			},
+			{
+				ingredients: [
+					{
+						id: "cadmium",
+						name: "Cadmium",
+						quantity: 1
+					}
+				],
+				yield: 1
+			},
+			{
+				ingredients: [
+					{
+						id: "emeril",
+						name: "Emeril",
+						quantity: 2
+					}
+				],
+				yield: 3
+			},
+			{
+				ingredients: [
+					{
+						id: "indium",
+						name: "Indium",
+						quantity: 2
+					}
+				],
+				yield: 4
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_copper",
+						name: "Activated Copper",
+						quantity: 1
+					}
+				],
+				yield: 1
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_cadmium",
+						name: "Activated Cadmium",
+						quantity: 1
+					}
+				],
+				yield: 2
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_emeril",
+						name: "Activated Emeril",
+						quantity: 1
+					}
+				],
+				yield: 3
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_indium",
+						name: "Activated Indium",
+						quantity: 1
+					}
+				],
+				yield: 4
+			},
+			{
+				ingredients: [
+					{
+						id: "copper",
+						name: "Copper",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 1
+			},
+			{
+				ingredients: [
+					{
+						id: "cadmium",
+						name: "Cadmium",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 2
+			},
+			{
+				ingredients: [
+					{
+						id: "emeril",
+						name: "Emeril",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 3
+			},
+			{
+				ingredients: [
+					{
+						id: "indium",
+						name: "Indium",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 4
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_copper",
+						name: "Activated Copper",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 2
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_cadmium",
+						name: "Activated Cadmium",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 4
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_emeril",
+						name: "Activated Emeril",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 6
+			},
+			{
+				ingredients: [
+					{
+						id: "activated_indium",
+						name: "Activated Indium",
+						quantity: 1
+					},
+					{
+						id: "pure_ferrite",
+						name: "Pure Ferrite",
+						quantity: 1
+					}
+				],
+				yield: 8
+			},
+			{
+				ingredients: [
+					{
+						id: "copper",
+						name: "Copper",
+						quantity: 1
+					},
+					{
+						id: "gold",
+						name: "Gold",
+						quantity: 1
+					},
+					{
+						id: "silver",
+						name: "Silver",
+						quantity: 1
+					}
+				],
+				yield: 5
+			},
+			{
+				ingredients: [
+					{
+						id: "cadmium",
+						name: "Cadmium",
+						quantity: 1
+					},
+					{
+						id: "gold",
+						name: "Gold",
+						quantity: 1
+					},
+					{
+						id: "silver",
+						name: "Silver",
+						quantity: 1
+					}
+				],
+				yield: 10
+			},
+			{
+				ingredients: [
+					{
+						id: "emeril",
+						name: "Emeril",
+						quantity: 1
+					},
+					{
+						id: "gold",
+						name: "Gold",
+						quantity: 1
+					},
+					{
+						id: "silver",
+						name: "Silver",
+						quantity: 1
+					}
+				],
+				yield: 20
+			},
+			{
+				ingredients: [
+					{
+						id: "indium",
+						name: "Indium",
+						quantity: 1
+					},
+					{
+						id: "gold",
+						name: "Gold",
+						quantity: 1
+					},
+					{
+						id: "silver",
+						name: "Silver",
+						quantity: 1
+					}
+				],
+				yield: 30
+			},
 		],
 		value: 245
 	},
@@ -748,6 +1033,9 @@ var items = [
 		name: "Circuit Board",
 		type: "crafted_products",
 		description: "Stackable, semi-flexible circuit board made from a highly durable synthetic polymer.",
+		sources: [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		value: 916250,
 		crafting: [
 			{
@@ -772,15 +1060,35 @@ var items = [
 		name: "Cobalt",
 		type: "raw_materials",
 		description: "Mined from underground minerals, cobalt is found in plentiful supply in caves and caverns. Useful in the manufacture of Ion Batteries. It is used in the creation of several technologies and structures, and can be processed in a Refiner to make the most of its inherent charge.",
-		value: 198
+		sources: [
+			"From any Galactic Trade Terminal.",
+			"As a primary element in stalagtite and stalagmite minerals found in caves.",
+			"In resource deposits."
+		],
+		value: 198,
+		refining: [
+			{
+				ingredients: [
+					{
+						id: "ionised_cobalt",
+						name: "Ionised Cobalt",
+						quantity: 1
+					}
+				],
+				yield: 2
+			}
+		]
 	},
 	{
 		id: "condensed_carbon", 
 		name: "Condensed Carbon",
 		type: "raw_materials",
 		description: "Advanced material, processed from regular carbon in a Refiner. The increased molecule density offers a substantially improved energy-per-gram ratio. Occasionally found in crystalline form. Harvesting large crystals may require an Advanced Mining Laser.",
+		sources: [
+			"In crystal minerals located on nearly every planet. The larger minerals require an Advanced Mining Laser. These are visible on the Scanner."
+		],
 		value: 24,
-		crafting: [
+		refining: [
 			{
 				ingredients: [
 					{
@@ -798,6 +1106,29 @@ var items = [
 		name: "Copper",
 		type: "raw_materials",
 		description: "A chromatic metal, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets. Copper is found on planets orbiting yellow stars, and can be placed in a Refiner to create purified Chromatic Metal for use in the manufacture of advanced technologies.",
+		sources: [
+			"Resource Deposits and Hotspots on planets orbiting yellow stars.",
+			"Galactic Trade Terminals.",
+			"Secondary element in cave minerals (rare).",
+			"A Terrain Manipulator or Autonomous Mining Units are needed to mine copper deposits. A Mineral Extractor is required to harvest copper located using the Survey Device upgrade to the Analysis Visor."
+		],
+		refining: [
+			{
+				ingredients: [
+					{
+						id: "copper",
+						name: "Copper",
+						quantity: 1
+					},
+					{
+						id: "chromatic_metal",
+						name: "Chromatic Metal",
+						quantity: 1
+					},
+				],
+				yield: 2
+			}
+		],
 		value: 121
 	},
 	{
@@ -806,6 +1137,11 @@ var items = [
 		type: "crafted_products",
 		description: "An advanced, self-regulating hybrid material, the Cryo-Pump distributes heat across itself with near perfect efficiency, making it vital in the creation of thermal regulators.",
 		value: 1500000,
+		sources: [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		crafting: [
 			{
 				ingredients: [
@@ -830,6 +1166,9 @@ var items = [
 		type: "crafted_products",
 		description: "A low temperature chamber, designed to prevent the natural decay of organic matter.",
 		value: 3800000,
+		sources: [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		crafting: [
 			{
 				ingredients: [
@@ -853,6 +1192,9 @@ var items = [
 		name: "Crystal Fragment",
 		type: "curiosities",
 		description: "A crystalline shard with an unusually dense structure. Potentially highly valuable.",
+		sources: [
+			"It can be acquired from Di-hydrogen Crystals, indicated with \"H\" when the Scanner is used."
+		],
 		value: 3280
 	},
 	{
@@ -860,6 +1202,9 @@ var items = [
 		name: "Crystal Sulphide",
 		type: "curiosities",
 		description: "Formed in the incredible, high-pressure furnace of planetary cores, these rich mineral deposits have an almost glass-like quality. Has a wide variety of industrial uses, taking advantage of both its mineral content and its extreme strength under pressure.",
+		sources: [
+			"Can be obtained from the sides of underwater vents. Use caution when harvesting, as the vent may trigger a blast of super-heated water which may cause damage to the harvester."
+		],
 		value: 7410
 	},
 	{
@@ -867,6 +1212,9 @@ var items = [
 		name: "Cyto-Phosphate",
 		type: "raw_materials",
 		description: "A blue-green organic compound produced during the metabolic cycle of deep-sea plantlife. Rich in soluble energy, cyto-phosphates are crucial in many submarine technologies. The Mining Laser will harvest cyto-phosphate compounds from underwater flora.",
+		sources: [
+			"It can be mined from various underwater flora, but be aware as this mining process may spawn Abyssal Horrors."
+		],
 		value: 201
 	},
 	{
