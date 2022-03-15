@@ -29,7 +29,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
 
 body {
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	color: #fff;
@@ -46,6 +46,9 @@ body {
 		background-image: url("/img/bkg/lg.jpg");
 	}
 }
+body.noscroll {
+	overflow: hidden; /* Prevents scrolling on body while drawer is open */
+}
 
 .light, 
 small {
@@ -53,7 +56,6 @@ small {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
 h1 { font-size: 50px; }
@@ -65,9 +67,14 @@ h4 { font-size: 20px; }
 a {
   color: inherit; }
 
-a, button {
-  cursor: pointer;
-  cursor: url("/cursor/nmg_cursor_active.svg") 25 25, pointer; }
+a, 
+button {
+	cursor: pointer;
+	cursor: url("/cursor/nmg_cursor_active.svg") 25 25, pointer;
+	border: none;
+	outline: none;
+	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
+}
 
 /* HEADER */
 #header {
@@ -83,6 +90,10 @@ a, button {
 .brand {
 	display: flex;
 	flex-direction: row;
+}
+body.noscroll .menu,
+body.noscroll #body {
+	padding-right: 17px;
 }
 
 /* LOGO */
@@ -182,25 +193,17 @@ a, button {
 	color: #9fa2aa;
 	outline: none;
 	text-transform: uppercase;
-	font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	margin-bottom: -10px;
 	padding: 10px;
 }
 .menu .toggle:hover,
-.menu .open .toggle {
+.menu .toggle.active {
 	background: #e0b142;
 	color: #2e2c13;
-	outline: none;
-	text-transform: uppercase;
-	text-shadow: 2px 0 2px rgba(0,0,0,0.25);
-	font-family: "geosanslight-nmsregular", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight:600;
-	letter-spacing: 1px;
-	padding: 10px;
+	text-shadow: 2px 1px 1px rgba(0,0,0,0.25);
 }
 .nav-item button svg {
 	height: 16px;
@@ -208,63 +211,138 @@ a, button {
 	margin-right: 4px;
 	fill: #9fa2aa;
 }
-.nav-item:hover button svg {
+.nav-item:hover button svg,
+.nav-item button.active svg {
 	fill: #2e2c13;
 	filter: drop-shadow(2px 0 2px rgba(0,0,0,0.25));
 }
 
-/* FILTER */
-#filter {
+/* DRAWER */
+#drawer {
+	backdrop-filter: blur(8px);
+	background: rgb(123,130,163,.2);
+	display: none;
+	position: absolute;
+	top: 90px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	overflow-y: auto;
+	padding: 12px;
+}
+#drawer.open {
+	display: block;
+}
+#drawer .container > div:not(:last-of-type) {
+	margin-bottom: 24px;
+}
+
+/* DRAWER > TYPES */
+#drawer .types ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 4px;
+}
+#drawer .types li {
+	width: 25%;
+}
+#drawer .types button {
+	background: transparent;
+	border-left: solid transparent 4px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 16px;
+	width: 100%;
+	background: rgba(43,65,96,0.2);
+	color: #fff;
+    padding: 8px 4px;
+}
+@media ( min-width: 1024px ) {
+	#drawer .types ul {
+		gap: 10px;
+	}
+	#drawer .types button {
+		flex-direction: row;
+		padding: 12px 16px;
+		gap: 16px;
+		font-size: 20px;
+	}
+}
+#drawer .types button svg {
+	fill: #fff;
+	height: 24px;
+	width: auto;
+	max-width: 24px;
+}
+#drawer .types button:hover,
+#drawer .types button.active {
+	background: rgba(103,116,173,0.5);
+	border-left: solid #fff 4px;
+}
+#drawer .types button:hover svg,
+#drawer .types button.active svg {
+	filter: drop-shadow(0 0 4px rgba(224, 177, 66, 1));
+}
+
+/* DRAWER > FILTER */
+#drawer .filter input {
 	border: none;
 	border-radius: 0;
-	font-size: 16px;
+	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
 	outline: none;
 	padding: 8px;
   	width: 100%;
 }
 
-/* DRAWER */
-.drawer {
-	backdrop-filter: blur(8px);
-	background: rgba(9,7,20,0.6);
-	display: none;
-	position: absolute;
-	top: 40px;
-	right: 0px;
-	z-index: 2;
-	max-height: calc( 100vh - 90px - 45px );
-	overflow-y: auto;
-	padding: 12px;
-	width: 300px;
-}
-.open .drawer {
-	display: block;
-}
-.drawer ul {
+/* DRAWER > ITEMS */
+#drawer .items ul {
 	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 10px;
 }
-.drawer img {
-	height: 32px;
-	width: 32px;
-	margin-right: 4px;
+#drawer .items li {
+	width: calc( 25% - 7.5px );
+}
+#drawer .item {
+	border: 4px solid #fff;
+	font-size: 16px;
+	font-weight: 600;
+	width: 100%;
+}
+#drawer .item .name {
+	background: #fff;
+	height: 20px;
+	overflow: hidden;
+}
+#drawer .item .name span {
+	white-space: nowrap;
+}
+#drawer .item img {
+	width: 100%;
+}
+@media ( min-width: 1024px ) {
+	#drawer .items li {
+		width: calc( 12.5% - 8.75px );
+	}
 }
 
 /* BODY */
 #body {
 	padding: 12px 0;
 	padding: 64px 0;
-	min-height: calc( 100vh - 90px - 45px );
+	min-height: calc( 100vh - 90px - 49px );
 }
-/* @media ( min-width: 768px ) {
-	#body {
-		padding: 24px 0;
-	}
-}
-@media ( min-width: 1024px ) {
-	#body {
-		padding: 64px 0;
-	}
-} */
 
 /* CONTAINER */
 .container {
@@ -352,6 +430,9 @@ a, button {
 .details > div > h3 {
 	margin-bottom: 10px;
 }
+.details p {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
 
 /* CRAFTING */
 .recipes {
@@ -374,6 +455,7 @@ a, button {
 }
 .yield {
 	font-size: 14px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	margin-top: 12px;
 	width: 100%;
 }
