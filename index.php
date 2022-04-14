@@ -253,7 +253,7 @@
 								<div class="name">
 									<span>{{item.name}}</span>
 								</div>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'">
+								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
 							</button>
 						</li>
 					</ul>
@@ -270,7 +270,7 @@
 							<div class="card" :id="item.id">
 								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'">
+								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
 							</div>
 						</div>
 						<div class="column">
@@ -291,7 +291,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</a>
 													</div>
@@ -308,7 +308,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</button>
 													</div>
@@ -325,7 +325,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'">
+															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</button>
 													</div>
@@ -344,7 +344,7 @@
 
         <section id="footer">
 			<div class="copyright">© <?php echo date("Y"); ?> <a href="https://benmiles.com/" target="_blank">Ben Miles</a>. <a href="#" target="_self">No Man's Guide</a> is not affiliated with <a href="https://www.nomanssky.com/" target="_blank">No Man's Sky</a> or <a href="https://hellogames.org/" target="_blank">Hello Games</a>. </div>
-            <div class="credits">Some data and images sourced from <a href="https://nomanssky.fandom.com/" target="_blank">No Man's Sky Wiki</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" alt="Creative Commons Logo" class="creativecommons"> Creative Commons Attribution 3.0</a> license. </div>
+            <div class="credits">Some data and images sourced from <a href="https://nomanssky.fandom.com/" target="_blank">No Man's Sky Wiki</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="img/icon/cc.svg" alt="Creative Commons Logo" class="creativecommons" loading="lazy"> Creative Commons Attribution 3.0</a> license. </div>
         </section>
 
     </div>
