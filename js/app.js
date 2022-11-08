@@ -1,7 +1,6 @@
 // TODOs
 // add missing item data (ONGOING)
 // add missing crafting data (ONGOING)
-// fix mobile menu (hide all but "all items," make dropdown more mobile friendly)
 // add missing color data
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
@@ -14,7 +13,6 @@ var app = new Vue({
 		// items: items,
 		items: Object.values(Items),
 		selectedItem: "stasis_device",
-		// selectedItem: this.items[Math.floor(Math.random() * this.items.length - 1)].id,
 		selectedItemType: "",
 		filter: ""
     },
