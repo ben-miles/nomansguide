@@ -22,12 +22,7 @@ var app = new Vue({
 		selectItem: function(item_id, item_name){
 			this.selectedItem = item_id;
 			// window.history.pushState(item_id, item_name, "/" + item_id);
-			// If drawer is open, close it
-			let openDrawer = document.querySelector("#drawer.open");
-			openDrawer.classList.remove("open");
-			// And set drawer toggle to inactive
-			let toggle = document.getElementsByClassName("toggle")[0];
-			toggle.classList.toggle("active");
+			this.toggleDrawer();
 		},
 		selectItemType: function(itemType){
 			this.selectedItemType = itemType;
@@ -42,12 +37,8 @@ var app = new Vue({
 		},
 		toggleDrawer: function(){
 			// Toggle this drawer
-			let docbody = document.getElementsByTagName("body")[0];
-			docbody.classList.toggle("noscroll");
-			let toggle = document.getElementsByClassName("toggle")[0];
-			toggle.classList.toggle("active");
-			let drawer = document.getElementById("drawer");
-			drawer.classList.toggle("open");
+			let docbody = document.body;
+			docbody.classList.toggle("drawer-open");
 		}
     },
 	computed: {
