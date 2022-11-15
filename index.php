@@ -285,6 +285,7 @@
 									</ul>
 									<div v-if="item.crafting" class="crafting">
 										<h4>Crafting:</h4>
+										<p>{{item.name}} can be built using a blueprint and the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.crafting" class="recipe">
 												<div class="ingredients">
@@ -302,6 +303,7 @@
 									</div>
 									<div v-if="item.refining" class="refining">
 										<h4>Refining:</h4>
+										<p>{{item.name}} can be refined using a Refiner with the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.refining" class="recipe">
 												<div class="ingredients">
@@ -319,6 +321,7 @@
 									</div>
 									<div v-if="item.cooking" class="cooking">
 										<h4>Cooking:</h4>
+										<p>{{item.name}} can be cooked using a Nutrient Processor with the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.cooking" class="recipe">
 												<div class="ingredients">
