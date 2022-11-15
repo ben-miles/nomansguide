@@ -454,11 +454,12 @@ body.drawer-open #drawer {
 
 /* RECIPES */
 .recipes {
+    align-items: flex-start;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	gap: 12px;
 	justify-content: space-between;
-    align-items: flex-start;
 }
 .recipe {
 	border: 2px solid rgba(255, 255, 255, 0.25);
@@ -467,9 +468,8 @@ body.drawer-open #drawer {
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	margin: 0 0 16px;
 	padding: 8px;
-	width: calc( 50% - 8px );
+	width: calc( 50% - 6px );
 }
 .yield {
 	font-size: 14px;
