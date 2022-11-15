@@ -284,7 +284,7 @@
 										<li v-for="source in item.sources">{{source}}</li>
 									</ul>
 									<div v-if="item.crafting" class="crafting">
-										<h3>Crafting:</h3>
+										<h4>Crafting:</h4>
 										<div class="recipes">
 											<div v-for="recipe in item.crafting" class="recipe">
 												<div class="ingredients">
@@ -301,7 +301,7 @@
 										</div>
 									</div>
 									<div v-if="item.refining" class="refining">
-										<h3>Refining:</h3>
+										<h4>Refining:</h4>
 										<div class="recipes">
 											<div v-for="recipe in item.refining" class="recipe">
 												<div class="ingredients">
@@ -318,7 +318,7 @@
 										</div>
 									</div>
 									<div v-if="item.cooking" class="cooking">
-										<h3>Cooking:</h3>
+										<h4>Cooking:</h4>
 										<div class="recipes">
 											<div v-for="recipe in item.cooking" class="recipe">
 												<div class="ingredients">

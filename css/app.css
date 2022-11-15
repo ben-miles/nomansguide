@@ -429,6 +429,12 @@ body.drawer-open #drawer {
 }
 .details p {
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
+.crafting h4, 
+.refining h4, 
+.cooking h4 {
+	margin: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
 }
 
 /* CRAFTING */
