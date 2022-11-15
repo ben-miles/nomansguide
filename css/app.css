@@ -424,20 +424,32 @@ body.drawer-open #drawer {
 	margin: 0 auto 32px;
 	padding: 12px 24px;
 }
-.details > div > h3 {
-	margin-bottom: 10px;
+.details h3 {
+	margin: -12px -24px 12px;
+    padding: 12px 24px;
+    background: rgba(255,255,255,.125);
 }
 .details p {
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+.details ul {
+    list-style: circle;
+}
 .crafting h4, 
 .refining h4, 
 .cooking h4 {
 	margin: 12px 0;
     border-bottom: 1px solid rgba(255,255,255,0.25);
 }
+.crafting p, 
+.refining p, 
+.cooking p {
+    margin-bottom: 12px;
 }
 
-/* CRAFTING */
+/* RECIPES */
 .recipes {
 	display: flex;
 	flex-direction: row;
