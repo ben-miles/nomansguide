@@ -43,7 +43,7 @@ var app = new Vue({
 			// Toggle the drawer open/closed
 			let docbody = document.body;
 			docbody.classList.toggle("drawer-open");
-			// If the drawer is being opened, focus on the search input
+			// If the drawer is being opened, focus on the filter input
 			if(docbody.classList.contains("drawer-open")){
 				let filter = document.getElementsByClassName("filter")[0];
 				let filterInput = filter.getElementsByTagName("input")[0];

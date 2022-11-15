@@ -345,7 +345,7 @@ body.drawer-open #drawer {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 0 10px;
 	max-width: 512px;
 }
 .row {
@@ -416,13 +416,16 @@ body.drawer-open #drawer {
 
 /* DETAILS */
 .details {
-	margin: 0 auto 32px;
+	margin: 0 auto;
 }
 .details > * {
 	background: rgb(123,130,163,.2);
     border-top: 1px solid rgba(255,255,255,.5);
 	margin: 0 auto 32px;
 	padding: 12px 24px;
+}
+.details > *:last-child {
+	margin-bottom: 0;
 }
 .details h3 {
 	margin: -12px -24px 12px;
