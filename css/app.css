@@ -208,7 +208,7 @@ body.drawer-open .menu .toggle {
 	fill: #9fa2aa;
 }
 .nav-item:hover button svg,
-.nav-item button.active svg {
+body.drawer-open .nav-item button svg {
 	fill: #2e2c13;
 	filter: drop-shadow(2px 0 2px rgba(0,0,0,0.25));
 }

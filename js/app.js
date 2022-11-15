@@ -20,7 +20,11 @@ var app = new Vue({
 		selectItem: function(item_id, item_name){
 			this.selectedItem = item_id;
 			// window.history.pushState(item_id, item_name, "/" + item_id);
-			this.toggleDrawer();
+			// If the drawer is open, toggle (close) it
+			let docbody = document.body;
+			if(docbody.classList.contains("drawer-open")){
+				this.toggleDrawer();
+			}
 		},
 		selectItemType: function(itemType){
 			this.selectedItemType = itemType;
@@ -34,7 +38,7 @@ var app = new Vue({
 			thisTypeButton.classList.add("active");
 		},
 		toggleDrawer: function(){
-			// Toggle this drawer
+			// Toggle the drawer open/closed
 			let docbody = document.body;
 			docbody.classList.toggle("drawer-open");
 		}
