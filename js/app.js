@@ -1,14 +1,12 @@
 // TODOs
-// add cooking items?
 // add missing color data
-// refactor 'crafting' to 'building'
-// for crafting/building, and for refining, add a programatticly generated description paragraph, like '__ITEM__ can be built using a blueprint and the following ingredients:' and '__ITEM__ can be refined using a Refiner with the following ingredients:'
-// update categories? eg: add junk, flora, etc. will liekly require more refactoring
-// change IDs to match wiki
-// use IDs to generate links to wiki
-// remove ID / name? can one be derived from the other progrmattically?
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
+// update categories? eg: add junk, flora, etc. will likely require more refactoring
+// add cooking items?
+// change IDs to match wiki
+// use IDs to generate links to wiki
+// remove ID / name? can one be derived from the other programattically? not consistently...
 
 import Items from "/data/items.json" assert {type: "json"};
 
@@ -45,6 +43,12 @@ var app = new Vue({
 			// Toggle the drawer open/closed
 			let docbody = document.body;
 			docbody.classList.toggle("drawer-open");
+			// If the drawer is being opened, focus on the search input
+			if(docbody.classList.contains("drawer-open")){
+				let filter = document.getElementsByClassName("filter")[0];
+				let filterInput = filter.getElementsByTagName("input")[0];
+				filterInput.focus();
+			}
 		}
     },
 	computed: {
