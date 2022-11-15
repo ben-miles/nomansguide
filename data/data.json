@@ -1096,6 +1096,9 @@
 			}
 		]
 	},
+	"convergence_cube": {
+		"id": "convergence_cube",
+		"name": "Convergence Cube",
 	"copper": {
 		"id": "copper",
 		"name": "Copper",
@@ -1820,9 +1823,6 @@
 		"description": "The metallic shell of a disconnected electronic lifeform that was too distant from its own kind to be refreshed with a new entity. Highly prized by all species, not least its own.",
 		"value": 22000
 	},
-	"korvax_cube": {
-		"id": "korvax_cube",
-		"name": "Korvax Cube",
 		"type": "curiosities",
 		"description": "Device used by the Korvax for the storage of historical and cultural information.",
 		"value": 13063
