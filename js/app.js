@@ -2,7 +2,6 @@
 // add cursed dust, chewy wires, hexite
 // add cooking items?
 // add missing color data
-// rename data.json to items.json
 // refactor 'crafting' to 'building'
 // for crafting/building, and for refining, add a programatticly generated description paragraph, like '__ITEM__ can be built using a blueprint and the following ingredients:' and '__ITEM__ can be refined using a Refiner with the following ingredients:'
 // update categories? eg, add junk
@@ -12,12 +11,11 @@
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
 
-import Items from "/data/data.json" assert {type: "json"};
+import Items from "/data/items.json" assert {type: "json"};
 
 var app = new Vue({
     el: "#app",
     data: {
-		// items: items,
 		items: Object.values(Items),
 		selectedItem: "stasis_device",
 		selectedItemType: "",
