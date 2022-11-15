@@ -602,6 +602,16 @@
 		],
 		"value": 500
 	},
+	"chewy_wires": {
+		"id": "chewy_wires",
+		"name": "Chewy Wires",
+		"type": "raw_materials",
+		"description": "This odd collection of wires pulses with a faint, almost organic energy. It seems to remember the whole from which it was parted... Process in a Nutrient Processor to generate 'edible' products.",
+		"sources": [
+			"This ingredient can be sourced by gathering from robotic creatures (Mechanoceris) when fed Ion Batteries."
+		],
+		"value": 3200
+	},
 	"chlorine": {
 		"id": "chlorine",
 		"name": "Chlorine",
@@ -1215,6 +1225,16 @@
 			"Can be obtained from the sides of underwater vents. Use caution when harvesting, as the vent may trigger a blast of super-heated water which may cause damage to the harvester."
 		],
 		"value": 7410
+	},
+	"cursed_dust": {
+		"id": "cursed_dust",
+		"name": "Cursed Dust",
+		"type": "raw_materials",
+		"description": "A powdery desert soil, slick with the gland expressions of a colossal sandworm. Historically, some have regarded this dust as the divine parent of such worms. It smells curiously sweet. Cursed Dust gathers in the terrain deposits of planets blighted by titan worm activity.",
+		"sources": [
+			"Obtained as a mission reward from the Bounty Master at an Outlaw station."
+		],
+		"value": 959
 	},
 	"cyto_phosphate": {
 		"id": "cyto_phosphate",
@@ -3334,6 +3354,20 @@
 			"Randomly from Black Market Vendor."
 		],
 		"value": 16
+	},
+	"hexite": {
+		"id": "hexite",
+		"name": "Hexite",
+		"type": "raw_materials",
+		"description": "An odourless, mineral-rich substance with a hexagonal crystalline structure, harvested from the faecal matter of a creature.",
+		"sources": [
+			"During the Starbirth mission, a set amount of Hexite is awarded at a nearby (marked) crashed freighter, for use in creating the Consciousness Bridge.",
+			"Due to the random generation of rewards, guild NPCs can hand out several hundred units of Hexite.",
+			"Can be obtained in small amounts by killing the Crystal Elementals on Shard-type Exotic planets.",
+			"Can be purchased directly from vendors at pirate-controlled Space Stations.",
+			"Exceptionally rarely awarded from Nexus missions and Frigate expeditions."
+		],
+		"value": 654
 	},
 	"holographic_analyser": {
 		"id": "holographic_analyser",

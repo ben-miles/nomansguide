@@ -1,10 +1,9 @@
 // TODOs
-// add cursed dust, chewy wires, hexite
 // add cooking items?
 // add missing color data
 // refactor 'crafting' to 'building'
 // for crafting/building, and for refining, add a programatticly generated description paragraph, like '__ITEM__ can be built using a blueprint and the following ingredients:' and '__ITEM__ can be refined using a Refiner with the following ingredients:'
-// update categories? eg, add junk
+// update categories? eg: add junk, flora, etc. will liekly require more refactoring
 // change IDs to match wiki
 // use IDs to generate links to wiki
 // remove ID / name? can one be derived from the other progrmattically?
