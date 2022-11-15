@@ -1,7 +1,14 @@
 // TODOs
-// add missing item data (ONGOING)
-// add missing crafting data (ONGOING)
+// add cursed dust, chewy wires, hexite
+// add cooking items?
 // add missing color data
+// rename data.json to items.json
+// refactor 'crafting' to 'building'
+// for crafting/building, and for refining, add a programatticly generated description paragraph, like '__ITEM__ can be built using a blueprint and the following ingredients:' and '__ITEM__ can be refined using a Refiner with the following ingredients:'
+// update categories? eg, add junk
+// change IDs to match wiki
+// use IDs to generate links to wiki
+// remove ID / name? can one be derived from the other progrmattically?
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
 
