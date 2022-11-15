@@ -124,7 +124,6 @@
 		"sources": [
 			"Can be automatically harvested by Antimatter Reactor.",
 			"Can be found in Cargo Drops or Barrel Fabricators.",
-			"A possible reward from the captain of a freighter if you successfully save it from pirates.",
 			"Can sometimes be bought at Galactic Trade Terminals or from NPCs."
 		],
 		"crafting": [
@@ -559,7 +558,7 @@
 			{
 				"ingredients": [
 					{
-						"id": "Star_Bulb",
+						"id": "star_bulb",
 						"name": "Star Bulb",
 						"quantity": 1
 					}
@@ -1099,6 +1098,18 @@
 	"convergence_cube": {
 		"id": "convergence_cube",
 		"name": "Convergence Cube",
+		"type": "curiosities",
+		"description": "Device used by the Korvax for the storage of historical and cultural information.",
+		"sources": [
+			"It can be found in Damaged Containers or as monolith rewards.",
+			"It can be purchased from NPCs at Trading Posts.",
+			"It is a possible reward from frigate expeditions.",
+			"It is a possible trade from wandering traders you encounter while using the Pulse Engine.",
+			"It can be given by a Korvax space station exploration guild envoy, if you have a sufficient exploration guild rank.",
+			"It can be sold by landed NPC pilots."
+		],
+		"value": 13063
+	},
 	"copper": {
 		"id": "copper",
 		"name": "Copper",
@@ -1220,6 +1231,26 @@
 		"name": "Dark Matter",
 		"type": "curiosities",
 		"description": "An Atlas Seed shell encompassing a void element harvested from the collapse state of the last universe. Toxic if ingested.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Cassini or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "noospheric_orb",
+						"name": "Noospheric Orb",
+						"quantity": 1
+					},
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"dawns_end": {
@@ -1227,6 +1258,26 @@
 		"name": "Dawn's End",
 		"type": "curiosities",
 		"description": "Sculpted tau neutrino-boson matrix fixed within an irreplaceable Atlas Seed shell. May be semi-sentient.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Kepler or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "dark_matter",
+						"name": "Dark Matter",
+						"quantity": 1
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"deuterium": {
@@ -1234,6 +1285,27 @@
 		"name": "Deuterium",
 		"type": "raw_materials",
 		"description": "A stable hydrogen isotope used heavily in both small-scale fusion reactors and neutron-scattering shield technology. Deuterium very rarely occurs naturally. Most of the galaxy's supply comes from the processing of Di-hydrogen and Tritium in Refiners.",
+		"sources": [
+			"Can be purchased from terminals or NPCs.",
+			"Can be obtained by dismantling Deuterium-based technology."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 34
 	},
 	"di_hydrogen": {
@@ -1241,6 +1313,31 @@
 		"name": "Di-hydrogen",
 		"type": "raw_materials",
 		"description": "A stable, crystalline form of hydrogen remarkable both for its extreme energy density and its stability at atmospheric pressures. Common to all worlds, Di-hydrogen is found in the form of large blue crystals. It is a key component of Starship Launch Fuel.",
+		"sources": [
+			"Di-hydrogen can be found in blue crystal minerals located on nearly every planet. The larger minerals require an Advanced Mining Laser."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen_jelly",
+						"name": "Di-hydrogen Jelly",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 34
 	},
 	"di_hydrogen_jelly": {
@@ -1248,6 +1345,33 @@
 		"name": "Di-hydrogen Jelly",
 		"type": "crafted_products",
 		"description": "A faintly-glowing jelly. Its gentle light and soft wobble belie the fact that this sticky gel is both highly toxic and highly flammable. Skin contact is to be avoided at all costs. Synthesised from Di-hydrogen.",
+		"sources": [
+			"Available from some Galactic Trade Terminals."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 200
 	},
 	"dioxite": {
@@ -1255,6 +1379,88 @@
 		"name": "Dioxite",
 		"type": "raw_materials",
 		"description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a frozen environment.",
+		"sources": [
+			"As a secondary element in some minerals or in Resource Deposits or Hotspots on planets with Frozen biomes.",
+			"Found in Hotspots on Mega Exotic planets located in blue stellar systems.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}, 
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}, 
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "frost_crystal",
+						"name": "Frost Crystal",
+						"quantity": 2
+					}, 
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 2
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 2
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 62
 	},
 	"dirty_bronze": {
@@ -1262,7 +1468,12 @@
 		"name": "Dirty Bronze",
 		"type": "crafted_products",
 		"description": "A popular metal alloy with a wide variety of uses. 'Dirty Bronze' has shed its scientific name in favor of the popular term for its colour.",
-		"value": 25000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Galactic Trade Terminals.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral"
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1279,13 +1490,179 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					}, 
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 25000
 	},
 	"divergence_cube": {
 		"id": "divergence_cube",
 		"name": "Divergence Cube",
 		"type": "curiosities",
 		"description": "A glitching, pulsing data unit. It does not seem to belong in this reality. The cube gives the impression of a silent scream, the frozen cries of hundreds of lost minds trapped within.",
+		"sources": [
+			"A quest item which can be received at plaques."
+		],
 		"value": 3015
 	},
 	"echinocactus": {
@@ -1293,6 +1670,23 @@
 		"name": "Echinocactus",
 		"type": "crafted_products",
 		"description": "Native to barren biomes and capable of withstanding long periods of drought, Echinocactus is an edible succulent that responds well to cultivation, yielding a large but occasional harvest. Suitable for hydroponic indoor planting. Ensure Barren climate before planting outdoors. Approximate growing time: 16 hours",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "cactus_flesh",
+						"name": "Cactus Flesh",
+						"quantity": 50
+					},
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
 	},
 	"emergency_broadcast_receiver": {
@@ -1300,6 +1694,11 @@
 		"name": "Emergency Broadcast Receiver",
 		"type": "curiosities",
 		"description": "A single-use receiver that scans for distress signals on freighter frequencies. Derelict or abandoned freighters often contain high-value salvage. Select the Receiver and use Tune Signal to begin the location process.",
+		"sources": [
+			"Can be purchased from the Scrap Dealer aboard the Space Station.",
+			"Can be received as a reward from Nexus missions.",
+			"Iteration Helios offers a free receiver each week. Travellers must complete a derelict freighter mission before Helios will start offering a free receiver."
+		],
 		"value": 3280
 	},
 	"emeril": {
@@ -1307,6 +1706,28 @@
 		"name": "Emeril",
 		"type": "raw_materials",
 		"description": "A chromatic metal, generated by fusion in the heart of a star. Emeril is found on planets orbiting green stars, and can be placed in a Refiner to create purified Chromatic Metal for use in the manufacture of advanced technologies.",
+		"sources": [
+			"Emeril can be found on the surfaces of planets in green star systems.",
+			"It can be mined with the Terrain Manipulator attachment for the Multi-tool.",
+			"It can also be collected by feeding the fauna on certain planets. After a short period of time, they may dig some up or generate the element by various bodily functions."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "emeril",
+						"name": "Emeril",
+						"quantity": 1
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			}
+		],
 		"value": 348
 	},
 	"englobed_shade": {
@@ -1314,6 +1735,26 @@
 		"name": "Englobed Shade",
 		"type": "curiosities",
 		"description": "This Atlas Shell holds the remains of a parasitic space-borne lifeform, most likely of extra-dimensional origins.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Juno or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "captured_nanode",
+						"name": "Captured Nanode",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"enriched_carbon": {
@@ -1321,7 +1762,12 @@
 		"name": "Enriched Carbon",
 		"type": "crafted_products",
 		"description": "A refined product, taking ordinary carbon and boosting it with radioactive energy.",
-		"value": 50000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"It can be found at Resource Depots.",
+			"It can also be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1338,13 +1784,118 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 100
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 100
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 100
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 100
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 50000
 	},
 	"explosive_drones": {
 		"id": "explosive_drones",
 		"name": "Explosive Drones",
 		"type": "crafted_products",
 		"description": "A temporary frigate upgrade that lasts for one expedition. This pack of autonomous explosives have been programmed to launch from the fleet and pilot themselves directly towards hostile vessels. Extremely dangerous.",
+		"sources": [
+			"The product's blueprint is a possible reward from a Manufacturing Facility or Operations Centre.",
+			"The blueprint can be researched at the Upgrade Control terminal for one Salvaged Frigate Module.",
+			"A possible drop from Sentinel starships."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "walker_brain",
+						"name": "Walker Brain",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 75000
 	},
 	"faecium": {
@@ -1352,6 +1903,99 @@
 		"name": "Faecium",
 		"type": "raw_materials",
 		"description": "A foul-smelling compound that can be harvested from the Gutrot Flower, or less desirably from the faecal matter of some species. Creatures can be fed to encourage the formation and deposition of faecium crystals.",
+		"sources": [
+			"This resource can be obtained by feeding creatures on planets and then collecting their dropped coprite crystals. This process can be rather slow, however.",
+			"With assistance from a Farmer, Faecium can also be grown as a product of the Gutrot Flower, yielding a base product of 25 with a harvest time of 4 hours.",
+			"It can also be found on some planets as a by-product of some carbon-based plants much like some gases.",
+			"Sometimes it can be found in resource deposits on marsh planets."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 3
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+			],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					},
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 2
+					}
+			],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+			],
+				"yield": 4
+			}
+		],
 		"value": 30
 	},
 	"ferrite_dust": {
@@ -1359,6 +2003,82 @@
 		"name": "Ferrite Dust",
 		"type": "raw_materials",
 		"description": "An abundant mineral element, found in rock formations and other areas of geological interest. Easily extracted using a Mining Laser. Typically requires processing in a Refiner before use in construction or technology manufacture.",
+		"sources": [
+			"As a primary element in most minerals.",
+			"From any Galactic Trade Terminal."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "paraffinium",
+						"name": "Paraffinium",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "rusted_metal",
+						"name": "Rusted Metal",
+						"quantity": 1
+					}
+			],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 14
 	},
 	"frigate_fuel_50_tonnes": {
@@ -1366,6 +2086,26 @@
 		"name": "Frigate Fuel (50 Tonnes)",
 		"type": "crafted_products",
 		"description": "A small barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		"sources": [
+			"The blueprint is a reward given during the Freighter Command mission."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 50
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 50
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 20000
 	},
 	"frigate_fuel_100_tonnes": {
@@ -1373,6 +2113,26 @@
 		"name": "Frigate Fuel (100 Tonnes)",
 		"type": "crafted_products",
 		"description": "A large barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		"sources": [
+			"The blueprint is a reward given during the Freighter Command mission."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 100
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 100
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 40000
 	},
 	"frigate_fuel_200_tonnes": {
@@ -1380,6 +2140,26 @@
 		"name": "Frigate Fuel (200 Tonnes)",
 		"type": "crafted_products",
 		"description": "A huge barrel of frigate fuel. This viscous gel is highly toxic to the touch. A refined fuel, it powers the interstellar engines of large trading ships.",
+		"sources": [
+			"The blueprint is a reward given during the Freighter Command mission."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 200
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 200
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 80000
 	},
 	"frost_crystal": {
@@ -1387,6 +2167,57 @@
 		"name": "Frost Crystal",
 		"type": "raw_materials",
 		"description": "A beautiful blue crystal, this organic compound possesses both great hardiness and a shimmering translucence. It is harvested from the leaves of Frostwort. Frostwort requires frozen conditions to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"With assistance from a Farmer, Frost Crystals can also be grown as a product of the Frostwort plant, providing a base yield of 50 with a harvest time of approximately 60 minutes."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "frost_crystal",
+						"name": "Frost Crystal",
+						"quantity": 1
+					},
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 1
+					}
+			],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 1
+					},
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 12
 	},
 	"frostwort": {
@@ -1394,20 +2225,105 @@
 		"name": "Frostwort",
 		"type": "crafted_products",
 		"description": "A large crystal flower with radiant blue blooms, found only in snowy biomes. Frostwort can be farmed and makes a reliable crop, and its adaptation to harsh conditions results in highly frequent harvests. Suitable for hydroponic indoor planting. Ensure Frozen climate before planting outdoors. Approximate growing time: 1 hour",
-		"value": 3
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "frost_crystal",
+						"name": "Frost Crystal",
+						"quantity": 50
+					},
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 25
+					}
+			],
+				"yield": 1
+			}
+		],
+		"value": 1
 	},	
 	"fungal_cluster": {
 		"id": "fungal_cluster",
 		"name": "Fungal Cluster",
 		"type": "crafted_products",
 		"description": "A spherical fungus with internal gills, found only in toxic biomes. Fungal Clusters can be transplanted for cultivation, yielding a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Toxic climate before planting outdoors. Approximate growing time: 4 hours",
-		"value": 3
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "fungal_mould",
+						"name": "Fungal Mould",
+						"quantity": 50
+					},
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 25
+					}
+			],
+				"yield": 1
+			}
+		],
+		"value": 1
 	},
 	"fungal_mould": {
 		"id": "fungal_mould",
 		"name": "Fungal Mould",
 		"type": "raw_materials",
 		"description": "An oddly-glowing substance, harvested from the gills of Fungal Clusters. The host plant requires a toxic climate to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		"sources": [
+			"This element can be obtained from specific reddish-brown mushrooms on toxic planets. Safely harvesting this resource requires the use of Haz-Mat Gauntlet.",
+			"With assistance from a Farmer, Fungal Mould can also be grown as a product of the Fungal Cluster plant, with a harvest time of 4 hours yielding 50 Fungal Mould."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "fungal_mould",
+						"name": "Fungal Mould",
+						"quantity": 1
+					},
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 1
+					}
+			],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 16
 	},
 	"fuel_oxidiser": {
@@ -1415,6 +2331,27 @@
 		"name": "Fuel Oxidiser",
 		"type": "crafted_products",
 		"description": "A temporary frigate upgrade that lasts for one expedition. This powerful fuel upgrade overloads frigate engines, allowing for faster-than-usual travel.",
+		"sources": [
+			"The product's blueprint is a possible reward from a Manufacturing Facility or Operations Centre.",
+			"The blueprint can be researched at the Upgrade Control terminal for one Salvaged Frigate Module."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "quad_servo",
+						"name": "Quad Servo",
+						"quantity": 2
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+			],
+				"yield": 1
+			}
+		],
 		"value": 75000
 	},
 	"fusion_accelerant": {
@@ -1422,7 +2359,11 @@
 		"name": "Fusion Accelerant",
 		"type": "crafted_products",
 		"description": "An advanced fuel source, made from a perfect blend of high potential energy organic materials.",
-		"value": 1500000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1439,14 +2380,17 @@
 			],
 				"yield": 1
 			}
-		]
+		],
+		"value": 1500000
 	},
 	"fusion_ignitor": {
 		"id": "fusion_ignitor",
 		"name": "Fusion Ignitor",
 		"type": "crafted_products",
 		"description": "A highly advanced piece of technology for use in the next generation of power plants. Producing a fusion core requires both intricate scientific skills and complex industrial processes.",
-		"value": 15600000,
+		"sources": [
+			"The blueprint can be acquired from Manufacturing Facilites or purchased from the Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1468,13 +2412,65 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 15600000
 	},
 	"gamma_root": {
 		"id": "gamma_root", 
 		"name": "Gamma Root",
 		"type": "raw_materials",
 		"description": "A strange substance that seems to slowly shift the air around it. It is found in the roots of the Gamma Weed plant. Gamma Weed requires high background radiation to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"With assistance from a Farmer, it can also be grown as a product of the Gamma Weed plant, yielding 50 with a harvest time of 4 hours."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "gamma_root",
+						"name": "Gamma Root",
+						"quantity": 1
+					},
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 1
+					},
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 16
 	},
 	"gamma_weed": {
@@ -1482,6 +2478,23 @@
 		"name": "Gamma Weed",
 		"type": "crafted_products",
 		"description": "A luminous, leafy flowering plant that thrives in radioactive biomes and can be cultivated to yield a bountiful harvest. Suitable for hydroponic indoor planting. Ensure Radioactive climate before planting outdoors. Approximate growing time: 4 hours",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "gamma_root",
+						"name": "Gamma Root",
+						"quantity": 50
+					},
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 16
 	},
 	"gek_relic": {
@@ -1489,6 +2502,13 @@
 		"name": "Gek Relic",
 		"type": "curiosities",
 		"description": "A metal statuette of a creature with a coin placed in its beak. Popular with many traders who see it as an emblem of fair commerce and peace.",
+		"sources": [
+			"It can be found in Damaged Containers or as monolith rewards.",
+			"It can be rewarded from Gek NPC on Minor Settlements.",
+			"It can also be bought from NPCs in Trading Posts.",
+			"It is a possible reward from frigate expeditions.",
+			"It is also a possible trade from wandering traders you encounter while using the Pulse Engine."
+		],
 		"value": 23375
 	},
 	"geknip": {
@@ -1496,6 +2516,13 @@
 		"name": "GekNip",
 		"type": "curiosities",
 		"description": "Edible product much beloved by the Gek. Allows beaked traders to release delightfully scented packets of gas for a prolonged period of time. GekNip gas packets are considered an art form, and the truest representation of the Gek soul.",
+		"sources": [
+			"It can be found in Damaged Containers or as monolith rewards.",
+			"It can also be bought from NPCs in Trading Posts.",
+			"It is a possible reward from frigate expeditions.",
+			"It is also a possible trade from wandering traders you encounter while using the Pulse Engine.",
+			"It is a possible reward from Practice Language with Geks."
+		],
 		"value": 20625
 	},
 	"geode": {
@@ -1503,6 +2530,9 @@
 		"name": "Geode",
 		"type": "curiosities",
 		"description": "An unusually vibrant and potentially valuable lump of rock.",
+		"sources": [
+			"Rarely found from completely mining surface minerals."
+		],
 		"value": 3280
 	},
 	"geodesite": {
@@ -1510,7 +2540,11 @@
 		"name": "Geodesite",
 		"type": "crafted_products",
 		"description": "Advanced and durable alloy primarily used in starship hull construction and deep-space exploration drone technology.",
-		"value": 150000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1532,32 +2566,76 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 150000
 	},
 	"glass": {
 		"id": "glass",
 		"name": "Glass",
 		"type": "crafted_products",
 		"description": "Shatter-proof, scratch-resistant glass with a self-cleaning, UV-cured coating, for general construction use.",
-		"value": 200,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
 					{
 						"id": "frost_crystal",
 						"name": "Frost Crystal",
-						"quantity": 250
+						"quantity": 40
 					}
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "cyto_phosphate",
+						"name": "Cyto-Phosphate",
+						"quantity": 50
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "silicate_powder",
+						"name": "Silicate Powder",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "frost_crystal",
+						"name": "Frost Crystal",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 200
 	},
 	"glowing_mineral": {
 		"id": "glowing_mineral",
 		"name": "Glowing Mineral",
 		"type": "curiosities",
 		"description": "Though its surface is dirtied and dull, polishing this rock reveals a deep inner glow, a glitter beneath a subtly iridescent surface.",
+		"sources": [
+			"One piece each can be harvested from Floating Crystals and from underground Buried Mineral Formations."
+		],
 		"value": 3280
 	},
 	"gold": {
@@ -1565,6 +2643,133 @@
 		"name": "Gold",
 		"type": "raw_materials",
 		"description": "Highly valuable interstellar trading mineral, typically mined from asteroids. Occasionally found in underground planetary deposits. Universally prized for its beauty and versatility.",
+		"sources": [
+			"As a primary (very rare) or secondary element in some minerals in caves.",
+			"Can be mined from asteroids.",
+			"Can be mined from deposits on Exotic planets.",
+			"Acquired as loot dropped by pirates.",
+			"Can be found in Metal 'Fingers'.",
+			"Can be received from Gold Nuggets after they are analysed.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "lemmium",
+						"name": "Lemmium",
+						"quantity": 1
+					}
+				],
+				"yield": 125
+			},
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 1
+					},
+					{
+						"id": "residual_goop",
+						"name": "Residual Goop",
+						"quantity": 1
+					}
+
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					},
+					{
+						"id": "emeril",
+						"name": "Emeril",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "magno_gold",
+						"name": "Magno Gold",
+						"quantity": 1
+					}
+				],
+				"yield": 125
+			},
+			{
+				"ingredients": [
+					{
+						"id": "grantine",
+						"name": "Grantine",
+						"quantity": 1
+					}
+				],
+				"yield": 125
+			},
+			{
+				"ingredients": [
+					{
+						"id": "living_pearl",
+						"name": "Living Pearl",
+						"quantity": 1
+					}
+				],
+				"yield": 100
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hexite",
+						"name": "Hexite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 353
 	},
 	"gold_nugget": {
@@ -1572,6 +2777,9 @@
 		"name": "Gold Nugget",
 		"type": "curiosities",
 		"description": "A highly valuable ore chunk, ready to be processed into Gold.",
+		"sources": [
+			"Can be mined from asteroids."
+		],
 		"value": 3280
 	},
 	"grantine": {
@@ -1579,7 +2787,12 @@
 		"name": "Grantine",
 		"type": "crafted_products",
 		"description": "Soft workable alloy favored by artisans throughout the known galaxy. A popular trading good, with many galactic shipping paths devoted to its sale and transport.",
-		"value": 25000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Galactic Trade Terminals.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1596,13 +2809,184 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 25000
 	},
 	"gravitino_ball": {
 		"id": "gravitino_ball",
 		"name": "Gravitino Ball",
 		"type": "curiosities",
 		"description": "A supersymmetric particle cluster created by divergent super-gravitational forces. A micro-rift is created as they form, and extraction of the orb prompts a localised reality weakening. Sentinel forces will respond to stablise any such anomaly. Can be sold at a Galactic Trade Terminal.",
+		"sources": [
+			"Gravitino Balls will always spawn on planets with hostile sentinels.",
+			"Gravitino Plants on a frozen world.",
+			"They can also be found from a rock-like creature with a stalk holding a Gravitino Ball. These are called Sentient Plant in-game. The stalk will only appear when you're near it. This type has a low chance of appearing on planets without extreme weather, and is similar to the Light Stalk found around Xen in the game Half Life.",
+			"Several can also be found at certain Ancient Ruins.",
+			"With assistance from a Farmer, Gravitino Balls can also be grown as a product of the Gravitino Host plant, with a harvest time of 120 minutes.",
+			"Can be found on Frigate expeditions."
+		],
 		"value": 40024
 	},
 	"gravitino_host": {
@@ -1610,20 +2994,62 @@
 		"name": "Gravitino Host",
 		"type": "crafted_products",
 		"description": "A strange, potentially parasitic plant that yields an occasional harvest of the highly tradable commodity, Gravitino Balls. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 2 hours",
-		"value": 3
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 25
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 120
+					},
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 1
 	},
 	"gutrot_flower": {
 		"id": "gutrot_flower",
 		"name": "Gutrot Flower",
 		"type": "crafted_products",
 		"description": "A foul-smelling, farmable flower that replicates the chemical structure of faecal matter. When planted inside, yields a harvest of Faecium. A good alternative to collecting Faecium by hand, which requires feeding creatures and then harvesting their droppings. Gutrot Flowers must be grown in a Hydroponics Tray. Approximate growing time: 4 hours",
-		"value": 3
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 1
 	},
 	"hadal_core": {
 		"id": "hadal_core",
 		"name": "Hadal Core",
 		"type": "curiosities",
 		"description": "A highly-pressurised fleshy orb. One can feel it push back when touched, a flash of bioluminescence stirring in the inky black core of this mysterious object.",
+		"sources": [
+			"Five pieces can be acquired from an Alluring Specimen, but with each harvest there is a chance for an Abyssal Horror to appear, destroying the remaining cores.",
+			"Can be found in Derelict Freighter containers.",
+			"Can be found in the form of Submerged Relics (one piece).",
+			"From Suspicious Packet (Goods).",
+			"From Nexus and Mission Board Missions.",
+			"As a gift from Planetary Settlement visitors."
+		],
 		"value": 92625
 	},
 	"heart_of_the_sun": {
@@ -1631,6 +3057,26 @@
 		"name": "Heart of the Sun",
 		"type": "curiosities",
 		"description": "An Atlas Seed containing a time-locked quantum cilia suspended in a photonic shell. No others are known to exist.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Magellan or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "modified_quanta",
+						"name": "Modified Quanta",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"heat_capacitor": {
@@ -1638,7 +3084,11 @@
 		"name": "Heat Capacitor",
 		"type": "crafted_products",
 		"description": "A thermal regulator produced from refined organic material. It is unique in its ability to produce, dissipate and distribute heat as required.",
-		"value": 180000,
+		"sources": [
+			"Blueprint can be awarded by completing a certain stage of Scientific Research mission.",
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"This can be found in a Cargo Drop."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1655,13 +3105,29 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 180000
 	},
 	"hermetic_seal": {
 		"id": "hermetic_seal",
 		"name": "Hermetic Seal",
 		"type": "crafted_products",
 		"description": "A high-performance carbon seal, able to withstand both the harsh interstellar environment and the rigours of intensive, high-energy industrial use. User is advised to regularly check seal integrity after installation.",
+		"sources": [
+			"Available from some Galactic Trade Terminals."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 800
 	},
 	"herox": {
@@ -1669,7 +3135,13 @@
 		"name": "Herox",
 		"type": "crafted_products",
 		"description": "Herox is a tradeable that can be crafted, found in containers or purchased.",
-		"value": 25000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Galactic Trade Terminals.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral",
+			"Can be salvaged from destroyed pirate ships."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1686,13 +3158,181 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ammonia",
+						"name": "Ammonia",
+						"quantity": 30
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 25000
 	},
 	"hex_core": {
 		"id": "hex_core",
 		"name": "Hex Core",
 		"type": "curiosities",
 		"description": "This strange energy orb constantly vibrates, emitting a low-frequency drone. Slight variations in the pattern repeat over and over, almost as if it is attempting to relay a message.",
+		"sources": [
+			"2 Hex Cores rewarded for killing Anomalous fauna on specific planets with exotic biome.",
+			"Can be received from an Anomaly Iteration as a gift.",
+			"Randomly from Black Market Vendor."
+		],
 		"value": 16
 	},
 	"holographic_analyser": {
@@ -1700,6 +3340,28 @@
 		"name": "Holographic Analyser",
 		"type": "crafted_products",
 		"description": "A temporary frigate upgrade that lasts for one expedition. This powerful analytic computer overclocks the existing fleet systems, allowing for faster-than-light calculations. Heat is a problem, and the chips do not last long.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "quantum_computer",
+						"name": "Quantum Computer",
+						"quantity": 1
+					}, 
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 75000
 	},
 	"hot_ice": {
@@ -1707,7 +3369,11 @@
 		"name": "Hot Ice",
 		"type": "crafted_products",
 		"description": "A paradoxical material, made less mysterious by its relative ease of manufacture.",
-		"value": 400000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1724,13 +3390,40 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 400000
 	},
 	"hydraulic_wiring": {
 		"id": "hydraulic_wiring",
 		"name": "Hydraulic Wiring",
 		"type": "crafted_products",
 		"description": "Specialist wiring and control threads, this flexible material allows the transmission of power and signals, as well as offering direct manipulation of remote components. Used in the creation of a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units"
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "carbon_nanotubes",
+						"name": "Carbon Nanotubes",
+						"quantity": 2
+					}, 
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 20
+					}, 
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3600
 	},
 	"hydrothermal_fuel_cell": {
@@ -1738,6 +3431,31 @@
 		"name": "Hydrothermal Fuel Cell",
 		"type": "crafted_products",
 		"description": "A high thermal energy fuel, contained within a standardised fuel cell. Used to fuel the Humboldt Drive that powers the Nautilon submarine. Created with a mix of organic compounds (Carbon and cyto-phosphates) and localised mineral salts.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 40
+					},
+					{
+						"id": "cyto_phosphate",
+						"name": "Cyto-Phosphate",
+						"quantity": 40
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 7200
 	},
 	"hypnotic_eye": {
@@ -1745,6 +3463,10 @@
 		"name": "Hypnotic Eye",
 		"type": "curiosities",
 		"description": "The eye is cold, almost frozen, to the touch. Nonetheless, it is impossible to escape the feeling it is somehow still alive. Extended exposure is not recommended. Do not stare back into the eye. Do not stare back. Do not stare back.",
+		"sources": [
+			"Hypnotic Eye drops when an Abyssal Horror is killed. It will disappear if not picked up within a few seconds of spawning.",
+			"These can be found in Derelict Freighter containers."
+		],
 		"value": 57000
 	},
 	"indium": {
@@ -1752,6 +3474,26 @@
 		"name": "Indium",
 		"type": "raw_materials",
 		"description": "A chromatic metal, generated by fusion in the heart of a star. Such stellar material ends up forming deposits in the crust of local planets. Indium is found on planets orbiting blue stars, and can be placed in a Refiner to create purified Chromatic Metal for use in the manufacture of advanced technologies.",
+		"sources": [
+			"It can be found on planets orbiting blue stars."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "indium",
+						"name": "Indium",
+						"quantity": 1
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			}
+		],
 		"value": 464
 	},
 	"ion_battery": {
@@ -1759,6 +3501,48 @@
 		"name": "Ion Battery",
 		"type": "crafted_products",
 		"description": "Convenient and optimised power storage unit. Used in a wide variety of defensive and hazard protection systems. Constructed by fusing Ferrite Dust with underground Cobalt. Frequently found ready-made in cylindrical metal containers.",
+		"sources": [
+			"Can always be bought from any Galactic Trade Terminal or from pilot NPCs on Space Stations (only on 'Goods Availability->Abundant' setting)."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 5
+					},
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 10
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 10
+					},
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 200
 	},
 	"ionised_cobalt": {
@@ -1766,8 +3550,10 @@
 		"name": "Ionised Cobalt",
 		"type": "raw_materials",
 		"description": "A highly energised form of Cobalt, this processed metal can be used to create Advanced Ion Batteries, a conveniently portable source of energy for the Exosuit. In widespread use as a key component in the creation of advanced technologies and structures.",
-		"value": 401,
-		"crafting": [
+		"sources": [
+			"Available from some Galactic Trade Terminals."
+		],
+		"refining": [
 			{
 				"ingredients": [
 					{
@@ -1777,15 +3563,110 @@
 					}
 				],
 				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 2
+					}
+				],
+				"yield": 6
+			},
+			{
+				"ingredients": [
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 2
+					}
+				],
+				"yield": 5
+			},
+			{
+				"ingredients": [
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 1
+					},
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 1
+					},
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					}
+				],
+				"yield": 2
 			}
-		]
+		],
+		"value": 401
 	},
 	"iridesite": {
 		"id": "iridesite",
 		"name": "Iridesite",
 		"type": "crafted_products",
 		"description": "Advanced light metal alloy traded throughout the galactic Outer Edge. Often used in the interiors of trading shuttles to reduce weight as they ascend from planets with high gravitational fields.",
-		"value": 150000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1807,13 +3688,35 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 150000
 	},
 	"kelp_sac": {
 		"id": "kelp_sac",
 		"name": "Kelp Sac",
 		"type": "raw_materials",
 		"description": "A rubbery, luminescent sac harvested from underwater Candle Kelp plants. Agricultural science has not yet tamed the Candle Kelp. As such, these sacs cannot be farmed.",
+		"sources": [
+			"It can be harvested from Candle Kelp that can be found underwater, but it is advisable to get into interaction range of the plants, as they can replenish the exosuit's oxygen supply.",
+			"On the Galactic Map it is indicated with Water if the star system has a body of water. This information is not indicated on planetary scans, however the water on the surface is visible to the naked eye from space."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}, 
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 41
 	},
 	"korvax_casing": {
@@ -1821,17 +3724,23 @@
 		"name": "Korvax Casing",
 		"type": "curiosities",
 		"description": "The metallic shell of a disconnected electronic lifeform that was too distant from its own kind to be refreshed with a new entity. Highly prized by all species, not least its own.",
+		"sources": [
+			"Simplest way to get this in large amounts is to buy it from pilot NPCs in any Trading Post found in Korvax systems.",
+			"Can be found in Damaged Containers or as monolith rewards.",
+			"A possible reward from frigate expeditions.",
+			"A possible trade from wandering traders you encounter while using the Pulse Engine.",
+			"With a 10% chance from crew lockers in Derelict Freighters."
+		],
 		"value": 22000
-	},
-		"type": "curiosities",
-		"description": "Device used by the Korvax for the storage of historical and cultural information.",
-		"value": 13063
 	},
 	"larval_core": {
 		"id": "larval_core",
 		"name": "Larval Core",
 		"type": "curiosities",
 		"description": "A pulsating jellied orb, this gooey sphere is warm to the touch. Its stench triggers a primal fear in mortal beings, a deep-seated gnawing that begs you to drop it and flee.",
+		"sources": [
+			"Drops when a Whispering Egg is destroyed. It will disappear if not picked up within a few seconds of spawning."
+		],
 		"value": 69875
 	},
 	"lemmium": {
@@ -1839,7 +3748,13 @@
 		"name": "Lemmium",
 		"type": "crafted_products",
 		"description": "Pure Ferrite alloy. Crafted from Pure Ferrite and Uranium. Used extensively in starship freighter construction due to its sheer strength. A hardcore material popular on the Galactic Trade Network.",
-		"value": 25000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Galactic Trade Terminals.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral",
+			"It can also be salvaged from destroyed pirate ships and chests on planets."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1856,13 +3771,218 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 30
+					}, 
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 25000
 	},
 	"life_support_gel": {
 		"id": "life_support_gel",
 		"name": "Life Support Gel",
 		"type": "crafted_products",
 		"description": "Emergency life support fuel. Synthesised from rocket fuel crystals and carbon, this gel offers a temporary boost to Life Support systems. Long-term impact on a user's lungs is currently unknown.",
+		"sources": [
+			"Can always be bought from any Galactic Trade Terminal or from pilot NPCs on Space Stations (only on 'Goods Availability->Abundant' setting)."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen_jelly",
+						"name": "Di-hydrogen Jelly",
+						"quantity": 1
+					}, 
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 10
+					}, 
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "di_hydrogen_jelly",
+						"name": "Di-hydrogen Jelly",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 200
 	},
 	"living_glass": {
@@ -1870,7 +3990,9 @@
 		"name": "Living Glass",
 		"type": "crafted_products",
 		"description": "An advanced building material, this glass has been imbued with organic compounds that allow it to react to the environment. Microbes within the glass filter harmful light of all wavelengths and balance the atmosphere as required.",
-		"value": 566000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1887,13 +4009,18 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 566000
 	},
 	"living_pearl": {
 		"id": "living_pearl",
 		"name": "Living Pearl",
 		"type": "curiosities",
 		"description": "Born in the hearts of enormous glowing molluscs found deep underwater. Unlike most pearls, this sample is no unliving calcite. Some trace of the mother-clam's consciousness remains within the gem, giving it a lingering, haunting beauty.",
+		"sources": [
+			"It can be found in Armoured Clams. Damage will force them to open their shells for a short time, revealing the Living Pearl inside.",
+			"If it is not taken in the allotted time, the shells will close and the player needs to damage them again."
+		],
 		"value": 4797.5
 	},	
 	"living_slime": {
@@ -1901,6 +4028,34 @@
 		"name": "Living Slime",
 		"type": "raw_materials",
 		"description": "A heavy, oozing slime. It is moving gently, as if it has a heartbeat of its own. Nutrient source: unknown.",
+		"sources": [
+			"Can be purchased and sold at Galactic Trade Terminals and NPCs for a profit.",
+			"Found in alien-infested Derelict Freighters.",
+			"Sometimes dropped when killing fauna on Exotic planets.",
+			"Damaged Machinery."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "viscous_fluids",
+						"name": "Viscous Fluids",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hypnotic_eye",
+						"name": "Hypnotic Eye",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			}
+		],
 		"value": 20
 	},
 	"liquid_explosive": {
@@ -1908,7 +4063,9 @@
 		"name": "Liquid Explosive",
 		"type": "crafted_products",
 		"description": "A general purpose high explosive, offered in liquid form for convenience of transport and deployment. Do not drink.",
-		"value": 800500,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1925,14 +4082,17 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 800500
 	},
 	"lubricant": {
 		"id": "lubricant",
 		"name": "Lubricant",
 		"type": "crafted_products",
 		"description": "A synthetic lubricant that reduces wear and prolongs the lifespan of technologies with moving parts.",
-		"value": 110000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1949,13 +4109,35 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 110000
 	},
 	"magnetic_resonator": {
 		"id": "magnetic_resonator",
 		"name": "Magnetic Resonator",
 		"type": "crafted_products",
 		"description": "An electromagnetic frequency oscillator, able to function in a wide-range of conditions thanks to both ferrous and non-ferrous magnetic properties. Used in the creation of a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units"
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 40
+					},
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 6150
 	},
 	"magnetised_ferrite": {
@@ -1963,6 +4145,309 @@
 		"name": "Magnetised Ferrite",
 		"type": "raw_materials",
 		"description": "Highly processed metal, requiring several stages of processing in a Refiner. Used in the creation of advanced structures and technologies. Avoid ingestion.",
+		"sources": [
+			"From resource cans dropped by defeated pirates.",
+			"In Resource Deposits.",
+			"Collectable by boarding any player-owned industrial Frigate that is not on an expedition.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 2
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "copper",
+						"name": "Copper",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "cadmium",
+						"name": "Cadmium",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "emeril",
+						"name": "Emeril",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "indium",
+						"name": "Indium",
+						"quantity": 1
+					}
+				],
+				"yield": 4
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "activated_copper",
+						"name": "Activated Copper",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "activated_cadmium",
+						"name": "Activated Cadmium",
+						"quantity": 1
+					}
+				],
+				"yield": 4
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "activated_emeril",
+						"name": "Activated Emeril",
+						"quantity": 1
+					}
+				],
+				"yield": 6
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "activated_indium",
+						"name": "Activated Indium",
+						"quantity": 1
+					}
+				],
+				"yield": 8
+			},
+			{
+				"ingredients": [
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 3
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 4
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 2
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 1
+					}
+				],
+				"yield": 5
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 1
+					}
+				],
+				"yield": 8
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 1
+					}
+				],
+				"yield": 12
+			}
+		],
 		"value": 82
 	},
 	"magno_gold": {
@@ -1970,7 +4455,12 @@
 		"name": "Magno-Gold",
 		"type": "crafted_products",
 		"description": "Highly prized and lustrous alloy. Popular with traders of all known primary galactic races. Crafted from Ionised Cobalt and Phosphorus. Easily recognisable by its bright red glow and strong magnetic field.",
-		"value": 25000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Galactic Trade Terminals.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be received after analysing Glowing Mineral."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -1987,13 +4477,226 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "tritium",
+						"name": "Tritium",
+						"quantity": 20
+					}, 
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 20
+					}, 
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 10
+					}, 
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 60
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 30
+					}, 
+					{
+						"id": "platinum",
+						"name": "Platinum",
+						"quantity": 5
+					}, 
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 30
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 25000
 	},
 	"marrow_bulb": {
 		"id": "marrow_bulb",
 		"name": "Marrow Bulb",
 		"type": "raw_materials",
 		"description": "A glowing organic bulb, harvested from the Cave Marrow plant found growing underground. The Cave Marrow has proved resistant to domestication, and no farmable cultivars are known to exist. As such, marrow bulbs must be harvested by hand in the wild.",
+		"sources": [
+			"It can be harvested from Cave Marrows that can be found in caves."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "cobalt",
+						"name": "Cobalt",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 1
+					},
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 2
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 1
+					},
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					}
+				],
+				"yield": 4
+			}
+		],
 		"value": 41
 	},
 	"metal_plating": {
@@ -2001,6 +4704,21 @@
 		"name": "Metal Plating",
 		"type": "crafted_products",
 		"description": "A lightweight metal product, heavily used in the manufacture of starship parts and deployable technology. A mainstay of the construction industries of all known primary species. Crafted from Ferrite Dust.",
+		"sources": [
+			"Available from any Galactic Trade Terminal."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 800
 	},
 	"microprocessor": {
@@ -2008,6 +4726,26 @@
 		"name": "Microprocessor",
 		"type": "crafted_products",
 		"description": "A compact, low-heat microchip. Assembled from processed Chromatic Metal, created from one of several specialised terrain metals. Used in the creation of a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be awarded in the Scientific Research mission, found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 40
+					},
+					{
+						"id": "carbon_nanotubes",
+						"name": "Carbon Nanotubes",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 2000
 	},
 	"mind_arc": {
@@ -2015,6 +4753,28 @@
 		"name": "Mind Arc",
 		"type": "curiosities",
 		"description": "A strange piece of technology, a gift from beyond the stars. It shimmers in a way that suggests it is not fully in this world.",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "soul_engine",
+						"name": "Soul Engine",
+						"quantity": 1
+					},
+					{
+						"id": "wiring_loom",
+						"name": "Wiring Loom",
+						"quantity": 3
+					},
+					{
+						"id": "glass",
+						"name": "Gloss",
+						"quantity": 3
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"mind_control_device": {
@@ -2022,6 +4782,28 @@
 		"name": "Mind Control Device",
 		"type": "crafted_products",
 		"description": "A temporary frigate upgrade that lasts for one expedition. The mind control device plugs into the ship's trading and communications systems, allowing the Fleet Commander to gain the upper hand in any negotiation.",
+		"sources": [
+			"The product's blueprint is a possible reward from a Manufacturing Facility or Operations Centre.",
+			"The blueprint can be researched at the Upgrade Control terminal for one Salvaged Frigate Module.",
+			"Possible drop from Sentinel starships."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "solar_mirror",
+						"name": "Solar Mirror",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 75000
 	},
 	"mineral_compressor": {
@@ -2029,6 +4811,27 @@
 		"name": "Mineral Compressor",
 		"type": "crafted_products",
 		"description": "A temporary frigate upgrade that lasts for one expedition. The mineral compressor allows fleet mining crews to liquidise the substances they extract, for both faster processing and easier transportation.",
+		"sources": [
+			"The product's blueprint is a possible reward from a Manufacturing Facility or Operations Centre.",
+			"The blueprint can be researched at the Upgrade Control terminal for one Salvaged Frigate Module."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "hydraulic_wiring",
+						"name": "Hydraulic Wiring",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 75000
 	},
 	"modified_quanta": {
@@ -2036,6 +4839,26 @@
 		"name": "Modified Quanta",
 		"type": "curiosities",
 		"description": "This one-of-a-kind Atlas Seed holds an aesthetically pleasing mathematical construct salvaged from the simulation of an alternate reality.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Viking or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "novae_reclaiment",
+						"name": "Novae Reclaiment",
+						"quantity": 1
+					},
+					{
+						"id": "indium",
+						"name": "Indium",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"mordite": {
@@ -2043,6 +4866,69 @@
 		"name": "Mordite",
 		"type": "raw_materials",
 		"description": "Despite much study, little is known about this haunting, crystalline compound. It is released from the cadavers of dying creatures, but can also be specifically cultivated and harvested from the Mordite Root plant.",
+		"sources": [
+			"It can be recovered from killing fauna in the game.",
+			"It can be harvested from Mordite Root (yields 25 every eight hours of real time).",
+			"It can also be found in 'Organic' Rocks.",
+			"It can be found in Mineral Deposits on Marsh planets."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 3
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 40
 	},
 	"mordite_root": {
@@ -2050,6 +4936,18 @@
 		"name": "Mordite Root",
 		"type": "crafted_products",
 		"description": "An inedible tuber that produces a small yield of Mordite crystals. A peaceful alternative to the process of harvesting Mordite from the corpses of creatures. Mordite Root must be grown in a Hydroponics Tray. Approximate growing time: 8 hours",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "mordite",
+						"name": "Mordite",
+						"quantity": 40
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
 	},
 	"nipnip": {
@@ -2057,6 +4955,23 @@
 		"name": "NipNip",
 		"type": "crafted_products",
 		"description": "This medicinal herb is known for its pungent buds, which are harvested to produce Gek Nip. NipNip thrives in dank environments, and often grows as a weed. Suitable for hydroponic planting indoors. Needs a tropical or humid climate before planting outdoors.",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "nipnip_buds",
+						"name": "NipNip Buds",
+						"quantity": 1
+					},
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
 	},
 	"nipnip_buds": {
@@ -2064,6 +4979,16 @@
 		"name": "NipNip Buds",
 		"type": "curiosities",
 		"description": "A pungent bud harvested from the NipNip plant, often used to produce GekNip.",
+		"sources": [
+			"The primary source is harvesting.",
+			"Can be purchased in outlaw systems.",
+			"Can be occasionally bought from Scrap Dealers on space stations.",
+			"Can be found in Derelict Freighter containers.",
+			"Can occasionally be given as a reward for Nexus missions.",
+			"Can occasionally be purchased on planets from black market traders for nanites.",
+			"Can occasionally be purchased on planets from landed ships.",
+			"It is a possible reward from frigate expeditions."
+		],
 		"value": 17776
 	},
 	"nitrogen": {
@@ -2071,6 +4996,54 @@
 		"name": "Nitrogen",
 		"type": "raw_materials",
 		"description": "A reactive atmospheric gas found wherever there is organic life. Nitrogen is readily harvested from the atmospheres of Lush and Toxic planets.",
+		"sources": [
+			"As a secondary element in some flora.",
+			"From Atmosphere Harvesters built on planets with Lush and Toxic biomes.",
+			"Using Gas Extractor at a Nitrogen Concentrated Gas Cloud on Toxic or Lush biomes.",
+			"It can be found at Resource Depots."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 3
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					}, 
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					}, 
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"nitrogen_salt": {
@@ -2078,7 +5051,13 @@
 		"name": "Nitrogen Salt",
 		"type": "crafted_products",
 		"description": "A refined product, this is a powerful organic fertiliser in an easily distributed form.",
-		"value": 50000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be found in planetary depots.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be purchased from NPCs in some Minor Settlements."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2095,13 +5074,116 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 100
+					}, 
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					}, 
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 100
+					}, 
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					}, 
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 100
+					}, 
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					}, 
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 100
+					}, 
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					}, 
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 50000
 	},
 	"noospheric_orb": {
 		"id": "noospheric_orb",
 		"name": "Noospheric Orb",
 		"type": "curiosities",
 		"description": "An Atlas Seed capable of resonating on humanoid telepathic frequencies; may attempt to subsume any subordinate intellect in close proximity.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Rosetta or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "englobed_shade",
+						"name": "Englobed Shade",
+						"quantity": 1
+					}, 
+					{
+						"id": "ionised_cobalt",
+						"name": "Ionised Cobalt",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"novae_reclaiment": {
@@ -2109,6 +5191,26 @@
 		"name": "Novae Reclaiment",
 		"type": "curiosities",
 		"description": "Atlas Seed contains neutronium elements from a catastrophic supernova event that obliterated a sentient civilization in an earlier era.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Hubble or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "state_phasure",
+						"name": "State Phasure",
+						"quantity": 1
+					}, 
+					{
+						"id": "emeril",
+						"name": "Emeril",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"organic_catalyst": {
@@ -2116,7 +5218,11 @@
 		"name": "Organic Catalyst",
 		"type": "crafted_products",
 		"description": "A catalytic material used in the creation of many organic fertilizers.",
-		"value": 320000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2133,13 +5239,185 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 320000
 	},
 	"oxygen": {
 		"id": "oxygen",
 		"name": "Oxygen",
 		"type": "raw_materials",
 		"description": "Integral to the atmospheric filtering technology at the heart of the exosuit life support system. Exosuit material processing allows oxygen to be harvested directly from appropriate planetary flora. Other plantlife may be scanned with the Analysis Visor to reveal alternative oxygen supplies.",
+		"sources": [
+			"Can be harvested from red plants in the wild.",
+			"Can be found as a secondary element in some flora.",
+			"Can be found as a primary element in Underground Toxic Hazard.",
+			"Can always be bought from any Galactic Trade Terminal or from pilot NPCs on Space Stations (only on 'Goods Availability->Abundant' setting).",
+			"Obtained from an Oxygen Harvester.",
+			"Obtained from an Atmosphere Harvester on exotic planets.",
+			"Using Gas Extractor at an Oxygen Concentrated Gas Cloud."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "fungal_mould",
+						"name": "Fungal Mould",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "frost_crystal",
+						"name": "Frost Crystal",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "cactus_flesh",
+						"name": "Cactus Flesh",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "solanium",
+						"name": "Solanium",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "gamma_root",
+						"name": "Gamma Root",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			},
+			{
+				"ingredients": [
+					{
+						"id": "star_bulb",
+						"name": "Star Bulb",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 10
+			}
+		],
 		"value": 34
 	},
 	"paraffinium": {
@@ -2147,6 +5425,118 @@
 		"name": "Paraffinium",
 		"type": "raw_materials",
 		"description": "Local mineral extract, typically found in large deposits or extracted from common materials after inspection with an Analysis Visor. Typically found on planets with a tropical environment.",
+		"sources": [
+			"As a secondary element in some minerals or in Resource Deposits on planets with Lush biomes.",
+			"From Hotspot on planets with Lush biomes.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "star_bulb",
+						"name": "Star Bulb",
+						"quantity": 2
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 2
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pyrite",
+						"name": "Pyrite",
+						"quantity": 2
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					},
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			}
+		],
 		"value": 62
 	},
 	"phosphorus": {
@@ -2154,6 +5544,58 @@
 		"name": "Phosphorus",
 		"type": "raw_materials",
 		"description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a scorched environment.",
+		"sources": [
+			"As a secondary element in some minerals or in Resource Deposits or Hotspots on planets with Scorched biomes.",
+			"Found in Hotspots on Mega Exotic planets located in red stellar systems.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "solanium",
+						"name": "Solanium",
+						"quantity": 2
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 2
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dioxite",
+						"name": "Dioxite",
+						"quantity": 2
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 62
 	},
 	"photic_jade": {
@@ -2161,6 +5603,26 @@
 		"name": "Photic Jade",
 		"type": "curiosities",
 		"description": "This irreplaceable Atlas Seed is a form of matter-adapted photons coalesced into physical solidity by unknown means.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Dawn or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "dawns_end",
+						"name": "Dawn's End",
+						"quantity": 1
+					},
+					{
+						"id": "copper",
+						"name": "Copper",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"platinum": {
@@ -2168,6 +5630,64 @@
 		"name": "Platinum",
 		"type": "raw_materials",
 		"description": "Extremely valuable interstellar trading mineral, typically mined from asteroids. Occasionally found in underground planetary deposits. Universally prized for its hardiness and versatility.",
+		"sources": [
+			"Can be bought from some Galactic Trade Terminals or Ship Traders.",
+			"Can be mined from crystalline/amorphous asteroids.",
+			"As a secondary element in some minerals in caves.",
+			"By destroying freighter cargo."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "geodesite",
+						"name": "Geodesite",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			},
+			{
+				"ingredients": [
+					{
+						"id": "iridesite",
+						"name": "Iridesite",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			},
+			{
+				"ingredients": [
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 1
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			}
+		],
 		"value": 505
 	},
 	"poly_fibre": {
@@ -2175,7 +5695,9 @@
 		"name": "Poly Fibre",
 		"type": "Advanced Agricultural Product",
 		"description": "A connective fibre for electronics, made from an advanced synthetic polymer and capable of serving as a conduit for power and data.",
-		"value": 130000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2192,14 +5714,17 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 130000
 	},
 	"portable_reactor": {
 		"id": "portable_reactor",
 		"name": "Portable Reactor",
 		"type": "crafted_products",
 		"description": "A miniature self-controlled nuclear reactor. Generates sub-stellar levels of energy in a hassle-free, widely compatible fuel module.",
-		"value": 4200000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2216,13 +5741,26 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 4200000
 	},
 	"projectile_ammunition": {
 		"id": "projectile_ammunition",
 		"name": "Projectile Ammunition",
 		"type": "crafted_products",
 		"description": "Advanced munition fragments, constructed to fit Universal Multi-Tool Standard 07/FF1. Easily inserted into the Boltcaster, Pulse Spitter and Scatter Blaster via the Multi-Tool clip reloading system.",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 50
+					}
+				],
+				"yield": 1250
+			}
+		],
 		"value": 1
 	},
 	"pugneum": {
@@ -2230,6 +5768,10 @@
 		"name": "Pugneum",
 		"type": "raw_materials",
 		"description": "This oily, unsettling liquid leaks from the circuitry of Sentinels. Prized by the Vy'keen, Pugneum is thought to share some essential properties with Nanites. It hums in a sinister fashion upon contact with organic matter.",
+		"sources": [
+			"Drops from destroyed Sentinels; the received amount depends on what type of sentinel is destroyed, see more information here.",
+			"Also available from some Galactic Trade Terminals."
+		],
 		"value": 138
 	},
 	"pure_ferrite": {
@@ -2237,6 +5779,47 @@
 		"name": "Pure Ferrite",
 		"type": "raw_materials",
 		"description": "Processed metal, free of dust and pebbles. Used to construct a wide variety of structures and technologies. Typically purified from Ferrite dust using a Refiner, but can occasionally be found in large deposits. Collection may require an Advanced Mining Laser.",
+		"sources": [
+			"As a primary or secondary element in some minerals. These minerals usually require Advanced Mining Laser to harvest.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 2
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 138
 	},
 	"pyrite": {
@@ -2244,6 +5827,82 @@
 		"name": "Pyrite",
 		"type": "raw_materials",
 		"description": "Local mineral extract, typically found in large deposits or extracted from common materials after inspection with an Analysis Visor. Typically found on planets with a desert environment.",
+		"sources": [
+			"As a secondary element in some minerals or in Resource Deposits or Hotspots on planets with Barren biomes.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 1
+					}, 
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "cactus_flesh",
+						"name": "Cactus Flesh",
+						"quantity": 2
+					}, 
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 2
+					}, 
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "uranium",
+						"name": "Uranium",
+						"quantity": 2
+					}, 
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 62
 	},
 	"quad_servo": {
@@ -2251,6 +5910,11 @@
 		"name": "Quad Servo",
 		"type": "curiosities",
 		"description": "A highly sprung motor arm salvaged from inside of a Sentinel patrol unit. It occasionally twitches, as if experiencing the echo of combat.",
+		"sources": [
+			"Can be obtained by destroying the Combat Supplies containers dropped by Sentinel Quads.",
+			"Can be found in Suspicious Packet (Goods) from the Scrap Dealer.",
+			"Can be a gift from Guild Envoys of the Mercenaries Guild."
+		],
 		"value": 20000
 	},
 	"quantum_computer": {
@@ -2258,6 +5922,32 @@
 		"name": "Quantum Computer",
 		"type": "crafted_products",
 		"description": "An extremely fast advanced processing unit. Allows real-time solving of otherwise impossible calculations. However, protection against decoherence is not guaranteed. Used in the creation of a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "microprocessor",
+						"name": "Microprocessor",
+						"quantity": 1
+					}, 
+					{
+						"id": "antimatter",
+						"name": "Antimatter",
+						"quantity": 1
+					}, 
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 4200
 	},
 	"quantum_processor": {
@@ -2265,7 +5955,9 @@
 		"name": "Quantum Processor",
 		"type": "crafted_products",
 		"description": "A highly advanced computational device, essential for the complex calculations involved in warp travel.",
-		"value": 5200000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2282,13 +5974,62 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 5200000
 	},
 	"radon": {
 		"id": "radon",
 		"name": "Radon",
 		"type": "raw_materials",
 		"description": "A colourless, odourless gas with a relatively short half-life. Found in both Radioactive and Frozen atmospheres, this gas is produced by the decay of other high-energy elements.",
+		"sources": [
+			"As a secondary element in some flora.",
+			"From Atmosphere Harvesters built on planets with Irradiated or Frozen biomes.",
+			"Using Gas Extractor at a Radon Concentrated Gas Cloud.",
+			"It can be found at Resource Depots."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 3
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"residual_goop": {
@@ -2296,6 +6037,22 @@
 		"name": "Residual Goop",
 		"type": "raw_materials",
 		"description": "A pulsating, foul smelling goop that builds up in poorly-maintained machinery. Skin contact is not advised.",
+		"sources": [
+			"Every Abandoned Building has a termnial and interacting with it allows the player to either discard the Residual Goop or move it to the exosuit inventory. After that the terminal can be used. Each terminal can contain up to 200 Residual Goop.",
+			"Residual Goop can be purchased from some Galactic Trade Terminals and pilot NPCs."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "cursed_dust",
+						"name": "Cursed Dust",
+						"quantity": 2
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"runaway_mould": {
@@ -2303,6 +6060,24 @@
 		"name": "Runaway Mould",
 		"type": "raw_materials",
 		"description": "An out of control mould growth that builds up in poorly-maintained machinery. Likely to be several different species of mould, merged together into one super-colony.",
+		"sources": [
+			"This item can be received as a gift from the Guild representatives in space stations.",
+			"Runaway Mould can be purchased and sold at Galactic Trade Terminals and NPCs for a profit.",
+			"This item can be received from encrypted missions at the Nexus.",
+			"This item can also be obtained from Curious Deposits on some planets, appearing as a sphere that rolls when mined."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "living_slime",
+						"name": "Living Slime",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"rusted_metal": {
@@ -2310,6 +6085,43 @@
 		"name": "Rusted Metal",
 		"type": "raw_materials",
 		"description": "Handfulls of corroded metal, distorted by years of exposure to the harsh environment. Handle with care.",
+		"sources": [
+			"Upon opening a Damaged Container, a GUI will pop up with an option to either discard or keep some Rusted Metal. Each container can contain between 50 and 100 Rusted Metal. Once the Rusted Metal is either discarded or moved to your inventory, the Damaged Container will open and you can receive a reward.",
+			"Rusted Metal can be purchased from some Galactic Trade Terminals and pilot NPCs.",
+			"Rusted Metal is a rare planetary resource to be mined akin to Ferrite and its variants. Seen on Dead Worlds."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			}
+		],
 		"value": 20
 	},
 	"sac_venom": {
@@ -2317,6 +6129,10 @@
 		"name": "Sac Venom",
 		"type": "curiosities",
 		"description": "Stabilized poison sample initially produced by aquatic urchin creatures. A rare and expensive item on the Galactic Trade Network.",
+		"sources": [
+			"Sac Venom can be found by destroying urchin-like creatures found on planetary surfaces and under the water. Like other high value non-stackable trading commodities, some planets have an abundance of these.",
+			"With assistance from a Farmer, Sac Venom also be grown as a product of the Venom Urchin plant, with a harvest time of 3 hours 20 minutes."
+		],
 		"value": 608000
 	},
 	"salt": {
@@ -2324,6 +6140,39 @@
 		"name": "Salt",
 		"type": "raw_materials",
 		"description": "A naturally occuring salt, found in abundance in underwater minerals. Can be processed in a Refiner to create Chlorine. This refined form is used in the manufacture of advanced products and technologies.",
+		"sources": [
+			"As a secondary element in some minerals.",
+			"Primary element in most underwater minerals.",
+			"In Resource Deposits.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 299
 	},
 	"silicate_powder": {
@@ -2331,6 +6180,9 @@
 		"name": "Silicate Powder",
 		"type": "raw_materials",
 		"description": "An abundant mineral element, found within the geological strata of all rocky worlds. Easily extracted using a Terrain Manipulator. Create a tunnel anywhere to begin extraction. Process in a Refiner to create Glass.",
+		"sources": [
+			"It can be mined from soil using the Terrain Manipulator."
+		],
 		"value": 2
 	},
 	"silver": {
@@ -2338,6 +6190,44 @@
 		"name": "Silver",
 		"type": "raw_materials",
 		"description": "Valuable interstellar trading mineral, typically mined from asteroids. Occasionally found in underground planetary deposits. Prized by people in all systems for its lustre and shine.",
+		"sources": [
+			"Can be mined from asteroids.",
+			"Can be found in Resource Deposits.",
+			"As a secondary element in some minerals in caves.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "herox",
+						"name": "Herox",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			},
+			{
+				"ingredients": [
+					{
+						"id": "aronium",
+						"name": "Aronium",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			},
+			{
+				"ingredients": [
+					{
+						"id": "dirty_bronze",
+						"name": "Dirty Bronze",
+						"quantity": 1
+					}
+				],
+				"yield": 250
+			}
+		],
 		"value": 186
 	},
 	"semiconductor": {
@@ -2345,7 +6235,12 @@
 		"name": "Semiconductor",
 		"type": "crafted_products",
 		"description": "An advanced material useful in many electronic devices, with its own in-built temperature regulator. Crafted from Thermic Condensate and Nitrogen Salt.",
-		"value": 15600000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions.",
+			"Can be purchased from NPCs in some Minor Settlements."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2362,13 +6257,72 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 15600000
 	},
 	"sodium": {
 		"id": "sodium",
 		"name": "Sodium",
 		"type": "raw_materials",
 		"description": "A powerful catalyst, useful for charging defensive technologies such as shields or hazard protection. Exosuit material handling technology allows automatic harvesting from appropriate sodium-rich flora. A vital ingredient in the creation of many advanced devices, products and components.",
+		"sources": [
+			"From yellow flowers visible on the Scanner.",
+			"As a secondary element in some minerals.",
+			"In Resource Deposits.",
+			"Can always be bought from any Galactic Trade Terminal or from pilot NPCs on Space Stations (only on 'Goods Availability->Abundant' setting)."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			}
+		],
 		"value": 41
 	},
 	"sodium_nitrate": {
@@ -2376,6 +6330,287 @@
 		"name": "Sodium Nitrate",
 		"type": "raw_materials",
 		"description": "An advanced catalyst, useful for charging defensive technologies such as shields or hazard protection. Created in a Refiner, or occasionally found in crystalline form on a planet's surface. Offers a substantially improved energy-per-gram ratio over regular Sodium.",
+		"sources": [
+			"In yellow crystal minerals located on nearly every planet. These minerals require an Advanced Mining Laser and are visible on the Scanner.",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 2
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "pugneum",
+						"name": "Pugneum",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			},
+			{
+				"ingredients": [
+					{
+						"id": "crystal_sulphide",
+						"name": "Crystal Sulphide",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "faecium",
+						"name": "Faecium",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "marrow_bulb",
+						"name": "Marrow Bulb",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "kelp_sac",
+						"name": "Kelp Sac",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			}
+		],
 		"value": 82
 	},
 	"solanium": {
@@ -2383,6 +6618,73 @@
 		"name": "Solanium",
 		"type": "raw_materials",
 		"description": "A powerful chemical that has resisted attempts at synthesis. It can be harvested from the bark of the Solar Vine. The vine requires a hot climate to thrive in the wild, but can be farmed in all environments with the aid of a Hydroponics Tray.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"It can also be found mixed with carbon in carbon-based plants or trees. For easy discovery, scan the surrounding flora with the Analysis Visor.",
+			"With assistance from a Farmer, Solanium can be grown as a product of the Solar Vine plant, providing a base yield of 50 with a harvest time of 16 hours. It requires the use of Haz-Mat Gauntlet to safely harvest."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "solanium",
+						"name": "Solanium",
+						"quantity": 1
+					},
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 1
+					},
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					},
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 70
 	},
 	"solar_mirror": {
@@ -2390,6 +6692,32 @@
 		"name": "Solar Mirror",
 		"type": "crafted_products",
 		"description": "A specialist optical component. Employing an impossibly polished surface, this mirror is able to selectively filter different wavelengths of light, changing its reflective pattern based on nearby magnetic fields. Used in the creation of a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 40
+					},
+					{
+						"id": "silver",
+						"name": "Silver",
+						"quantity": 30
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 6150
 	},
 	"solar_vine": {
@@ -2397,13 +6725,79 @@
 		"name": "Solar Vine",
 		"type": "crafted_products",
 		"description": "This 'living rock' is adapted to live in the extreme heat of scorched biomes. However, it can be farmed in most environments and, once established, yields a moderate harvest. Suitable for hydroponic indoor planting. Ensure Hot climate before planting outdoors. Approximate growing time: 16 hours",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "solanium",
+						"name": "Solanium",
+						"quantity": 50
+					},
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
+	},
+	"soul_engine": {
+		"id": "soul_engine",
+		"name": "Soul Engine",
+		"type": "curiosities",
+		"description": "A powerful organic computing unit. A glitching beat drives this miracle circuit, performing cycle after cycle in an endless, furious loop of calculation.",
+		"sources": [
+			"The blueprint is acquired from -null- during The First Traveller mission."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "metal_plating",
+						"name": "Metal Plating",
+						"quantity": 3
+					},
+					{
+						"id": "living_pearl",
+						"name": "Living Pearl",
+						"quantity": 1
+					},
+					{
+						"id": "cadmium",
+						"name": "Cadmium",
+						"quantity": 120
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 1000
 	},
 	"star_bramble": {
 		"id": "star_bramble",
 		"name": "Star Bramble",
 		"type": "crafted_products",
 		"description": "A medium-sized, farmable plant that yields an occasional harvest of valuable Star Bulbs. Suitable for hydroponic indoor planting. Ensure Lush climate before planting outdoors. Approximate growing time: 4 hours",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "star_bulb",
+						"name": "Star Bulb",
+						"quantity": 50
+					},
+					{
+						"id": "paraffinium",
+						"name": "Paraffinium",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
 	},
 	"star_bulb": {
@@ -2411,6 +6805,58 @@
 		"name": "Star Bulb",
 		"type": "raw_materials",
 		"description": "A beautiful gemstone, this prized product is the engorged, luminescent berry of the Star Bramble. The host plant requires lush conditions to thrive in the wild but can be farmed in all environments with the aid of a Hydroponic Tray.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"It can also be found mixed with carbon in carbon-based plants or trees. For easy discovery, scan the surrounding flora with the Analysis Visor.",
+			"With assistance from a Farmer, Star Bulbs can also be grown as a product of Star Bramble with a harvest time of approximately 4 hours and yielding 25 Star Bulbs."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "star_bulb",
+						"name": "Star Bulb",
+						"quantity": 1 
+					},
+					{
+						"id": "paraffinium",
+						"name": "Paraffinium",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "paraffinium",
+						"name": "Paraffinium",
+						"quantity": 2
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "paraffinium",
+						"name": "Paraffinium",
+						"quantity": 1
+					},
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 32
 	},
 	"stasis_device": {
@@ -2418,7 +6864,9 @@
 		"name": "Stasis Device",
 		"type": "crafted_products",
 		"description": "A device specifically crafted to keep lifeforms alive for thousands of years longer than their natural lifespan. Such a device requires great skill to manufacture, as not only is it technically complex, but the consequences for a user in the event of malfunction would be disastrous.",
-		"value": 15600000,
+		"sources": [
+			"The blueprint can be acquired from Manufacturing Facilites or purchased from the Synthesis Laboratory for 250 Nanites."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2440,13 +6888,34 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 15600000
 	},
 	"state_phasure": {
 		"id": "state_phasure",
 		"name": "State Phasure",
 		"type": "curiosities",
 		"description": "For unknown reasons, this unique Atlas Seed has been phased out of alignment with this quantum reality. Contents cannot be determined.",
+		"sources": [
+			"The blueprint is given after talking to an Atlas Interface. Milestone Curiosity or above is required."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "photic_jade",
+						"name": "Photic Jade",
+						"quantity": 1
+					},
+					{
+						"id": "cadmium",
+						"name": "Cadmium",
+						"quantity": 100
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 1000
 	},
 	"sulphurine": {
@@ -2454,6 +6923,55 @@
 		"name": "Sulphurine",
 		"type": "raw_materials",
 		"description": "A pungent atmospheric gas. High concentrations are extremely hazardous to organic life. With the aid of specialised machinery, can be extracted from the atmospheres of Scorched and Desert planets.",
+		"sources": [
+			"As a secondary element in some flora",
+			"From Atmosphere Harvesters built on planets with Scorched or Barren biomes",
+			"Using Gas Extractor at a Sulphurine Concentrated Gas Cloud",
+			"Raiding some Resource Depots",
+			"From certain Mutant Plant resource nodes"
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 3
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					},
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "nitrogen",
+						"name": "Nitrogen",
+						"quantity": 1
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"superconductor": {
@@ -2461,7 +6979,11 @@
 		"name": "Superconductor",
 		"type": "crafted_products",
 		"description": "An advanced conductive material, the superconductor further enriches the field-warping power of the Semiconductor.",
-		"value": 2000000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2478,13 +7000,18 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"value": 2000000
 	},
 	"tainted_metal": {
 		"id": "tainted_metal",
 		"name": "Tainted Metal",
 		"type": "raw_materials",
 		"description": "Shredded fragments of a soft, grey metal. Its surface is porous, and when touched it oozes ever-so-slightly. Found in the creaking wreck of a derelict freighter. The space station Scrap Dealer may find this interesting...",
+		"sources": [
+			"Resource found in Derelict Freighter space encounter.",
+			"Received from Scrap Dealer and Guild Envoy in exchange for Crew Manifest and Captain's Log."
+		],
 		"value": 380
 	},
 	"thermic_condensate": {
@@ -2492,7 +7019,12 @@
 		"name": "Thermic Condensate",
 		"type": "crafted_products",
 		"description": "A refined product, holding the energy potential of heated atmospheric gas in a stable state until required.",
-		"value": 50000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Can be found in planetary depots.",
+			"Can be obtained as a mission reward.",
+			"Can be obtained from Frigate expeditions."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2509,13 +7041,103 @@
 				],
 				"yield": 1
 			}
-		]
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 100
+					}, 
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 100
+					}, 
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 100
+					}, 
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "chlorine",
+						"name": "Chlorine",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "sulphurine",
+						"name": "Sulphurine",
+						"quantity": 100
+					}, 
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 50000
+		
 	},
 	"tritium": {
 		"id": "tritium",
 		"name": "Tritium",
 		"type": "raw_materials",
 		"description": "Radioactive isotope commonly used to fuel the fusion reactor at the heart of starship Pulse Engines. Abundant in interstellar asteroid fields, Tritium can be mined from asteroids using starship weaponry.",
+		"sources": [
+			"Can be mined from asteroids.",
+			"Found in crystalised form as a Tritium Hypercluster.",
+			"Can be found in some Galactic Trade Terminals.",
+			"Can be found in a Freighter after purchasing one."
+		],
 		"value": 6
 	},
 	"unstable_gel": {
@@ -2524,6 +7146,10 @@
 		"type": "crafted_products",
 		"description": "A highly reactive gel, this substance is both energy-rich and dangerous to touch.",
 		"value": 50000,
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Sometimes awarded for opening Crashed Freighter's Cargo Pods."
+		],
 		"crafting": [
 			{
 				"ingredients": [
@@ -2542,6 +7168,109 @@
 		"name": "Unstable Plasma",
 		"type": "crafted_products",
 		"description": "Densely-packed fuel capsule for use in the Plasma Launcher. Contained highly-pressurised electro-thermal energy for use in land disruption grenade technology.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Also available from any Galactic Trade Terminal."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 50
+					},
+					{
+						"id": "metal_plating",
+						"name": "Metal Plating",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 10
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 10
+					},
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 20
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 10
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "oxygen",
+						"name": "Oxygen",
+						"quantity": 10
+					},
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 10
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 5750
 	},
 	"uranium": {
@@ -2549,6 +7278,118 @@
 		"name": "Uranium",
 		"type": "raw_materials",
 		"description": "Local mineral extract, typically found in large deposits or extracted from common minerals after inspection with an Analysis Visor. Typically found on planets with a radioactive environment.",
+		"sources": [
+			"As a secondary element in some minerals or Hotspots on planets with Irradiated biomes.",
+			"Can be found in Metal 'Fingers.'",
+			"Also available from some Galactic Trade Terminals."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 2
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "phosphorus",
+						"name": "Phosphorus",
+						"quantity": 2
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "gamma_root",
+						"name": "Gamma Root",
+						"quantity": 2
+					},
+					{
+						"id": "salt",
+						"name": "Salt",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					},
+					{
+						"id": "di_hydrogen",
+						"name": "Di-hydrogen",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					},
+					{
+						"id": "ferrite_dust",
+						"name": "Ferrite Dust",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					},
+					{
+						"id": "pure_ferrite",
+						"name": "Pure Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radon",
+						"name": "Radon",
+						"quantity": 1
+					},
+					{
+						"id": "magnetised_ferrite",
+						"name": "Magnetised Ferrite",
+						"quantity": 1
+					}
+				],
+				"yield": 3
+			}
+		],
 		"value": 62
 	},
 	"venom_urchin": {
@@ -2556,6 +7397,23 @@
 		"name": "Venom Urchin",
 		"type": "crafted_products",
 		"description": "A small, innocuous looking plant whose leaves periodically secrete a small amount of potent Sac Venom, a valuable trading commodity. Suitable for hydroponic indoor planting. Cannot be planted outdoors. Approximate growing time: 3 hours 20 mins",
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "emeril",
+						"name": "Emeril",
+						"quantity": 100
+					},
+					{
+						"id": "gold",
+						"name": "Gold",
+						"quantity": 50
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 3
 	},
 	"viscous_fluids": {
@@ -2563,6 +7421,22 @@
 		"name": "Viscous Fluids",
 		"type": "raw_materials",
 		"description": "An unnaturally thick liquid of dubious colour. Its origins are impossible to fathom. Appears to have some mild magnetic properties.",
+		"sources": [
+			"Viscous Fluids can be purchased and sold at Galactic Trade Terminals and NPCs for a profit.",
+			"Viscous Fluid frequently appears as a removed item to repair Damaged Machinery."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "residual_goop",
+						"name": "Residual Goop",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 20
 	},
 	"void_egg": {
@@ -2570,6 +7444,10 @@
 		"name": "Void Egg",
 		"type": "curiosities",
 		"description": "An anomalous egg. The shell is tough and leathery, and twitches when touched. A faint tapping can be heard within. From time to time, it appears to sing.",
+		"sources": [
+			"The Void Egg can be purchased from the Quicksilver Synthesis Companion for 3200 Quicksilver.",
+			"A decorative only version can also be found randomly on Infested Planets."
+		],
 		"value": 3200
 	},
 	"vortex_cube": {
@@ -2577,6 +7455,9 @@
 		"name": "Vortex Cube",
 		"type": "curiosities",
 		"description": "An ancient object, unearthed from the depths of a planetary cave system. Its surface is cold to the touch, and is curiously polished despite its age. A fusion of metal and rock, these cubes have proved resistant to industrial processing. As such, they are of value only to collectors. Can be sold at a Galactic Trade Terminal.",
+		"sources": [
+			"It can be found in and around caves on certain planets."
+		],
 		"value": 5800
 	},
 	"vykeen_dagger": {
@@ -2584,6 +7465,14 @@
 		"name": "Vy'keen Dagger",
 		"type": "curiosities",
 		"description": "Largely ceremonial weapon. A vital part of Vy'keen tradition and culture.",
+		"sources": [
+			"It can be found in Damaged Containers or as monolith rewards.",
+			"It can also be bought from NPCs in Trading Posts.",
+			"It is a possible reward from frigate expeditions.",
+			"It is also a possible trade from wandering traders you encounter while using the Pulse Engine.",
+			"It can also be salvaged from containers on a Derelict Freighter",
+			"It is a possible reward from NPCs at Space Stations for practicing language skills well."
+		],
 		"value": 11688
 	},
 	"vykeen_effigy": {
@@ -2591,6 +7480,12 @@
 		"name": "Vy'keen Effigy",
 		"type": "curiosities",
 		"description": "A small wooden icon carved into the shape of a Sentinel drone. Used by warriors to enter a temporary trance-like state that eliminates their kind's need for sleep.",
+		"sources": [
+			"It can be found in Damaged Containers or as monolith rewards.",
+			"It can also be bought from NPCs in Trading Posts.",
+			"It is a possible reward from frigate expeditions.",
+			"It is also a possible trade from wandering traders you encounter while using the Pulse Engine."
+		],
 		"value": 24750
 	},
 	"vykeen_tablet": {
@@ -2598,6 +7493,9 @@
 		"name": "Vy'keen Tablet",
 		"type": "curiosities",
 		"description": "A stone tablet bearing line after line of intricate runes. The words are unintelligible, an ancient dialect forgotten by all but the oldest of the Vy'keen elders. The hand that carved this stone must have been extraordinary. The stonework is precise, delicate - and yet perfectly conveys the unyielding aggression its writer clearly possessed.",
+		"sources": [
+			"A quest item in the main storyline to show a Vy'keen cartographer that you are worthy to receive information about the Vy'keen's history."
+		],
 		"value": 1250
 	},
 	"walker_brain": {
@@ -2605,6 +7503,13 @@
 		"name": "Walker Brain",
 		"type": "curiosities",
 		"description": "Shifting nanite clusters sewn together with a pugneum filament, this circuit is painfully hot to the touch. A sinister purple light leaks from deep within its wiring, changing in intensity as it watches its holder.",
+		"sources": [
+			"Loot from a Sentinel Walker",
+			"Mercenaries Guild Envoy",
+			"Suspicious Packet (Goods)",
+			"Mission Board missions",
+			"Nexus missions"
+		],
 		"value": 35000
 	},
 	"warp_cell": {
@@ -2612,6 +7517,88 @@
 		"name": "Warp Cell",
 		"type": "crafted_products",
 		"description": "This antimatter-based fuel is one of the few power sources capable of meeting the incredible energy requirements of a starship hyperdrive. Secured within a robust housing, the cell is guaranteed paradox-free during FTL travel.",
+		"sources": [
+			"Warp Cells can be found by locating an Atlas Interface or The Atlas; inside you'll sometimes find two Warp Cells near to the interaction area."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "antimatter_housing",
+						"name": "Antimatter Housing",
+						"quantity": 1
+					},
+					{
+						"id": "antimatter",
+						"name": "Antimatter",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "carbon",
+						"name": "Carbon",
+						"quantity": 50
+					},
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 5
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 250
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 25
+					},
+					{
+						"id": "sodium",
+						"name": "Sodium",
+						"quantity": 10
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 250
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "condensed_carbon",
+						"name": "Condensed Carbon",
+						"quantity": 25
+					},
+					{
+						"id": "sodium_nitrate",
+						"name": "Sodium Nitrate",
+						"quantity": 5
+					},
+					{
+						"id": "chromatic_metal",
+						"name": "Chromatic Metal",
+						"quantity": 250
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 46750
 	},
 	"warp_hypercore": {
@@ -2619,6 +7606,28 @@
 		"name": "Warp Hypercore",
 		"type": "crafted_products",
 		"description": "A high-capacity antimatter-based fuel, this cell harnesses an internal black hole generator to power starship hyperdrives across multiple warp jumps. Cell walls are specially designed to reflect any reality paradoxes back towards the heart of the unit, where they generate additional power.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Occasionally shows up as a reward for a Nexus mission.",
+			"Can be awarded by Guild Envoys."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "antimatter",
+						"name": "Antimatter",
+						"quantity": 1
+					},
+					{
+						"id": "storm_crystal",
+						"name": "Storm Crystal",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
 		"value": 46750
 	},
 	"wiring_loom": {
@@ -2626,6 +7635,11 @@
 		"name": "Wiring Loom",
 		"type": "crafted_products",
 		"description": "A prefabricated circuit board, designed for flexible use in a large range of technology components. The module features an integrated nanite processor, allowing it to be quickly configured for a wide variety of uses.",
+		"sources": [
+			"Can be purchased at a Galactic Trade Terminal in any star base for about double of the announced value (50-55K units).",
+			"Can be dismantled from Obsolete Technology or most Upgrade Modules.",
+			"Can be purchased from technologists in outposts for around 75000 units."
+		],
 		"value": 25000
 	}
 }
