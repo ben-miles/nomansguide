@@ -384,8 +384,9 @@ body.drawer-open #drawer {
 .card img {
 	display: block;
 	height: auto;
-	width: 93.5%;
-	margin: 0 auto 5%;
+	width: 100%;
+	margin: 0;
+	padding: 12px 14px 16px;
 	transform: translateZ(64px);
 }
 .card .name {
