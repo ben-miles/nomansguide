@@ -509,15 +509,23 @@ body.drawer-open #drawer {
 .ingredient img {
 	height: auto;
 	width: 24px;
-	margin-right: 4px;
+	margin: 0;
 }
 
-/* RESOURCES */
+/* ITEM BACKGROUNDS */
 .card,
 .ingredient button,
 button.item {
 	background: #f5a920;
-	transition: background 0.25s;
+}
+.ingredient button img,
+button.item img {
+    background-color: rgba(0,0,0,0);
+	transition: background-color 0.1s;
+}
+.ingredient button:hover img,
+button.item:hover img {
+    background-color: rgba(0,0,0,0.2);
 }
 
 
