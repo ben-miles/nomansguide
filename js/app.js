@@ -1,5 +1,5 @@
 // TODOs
-// add missing color data
+// add missing items: ammonia, starship launch fuel (buildable tech category?), starship shield battery, chloride lattice, tritium hypercluster, amino chamber, rusted metal, storm crystal, remembrance, salvaged data
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
 // update categories? eg: add junk, flora, etc. will likely require more refactoring
