@@ -63,15 +63,14 @@ var app = new Vue({
 			})
 		},
 		itemsFiltered(){
-			if(!this.selectedItemType || this.selectedItemType === "all") {
+			if(this.selectedItemType === "all") {
 				return this.items.filter(item => {
 					return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 				})
-			} else {
-				return this.items.filter(item => {
-					return item.type === this.selectedItemType && item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
-				})
 			}
+			return this.items.filter(item => {
+				return item.type === this.selectedItemType && item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
+			})
 		}
 	},
 	beforeMount(){},
