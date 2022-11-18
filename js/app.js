@@ -15,7 +15,7 @@ var app = new Vue({
     data: {
 		items: Object.values(Items),
 		selectedItem: "stasis_device",
-		selectedItemType: "",
+		selectedItemType: "all",
 		filter: ""
     },
     methods: {
