@@ -514,97 +514,12 @@ body.drawer-open #drawer {
 
 /* RESOURCES */
 .card,
-.ingredient button {
-  background: #f5a920;
-  transition: background 0.25s; }
-  .resource .card:hover,
-  .ingredient button:hover {
-    background: #d88f0a; }
+.ingredient button,
+button.item {
+	background: #f5a920;
+	transition: background 0.25s;
+}
 
-#heat_capacitor,
-#poly_fibre {
-  background: #0063b8; }
-  #heat_capacitor:hover,
-  #poly_fibre:hover {
-    background: #004885; }
-
-#frost_crystal {
-  background: #1a4fd1; }
-  #frost_crystal:hover {
-    background: #143ea4; }
-
-#star_bulb {
-  background: #288fae; }
-  #star_bulb:hover {
-    background: #1e6d85; }
-
-#faecium {
-  background: #7a4e31; }
-  #faecium:hover {
-    background: #563722; }
-
-#cryo_pump,
-#hot_ice,
-#semiconductor,
-#superconductor {
-  background: #217851; }
-  #cryo_pump:hover,
-  #hot_ice:hover,
-  #semiconductor:hover,
-  #superconductor:hover {
-    background: #165036; }
-
-#enriched_carbon,
-#thermic_condensate {
-  background: #4f7950; }
-  #enriched_carbon:hover,
-  #thermic_condensate:hover {
-    background: #3b5a3c; }
-
-#sulphurine {
-  background: #265e3b; }
-  #sulphurine:hover {
-    background: #173a24; }
-
-#cactus_flesh {
-  background: #259525; }
-  #cactus_flesh:hover {
-    background: #1b6c1b; }
-
-#solanium {
-  background: #cc4d16; }
-  #solanium:hover {
-    background: #9e3c11; }
-
-#gamma_root {
-  background: #c7841b; }
-  #gamma_root:hover {
-    background: #9a6615; }
-
-#radon {
-  background: #4d3883; }
-  #radon:hover {
-    background: #38295f; }
-
-#condensed_carbon {
-  background: #cb3109; }
-  #condensed_carbon:hover {
-    background: #9a2507; }
-
-#phosphorus {
-  background: #dc2400; }
-  #phosphorus:hover {
-    background: #a91c00; }
-
-#stasis_device {
-  background: #ffbb00; }
-  #stasis_device:hover {
-    background: #cc9600; }
-
-#nitrogen {
-  background: #dc9324; }
-  #nitrogen:hover {
-    background: #b1761c; }
 
 /* FOOTER */
 #footer {
