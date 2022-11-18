@@ -49,6 +49,11 @@ var app = new Vue({
 				let filterInput = filter.getElementsByTagName("input")[0];
 				filterInput.focus();
 			}
+		},
+		itemColors: function(itemId){
+			// return a string containing CSS for a gradient background, given an item's id
+			var thisItem = this.items.find(item => item.id === itemId);
+			return 'background-image: linear-gradient(' + thisItem.colors[0] + ', ' + thisItem.colors[1] + ');';
 		}
     },
 	computed: {
