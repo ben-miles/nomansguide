@@ -1,5 +1,5 @@
 // TODOs
-// add missing items: ammonia, starship launch fuel (buildable tech category?), starship shield battery, chloride lattice, tritium hypercluster, amino chamber, rusted metal, storm crystal, remembrance, salvaged data
+// add missing items: ammonia, starship launch fuel (buildable tech category?), starship shield battery, chloride lattice, tritium hypercluster, amino chamber, rusted metal, storm crystal, remembrance, anomoly detector, salvaged data
 // add routing (eg, `nomansguide.dev/copper` selects items.copper and loads info)
 // push app navigation events to browser history
 // update categories? eg: add junk, flora, etc. will likely require more refactoring
@@ -68,14 +68,28 @@ var app = new Vue({
 			})
 		},
 		itemsFiltered(){
-			if(this.selectedItemType === "all") {
+			// filter by both name AND type
+			if(this.filter !== "" && this.selectedItemType !== "all") {
+				return this.items.filter(item => {
+					return item.type === this.selectedItemType && item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
+				})
+			}
+			// filter only by type
+			else if(this.selectedItemType !== "all") {
+				return this.items.filter(item => {
+					return item.type === this.selectedItemType;
+				})
+			}
+			// filter only by name
+			else if(this.filter !== "") {
 				return this.items.filter(item => {
 					return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 				})
 			}
-			return this.items.filter(item => {
-				return item.type === this.selectedItemType && item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
-			})
+			// filter by neither name NOR type
+			else {
+				return this.items;
+			}
 		}
 	},
 	beforeMount(){},
