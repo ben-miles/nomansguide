@@ -54,6 +54,11 @@ var app = new Vue({
 			// return a string containing CSS for a gradient background, given an item's id
 			var thisItem = this.items.find(item => item.id === itemId);
 			return 'background-image: linear-gradient(' + thisItem.colors[0] + ', ' + thisItem.colors[1] + ');';
+		},
+		itemName: function(itemId){
+			// return a string containing an item's name, given an item's id
+			var thisItem = this.items.find(item => item.id === itemId);
+			return thisItem.name;
 		}
     },
 	computed: {

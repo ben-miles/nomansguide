@@ -17,12 +17,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 25
 					}, 
 					{
 						"id": "fungal_mould",
-						"name": "Fungal Mould",
 						"quantity": 600
 					}
 				],
@@ -120,12 +118,10 @@
 				"ingredients": [
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 60
 					}, 
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 20
 					}
 				],
@@ -184,12 +180,10 @@
 				"ingredients": [
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 25
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 20
 					}
 				],
@@ -215,12 +209,10 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 30
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 50
 					}
 				],
@@ -249,12 +241,10 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 50
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 50
 					}
 				],
@@ -266,17 +256,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -286,17 +273,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -306,17 +290,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -326,17 +307,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -346,17 +324,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -366,17 +341,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -386,17 +358,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -406,17 +375,14 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -460,12 +426,10 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 1
 					},
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 1
 					}
 				],
@@ -475,12 +439,10 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -490,12 +452,10 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 1
 					},
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					}
 				],
@@ -522,12 +482,10 @@
 				"ingredients": [
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -553,7 +511,6 @@
 				"ingredients": [
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 100
 					}
 				],
@@ -580,7 +537,6 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 1
 					}
 				],
@@ -590,7 +546,6 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -600,7 +555,6 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 1
 					}
 				],
@@ -610,7 +564,6 @@
 				"ingredients": [
 					{
 						"id": "fungal_mould",
-						"name": "Fungal Mould",
 						"quantity": 1
 					}
 				],
@@ -620,7 +573,6 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -630,7 +582,6 @@
 				"ingredients": [
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 1
 					}
 				],
@@ -640,7 +591,6 @@
 				"ingredients": [
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 1
 					}
 				],
@@ -666,7 +616,6 @@
 				"ingredients": [
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 50
 					}
 				],
@@ -678,7 +627,6 @@
 				"ingredients": [
 					{
 						"id": "chewy_wires",
-						"name": "Chewy Wires",
 						"quantity": 1
 					}
 				],
@@ -721,7 +669,6 @@
 				"ingredients": [
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 2
 					}
 				],
@@ -731,12 +678,10 @@
 				"ingredients": [
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 2
 					}
 				],
@@ -746,7 +691,6 @@
 				"ingredients": [
 					{
 						"id": "chloride_lattice",
-						"name": "Chloride Lattice",
 						"quantity": 1
 					}
 				],
@@ -756,12 +700,10 @@
 				"ingredients": [
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 2
 					}
 				],
@@ -771,12 +713,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -786,12 +726,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -801,12 +739,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -816,12 +752,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 1
 					}
 				],
@@ -850,7 +784,6 @@
 				"ingredients": [
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 2
 					}
 				],
@@ -860,7 +793,6 @@
 				"ingredients": [
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 1
 					}
 				],
@@ -870,7 +802,6 @@
 				"ingredients": [
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 2
 					}
 				],
@@ -880,7 +811,6 @@
 				"ingredients": [
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 2
 					}
 				],
@@ -890,7 +820,6 @@
 				"ingredients": [
 					{
 						"id": "activated_copper",
-						"name": "Activated Copper",
 						"quantity": 1
 					}
 				],
@@ -900,7 +829,6 @@
 				"ingredients": [
 					{
 						"id": "activated_cadmium",
-						"name": "Activated Cadmium",
 						"quantity": 1
 					}
 				],
@@ -910,7 +838,6 @@
 				"ingredients": [
 					{
 						"id": "activated_emeril",
-						"name": "Activated Emeril",
 						"quantity": 1
 					}
 				],
@@ -920,7 +847,6 @@
 				"ingredients": [
 					{
 						"id": "activated_indium",
-						"name": "Activated Indium",
 						"quantity": 1
 					}
 				],
@@ -930,12 +856,10 @@
 				"ingredients": [
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -945,12 +869,10 @@
 				"ingredients": [
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -960,12 +882,10 @@
 				"ingredients": [
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -975,12 +895,10 @@
 				"ingredients": [
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -990,12 +908,10 @@
 				"ingredients": [
 					{
 						"id": "activated_copper",
-						"name": "Activated Copper",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -1005,12 +921,10 @@
 				"ingredients": [
 					{
 						"id": "activated_cadmium",
-						"name": "Activated Cadmium",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -1020,12 +934,10 @@
 				"ingredients": [
 					{
 						"id": "activated_emeril",
-						"name": "Activated Emeril",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -1035,12 +947,10 @@
 				"ingredients": [
 					{
 						"id": "activated_indium",
-						"name": "Activated Indium",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -1050,17 +960,14 @@
 				"ingredients": [
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					}
 				],
@@ -1070,17 +977,14 @@
 				"ingredients": [
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					}
 				],
@@ -1090,17 +994,14 @@
 				"ingredients": [
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					}
 				],
@@ -1110,17 +1011,14 @@
 				"ingredients": [
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					}
 				],
@@ -1147,12 +1045,10 @@
 				"ingredients": [
 					{
 						"id": "poly_fibre",
-						"name": "Poly Fibre",
 						"quantity": 1
 					},
 					{
 						"id": "heat_capacitor",
-						"name": "Heat Capacitor",
 						"quantity": 1
 					}
 				],
@@ -1180,7 +1076,6 @@
 				"ingredients": [
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 1
 					}
 				],
@@ -1206,7 +1101,6 @@
 				"ingredients": [
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 2
 					}
 				],
@@ -1253,12 +1147,10 @@
 				"ingredients": [
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -1287,12 +1179,10 @@
 				"ingredients": [
 					{
 						"id": "hot_ice",
-						"name": "Hot Ice",
 						"quantity": 1
 					}, 
 					{
 						"id": "thermic_condensate",
-						"name": "Thermic Condensate",
 						"quantity": 1
 					}
 				],
@@ -1318,12 +1208,10 @@
 				"ingredients": [
 					{
 						"id": "living_glass",
-						"name": "Living Glass",
 						"quantity": 1
 					}, 
 					{
 						"id": "cryo_pump",
-						"name": "Cryo-Pump",
 						"quantity": 1
 					}
 				],
@@ -1404,12 +1292,10 @@
 				"ingredients": [
 					{
 						"id": "noospheric_orb",
-						"name": "Noospheric Orb",
 						"quantity": 1
 					},
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 5
 					}
 				],
@@ -1435,12 +1321,10 @@
 				"ingredients": [
 					{
 						"id": "dark_matter",
-						"name": "Dark Matter",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 25
 					}
 				],
@@ -1467,12 +1351,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 1
 					}
 				],
@@ -1498,7 +1380,6 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen_jelly",
-						"name": "Di-hydrogen Jelly",
 						"quantity": 1
 					}
 				],
@@ -1508,7 +1389,6 @@
 				"ingredients": [
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 5
 					}
 				],
@@ -1534,7 +1414,6 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 40
 					}
 				],
@@ -1546,7 +1425,6 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 30
 					}
 				],
@@ -1574,12 +1452,10 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}, 
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					}
 				],
@@ -1589,12 +1465,10 @@
 				"ingredients": [
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}, 
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					}
 				],
@@ -1604,12 +1478,10 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 2
 					}, 
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -1619,12 +1491,10 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 2
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -1634,12 +1504,10 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 2
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -1668,12 +1536,10 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 50
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 100
 					}
 				],
@@ -1685,17 +1551,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					}, 
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -1705,17 +1568,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -1725,17 +1585,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -1745,17 +1602,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -1765,17 +1619,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -1785,17 +1636,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -1805,17 +1653,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -1825,17 +1670,14 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -1872,12 +1714,10 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 50
 					},
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 25
 					}
 				],
@@ -1921,12 +1761,10 @@
 				"ingredients": [
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -1952,12 +1790,10 @@
 				"ingredients": [
 					{
 						"id": "captured_nanode",
-						"name": "Captured Nanode",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 100
 					}
 				],
@@ -1986,12 +1822,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 250
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 50
 					}
 				],
@@ -2003,17 +1837,14 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 100
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -2023,17 +1854,14 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 100
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -2043,17 +1871,14 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 100
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -2063,17 +1888,14 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 100
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -2101,12 +1923,10 @@
 				"ingredients": [
 					{
 						"id": "walker_brain",
-						"name": "Walker Brain",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 			],
@@ -2135,7 +1955,6 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 3
 					}
 			],
@@ -2145,12 +1964,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 			],
@@ -2160,12 +1977,10 @@
 				"ingredients": [
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 			],
@@ -2175,12 +1990,10 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					},
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					}
 			],
@@ -2190,12 +2003,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 2
 					}
 			],
@@ -2205,12 +2016,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 			],
@@ -2237,7 +2046,6 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 1
 					}
 			],
@@ -2247,7 +2055,6 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 1
 					}
 			],
@@ -2257,7 +2064,6 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 1
 					}
 			],
@@ -2267,7 +2073,6 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 1
 					}
 			],
@@ -2277,7 +2082,6 @@
 				"ingredients": [
 					{
 						"id": "rusted_metal",
-						"name": "Rusted Metal",
 						"quantity": 1
 					}
 			],
@@ -2287,7 +2091,6 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 1
 					}
 			],
@@ -2297,7 +2100,6 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 1
 					}
 			],
@@ -2323,12 +2125,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 50
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 50
 					}
 			],
@@ -2354,12 +2154,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 100
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 100
 					}
 			],
@@ -2385,12 +2183,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 200
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 200
 					}
 			],
@@ -2417,12 +2213,10 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 1
 					},
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 1
 					}
 			],
@@ -2432,12 +2226,10 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 			],
@@ -2447,12 +2239,10 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 1
 					},
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					}
 			],
@@ -2475,12 +2265,10 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 50
 					},
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 25
 					}
 			],
@@ -2503,12 +2291,10 @@
 				"ingredients": [
 					{
 						"id": "fungal_mould",
-						"name": "Fungal Mould",
 						"quantity": 50
 					},
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 25
 					}
 			],
@@ -2535,12 +2321,10 @@
 				"ingredients": [
 					{
 						"id": "fungal_mould",
-						"name": "Fungal Mould",
 						"quantity": 1
 					},
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 1
 					}
 			],
@@ -2550,12 +2334,10 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 			],
@@ -2565,12 +2347,10 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 			],
@@ -2597,12 +2377,10 @@
 				"ingredients": [
 					{
 						"id": "quad_servo",
-						"name": "Quad Servo",
 						"quantity": 2
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 			],
@@ -2630,12 +2408,10 @@
 				"ingredients": [
 					{
 						"id": "organic_catalyst",
-						"name": "Organic Catalyst",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen_salt",
-						"name": "Nitrogen Salt",
 						"quantity": 1
 					}
 			],
@@ -2661,17 +2437,14 @@
 				"ingredients": [
 					{
 						"id": "portable_reactor",
-						"name": "Portable Reactor",
 						"quantity": 1
 					},
 					{
 						"id": "quantum_processor",
-						"name": "Quantum Processor",
 						"quantity": 1
 					},
 					{
 						"id": "geodesite",
-						"name": "Geodesite",
 						"quantity": 1
 					}
 				],
@@ -2698,12 +2471,10 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 1
 					},
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 1
 					}
 				],
@@ -2713,12 +2484,10 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -2728,12 +2497,10 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 1
 					},
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					}
 				],
@@ -2756,12 +2523,10 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 50
 					},
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 25
 					}
 				],
@@ -2839,17 +2604,14 @@
 				"ingredients": [
 					{
 						"id": "dirty_bronze",
-						"name": "Dirty Bronze",
 						"quantity": 1
 					},
 					{
 						"id": "herox",
-						"name": "Herox",
 						"quantity": 1
 					},
 					{
 						"id": "lemmium",
-						"name": "Lemmium",
 						"quantity": 1
 					}
 				],
@@ -2875,7 +2637,6 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 40
 					}
 				],
@@ -2887,12 +2648,10 @@
 				"ingredients": [
 					{
 						"id": "cyto_phosphate",
-						"name": "Cyto-Phosphate",
 						"quantity": 50
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 50
 					}
 				],
@@ -2902,7 +2661,6 @@
 				"ingredients": [
 					{
 						"id": "silicate_powder",
-						"name": "Silicate Powder",
 						"quantity": 40
 					}
 				],
@@ -2912,7 +2670,6 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 40
 					}
 				],
@@ -2958,7 +2715,6 @@
 				"ingredients": [
 					{
 						"id": "lemmium",
-						"name": "Lemmium",
 						"quantity": 1
 					}
 				],
@@ -2968,12 +2724,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -2983,12 +2737,10 @@
 				"ingredients": [
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 1
 					},
 					{
 						"id": "residual_goop",
-						"name": "Residual Goop",
 						"quantity": 1
 					}
 
@@ -2999,12 +2751,10 @@
 				"ingredients": [
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -3014,17 +2764,14 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					},
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 1
 					}
 				],
@@ -3034,7 +2781,6 @@
 				"ingredients": [
 					{
 						"id": "magno_gold",
-						"name": "Magno Gold",
 						"quantity": 1
 					}
 				],
@@ -3044,7 +2790,6 @@
 				"ingredients": [
 					{
 						"id": "grantine",
-						"name": "Grantine",
 						"quantity": 1
 					}
 				],
@@ -3054,7 +2799,6 @@
 				"ingredients": [
 					{
 						"id": "living_pearl",
-						"name": "Living Pearl",
 						"quantity": 1
 					}
 				],
@@ -3064,7 +2808,6 @@
 				"ingredients": [
 					{
 						"id": "hexite",
-						"name": "Hexite",
 						"quantity": 1
 					}
 				],
@@ -3107,12 +2850,10 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 50
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 50
 					}
 				],
@@ -3124,17 +2865,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3144,17 +2882,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3164,17 +2899,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3184,17 +2916,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3204,17 +2933,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3224,17 +2950,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3244,17 +2967,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3264,17 +2984,14 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3316,17 +3033,14 @@
 				"ingredients": [
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 25
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 120
 					},
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 25
 					}
 				],
@@ -3349,7 +3063,6 @@
 				"ingredients": [
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 40
 					}
 				],
@@ -3394,12 +3107,10 @@
 				"ingredients": [
 					{
 						"id": "modified_quanta",
-						"name": "Modified Quanta",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 100
 					}
 				],
@@ -3427,12 +3138,10 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 100
 					},
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 200
 					}
 				],
@@ -3458,7 +3167,6 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 30
 					}
 				],
@@ -3488,12 +3196,10 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 50
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 50
 					}
 				],
@@ -3505,17 +3211,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3525,17 +3228,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3545,17 +3245,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3565,17 +3262,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3585,17 +3279,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3605,17 +3296,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3625,17 +3313,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -3645,17 +3330,14 @@
 				"ingredients": [
 					{
 						"id": "ammonia",
-						"name": "Ammonia",
 						"quantity": 30
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -3717,12 +3399,10 @@
 				"ingredients": [
 					{
 						"id": "quantum_computer",
-						"name": "Quantum Computer",
 						"quantity": 1
 					}, 
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 				],
@@ -3750,12 +3430,10 @@
 				"ingredients": [
 					{
 						"id": "enriched_carbon",
-						"name": "Enriched Carbon",
 						"quantity": 1
 					}, 
 					{
 						"id": "nitrogen_salt",
-						"name": "Nitrogen Salt",
 						"quantity": 1
 					}
 				],
@@ -3782,17 +3460,14 @@
 				"ingredients": [
 					{
 						"id": "carbon_nanotubes",
-						"name": "Carbon Nanotubes",
 						"quantity": 2
 					}, 
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 20
 					}, 
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 40
 					}
 				],
@@ -3818,17 +3493,14 @@
 				"ingredients": [
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 40
 					},
 					{
 						"id": "cyto_phosphate",
-						"name": "Cyto-Phosphate",
 						"quantity": 40
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 40
 					}
 				],
@@ -3869,12 +3541,10 @@
 				"ingredients": [
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -3900,12 +3570,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 5
 					},
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 10
 					}
 				],
@@ -3917,17 +3585,14 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 10
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 10
 					},
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 10
 					}
 				],
@@ -3953,7 +3618,6 @@
 				"ingredients": [
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 2
 					}
 				],
@@ -3963,12 +3627,10 @@
 				"ingredients": [
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 2
 					}
 				],
@@ -3978,12 +3640,10 @@
 				"ingredients": [
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 2
 					}
 				],
@@ -3993,12 +3653,10 @@
 				"ingredients": [
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -4008,12 +3666,10 @@
 				"ingredients": [
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -4023,12 +3679,10 @@
 				"ingredients": [
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 1
 					},
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					}
 				],
@@ -4038,12 +3692,10 @@
 				"ingredients": [
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 1
 					},
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					}
 				],
@@ -4071,17 +3723,14 @@
 				"ingredients": [
 					{
 						"id": "aronium",
-						"name": "Aronium",
 						"quantity": 1
 					}, 
 					{
 						"id": "magno_gold",
-						"name": "Magno Gold",
 						"quantity": 1
 					}, 
 					{
 						"id": "grantine",
-						"name": "Grantine",
 						"quantity": 1
 					}
 				],
@@ -4108,12 +3757,10 @@
 				"ingredients": [
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}, 
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -4175,12 +3822,10 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 50
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 100
 					}
 				],
@@ -4192,17 +3837,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -4212,17 +3854,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -4232,17 +3871,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -4252,17 +3888,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -4272,17 +3905,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -4292,17 +3922,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -4312,17 +3939,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 120
 					}
 				],
@@ -4332,17 +3956,14 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 30
 					}, 
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 60
 					}
 				],
@@ -4368,12 +3989,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen_jelly",
-						"name": "Di-hydrogen Jelly",
 						"quantity": 1
 					}, 
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					}
 				],
@@ -4385,17 +4004,14 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 10
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "di_hydrogen_jelly",
-						"name": "Di-hydrogen Jelly",
 						"quantity": 10
 					}
 				],
@@ -4421,12 +4037,10 @@
 				"ingredients": [
 					{
 						"id": "glass",
-						"name": "Glass",
 						"quantity": 5
 					}, 
 					{
 						"id": "lubricant",
-						"name": "Lubricant",
 						"quantity": 1
 					}
 				],
@@ -4470,7 +4084,6 @@
 				"ingredients": [
 					{
 						"id": "viscous_fluids",
-						"name": "Viscous Fluids",
 						"quantity": 1
 					}
 				],
@@ -4480,7 +4093,6 @@
 				"ingredients": [
 					{
 						"id": "hypnotic_eye",
-						"name": "Hypnotic Eye",
 						"quantity": 1
 					}
 				],
@@ -4506,12 +4118,10 @@
 				"ingredients": [
 					{
 						"id": "acid",
-						"name": "Acid",
 						"quantity": 1
 					}, 
 					{
 						"id": "unstable_gel",
-						"name": "Unstable Gel",
 						"quantity": 1
 					}
 				],
@@ -4537,12 +4147,10 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 400
 					}, 
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 50
 					}
 				],
@@ -4569,12 +4177,10 @@
 				"ingredients": [
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 40
 					},
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 40
 					}
 				],
@@ -4603,7 +4209,6 @@
 				"ingredients": [
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 2
 					}
 				],
@@ -4613,12 +4218,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 1
 					}
 				],
@@ -4628,12 +4231,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 1
 					}
 				],
@@ -4643,12 +4244,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 1
 					}
 				],
@@ -4658,12 +4257,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 1
 					}
 				],
@@ -4673,12 +4270,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "activated_copper",
-						"name": "Activated Copper",
 						"quantity": 1
 					}
 				],
@@ -4688,12 +4283,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "activated_cadmium",
-						"name": "Activated Cadmium",
 						"quantity": 1
 					}
 				],
@@ -4703,12 +4296,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "activated_emeril",
-						"name": "Activated Emeril",
 						"quantity": 1
 					}
 				],
@@ -4718,12 +4309,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "activated_indium",
-						"name": "Activated Indium",
 						"quantity": 1
 					}
 				],
@@ -4733,12 +4322,10 @@
 				"ingredients": [
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 3
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -4748,12 +4335,10 @@
 				"ingredients": [
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 2
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -4763,12 +4348,10 @@
 				"ingredients": [
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -4778,12 +4361,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 				],
@@ -4793,12 +4374,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -4808,12 +4387,10 @@
 				"ingredients": [
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 				],
@@ -4823,12 +4400,10 @@
 				"ingredients": [
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -4838,17 +4413,14 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					}
 				],
@@ -4858,17 +4430,14 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					}
 				],
@@ -4878,17 +4447,14 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 1
 					}
 				],
@@ -4917,12 +4483,10 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 50
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 50
 					}
 				],
@@ -4934,17 +4498,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -4954,17 +4515,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "tritium",
-						"name": "Tritium",
 						"quantity": 20
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -4974,17 +4532,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -4994,17 +4549,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 20
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -5014,17 +4566,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -5034,17 +4583,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 10
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -5054,17 +4600,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 60
 					}
 				],
@@ -5074,17 +4617,14 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 30
 					}, 
 					{
 						"id": "platinum",
-						"name": "Platinum",
 						"quantity": 5
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 30
 					}
 				],
@@ -5110,12 +4650,10 @@
 				"ingredients": [
 					{
 						"id": "cobalt",
-						"name": "Cobalt",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -5125,12 +4663,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 1
 					},
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 2
 					}
 				],
@@ -5140,12 +4676,10 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 1
 					},
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					}
 				],
@@ -5171,7 +4705,6 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 50
 					}
 				],
@@ -5197,12 +4730,10 @@
 				"ingredients": [
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 40
 					},
 					{
 						"id": "carbon_nanotubes",
-						"name": "Carbon Nanotubes",
 						"quantity": 1
 					}
 				],
@@ -5225,17 +4756,14 @@
 				"ingredients": [
 					{
 						"id": "soul_engine",
-						"name": "Soul Engine",
 						"quantity": 1
 					},
 					{
 						"id": "wiring_loom",
-						"name": "Wiring Loom",
 						"quantity": 3
 					},
 					{
 						"id": "glass",
-						"name": "Gloss",
 						"quantity": 3
 					}
 				],
@@ -5263,12 +4791,10 @@
 				"ingredients": [
 					{
 						"id": "solar_mirror",
-						"name": "Solar Mirror",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 				],
@@ -5295,12 +4821,10 @@
 				"ingredients": [
 					{
 						"id": "hydraulic_wiring",
-						"name": "Hydraulic Wiring",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 				],
@@ -5326,12 +4850,10 @@
 				"ingredients": [
 					{
 						"id": "novae_reclaiment",
-						"name": "Novae Reclaiment",
 						"quantity": 1
 					},
 					{
 						"id": "indium",
-						"name": "Indium",
 						"quantity": 100
 					}
 				],
@@ -5360,7 +4882,6 @@
 				"ingredients": [
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 3
 					}
 				],
@@ -5370,12 +4891,10 @@
 				"ingredients": [
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -5385,12 +4904,10 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -5400,12 +4917,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5428,7 +4943,6 @@
 				"ingredients": [
 					{
 						"id": "mordite",
-						"name": "Mordite",
 						"quantity": 40
 					}
 				],
@@ -5451,12 +4965,10 @@
 				"ingredients": [
 					{
 						"id": "nipnip_buds",
-						"name": "NipNip Buds",
 						"quantity": 1
 					},
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 20
 					}
 				],
@@ -5506,7 +5018,6 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 3
 					}
 				],
@@ -5516,12 +5027,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					}, 
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -5531,12 +5040,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					}, 
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -5566,12 +5073,10 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 250
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 50
 					}
 				],
@@ -5583,17 +5088,14 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 100
 					}, 
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					}, 
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -5603,17 +5105,14 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 100
 					}, 
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					}, 
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -5623,17 +5122,14 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 100
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					}, 
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -5643,17 +5139,14 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 100
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					}, 
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -5679,12 +5172,10 @@
 				"ingredients": [
 					{
 						"id": "englobed_shade",
-						"name": "Englobed Shade",
 						"quantity": 1
 					}, 
 					{
 						"id": "ionised_cobalt",
-						"name": "Ionised Cobalt",
 						"quantity": 100
 					}
 				],
@@ -5710,12 +5201,10 @@
 				"ingredients": [
 					{
 						"id": "state_phasure",
-						"name": "State Phasure",
 						"quantity": 1
 					}, 
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 100
 					}
 				],
@@ -5743,12 +5232,10 @@
 				"ingredients": [
 					{
 						"id": "thermic_condensate",
-						"name": "Thermic Condensate",
 						"quantity": 1
 					}, 
 					{
 						"id": "enriched_carbon",
-						"name": "Enriched Carbon",
 						"quantity": 1
 					}
 				],
@@ -5780,7 +5267,6 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					}
 				],
@@ -5790,12 +5276,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 				],
@@ -5805,12 +5289,10 @@
 				"ingredients": [
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5820,17 +5302,14 @@
 				"ingredients": [
 					{
 						"id": "fungal_mould",
-						"name": "Fungal Mould",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5840,17 +5319,14 @@
 				"ingredients": [
 					{
 						"id": "frost_crystal",
-						"name": "Frost Crystal",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5860,17 +5336,14 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5880,17 +5353,14 @@
 				"ingredients": [
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5900,17 +5370,14 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5920,17 +5387,14 @@
 				"ingredients": [
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -5958,12 +5422,10 @@
 				"ingredients": [
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -5973,12 +5435,10 @@
 				"ingredients": [
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 2
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -5988,12 +5448,10 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 2
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6003,12 +5461,10 @@
 				"ingredients": [
 					{
 						"id": "pyrite",
-						"name": "Pyrite",
 						"quantity": 2
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6018,12 +5474,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6033,12 +5487,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6048,12 +5500,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					},
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6081,12 +5531,10 @@
 				"ingredients": [
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 2
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -6096,12 +5544,10 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 2
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6111,12 +5557,10 @@
 				"ingredients": [
 					{
 						"id": "dioxite",
-						"name": "Dioxite",
 						"quantity": 2
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6142,12 +5586,10 @@
 				"ingredients": [
 					{
 						"id": "dawns_end",
-						"name": "Dawn's End",
 						"quantity": 1
 					},
 					{
 						"id": "copper",
-						"name": "Copper",
 						"quantity": 100
 					}
 				],
@@ -6176,7 +5618,6 @@
 				"ingredients": [
 					{
 						"id": "geodesite",
-						"name": "Geodesite",
 						"quantity": 1
 					}
 				],
@@ -6186,7 +5627,6 @@
 				"ingredients": [
 					{
 						"id": "iridesite",
-						"name": "Iridesite",
 						"quantity": 1
 					}
 				],
@@ -6196,12 +5636,10 @@
 				"ingredients": [
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 1
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					}
 				],
@@ -6211,12 +5649,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -6242,12 +5678,10 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 100
 					},
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 200
 					}
 				],
@@ -6273,12 +5707,10 @@
 				"ingredients": [
 					{
 						"id": "liquid_explosive",
-						"name": "Liquid Explosive",
 						"quantity": 1
 					}, 
 					{
 						"id": "fusion_accelerant",
-						"name": "Fusion Accelerant",
 						"quantity": 1
 					}
 				],
@@ -6301,7 +5733,6 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 50
 					}
 				],
@@ -6343,12 +5774,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 2
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -6358,7 +5787,6 @@
 				"ingredients": [
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6368,7 +5796,6 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6395,7 +5822,6 @@
 				"ingredients": [
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					}
 				],
@@ -6405,12 +5831,10 @@
 				"ingredients": [
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 1
 					}, 
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -6420,12 +5844,10 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 2
 					}, 
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -6435,12 +5857,10 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 2
 					}, 
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6450,12 +5870,10 @@
 				"ingredients": [
 					{
 						"id": "uranium",
-						"name": "Uranium",
 						"quantity": 2
 					}, 
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6498,17 +5916,14 @@
 				"ingredients": [
 					{
 						"id": "microprocessor",
-						"name": "Microprocessor",
 						"quantity": 1
 					}, 
 					{
 						"id": "antimatter",
-						"name": "Antimatter",
 						"quantity": 1
 					}, 
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 25
 					}
 				],
@@ -6534,12 +5949,10 @@
 				"ingredients": [
 					{
 						"id": "circuit_board",
-						"name": "Circuit Board",
 						"quantity": 1
 					}, 
 					{
 						"id": "superconductor",
-						"name": "Superconductor",
 						"quantity": 1
 					}
 				],
@@ -6568,7 +5981,6 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 3
 					}
 				],
@@ -6578,12 +5990,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -6593,12 +6003,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -6625,7 +6033,6 @@
 				"ingredients": [
 					{
 						"id": "cursed_dust",
-						"name": "Cursed Dust",
 						"quantity": 2
 					}
 				],
@@ -6654,7 +6061,6 @@
 				"ingredients": [
 					{
 						"id": "living_slime",
-						"name": "Living Slime",
 						"quantity": 1
 					}
 				],
@@ -6682,12 +6088,10 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -6697,12 +6101,10 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -6746,7 +6148,6 @@
 				"ingredients": [
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 1
 					}
 				],
@@ -6756,12 +6157,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -6804,7 +6203,6 @@
 				"ingredients": [
 					{
 						"id": "herox",
-						"name": "Herox",
 						"quantity": 1
 					}
 				],
@@ -6814,7 +6212,6 @@
 				"ingredients": [
 					{
 						"id": "aronium",
-						"name": "Aronium",
 						"quantity": 1
 					}
 				],
@@ -6824,7 +6221,6 @@
 				"ingredients": [
 					{
 						"id": "dirty_bronze",
-						"name": "Dirty Bronze",
 						"quantity": 1
 					}
 				],
@@ -6853,12 +6249,10 @@
 				"ingredients": [
 					{
 						"id": "thermic_condensate",
-						"name": "Thermic Condensate",
 						"quantity": 1 
 					},
 					{
 						"id": "nitrogen_salt",
-						"name": "Nitrogen Salt",
 						"quantity": 1
 					}
 				],
@@ -6887,7 +6281,6 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					}
 				],
@@ -6897,7 +6290,6 @@
 				"ingredients": [
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					}
 				],
@@ -6907,12 +6299,10 @@
 				"ingredients": [
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 				],
@@ -6922,12 +6312,10 @@
 				"ingredients": [
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -6954,7 +6342,6 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 2
 					}
 				],
@@ -6964,12 +6351,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 1
 					}
 				],
@@ -6979,12 +6364,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 1
 					}
 				],
@@ -6994,12 +6377,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -7009,12 +6390,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -7024,12 +6403,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -7039,12 +6416,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "pugneum",
-						"name": "Pugneum",
 						"quantity": 1
 					}
 				],
@@ -7054,7 +6429,6 @@
 				"ingredients": [
 					{
 						"id": "crystal_sulphide",
-						"name": "Crystal Sulphide",
 						"quantity": 1
 					}
 				],
@@ -7064,12 +6438,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 1
 					}
 				],
@@ -7079,12 +6451,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "faecium",
-						"name": "Faecium",
 						"quantity": 1
 					}
 				],
@@ -7094,12 +6464,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					}
 				],
@@ -7109,12 +6477,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "marrow_bulb",
-						"name": "Marrow Bulb",
 						"quantity": 1
 					}
 				],
@@ -7124,12 +6490,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					}
 				],
@@ -7139,12 +6503,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "kelp_sac",
-						"name": "Kelp Sac",
 						"quantity": 1
 					}
 				],
@@ -7154,12 +6516,10 @@
 				"ingredients": [
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7169,12 +6529,10 @@
 				"ingredients": [
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7184,12 +6542,10 @@
 				"ingredients": [
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7199,12 +6555,10 @@
 				"ingredients": [
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7214,12 +6568,10 @@
 				"ingredients": [
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7247,12 +6599,10 @@
 				"ingredients": [
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 1
 					},
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 1
 					}
 				],
@@ -7262,12 +6612,10 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -7277,12 +6625,10 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 1
 					},
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					}
 				],
@@ -7292,12 +6638,10 @@
 				"ingredients": [
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					},
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 1
 					}
 				],
@@ -7324,17 +6668,14 @@
 				"ingredients": [
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 40
 					},
 					{
 						"id": "silver",
-						"name": "Silver",
 						"quantity": 30
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 25
 					}
 				],
@@ -7357,12 +6698,10 @@
 				"ingredients": [
 					{
 						"id": "solanium",
-						"name": "Solanium",
 						"quantity": 50
 					},
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 25
 					}
 				],
@@ -7388,17 +6727,14 @@
 				"ingredients": [
 					{
 						"id": "metal_plating",
-						"name": "Metal Plating",
 						"quantity": 3
 					},
 					{
 						"id": "living_pearl",
-						"name": "Living Pearl",
 						"quantity": 1
 					},
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 120
 					}
 				],
@@ -7421,12 +6757,10 @@
 				"ingredients": [
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 50
 					},
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 25
 					}
 				],
@@ -7454,12 +6788,10 @@
 				"ingredients": [
 					{
 						"id": "star_bulb",
-						"name": "Star Bulb",
 						"quantity": 1 
 					},
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 1
 					}
 				],
@@ -7469,12 +6801,10 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 2
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -7484,12 +6814,10 @@
 				"ingredients": [
 					{
 						"id": "paraffinium",
-						"name": "Paraffinium",
 						"quantity": 1
 					},
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					}
 				],
@@ -7515,17 +6843,14 @@
 				"ingredients": [
 					{
 						"id": "quantum_processor",
-						"name": "Quantum Processor",
 						"quantity": 1 
 					},
 					{
 						"id": "cryogenic_chamber",
-						"name": "Cryogenic Chamber",
 						"quantity": 1
 					},
 					{
 						"id": "iridesite",
-						"name": "Iridesite",
 						"quantity": 1 
 					}
 				],
@@ -7551,12 +6876,10 @@
 				"ingredients": [
 					{
 						"id": "photic_jade",
-						"name": "Photic Jade",
 						"quantity": 1
 					},
 					{
 						"id": "cadmium",
-						"name": "Cadmium",
 						"quantity": 100
 					}
 				],
@@ -7586,7 +6909,6 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 3
 					}
 				],
@@ -7596,12 +6918,10 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					},
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 1
 					}
 				],
@@ -7611,12 +6931,10 @@
 				"ingredients": [
 					{
 						"id": "nitrogen",
-						"name": "Nitrogen",
 						"quantity": 1
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 1
 					}
 				],
@@ -7644,12 +6962,10 @@
 				"ingredients": [
 					{
 						"id": "enriched_carbon",
-						"name": "Enriched Carbon",
 						"quantity": 1
 					},
 					{
 						"id": "semiconductor",
-						"name": "Semiconductor",
 						"quantity": 1
 					}
 				],
@@ -7693,12 +7009,10 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 250
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 50
 					}
 				],
@@ -7710,17 +7024,14 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 100
 					}, 
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -7730,17 +7041,14 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 100
 					}, 
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -7750,17 +7058,14 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 100
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "chlorine",
-						"name": "Chlorine",
 						"quantity": 5
 					}
 				],
@@ -7770,17 +7075,14 @@
 				"ingredients": [
 					{
 						"id": "sulphurine",
-						"name": "Sulphurine",
 						"quantity": 100
 					}, 
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 10
 					}
 				],
@@ -7826,7 +7128,6 @@
 				"ingredients": [
 					{
 						"id": "cactus_flesh",
-						"name": "Cactus Flesh",
 						"quantity": 200
 					}
 				],
@@ -7852,12 +7153,10 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 50
 					},
 					{
 						"id": "metal_plating",
-						"name": "Metal Plating",
 						"quantity": 1
 					}
 				],
@@ -7869,17 +7168,14 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 10
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 20
 					}
 				],
@@ -7889,17 +7185,14 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 10
 					},
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 20
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 20
 					}
 				],
@@ -7909,17 +7202,14 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 10
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 20
 					}
 				],
@@ -7929,17 +7219,14 @@
 				"ingredients": [
 					{
 						"id": "oxygen",
-						"name": "Oxygen",
 						"quantity": 10
 					},
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 10
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 20
 					}
 				],
@@ -7967,12 +7254,10 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 2
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -7982,12 +7267,10 @@
 				"ingredients": [
 					{
 						"id": "phosphorus",
-						"name": "Phosphorus",
 						"quantity": 2
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -7997,12 +7280,10 @@
 				"ingredients": [
 					{
 						"id": "gamma_root",
-						"name": "Gamma Root",
 						"quantity": 2
 					},
 					{
 						"id": "salt",
-						"name": "Salt",
 						"quantity": 1
 					}
 				],
@@ -8012,12 +7293,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					},
 					{
 						"id": "di_hydrogen",
-						"name": "Di-hydrogen",
 						"quantity": 1
 					}
 				],
@@ -8027,12 +7306,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					},
 					{
 						"id": "ferrite_dust",
-						"name": "Ferrite Dust",
 						"quantity": 1
 					}
 				],
@@ -8042,12 +7319,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					},
 					{
 						"id": "pure_ferrite",
-						"name": "Pure Ferrite",
 						"quantity": 1
 					}
 				],
@@ -8057,12 +7332,10 @@
 				"ingredients": [
 					{
 						"id": "radon",
-						"name": "Radon",
 						"quantity": 1
 					},
 					{
 						"id": "magnetised_ferrite",
-						"name": "Magnetised Ferrite",
 						"quantity": 1
 					}
 				],
@@ -8085,12 +7358,10 @@
 				"ingredients": [
 					{
 						"id": "emeril",
-						"name": "Emeril",
 						"quantity": 100
 					},
 					{
 						"id": "gold",
-						"name": "Gold",
 						"quantity": 50
 					}
 				],
@@ -8117,7 +7388,6 @@
 				"ingredients": [
 					{
 						"id": "residual_goop",
-						"name": "Residual Goop",
 						"quantity": 1
 					}
 				],
@@ -8240,12 +7510,10 @@
 				"ingredients": [
 					{
 						"id": "antimatter_housing",
-						"name": "Antimatter Housing",
 						"quantity": 1
 					},
 					{
 						"id": "antimatter",
-						"name": "Antimatter",
 						"quantity": 1
 					}
 				],
@@ -8257,17 +7525,14 @@
 				"ingredients": [
 					{
 						"id": "carbon",
-						"name": "Carbon",
 						"quantity": 50
 					},
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 5
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 250
 					}
 				],
@@ -8277,17 +7542,14 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 25
 					},
 					{
 						"id": "sodium",
-						"name": "Sodium",
 						"quantity": 10
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 250
 					}
 				],
@@ -8297,17 +7559,14 @@
 				"ingredients": [
 					{
 						"id": "condensed_carbon",
-						"name": "Condensed Carbon",
 						"quantity": 25
 					},
 					{
 						"id": "sodium_nitrate",
-						"name": "Sodium Nitrate",
 						"quantity": 5
 					},
 					{
 						"id": "chromatic_metal",
-						"name": "Chromatic Metal",
 						"quantity": 250
 					}
 				],
@@ -8335,12 +7594,10 @@
 				"ingredients": [
 					{
 						"id": "antimatter",
-						"name": "Antimatter",
 						"quantity": 1
 					},
 					{
 						"id": "storm_crystal",
-						"name": "Storm Crystal",
 						"quantity": 1
 					}
 				],
