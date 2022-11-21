@@ -253,7 +253,7 @@
 								<div class="name">
 									<span>{{item.name}}</span>
 								</div>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
+								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
 							</button>
 						</li>
 					</ul>
@@ -270,7 +270,7 @@
 							<div class="card" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
+								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
 							</div>
 						</div>
 						<div class="column">
@@ -292,7 +292,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</a>
 													</div>
@@ -310,7 +310,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
 													</div>
@@ -328,7 +328,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
 													</div>
