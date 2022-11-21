@@ -292,7 +292,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="ingredient.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</a>
 													</div>
@@ -310,7 +310,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="ingredient.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</button>
 													</div>
@@ -328,7 +328,7 @@
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
 														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
+															<img :alt="ingredient.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{ingredient.name}}</div>
 														</button>
 													</div>
