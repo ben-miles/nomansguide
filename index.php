@@ -10,7 +10,7 @@
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MC9RX7K');</script>
 	<!-- End Google Tag Manager -->
-	<script type="text/javascript" src="/js/vue.js"></script>
+	<script type="text/javascript" src="/js/vue.min.js"></script>
 	<link rel="icon" href="favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
@@ -249,11 +249,11 @@
 				<div class="items">
 					<ul>
 						<li v-for="item in itemsFiltered">
-							<button class="item" :id="item.id" v-on:click="selectItem(item.id, item.name)">
+							<button class="item" :id="item.id" v-on:click="selectItem(item.id, item.name)" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 								<div class="name">
 									<span>{{item.name}}</span>
 								</div>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
+								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
 							</button>
 						</li>
 					</ul>
@@ -267,10 +267,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="column">
-							<div class="card" :id="item.id">
+							<div class="card" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
-								<img :alt="item.name" :src="'img/item/' + item.id + '.png'" loading="lazy">
+								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
 							</div>
 						</div>
 						<div class="column">
@@ -284,15 +284,16 @@
 										<li v-for="source in item.sources">{{source}}</li>
 									</ul>
 									<div v-if="item.crafting" class="crafting">
-										<h3>Crafting:</h3>
+										<h4>Crafting:</h4>
+										<p>{{item.name}} can be built using a blueprint and the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.crafting" class="recipe">
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{ingredient.name}}</div>
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+															<div class="title">{{itemName(ingredient.id)}}</div>
 														</a>
 													</div>
 												</div>
@@ -301,15 +302,16 @@
 										</div>
 									</div>
 									<div v-if="item.refining" class="refining">
-										<h3>Refining:</h3>
+										<h4>Refining:</h4>
+										<p>{{item.name}} can be refined using a Refiner with the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.refining" class="recipe">
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{ingredient.name}}</div>
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
 													</div>
 												</div>
@@ -318,15 +320,16 @@
 										</div>
 									</div>
 									<div v-if="item.cooking" class="cooking">
-										<h3>Cooking:</h3>
+										<h4>Cooking:</h4>
+										<p>{{item.name}} can be cooked using a Nutrient Processor with the following ingredients:</p>
 										<div class="recipes">
 											<div v-for="recipe in item.cooking" class="recipe">
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, ingredient.name)" :id="ingredient.id">
-															<img :alt="item.name" :src="'img/item/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{ingredient.name}}</div>
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
+															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
 													</div>
 												</div>
@@ -348,7 +351,7 @@
         </section>
 
     </div>
-    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
