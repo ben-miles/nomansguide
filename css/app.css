@@ -521,7 +521,7 @@ button.item {
 .ingredient button img,
 button.item img {
     background-color: rgba(0,0,0,0);
-	transition: background-color 0.1s;
+	transition: background-color 0.1s ease-out;
 }
 .ingredient button:hover img,
 button.item:hover img {
