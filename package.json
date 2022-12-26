@@ -1,0 +1,26 @@
+{
+  "name": "nomansguide",
+  "version": "2.0.0",
+  "description": "A second-screen companion app for the game \"No Man's Sky.\" A convenient way to see location, crafting, and cooking data for over one hundred in-game items (and growing). Future updates tentatively include translations for the various alien languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-miles/nomansguide.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "second-screen",
+    "nomanssky",
+    "nomansskythegame"
+  ],
+  "author": "Ben Miles",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ben-miles/nomansguide/issues"
+  },
+  "homepage": "https://nomansguide.dev"
+}
