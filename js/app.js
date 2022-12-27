@@ -8,12 +8,12 @@
 // use IDs to generate links to wiki
 // remove ID / name? can one be derived from the other programattically? not consistently...
 
-import Items from "/data/items.json" assert {type: "json"};
+var itemsData = JSON.parse(document.getElementById("items-data").innerHTML);
 
 var app = new Vue({
     el: "#app",
     data: {
-		items: Object.values(Items),
+		items: Object.values(itemsData),
 		selectedItem: "stasis_device",
 		selectedItemType: "all",
 		filter: ""
