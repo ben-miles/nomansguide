@@ -351,6 +351,7 @@
         </section>
 
     </div>
+	<script type="application/json" id="items-data"><?php echo file_get_contents("data/items.json"); ?></script>
 	<script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
     <script type="module" src="js/app.js"></script>
 </body>
