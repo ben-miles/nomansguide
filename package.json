@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ben-miles/nomansguide/issues"
   },
-  "homepage": "https://nomansguide.dev"
+  "homepage": "https://nomansguide.dev",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-rename": "^2.0.0"
+  }
 }
