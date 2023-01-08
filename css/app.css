@@ -493,13 +493,13 @@ body.drawer-open #drawer {
 	min-width: 24px;
 	bottom: 7px;
 }
-.ingredient button {
+button.item.small {
 	border: 2px solid #fff;
 	display: inline-flex;
 	flex-direction: row;
 	align-items: center;
 }
-.ingredient .title {
+button.item.small .title {
 	background: #fff;
 	color: #000;
 	font-size: 14px;
@@ -507,7 +507,7 @@ body.drawer-open #drawer {
 	text-align: center;
 	padding: 4px;
 }
-.ingredient img {
+button.item.small img {
 	height: auto;
 	width: 24px;
 	margin: 0;
@@ -515,20 +515,16 @@ body.drawer-open #drawer {
 
 /* ITEM BACKGROUNDS */
 .card,
-.ingredient button,
 button.item {
 	background: #f5a920;
 }
-.ingredient button img,
 button.item img {
     background-color: rgba(0,0,0,0);
 	transition: background-color 0.1s ease-out;
 }
-.ingredient button:hover img,
 button.item:hover img {
     background-color: rgba(0,0,0,0.2);
 }
-
 
 /* FOOTER */
 #footer {

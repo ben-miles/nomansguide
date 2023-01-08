@@ -291,7 +291,7 @@
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
 															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
@@ -309,7 +309,7 @@
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
 															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
@@ -327,7 +327,7 @@
 												<div class="ingredients">
 													<div v-for="ingredient in recipe.ingredients" class="ingredient">
 														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :style="itemColors(ingredient.id)">
+														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
 															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
 														</button>
