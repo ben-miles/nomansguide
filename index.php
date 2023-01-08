@@ -247,16 +247,12 @@
 				</div>
 
 				<div class="items">
-					<ul>
-						<li v-for="item in itemsFiltered">
-							<button class="item" :id="item.id" v-on:click="selectItem(item.id, item.name)" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
-								<div class="name">
-									<span>{{item.name}}</span>
-								</div>
-								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
-							</button>
-						</li>
-					</ul>
+					<button v-for="item in itemsFiltered" v-on:click="selectItem(item.id, item.name)" class="item" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
+						<div class="name">
+							<span>{{item.name}}</span>
+						</div>
+						<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+					</button>
 				</div>
 				
 			</div>
@@ -266,109 +262,106 @@
 			<div class="resource" v-for="item in itemSelected">
 				<div class="container">
 					<div class="row">
+
 						<div class="column">
 							<div class="card" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 								<h2 class="name">{{item.name}}</h2>
 								<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
 								<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
 							</div>
-						</div>
-						<div class="column">
-							<div class="details">
-								<div v-if="item.description" class="description">
-									<p>{{item.description}}</p>
-								</div>
-								<div class="sources">
-									<h3>Sources:</h3>
-									<ul v-if="item.sources">
-										<li v-for="source in item.sources">{{source}}</li>
-									</ul>
-									<div v-if="item.crafting" class="crafting">
-										<h4>Crafting:</h4>
-										<p>{{item.name}} can be built using a blueprint and the following ingredients:</p>
-										<div class="recipes">
-											<div v-for="recipe in item.crafting" class="recipe">
-												<div class="ingredients">
-													<div v-for="ingredient in recipe.ingredients" class="ingredient">
-														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{itemName(ingredient.id)}}</div>
-														</button>
-													</div>
-												</div>
-												<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
-											</div>
-										</div>
-									</div>
-									<div v-if="item.refining" class="refining">
-										<h4>Refining:</h4>
-										<p>{{item.name}} can be refined using a Refiner with the following ingredients:</p>
-										<div class="recipes">
-											<div v-for="recipe in item.refining" class="recipe">
-												<div class="ingredients">
-													<div v-for="ingredient in recipe.ingredients" class="ingredient">
-														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{itemName(ingredient.id)}}</div>
-														</button>
-													</div>
-												</div>
-												<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
-											</div>
-										</div>
-									</div>
-									<div v-if="item.cooking" class="cooking">
-										<h4>Cooking:</h4>
-										<p>{{item.name}} can be cooked using a Nutrient Processor with the following ingredients:</p>
-										<div class="recipes">
-											<div v-for="recipe in item.cooking" class="recipe">
-												<div class="ingredients">
-													<div v-for="ingredient in recipe.ingredients" class="ingredient">
-														<div class="quantity">{{ingredient.quantity}}</div>
-														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
-															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
-															<div class="title">{{itemName(ingredient.id)}}</div>
-														</button>
-													</div>
-												</div>
-												<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="uses">
-									<h3>Uses:</h3>
-									<div v-if="usesCrafting" class="crafting">
-										<h4>Crafting:</h4>
-										<p>{{item.name}} is used as an ingredient for crafting the following products:</p>
-										<ul>
-											<div v-for="item in usesCrafting">
-												<button v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
-													<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
-													<div class="title">{{item.name}}</div>
-												</button>
-											</div>
-										</ul>
-									</div>
-									<div v-if="usesRefining" class="refining">
-										<h4>Refining:</h4>
-										<p>{{item.name}} is used as an ingredient for refining the following products using a Refiner:</p>
-										<ul>
-											<div v-for="item in usesRefining">
-												<button v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
-													<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
-													<div class="title">{{item.name}}</div>
-												</button>
-											</div>
-										</ul>
-									</div>
-								</div>
-
+							<div v-if="item.description" class="details description">
+								<p>{{item.description}}</p>
 							</div>
 						</div>
+
+						<div class="column">
+							<div class="details sources">
+								<h3>Sources:</h3>
+								<ul v-if="item.sources">
+									<li v-for="source in item.sources">{{source}}</li>
+								</ul>
+								<div v-if="item.crafting" class="crafting">
+									<h4>Crafting:</h4>
+									<p>{{item.name}} can be built using a blueprint and the following ingredients:</p>
+									<div class="recipes">
+										<div v-for="recipe in item.crafting" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
+														<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+														<div class="title">{{itemName(ingredient.id)}}</div>
+													</button>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
+										</div>
+									</div>
+								</div>
+								<div v-if="item.refining" class="refining">
+									<h4>Refining:</h4>
+									<p>{{item.name}} can be refined using a Refiner with the following ingredients:</p>
+									<div class="recipes">
+										<div v-for="recipe in item.refining" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
+														<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+														<div class="title">{{itemName(ingredient.id)}}</div>
+													</button>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
+										</div>
+									</div>
+								</div>
+								<div v-if="item.cooking" class="cooking">
+									<h4>Cooking:</h4>
+									<p>{{item.name}} can be cooked using a Nutrient Processor with the following ingredients:</p>
+									<div class="recipes">
+										<div v-for="recipe in item.cooking" class="recipe">
+											<div class="ingredients">
+												<div v-for="ingredient in recipe.ingredients" class="ingredient">
+													<div class="quantity">{{ingredient.quantity}}</div>
+													<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
+														<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+														<div class="title">{{itemName(ingredient.id)}}</div>
+													</button>
+												</div>
+											</div>
+											<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="details uses">
+								<h3>Uses:</h3>
+								<div v-if="usesCrafting" class="crafting">
+									<h4>Crafting:</h4>
+									<p>{{item.name}} is used as an ingredient for crafting the following products:</p>
+									<div class="items">
+										<button v-for="item in usesCrafting" v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
+											<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+											<div class="title">{{item.name}}</div>
+										</button>
+									</div>
+								</div>
+								<div v-if="usesRefining" class="refining">
+									<h4>Refining:</h4>
+									<p>{{item.name}} is used as an ingredient for refining the following products using a Refiner:</p>
+									<div class="items">
+										<button v-for="item in usesRefining" v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
+											<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+											<div class="title">{{item.name}}</div>
+										</button>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						
 					</div>
 				</div>
 			</div>
