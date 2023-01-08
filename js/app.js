@@ -67,6 +67,28 @@ var app = new Vue({
 				return item.id === this.selectedItem;
 			})
 		},
+		usesCrafting(){
+			return this.items.filter( item => {
+				if(item.crafting){
+					return item.crafting.some( recipe => {
+						return recipe.ingredients.some( ingredient => { 
+							return ingredient.id === this.selectedItem;
+						}); 
+					}) 
+				}
+			});
+		},
+		usesRefining(){
+			return this.items.filter( item => {
+				if(item.refining){
+					return item.refining.some( recipe => {
+						return recipe.ingredients.some( ingredient => { 
+							return ingredient.id === this.selectedItem;
+						}); 
+					}) 
+				}
+			});
+		},
 		itemsFiltered(){
 			// filter by both name AND type
 			if(this.filter !== "" && this.selectedItemType !== "all") {

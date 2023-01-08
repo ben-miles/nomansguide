@@ -338,6 +338,35 @@
 										</div>
 									</div>
 								</div>
+
+								<div class="uses">
+									<h3>Uses:</h3>
+									<div v-if="usesCrafting" class="crafting">
+										<h4>Crafting:</h4>
+										<p>{{item.name}} is used as an ingredient for crafting the following products:</p>
+										<ul>
+											<div v-for="item in usesCrafting">
+												<button v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
+													<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+													<div class="title">{{item.name}}</div>
+												</button>
+											</div>
+										</ul>
+									</div>
+									<div v-if="usesRefining" class="refining">
+										<h4>Refining:</h4>
+										<p>{{item.name}} is used as an ingredient for refining the following products using a Refiner:</p>
+										<ul>
+											<div v-for="item in usesRefining">
+												<button v-on:click="selectItem(item.id, item.name)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
+													<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+													<div class="title">{{item.name}}</div>
+												</button>
+											</div>
+										</ul>
+									</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
