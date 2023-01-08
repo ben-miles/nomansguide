@@ -14,7 +14,8 @@ var app = new Vue({
     el: "#app",
     data: {
 		items: Object.values(itemsData),
-		selectedItem: "stasis_device",
+		// selectedItem: "stasis_device",
+		selectedItem: "carbon",
 		selectedItemType: "all",
 		filter: ""
     },
