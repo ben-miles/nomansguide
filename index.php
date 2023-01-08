@@ -294,7 +294,7 @@
 														<button v-on:click="selectItem(ingredient.id, itemName(ingredient.id))" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
 															<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
 															<div class="title">{{itemName(ingredient.id)}}</div>
-														</a>
+														</button>
 													</div>
 												</div>
 												<div class="yield">Yields {{recipe.yield}} {{item.name}}.</div>
