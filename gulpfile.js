@@ -4,10 +4,8 @@ const rename = require('gulp-rename');
 
 gulp.task('prefix', () =>
     gulp.src('./css/app.css')
-        .pipe(autoprefixer({
-            browsers: ['last 99 versions'],
-            cascade: false
 		}))
+		.pipe(autoprefixer({cascade: false}))
 		.pipe(rename('app-prefixed.css'))
     	.pipe(gulp.dest('./css/'))
 );
