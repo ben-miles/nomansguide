@@ -12,7 +12,7 @@
 	<!-- End Google Tag Manager -->
 	<script type="text/javascript" src="/js/vue.min.js"></script>
 	<link rel="icon" href="favicon.png">
-	<link rel="stylesheet" type="text/css" href="css/app-prefixed.css">
+	<link rel="stylesheet" type="text/css" href="css/app.min.css">
 </head>
 
 <body>
@@ -375,6 +375,6 @@
     </div>
 	<script type="application/json" id="items-data"><?php echo file_get_contents("data/items.json"); ?></script>
 	<script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-    <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/app.min.js"></script>
 </body>
 </html>

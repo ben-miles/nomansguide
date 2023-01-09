@@ -8,6 +8,7 @@ A second-screen companion app for the game "No Man's Sky." A convenient way to s
 3. In the project's root directory, run `npm install`
 
 ## Development
-1. Run `gulp` to auto-prefix and minify the CSS, and to set a watcher on these files so that the same is done automatically when changes are saved.
+1. Run `gulp` to auto-prefix and minify the CSS, minify the JavaScript, and to set a watcher on these files so that the same is done automatically when changes are saved.
+2. `CTRL+C` in the console will quit the watch process
 
 This project is tested with BrowserStack.
