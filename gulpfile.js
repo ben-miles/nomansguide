@@ -1,27 +1,19 @@
-const gulp = require('gulp');
+const { watch, series, src, dest } = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
 
-gulp.task('prefix', () =>
-    gulp.src('./css/app.css')
-		}))
+function css(cb){
+	src('./css/app.css')
 		.pipe(autoprefixer({cascade: false}))
 		.pipe(rename('app-prefixed.css'))
-    	.pipe(gulp.dest('./css/'))
-);
-
-// gulp.task('prefix', () =>
-//     gulp.src('styleTest.css')
-//         .pipe(autoprefixer({
-//             browsers: ['last 99 versions'],
-//             cascade: false
-//     }))
-//     .pipe(gulp.dest('style'))
-// );
-
-function defaultTask(cb) {
-	// place code for your default task here
+		.pipe(dest('./css/'));
 	cb();
 }
 
+function defaultTask(cb) {
+	watch('./css/app.css', { ignoreInitial: false }, css);
+	cb();
+}
+
+exports.css = css;
 exports.default = defaultTask;
