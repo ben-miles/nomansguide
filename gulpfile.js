@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { watch, series, src, dest } = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
@@ -21,7 +22,7 @@ function css(cb){
 function img(cb){
 	src('./img/item/*')
 	.pipe(tinypng({
-		key: 'Pc392shmK38Bs9FTpkMj02LDHDX5Swfy',
+		key: process.env.TINYPNG_API_KEY,
 		sigFile: './img/item/.tinypng-sigs'
 	}))
 	.pipe(dest('./img/item/min/'));
