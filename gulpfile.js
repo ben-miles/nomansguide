@@ -2,6 +2,7 @@ const { watch, series, src, dest } = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
+const tinypng = require('gulp-tinypng-compress');
 const uglify = require('gulp-uglify');
 
 // CMD: `gulp css`
@@ -12,6 +13,18 @@ function css(cb){
 	.pipe(cleanCSS())
 	.pipe(rename('app.min.css'))
 	.pipe(dest('./css/'));
+	cb();
+}
+
+// CMD: `gulp img`
+// Compresses Item PNGs
+function img(cb){
+	src('./img/item/*')
+	.pipe(tinypng({
+		key: 'Pc392shmK38Bs9FTpkMj02LDHDX5Swfy',
+		sigFile: './img/item/.tinypng-sigs'
+	}))
+	.pipe(dest('./img/item/min/'));
 	cb();
 }
 
@@ -29,10 +42,12 @@ function js(cb){
 // Runs the CSS and JS tasks immediately, and whenever the source files are changed
 function defaultTask(cb) {
 	watch('./css/app.css', { ignoreInitial: false }, css);
+	watch('./img/item/*.png', { ignoreInitial: false }, img);
 	watch('./js/app.js', { ignoreInitial: false }, js);
 	cb();
 }
 
 exports.css = css;
+exports.img = img;
 exports.js = js;
 exports.default = defaultTask;
