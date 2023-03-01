@@ -1,6 +1,6 @@
-# nomansguide
+# No Man's Guide
 
-This template should help get you started developing with Vue 3 in Vite.
+A second-screen companion app for the game "No Man's Sky." A convenient way to see location, crafting, and cooking data for over one hundred in-game items (and growing). Future updates tentatively include translations for the various alien languages.
 
 ## Recommended IDE Setup
 
@@ -10,11 +10,13 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+1. Clone this repository and provision a web server for the project.
+2. Get a TinyPNG Developer API key from [TinyPNG - Developer API](https://tinypng.com/developers).
+3. Make a copy of `.env-example`, rename to `.env`, and update the value of `TINYPNG_API_KEY` with the actual key.
+3. Make sure [Node.js](https://nodejs.org) and [NPM](https://www.npmjs.com) are installed.
+4. In the project's root directory, run `npm install` in the terminal.
 
 ### Compile and Hot-Reload for Development
 
@@ -27,3 +29,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+This project is tested with BrowserStack.
