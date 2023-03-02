@@ -78,7 +78,7 @@ export default {
 						<div class="card" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 							<h2 class="name">{{item.name}}</h2>
 							<h3 class="value">{{item.value.toLocaleString("en-US")}}</h3>
-							<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+							<img :alt="item.name" :src="'src/assets/images/items/' + item.id + '.png'" loading="lazy">
 						</div>
 						<div v-if="item.description" class="details description">
 							<p>{{item.description}}</p>
@@ -100,7 +100,7 @@ export default {
 											<div v-for="ingredient in recipe.ingredients" class="ingredient">
 												<div class="quantity">{{ingredient.quantity}}</div>
 												<button @click="$emit('setSelectedItem', ingredient.id)" class="item small" :id="ingredient.id" :key="ingredient.id" :style="itemColors(ingredient.id)">
-													<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+													<img :alt="itemName(ingredient.id)" :src="'src/assets/images/items/' + ingredient.id + '.png'" loading="lazy">
 													<div class="title">{{itemName(ingredient.id)}}</div>
 												</button>
 											</div>
@@ -118,7 +118,7 @@ export default {
 											<div v-for="ingredient in recipe.ingredients" class="ingredient">
 												<div class="quantity">{{ingredient.quantity}}</div>
 												<button @click="$emit('setSelectedItem', ingredient.id)" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
-													<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+													<img :alt="itemName(ingredient.id)" :src="'src/assets/images/items/' + ingredient.id + '.png'" loading="lazy">
 													<div class="title">{{itemName(ingredient.id)}}</div>
 												</button>
 											</div>
@@ -136,7 +136,7 @@ export default {
 											<div v-for="ingredient in recipe.ingredients" class="ingredient">
 												<div class="quantity">{{ingredient.quantity}}</div>
 												<button @click="$emit('setSelectedItem', ingredient.id)" class="item small" :id="ingredient.id" :style="itemColors(ingredient.id)">
-													<img :alt="itemName(ingredient.id)" :src="'img/item/min/' + ingredient.id + '.png'" loading="lazy">
+													<img :alt="itemName(ingredient.id)" :src="'src/assets/images/items/' + ingredient.id + '.png'" loading="lazy">
 													<div class="title">{{itemName(ingredient.id)}}</div>
 												</button>
 											</div>
@@ -154,7 +154,7 @@ export default {
 								<p>{{item.name}} is used as an ingredient for crafting the following products:</p>
 								<div class="items">
 									<button v-for="item in usesCrafting" @click="$emit('setSelectedItem', item.id)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
-										<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+										<img :alt="item.name" :src="'src/assets/images/items/' + item.id + '.png'" loading="lazy">
 										<div class="title">{{item.name}}</div>
 									</button>
 								</div>
@@ -164,7 +164,7 @@ export default {
 								<p>{{item.name}} is used as an ingredient for refining the following products using a Refiner:</p>
 								<div class="items">
 									<button v-for="item in usesRefining" @click="$emit('setSelectedItem', item.id)" class="item small" :id="item.id" :key="item.id" :style="itemColors(item.id)">
-										<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+										<img :alt="item.name" :src="'src/assets/images/items/' + item.id + '.png'" loading="lazy">
 										<div class="title">{{item.name}}</div>
 									</button>
 								</div>

@@ -261,7 +261,7 @@ export default {
 					<div class="name">
 						<span>{{item.name}}</span>
 					</div>
-					<img :alt="item.name" :src="'img/item/min/' + item.id + '.png'" loading="lazy">
+					<img :alt="item.name" :src="'src/assets/images/items/' + item.id + '.png'" loading="lazy">
 				</button>
 			</div>
 			
