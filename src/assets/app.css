@@ -145,7 +145,7 @@ button {
 	padding: 8px 8px 0 0;
 }
 .card .value:after {
-	content: url("/img/icon/units.svg");
+	content: url("../assets/images/icons/units.svg");
 	display: block;
 	float: right;
 	height: 36px;
