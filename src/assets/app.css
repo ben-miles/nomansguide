@@ -19,11 +19,11 @@ body {
 /* FONTS */
 @font-face {
 	font-family: "geosanslight-nmsregular";
-	src: url("/fonts/geonms-webfont.eot");
-	src: url("/fonts/geonms-webfont.eot?#iefix") format("embedded-opentype"), 
-	url("/fonts/geonms-webfont.woff") format("woff"), 
-	url("/fonts/geonms-webfont.ttf") format("truetype"), 
-	url("/fonts/geonms-webfont.svg#geosanslight-nmsregular") format("svg");
+	src: url("fonts/geonms-webfont.eot");
+	src: url("fonts/geonms-webfont.eot?#iefix") format("embedded-opentype"), 
+	url("fonts/geonms-webfont.woff") format("woff"), 
+	url("fonts/geonms-webfont.ttf") format("truetype"), 
+	url("fonts/geonms-webfont.svg#geosanslight-nmsregular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -34,16 +34,16 @@ body {
 	font-weight: 300;
 	color: #fff;
 	background-color: #000;
-	background-image: url("../assets/images/backgrounds/sm.jpg");
+	background-image: url("images/backgrounds/sm.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	cursor: auto;
-	cursor: url("../assets/images/cursors/nmg_cursor_normal.svg") 17 17, auto;
+	cursor: url("images/cursors/nmg_cursor_normal.svg") 17 17, auto;
 }
 @media ( min-width: 721px ) {
 	body {
-		background-image: url("../assets/images/backgrounds/lg.jpg");
+		background-image: url("images/backgrounds/lg.jpg");
 	}
 }
 body.drawer-open {
@@ -70,7 +70,7 @@ a {
 a, 
 button {
 	cursor: pointer;
-	cursor: url("../assets/images/cursors/nmg_cursor_active.svg") 25 25, pointer;
+	cursor: url("images/cursors/nmg_cursor_active.svg") 25 25, pointer;
 	border: none;
 	outline: none;
 	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
@@ -145,7 +145,7 @@ button {
 	padding: 8px 8px 0 0;
 }
 .card .value:after {
-	content: url("../assets/images/icons/units.svg");
+	content: url("images/icons/units.svg");
 	display: block;
 	float: right;
 	height: 36px;
