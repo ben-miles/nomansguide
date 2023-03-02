@@ -16,20 +16,17 @@ export default {
 	},
 	methods: {
 		setSelectedItem(itemId){
-			console.log(itemId);
 			this.selectedItem = itemId;
 			// If the drawer is open, toggle (close) it
-			let docbody = document.body;
-			if(docbody.classList.contains("drawer-open")){
+			if(document.body.classList.contains("drawer-open")){
 				this.toggleDrawer();
 			}
 		},
 		toggleDrawer(){
 			// Toggle the drawer open/closed
-			let docbody = document.body;
-			docbody.classList.toggle("drawer-open");
+			document.body.classList.toggle("drawer-open");
 			// If the drawer is being opened, focus on the filter input
-			if(docbody.classList.contains("drawer-open")){
+			if(document.body.classList.contains("drawer-open")){
 				let filter = document.getElementsByClassName("filter")[0];
 				let filterInput = filter.getElementsByTagName("input")[0];
 				filterInput.focus();
