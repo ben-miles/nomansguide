@@ -48,17 +48,23 @@ export default {
 				}
 			});
 		},
+		initVanillaTilt(){
+			VanillaTilt.init(document.querySelector(".card"), {
+				max: 8,
+				speed: 400,
+				glare: true,
+				"max-glare": 0.75,
+				reverse: true
+			});
+		}
+	},
+	mounted() {
+		this.initVanillaTilt
 	}
 }
 
 // Vanilla-Tilt
-VanillaTilt.init(document.querySelector(".card"), {
-	max: 8,
-	speed: 400,
-	glare: true,
-	"max-glare": 0.75,
-	reverse: true
-});
+
 </script>
 
 <template>
