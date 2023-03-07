@@ -46,9 +46,6 @@ body {
 		background-image: url("images/backgrounds/lg.jpg");
 	}
 }
-body.drawer-open {
-	overflow: hidden; /* Prevents scrolling on body while drawer is open */
-}
 
 .light, 
 small {
@@ -77,7 +74,7 @@ button {
 }
 
 /* BODY */
-#body {
+section {
 	padding: 12px 0;
 	padding: 64px 0;
 	min-height: calc( 100vh - 90px - 49px );
@@ -223,14 +220,14 @@ button {
 	margin: 0 10px 0 0;
 	min-width: 30px;
 }
-button.item.small {
+a.item.small {
 	align-items: center;
 	border: 2px solid #fff;
 	display: flex;
 	flex-direction: row;
 	width: auto;
 }
-button.item.small .title {
+a.item.small .title {
 	background: #fff;
 	color: #000;
 	font-size: 14px;
@@ -238,21 +235,31 @@ button.item.small .title {
 	text-align: center;
 	padding: 4px;
 }
-button.item.small img {
+a.item.small img {
 	height: auto;
 	width: 24px;
 	margin: 0;
 }
 
+/* ITEM LISTS */
+.uses .items {
+	display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
 /* ITEM BACKGROUNDS */
 .card,
+a.item,
 button.item {
 	background: #f5a920;
 }
+a.item img,
 button.item img {
     background-color: rgba(0,0,0,0);
 	transition: background-color 0.1s ease-out;
 }
+a.item:hover img,
 button.item:hover img {
     background-color: rgba(0,0,0,0.2);
 }

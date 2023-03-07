@@ -1,4 +1,6 @@
 <script>
+import { RouterLink } from 'vue-router'
+
 export default {
 	methods: {
 		toggleDrawer() {
@@ -18,33 +20,34 @@ export default {
 
 <template>
 	<header>
-		<div class="brand">
-			<a class="logo" href="#" target="_self">
-				<svg id="atlas" viewBox="0 0 74 128">
-					<polygon id="diamond" points="37,127 1,49 37,1 73,49 "/>
-					<polygon id="bottom-right" points="36.847,60.552 71.906,48.906 72,49 37.153,61.448 "/>
-					<path id="core" d="M55,49c0,9.941-8.059,18-18,18V31C46.941,31,55,39.059,55,49z"/>
-					<polygon id="top-right" points="72,49 37,37 37,2 "/>
-					<polygon id="left" points="2.452,49.005 37,37 1.5,49 36.847,61.448 37.153,60.552 "/>
-					<polygon id="middle" points="37,2 37.75,61 37,126 36.25,61 "/>
-				</svg>
-			</a>
+		<RouterLink to="/" class="brand" target="_self">
+			<svg class="logo" id="atlas" viewBox="0 0 74 128">
+				<polygon id="diamond" points="37,127 1,49 37,1 73,49 "/>
+				<polygon id="bottom-right" points="36.847,60.552 71.906,48.906 72,49 37.153,61.448 "/>
+				<path id="core" d="M55,49c0,9.941-8.059,18-18,18V31C46.941,31,55,39.059,55,49z"/>
+				<polygon id="top-right" points="72,49 37,37 37,2 "/>
+				<polygon id="left" points="2.452,49.005 37,37 1.5,49 36.847,61.448 37.153,60.552 "/>
+				<polygon id="middle" points="37,2 37.75,61 37,126 36.25,61 "/>
+			</svg>
 			<div class="title">
 				<h1 class="site-title">No Man's Guide</h1>
 				<h2 class="tagline">An unofficial field guide for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h2>
 			</div>
-		</div>
+		</RouterLink>
 		<div class="menu">
 			<ul class="nav">
+				<li class="nav-item" id="about">
+					<RouterLink to="/about">About</RouterLink>
+				</li>
 				<li class="nav-item" id="items">
-					<button class="toggle" @click="toggleDrawer">
+					<RouterLink to="/items" class="toggle">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="55px" viewBox="0 0 64 55" style="enable-background:new 0 0 64 55;" xml:space="preserve">
 							<path d="M56.5,15h-49C3.358,15,0,11.643,0,7.5S3.358,0,7.5,0h49C60.642,0,64,3.357,64,7.5S60.642,15,56.5,15z M64,27.5
 								c0-4.143-3.358-7.5-7.5-7.5h-49C3.358,20,0,23.357,0,27.5S3.358,35,7.5,35h49C60.642,35,64,31.643,64,27.5z M64,47.5
 								c0-4.143-3.358-7.5-7.5-7.5h-49C3.358,40,0,43.357,0,47.5S3.358,55,7.5,55h49C60.642,55,64,51.643,64,47.5z"/>
 						</svg>
 						<span>Items</span>
-					</button>
+					</RouterLink>
 				</li>
 			</ul>
 		</div>
@@ -65,12 +68,10 @@ header {
 .brand {
 	display: flex;
 	flex-direction: row;
+	text-decoration: none;
 }
 
 /* LOGO */
-.logo {
-	display: inline-block;
-}
 #atlas {
     height: 64px;
     filter: drop-shadow(0 0 10px rgba(164, 255, 247, 0.7));
@@ -156,34 +157,37 @@ header {
 	list-style: none;
 	align-items: center;
 	justify-content: flex-end;
+	gap: 10px;
 }
-.menu .toggle {
+.menu a {
 	background: transparent;
 	border: none;
 	border-radius: 5px 5px 0 0;
 	color: #9fa2aa;
+	display: block;
 	outline: none;
-	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin-bottom: -10px;
+	margin-bottom: -11px;
 	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
-.menu .toggle:hover,
-body.drawer-open .menu .toggle {
+.menu a:hover,
+.menu .router-link-active {
 	background: #e0b142;
 	color: #2e2c13;
 	text-shadow: 2px 1px 1px rgba(0,0,0,0.25);
 }
-.nav-item button svg {
+.menu a svg {
 	height: 16px;
 	width: auto;
 	margin-right: 4px;
 	fill: #9fa2aa;
 }
-.nav-item:hover button svg,
-body.drawer-open .nav-item button svg {
+.menu a:hover svg,
+.menu a.router-link-active svg {
 	fill: #2e2c13;
 	filter: drop-shadow(2px 0 2px rgba(0,0,0,0.25));
 }

@@ -1,15 +1,14 @@
 <script>
+import { RouterLink } from 'vue-router'
+import itemsData from '../assets/items.json'
+
 export default {
-	props: {
-		items: Array
-	},
 	data() {
 		return {
 			filter: "",
 			selectedItemType: "all"
 		}
 	},
-	emits: ['setSelectedItem'],
 	methods: {
 		selectItemType(itemType){
 			this.selectedItemType = itemType;
@@ -21,42 +20,31 @@ export default {
 			// Set this Type button as active
 			let thisTypeButton = document.getElementById(itemType);
 			thisTypeButton.classList.add("active");
-		},
-		toggleDrawer(){
-			// Toggle the drawer open/closed
-			let docbody = document.body;
-			docbody.classList.toggle("drawer-open");
-			// If the drawer is being opened, focus on the filter input
-			if(docbody.classList.contains("drawer-open")){
-				let filter = document.getElementsByClassName("filter")[0];
-				let filterInput = filter.getElementsByTagName("input")[0];
-				filterInput.focus();
-			}
 		}
 	},
 	computed: {
 		itemsFiltered(){
 			// filter by both name AND type
 			if(this.filter !== "" && this.selectedItemType !== "all") {
-				return this.items.filter(item => {
+				return Object.values(itemsData).filter(item => {
 					return item.type === this.selectedItemType && item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 				})
 			}
 			// filter only by type
 			else if(this.selectedItemType !== "all") {
-				return this.items.filter(item => {
+				return Object.values(itemsData).filter(item => {
 					return item.type === this.selectedItemType;
 				})
 			}
 			// filter only by name
 			else if(this.filter !== "") {
-				return this.items.filter(item => {
+				return Object.values(itemsData).filter(item => {
 					return item.name.toLowerCase().indexOf(this.filter.toLowerCase()) > -1;
 				})
 			}
 			// filter by neither name NOR type
 			else {
-				return this.items;
+				return Object.values(itemsData);
 			}
 		}
 	}
@@ -257,12 +245,12 @@ export default {
 			</div>
 
 			<div class="items">
-				<button v-for="item in itemsFiltered" @click="$emit('setSelectedItem', item.id)" class="item" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
+				<RouterLink :to="{ name: 'item', params: { itemId: item.id }}" v-for="item in itemsFiltered" class="item" :id="item.id" :style="'background-image: linear-gradient(' + item.colors[0] + ', ' + item.colors[1] + ');'">
 					<div class="name">
 						<span>{{item.name}}</span>
 					</div>
 					<img :alt="item.name" :src="'items/' + item.id + '.png'" loading="lazy">
-				</button>
+				</RouterLink>
 			</div>
 			
 		</div>
@@ -272,22 +260,7 @@ export default {
 <style>
 /* DRAWER */
 #drawer {
-	backdrop-filter: blur(8px);
-	background: rgb(123,130,163,.2);
-	display: none;
-	position: absolute;
-	top: 90px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	height: calc( 100vh - 90px );
-	z-index: 2;
-	transform: translateZ(70px);
-	overflow-y: auto;
 	padding: 12px;
-}
-body.drawer-open #drawer {
-	display: block;
 }
 #drawer .container > div:not(:last-of-type) {
 	margin-bottom: 24px;
@@ -365,26 +338,28 @@ body.drawer-open #drawer {
 	justify-content: flex-start;
 	gap: 10px;
 }
-button.item {
+a.item {
 	border: 4px solid #fff;
 	font-size: 16px;
 	font-weight: 600;
 	width: calc( 25% - 7.5px );
 }
-button.item .name {
+a.item .name {
 	background: #fff;
+	color: #000;
 	height: 20px;
 	overflow: hidden;
+	text-align: center;
 }
-button.item .name span {
+a.item .name span {
 	white-space: nowrap;
 }
-button.item img {
+a.item img {
 	display: block;
 	width: 100%;
 }
 @media ( min-width: 1024px ) {
-	button.item {
+	a.item {
 		width: calc( 12.5% - 8.75px );
 	}
 }
