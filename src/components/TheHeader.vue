@@ -39,6 +39,9 @@ export default {
 				<li class="nav-item" id="about">
 					<RouterLink to="/about">About</RouterLink>
 				</li>
+				<li class="nav-item" id="translator">
+					<RouterLink to="/translator">Translator</RouterLink>
+				</li>
 				<li class="nav-item" id="items">
 					<RouterLink to="/items" class="toggle">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="55px" viewBox="0 0 64 55" style="enable-background:new 0 0 64 55;" xml:space="preserve">

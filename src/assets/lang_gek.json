@@ -1,0 +1,3568 @@
+[
+ {
+  "english": "a",
+  "lowercase": "non",
+  "uppercase": "Sisk"
+ },
+ {
+  "english": "abandon",
+  "lowercase": "sokmedli",
+  "uppercase": "Naysmid"
+ },
+ {
+  "english": "abomination",
+  "lowercase": "eimilianka",
+  "uppercase": "Sivolusarkiv"
+ },
+ {
+  "english": "acceptable",
+  "lowercase": "unnomgorlei",
+  "uppercase": "Erbergaarda"
+ },
+ {
+  "english": "account",
+  "lowercase": "hemlin",
+  "uppercase": "Feturkeb"
+ },
+ {
+  "english": "accredited",
+  "lowercase": "hauskugga",
+  "uppercase": "Rirkunglysb"
+ },
+ {
+  "english": "acidity",
+  "lowercase": "libokh",
+  "uppercase": "Ilfellag"
+ },
+ {
+  "english": "act",
+  "lowercase": "rati",
+  "uppercase": "Eki"
+ },
+ {
+  "english": "action",
+  "lowercase": "topack",
+  "uppercase": "Nudkortt"
+ },
+ {
+  "english": "active",
+  "lowercase": "itleyf",
+  "uppercase": "Leydop",
+  "allcaps": "Raatora "
+ },
+ {
+  "english": "activity",
+  "lowercase": "kukaiselto",
+  "uppercase": "Yestungor"
+ },
+ {
+  "english": "administrator",
+  "lowercase": "brotturkrokoe",
+  "uppercase": "Gautsakraumhir"
+ },
+ {
+  "english": "admired",
+  "lowercase": "fibertin",
+  "uppercase": "Hatturk"
+ },
+ {
+  "english": "advancement",
+  "lowercase": "jokopiolafjo",
+  "uppercase": "Uossagsfilm"
+ },
+ {
+  "english": "adventure",
+  "lowercase": "lopjodmuyn",
+  "uppercase": "Aossipull"
+ },
+ {
+  "english": "advice",
+  "lowercase": "gegdalri",
+  "uppercase": "Gufreka"
+ },
+ {
+  "english": "afar",
+  "lowercase": "yidnin",
+  "uppercase": "Eenin"
+ },
+ {
+  "english": "again",
+  "lowercase": "loskj",
+  "uppercase": "Poini"
+ },
+ {
+  "english": "aid",
+  "lowercase": "yera",
+  "uppercase": "Elp"
+ },
+ {
+  "english": "alert",
+  "lowercase": "veveie",
+  "uppercase": "Urskau",
+  "allcaps": "Aske "
+ },
+ {
+  "english": "alkaline",
+  "lowercase": "nedholaist",
+  "uppercase": "Ofteroa"
+ },
+ {
+  "english": "all",
+  "lowercase": "tes",
+  "uppercase": "Tibi"
+ },
+ {
+  "english": "alloy",
+  "lowercase": "futir",
+  "uppercase": "Syfirl",
+  "allcaps": "Otti "
+ },
+ {
+  "english": "alluring",
+  "lowercase": "tuisuele",
+  "uppercase": "Dussuele"
+ },
+ {
+  "english": "almighty",
+  "lowercase": "ilfusinog",
+  "uppercase": "Matudutgef"
+ },
+ {
+  "english": "already",
+  "lowercase": "braaliri",
+  "uppercase": "Ladisark"
+ },
+ {
+  "english": "alright",
+  "lowercase": "nokonkoms",
+  "uppercase": "Epeagel"
+ },
+ {
+  "english": "always",
+  "lowercase": "yeleikir",
+  "uppercase": "Tudoss"
+ },
+ {
+  "english": "am",
+  "lowercase": "hila",
+  "uppercase": "Fie"
+ },
+ {
+  "english": "ammunition",
+  "lowercase": "aufarsafn",
+  "uppercase": "Teydninugspro"
+ },
+ {
+  "english": "ancient",
+  "lowercase": "osomhve",
+  "uppercase": "Ordning"
+ },
+ {
+  "english": "and",
+  "lowercase": "safer",
+  "uppercase": "Lept"
+ },
+ {
+  "english": "announces",
+  "lowercase": "anensnot",
+  "uppercase": "Vittetaynd"
+ },
+ {
+  "english": "anomaly",
+  "lowercase": "muvaav",
+  "uppercase": "Nadkort"
+ },
+ {
+  "english": "another",
+  "lowercase": "ernafnin",
+  "uppercase": "Taydesti"
+ },
+ {
+  "english": "answer",
+  "lowercase": "hofsos",
+  "uppercase": "Ahtimi"
+ },
+ {
+  "english": "any",
+  "lowercase": "vatn",
+  "uppercase": "Netud"
+ },
+ {
+  "english": "appears",
+  "lowercase": "hunifsda",
+  "uppercase": "Nudragna"
+ },
+ {
+  "english": "approach",
+  "lowercase": "opurrkuna",
+  "uppercase": "Heltarkiv"
+ },
+ {
+  "english": "are",
+  "lowercase": "ket",
+  "uppercase": "Ridip"
+ },
+ {
+  "english": "arm",
+  "lowercase": "jan",
+  "uppercase": "Omis"
+ },
+ {
+  "english": "arrive",
+  "lowercase": "ralfge",
+  "uppercase": "Roviceri"
+ },
+ {
+  "english": "as",
+  "lowercase": "vuli",
+  "uppercase": "Itl"
+ },
+ {
+  "english": "asleep",
+  "lowercase": "rarani",
+  "uppercase": "Ibokha"
+ },
+ {
+  "english": "assign",
+  "lowercase": "bibela",
+  "uppercase": "Rakkaf"
+ },
+ {
+  "english": "at",
+  "lowercase": "ieb",
+  "uppercase": "Afe"
+ },
+ {
+  "english": "atlas",
+  "lowercase": "sluyks",
+  "uppercase": "Ietoj"
+ },
+ {
+  "english": "attention",
+  "lowercase": "aulikortti",
+  "uppercase": "Ifestrykkt"
+ },
+ {
+  "english": "augmented",
+  "lowercase": "misbehandu",
+  "uppercase": "Revningeprot"
+ },
+ {
+  "english": "avoid",
+  "lowercase": "mayber",
+  "uppercase": "Ufarv"
+ },
+ {
+  "english": "await",
+  "lowercase": "esniv",
+  "uppercase": "Ogurus"
+ },
+ {
+  "english": "awaiting",
+  "lowercase": "meinikett",
+  "uppercase": "Rilusuunno"
+ },
+ {
+  "english": "awake",
+  "lowercase": "gissy",
+  "uppercase": "Otoa"
+ },
+ {
+  "english": "away",
+  "lowercase": "tin",
+  "uppercase": "Dilab"
+ },
+ {
+  "english": "back",
+  "lowercase": "hem",
+  "uppercase": "Sot"
+ },
+ {
+  "english": "bad",
+  "lowercase": "gigd",
+  "uppercase": "Ion"
+ },
+ {
+  "english": "balarian",
+  "lowercase": "aelekse",
+  "uppercase": "Kestulee"
+ },
+ {
+  "english": "balaron",
+  "lowercase": "rudura",
+  "uppercase": "Aamillur"
+ },
+ {
+  "english": "bankrupt",
+  "lowercase": "rograder",
+  "uppercase": "Yilkingald"
+ },
+ {
+  "english": "barrier",
+  "lowercase": "lemgandl",
+  "uppercase": "Orritee",
+  "allcaps": "Rubrit "
+ },
+ {
+  "english": "be",
+  "lowercase": "vebi",
+  "uppercase": "Als"
+ },
+ {
+  "english": "beak",
+  "lowercase": "dilli",
+  "uppercase": "Kosho"
+ },
+ {
+  "english": "beam",
+  "lowercase": "ukor",
+  "uppercase": "Fostr",
+  "allcaps": "Islug "
+ },
+ {
+  "english": "become",
+  "lowercase": "aelsbol",
+  "uppercase": "Reeni"
+ },
+ {
+  "english": "been",
+  "lowercase": "sys",
+  "uppercase": "Ahu"
+ },
+ {
+  "english": "before",
+  "lowercase": "iblane",
+  "uppercase": "Avola"
+ },
+ {
+  "english": "begin",
+  "lowercase": "muuto",
+  "uppercase": "Ogram"
+ },
+ {
+  "english": "begins",
+  "lowercase": "elbak",
+  "uppercase": "Omoosho"
+ },
+ {
+  "english": "belongings",
+  "lowercase": "mapakkingu",
+  "uppercase": "Sebehankan"
+ },
+ {
+  "english": "benevolent",
+  "lowercase": "eyoareins",
+  "uppercase": "Grimingur"
+ },
+ {
+  "english": "bet",
+  "lowercase": "umur",
+  "uppercase": "Teys"
+ },
+ {
+  "english": "beware",
+  "lowercase": "aijas",
+  "uppercase": "Ilegna"
+ },
+ {
+  "english": "bewitchment",
+  "lowercase": "taulutasafl",
+  "uppercase": "Ologdaniem"
+ },
+ {
+  "english": "biggest",
+  "lowercase": "gibarosv",
+  "uppercase": "Sognup"
+ },
+ {
+  "english": "blob",
+  "lowercase": "lel",
+  "uppercase": "Ope"
+ },
+ {
+  "english": "blocked",
+  "lowercase": "rimogra",
+  "uppercase": "Henifsbo"
+ },
+ {
+  "english": "blood",
+  "lowercase": "irlit",
+  "uppercase": "Hallri"
+ },
+ {
+  "english": "blueprint",
+  "lowercase": "honquistem",
+  "uppercase": "Cektankorn"
+ },
+ {
+  "english": "bootleg",
+  "lowercase": "estuyri",
+  "uppercase": "Tisvardi"
+ },
+ {
+  "english": "breach",
+  "lowercase": "radlager",
+  "uppercase": "Lednina"
+ },
+ {
+  "english": "break",
+  "lowercase": "momst",
+  "uppercase": "Hojtof"
+ },
+ {
+  "english": "brethren",
+  "lowercase": "vaslukkure",
+  "uppercase": "Nugilabl"
+ },
+ {
+  "english": "brings",
+  "lowercase": "lussu",
+  "uppercase": "Ijoitee"
+ },
+ {
+  "english": "broken",
+  "lowercase": "aijar",
+  "uppercase": "Loekr"
+ },
+ {
+  "english": "brought",
+  "lowercase": "oudagbok",
+  "uppercase": "Dosomfat"
+ },
+ {
+  "english": "burn",
+  "lowercase": "eakse",
+  "uppercase": "Ofn"
+ },
+ {
+  "english": "but",
+  "lowercase": "ach",
+  "uppercase": "Yell"
+ },
+ {
+  "english": "buy",
+  "lowercase": "pekas",
+  "uppercase": "Gesm"
+ },
+ {
+  "english": "by",
+  "lowercase": "arn",
+  "uppercase": "Eyk"
+ },
+ {
+  "english": "bypass",
+  "lowercase": "under",
+  "uppercase": "Ujenien"
+ },
+ {
+  "english": "calling",
+  "lowercase": "lubortik",
+  "uppercase": "Nadinguma"
+ },
+ {
+  "english": "can",
+  "lowercase": "ung",
+  "uppercase": "Leyi"
+ },
+ {
+  "english": "cannot",
+  "lowercase": "magneto",
+  "uppercase": "Lesikir"
+ },
+ {
+  "english": "captain",
+  "lowercase": "jesper",
+  "uppercase": "Tisetning"
+ },
+ {
+  "english": "carbon",
+  "lowercase": "omvari",
+  "uppercase": "Rufjols"
+ },
+ {
+  "english": "cargo",
+  "lowercase": "yasine",
+  "uppercase": "Riedo"
+ },
+ {
+  "english": "cargo's",
+  "lowercase": "hilekkain",
+  "uppercase": "Rasaturk"
+ },
+ {
+  "english": "catalyst",
+  "lowercase": "polarup",
+  "uppercase": "Seforsamra"
+ },
+ {
+  "english": "cause",
+  "lowercase": "omyiys",
+  "uppercase": "Uoda"
+ },
+ {
+  "english": "cave",
+  "lowercase": "agi",
+  "uppercase": "Tala"
+ },
+ {
+  "english": "centre",
+  "lowercase": "lagne",
+  "uppercase": "Yodistne"
+ },
+ {
+  "english": "certain",
+  "lowercase": "ludirs",
+  "uppercase": "Otatensst"
+ },
+ {
+  "english": "charge",
+  "lowercase": "ivdandu",
+  "uppercase": "Arelsen"
+ },
+ {
+  "english": "chip",
+  "lowercase": "daga",
+  "uppercase": "Pisyo"
+ },
+ {
+  "english": "choose",
+  "lowercase": "etband",
+  "uppercase": "Nonbindr"
+ },
+ {
+  "english": "clean",
+  "lowercase": "nenth",
+  "uppercase": "Yihyt"
+ },
+ {
+  "english": "coil",
+  "lowercase": "apsapl",
+  "uppercase": "Dro"
+ },
+ {
+  "english": "collection",
+  "lowercase": "ketmagasiaki",
+  "uppercase": "Betyosvaskau"
+ },
+ {
+  "english": "come",
+  "lowercase": "afkla",
+  "uppercase": "Tele"
+ },
+ {
+  "english": "comes",
+  "lowercase": "ogeor",
+  "uppercase": "Luknafj"
+ },
+ {
+  "english": "commerce",
+  "lowercase": "deshunktue",
+  "uppercase": "Ihnutlage"
+ },
+ {
+  "english": "common",
+  "lowercase": "jonsha",
+  "uppercase": "Jafjo"
+ },
+ {
+  "english": "complete",
+  "lowercase": "guhetersko",
+  "uppercase": "Ludiovi"
+ },
+ {
+  "english": "confiscation",
+  "lowercase": "tivtjensetje",
+  "uppercase": "Nettisktisayks"
+ },
+ {
+  "english": "congratulations",
+  "lowercase": "okerhedsfilmatto",
+  "uppercase": "Husagelighedsf"
+ },
+ {
+  "english": "converse",
+  "lowercase": "ajoideta",
+  "uppercase": "Odeilder"
+ },
+ {
+  "english": "conversion",
+  "lowercase": "tessefinno",
+  "uppercase": "Rineringisti"
+ },
+ {
+  "english": "corporation",
+  "lowercase": "ugilsofjofoli",
+  "uppercase": "Ontratteslo"
+ },
+ {
+  "english": "corrupt",
+  "lowercase": "blakar",
+  "uppercase": "Ruktorr"
+ },
+ {
+  "english": "cower",
+  "lowercase": "gogistm",
+  "uppercase": "Gerf"
+ },
+ {
+  "english": "crashed",
+  "lowercase": "makron",
+  "uppercase": "Nonolog"
+ },
+ {
+  "english": "crashing",
+  "lowercase": "eyoarvon",
+  "uppercase": "Kilgeti"
+ },
+ {
+  "english": "creates",
+  "lowercase": "mibihnutl",
+  "uppercase": "Gufrekt"
+ },
+ {
+  "english": "creation",
+  "lowercase": "pokortt",
+  "uppercase": "Okorvalo"
+ },
+ {
+  "english": "crime",
+  "lowercase": "aeinko",
+  "uppercase": "Sipul"
+ },
+ {
+  "english": "crimson",
+  "lowercase": "radsentli",
+  "uppercase": "Agnask"
+ },
+ {
+  "english": "critical",
+  "lowercase": "maybritni",
+  "uppercase": "Allerings"
+ },
+ {
+  "english": "crushed",
+  "lowercase": "altilban",
+  "uppercase": "Erungury"
+ },
+ {
+  "english": "culprit",
+  "lowercase": "luytaysol",
+  "uppercase": "Jupida"
+ },
+ {
+  "english": "cup",
+  "lowercase": "dush",
+  "uppercase": "Amkv"
+ },
+ {
+  "english": "customer",
+  "lowercase": "armuusan",
+  "uppercase": "Umhirdan"
+ },
+ {
+  "english": "customers",
+  "lowercase": "luvarverli",
+  "uppercase": "Langlysbil"
+ },
+ {
+  "english": "cylinders",
+  "lowercase": "nodritysati",
+  "uppercase": "Ayryanjudag"
+ },
+ {
+  "english": "dampening",
+  "lowercase": "sudupptage",
+  "uppercase": "Ikrograna"
+ },
+ {
+  "english": "danger",
+  "lowercase": "fangur",
+  "uppercase": "Riynjud"
+ },
+ {
+  "english": "dare",
+  "lowercase": "jao",
+  "uppercase": "Rikn"
+ },
+ {
+  "english": "day",
+  "lowercase": "radu",
+  "uppercase": "Ompa"
+ },
+ {
+  "english": "days",
+  "lowercase": "dave",
+  "uppercase": "Kir"
+ },
+ {
+  "english": "death",
+  "lowercase": "utroym",
+  "uppercase": "Vafrel"
+ },
+ {
+  "english": "deeply",
+  "lowercase": "arhuta",
+  "uppercase": "Vekster",
+  "allcaps": "Bokbegr "
+ },
+ {
+  "english": "defensive",
+  "lowercase": "susastisen",
+  "uppercase": "Secykelamy",
+  "allcaps": "Ederifier "
+ },
+ {
+  "english": "deflector",
+  "lowercase": "kukafiarivi",
+  "uppercase": "Meigallri"
+ },
+ {
+  "english": "delivery",
+  "lowercase": "omstadu",
+  "uppercase": "Dutgaendi"
+ },
+ {
+  "english": "demand",
+  "lowercase": "odisk",
+  "uppercase": "Udsfajo"
+ },
+ {
+  "english": "denied",
+  "lowercase": "viola",
+  "uppercase": "Iundga"
+ },
+ {
+  "english": "depart",
+  "lowercase": "umhva",
+  "uppercase": "Suojen"
+ },
+ {
+  "english": "desire",
+  "lowercase": "atvedbo",
+  "uppercase": "Eftirli"
+ },
+ {
+  "english": "despair",
+  "lowercase": "totokenn",
+  "uppercase": "Aunbar"
+ },
+ {
+  "english": "destroy",
+  "lowercase": "utbete",
+  "uppercase": "Aunbarde"
+ },
+ {
+  "english": "destroyed",
+  "lowercase": "anmarfjor",
+  "uppercase": "Matugarda"
+ },
+ {
+  "english": "destruction",
+  "lowercase": "leyluelefabo",
+  "uppercase": "Eligtatofil"
+ },
+ {
+  "english": "details",
+  "lowercase": "gumaarki",
+  "uppercase": "Cotionus"
+ },
+ {
+  "english": "detected",
+  "lowercase": "apyrumre",
+  "uppercase": "Kuelemen"
+ },
+ {
+  "english": "devastation",
+  "lowercase": "nuforskokopio",
+  "uppercase": "Sasuelementti"
+ },
+ {
+  "english": "did",
+  "lowercase": "sys",
+  "uppercase": "Umur"
+ },
+ {
+  "english": "die",
+  "lowercase": "spr",
+  "uppercase": "Odu"
+ },
+ {
+  "english": "dirt",
+  "lowercase": "hullk",
+  "uppercase": "Fross"
+ },
+ {
+  "english": "disappearance",
+  "lowercase": "laptavuodossil",
+  "uppercase": "Damisflodrepr"
+ },
+ {
+  "english": "discount",
+  "lowercase": "faksukjo",
+  "uppercase": "Kuvailyt"
+ },
+ {
+  "english": "discovered",
+  "lowercase": "onligerola",
+  "uppercase": "Sagnupidarie"
+ },
+ {
+  "english": "disengaged",
+  "lowercase": "yejarhutanat",
+  "uppercase": "Utimpletuel"
+ },
+ {
+  "english": "dispatch",
+  "lowercase": "ippetti",
+  "uppercase": "Udvariaat"
+ },
+ {
+  "english": "displacement",
+  "lowercase": "tugarbunakop",
+  "uppercase": "Lalakatasar",
+  "allcaps": "Inplacerifis "
+ },
+ {
+  "english": "distribution",
+  "lowercase": "odnastaoiritu",
+  "uppercase": "Ranomiskelp"
+ },
+ {
+  "english": "do",
+  "lowercase": "lisv",
+  "uppercase": "Nut"
+ },
+ {
+  "english": "docking",
+  "lowercase": "burtvi",
+  "uppercase": "Oadalsosk",
+  "allcaps": "Adsethle "
+ },
+ {
+  "english": "does",
+  "lowercase": "pire",
+  "uppercase": "Rams"
+ },
+ {
+  "english": "done",
+  "lowercase": "islu",
+  "uppercase": "Aloki"
+ },
+ {
+  "english": "drink",
+  "lowercase": "ogeor",
+  "uppercase": "Sofilit"
+ },
+ {
+  "english": "due",
+  "lowercase": "yigg",
+  "uppercase": "Yurn"
+ },
+ {
+  "english": "duty",
+  "lowercase": "tegn",
+  "uppercase": "Ubri"
+ },
+ {
+  "english": "each",
+  "lowercase": "oto",
+  "uppercase": "Lemsl"
+ },
+ {
+  "english": "ear",
+  "lowercase": "han",
+  "uppercase": "Inbe"
+ },
+ {
+  "english": "ear ",
+  "lowercase": "han "
+ },
+ {
+  "english": "earned",
+  "lowercase": "vuodo",
+  "uppercase": "Rottam"
+ },
+ {
+  "english": "earns",
+  "lowercase": "kainut",
+  "uppercase": "Ketma"
+ },
+ {
+  "english": "education",
+  "lowercase": "iisadaluet",
+  "uppercase": "Gitningasva"
+ },
+ {
+  "english": "eggs",
+  "lowercase": "iebre",
+  "uppercase": "Vatni"
+ },
+ {
+  "english": "elder",
+  "lowercase": "ulleko",
+  "uppercase": "Edgran"
+ },
+ {
+  "english": "electrolyte",
+  "lowercase": "nagriptumidde",
+  "uppercase": "Tatsvastruksi"
+ },
+ {
+  "english": "element",
+  "lowercase": "yusisin",
+  "uppercase": "Eidarho"
+ },
+ {
+  "english": "elements",
+  "lowercase": "lulikopa",
+  "uppercase": "Upidaloki"
+ },
+ {
+  "english": "emergency",
+  "lowercase": "dovikning",
+  "uppercase": "Agreitaor"
+ },
+ {
+  "english": "employment",
+  "lowercase": "sesjonsfer",
+  "uppercase": "Mubutumin"
+ },
+ {
+  "english": "empty",
+  "lowercase": "apostu",
+  "uppercase": "Sottiv"
+ },
+ {
+  "english": "encounter",
+  "lowercase": "asgautenha",
+  "uppercase": "Kaeydisku"
+ },
+ {
+  "english": "end",
+  "lowercase": "arre",
+  "uppercase": "Alm"
+ },
+ {
+  "english": "ends",
+  "lowercase": "ubu",
+  "uppercase": "Ept"
+ },
+ {
+  "english": "engaged",
+  "lowercase": "lochelug",
+  "uppercase": "Luderhe"
+ },
+ {
+  "english": "engineer",
+  "lowercase": "uvaaritze",
+  "uppercase": "Suflokuva"
+ },
+ {
+  "english": "enjoy",
+  "lowercase": "eftir",
+  "uppercase": "Afrit"
+ },
+ {
+  "english": "entire",
+  "lowercase": "paktsa",
+  "uppercase": "Utkij"
+ },
+ {
+  "english": "entity",
+  "lowercase": "itifie",
+  "uppercase": "Udvardi"
+ },
+ {
+  "english": "envy",
+  "lowercase": "dedra",
+  "uppercase": "Ligas"
+ },
+ {
+  "english": "equipment",
+  "lowercase": "gusmayndap",
+  "uppercase": "Sansmynd"
+ },
+ {
+  "english": "escape",
+  "lowercase": "irksok",
+  "uppercase": "Puolioa"
+ },
+ {
+  "english": "events",
+  "lowercase": "ehnqu",
+  "uppercase": "Dodurupp"
+ },
+ {
+  "english": "every",
+  "lowercase": "auobra",
+  "uppercase": "Dogren"
+ },
+ {
+  "english": "evidence",
+  "lowercase": "dearkisk",
+  "uppercase": "Duhattelm"
+ },
+ {
+  "english": "excellent",
+  "lowercase": "alptagersk",
+  "uppercase": "Larikkill"
+ },
+ {
+  "english": "excess",
+  "lowercase": "enetyto",
+  "uppercase": "Gejenetu"
+ },
+ {
+  "english": "executed",
+  "lowercase": "soikeudei",
+  "uppercase": "Nijudupp"
+ },
+ {
+  "english": "exocraft",
+  "lowercase": "mubskausu",
+  "uppercase": "Voguideta"
+ },
+ {
+  "english": "expecting",
+  "lowercase": "tudavels",
+  "uppercase": "Orhaefilm"
+ },
+ {
+  "english": "eye",
+  "lowercase": "sibir",
+  "uppercase": "Alka"
+ },
+ {
+  "english": "eyes",
+  "lowercase": "dofot",
+  "uppercase": "Vuus"
+ },
+ {
+  "english": "face",
+  "lowercase": "idbo",
+  "uppercase": "Sosun"
+ },
+ {
+  "english": "fair",
+  "lowercase": "kisk",
+  "uppercase": "Rofi"
+ },
+ {
+  "english": "fall",
+  "lowercase": "hau",
+  "uppercase": "Ofoi"
+ },
+ {
+  "english": "fallen",
+  "lowercase": "notkame",
+  "uppercase": "Suell"
+ },
+ {
+  "english": "falling",
+  "lowercase": "hoitur",
+  "uppercase": "Utangald"
+ },
+ {
+  "english": "family",
+  "lowercase": "ativtj",
+  "uppercase": "Bubamer"
+ },
+ {
+  "english": "fan",
+  "lowercase": "dete",
+  "uppercase": "Idg"
+ },
+ {
+  "english": "fast",
+  "lowercase": "opnaf",
+  "uppercase": "Suoje"
+ },
+ {
+  "english": "fat",
+  "lowercase": "evar",
+  "uppercase": "Ukn"
+ },
+ {
+  "english": "father",
+  "lowercase": "vuodos",
+  "uppercase": "Baskau"
+ },
+ {
+  "english": "favour",
+  "lowercase": "joska",
+  "uppercase": "Tuttu"
+ },
+ {
+  "english": "federation",
+  "lowercase": "gudhlektin",
+  "uppercase": "Duveistidpun"
+ },
+ {
+  "english": "feed",
+  "lowercase": "nelas",
+  "uppercase": "Tript"
+ },
+ {
+  "english": "feeds",
+  "lowercase": "yeldure",
+  "uppercase": "Lahir"
+ },
+ {
+  "english": "feel",
+  "lowercase": "irc",
+  "uppercase": "Digan"
+ },
+ {
+  "english": "feels",
+  "lowercase": "kons",
+  "uppercase": "Ruhol"
+ },
+ {
+  "english": "fellow",
+  "lowercase": "ogeings",
+  "uppercase": "Aavat"
+ },
+ {
+  "english": "field",
+  "lowercase": "suppin",
+  "uppercase": "Lapid"
+ },
+ {
+  "english": "fight",
+  "lowercase": "kelof",
+  "uppercase": "Devari"
+ },
+ {
+  "english": "find",
+  "lowercase": "ocesi",
+  "uppercase": "Dumiynd"
+ },
+ {
+  "english": "fine",
+  "lowercase": "atl",
+  "uppercase": "Oimi"
+ },
+ {
+  "english": "fire",
+  "lowercase": "taslom",
+  "uppercase": "Honut"
+ },
+ {
+  "english": "first",
+  "lowercase": "tuis",
+  "uppercase": "Gufre"
+ },
+ {
+  "english": "five",
+  "lowercase": "mipse",
+  "uppercase": "Gujo"
+ },
+ {
+  "english": "flight",
+  "lowercase": "uoters",
+  "uppercase": "Brefa",
+  "allcaps": "Sivurder "
+ },
+ {
+  "english": "flooded",
+  "lowercase": "utbeta",
+  "uppercase": "Leierpre"
+ },
+ {
+  "english": "fluid",
+  "lowercase": "ueltj",
+  "uppercase": "Kibin"
+ },
+ {
+  "english": "follow",
+  "lowercase": "lutlanke",
+  "uppercase": "Fossiv"
+ },
+ {
+  "english": "foolish",
+  "lowercase": "nivorteg",
+  "uppercase": "Kujalas"
+ },
+ {
+  "english": "for",
+  "lowercase": "sal",
+  "uppercase": "Kug"
+ },
+ {
+  "english": "forbidden",
+  "lowercase": "vertoastjo",
+  "uppercase": "Okuvalar"
+ },
+ {
+  "english": "forever",
+  "lowercase": "luettes",
+  "uppercase": "Jannis"
+ },
+ {
+  "english": "formula",
+  "lowercase": "neydarfj",
+  "uppercase": "Vaerariu"
+ },
+ {
+  "english": "foul",
+  "lowercase": "alt",
+  "uppercase": "Abil"
+ },
+ {
+  "english": "found",
+  "lowercase": "dobind",
+  "uppercase": "Jogu"
+ },
+ {
+  "english": "foundation",
+  "lowercase": "juulikais",
+  "uppercase": "Yirningsabety"
+ },
+ {
+  "english": "four",
+  "lowercase": "lenh",
+  "uppercase": "Skaa"
+ },
+ {
+  "english": "free",
+  "lowercase": "pim",
+  "uppercase": "Egat"
+ },
+ {
+  "english": "frenium",
+  "lowercase": "arofaly",
+  "uppercase": "Regundqu"
+ },
+ {
+  "english": "fresh",
+  "lowercase": "gadera",
+  "uppercase": "Oker"
+ },
+ {
+  "english": "friend",
+  "lowercase": "ushisti",
+  "uppercase": "Vitty"
+ },
+ {
+  "english": "friends",
+  "lowercase": "lidkorjah",
+  "uppercase": "Ishlif"
+ },
+ {
+  "english": "from",
+  "lowercase": "mer",
+  "uppercase": "Eredr"
+ },
+ {
+  "english": "frozen",
+  "lowercase": "fisju",
+  "uppercase": "Ositiv"
+ },
+ {
+  "english": "fuel",
+  "lowercase": "gasv",
+  "uppercase": "Lilu"
+ },
+ {
+  "english": "fun",
+  "lowercase": "spe",
+  "uppercase": "Leng"
+ },
+ {
+  "english": "furious",
+  "lowercase": "pamuudes",
+  "uppercase": "Urhetsa"
+ },
+ {
+  "english": "fury",
+  "lowercase": "tamer",
+  "uppercase": "Arv"
+ },
+ {
+  "english": "fusion",
+  "lowercase": "yisar",
+  "uppercase": "Gator"
+ },
+ {
+  "english": "futuregek",
+  "lowercase": "eminensni",
+  "uppercase": "Kuggabjor"
+ },
+ {
+  "english": "galaxy",
+  "lowercase": "nonen",
+  "uppercase": "Textil"
+ },
+ {
+  "english": "gas",
+  "lowercase": "kani",
+  "uppercase": "Erj"
+ },
+ {
+  "english": "gek",
+  "lowercase": "afle",
+  "uppercase": "Hei"
+ },
+ {
+  "english": "geknip",
+  "lowercase": "onlighe",
+  "uppercase": "Nuhoitet"
+ },
+ {
+  "english": "gel",
+  "lowercase": "erb",
+  "uppercase": "Opea"
+ },
+ {
+  "english": "genetic",
+  "lowercase": "nikordni",
+  "uppercase": "Joitaseu"
+ },
+ {
+  "english": "geological",
+  "lowercase": "popkasuudens",
+  "uppercase": "Optinenspar"
+ },
+ {
+  "english": "gift",
+  "lowercase": "kel",
+  "uppercase": "Usnav"
+ },
+ {
+  "english": "gifts",
+  "lowercase": "udut",
+  "uppercase": "Oten"
+ },
+ {
+  "english": "give",
+  "lowercase": "unk",
+  "uppercase": "Luytt"
+ },
+ {
+  "english": "gives",
+  "lowercase": "loudag",
+  "uppercase": "Uhlau"
+ },
+ {
+  "english": "glass",
+  "lowercase": "kasho",
+  "uppercase": "Oppr"
+ },
+ {
+  "english": "glittering",
+  "lowercase": "sogaaringa",
+  "uppercase": "Vejeomche"
+ },
+ {
+  "english": "glory",
+  "lowercase": "fisfj",
+  "uppercase": "Dodtag"
+ },
+ {
+  "english": "go",
+  "lowercase": "fuja",
+  "uppercase": "Vud"
+ },
+ {
+  "english": "going",
+  "lowercase": "hejor",
+  "uppercase": "Pitum"
+ },
+ {
+  "english": "good",
+  "lowercase": "lishl",
+  "uppercase": "Xigase"
+ },
+ {
+  "english": "great",
+  "lowercase": "luppru",
+  "uppercase": "Omning"
+ },
+ {
+  "english": "greatly",
+  "lowercase": "eferas",
+  "uppercase": "Fununar"
+ },
+ {
+  "english": "greets",
+  "lowercase": "miinin",
+  "uppercase": "Neutryik"
+ },
+ {
+  "english": "hands",
+  "lowercase": "lulis",
+  "uppercase": "Arnes"
+ },
+ {
+  "english": "happen",
+  "lowercase": "tishofo",
+  "uppercase": "Pavorda"
+ },
+ {
+  "english": "happy",
+  "lowercase": "iholde",
+  "uppercase": "Tuomol"
+ },
+ {
+  "english": "has",
+  "lowercase": "muh",
+  "uppercase": "Kog"
+ },
+ {
+  "english": "hats",
+  "lowercase": "dikat",
+  "uppercase": "Robun"
+ },
+ {
+  "english": "have",
+  "lowercase": "kud",
+  "uppercase": "Uure"
+ },
+ {
+  "english": "healing",
+  "lowercase": "tatorist",
+  "uppercase": "Yasyvaiu"
+ },
+ {
+  "english": "hello",
+  "lowercase": "etty",
+  "uppercase": "Ammr"
+ },
+ {
+  "english": "help",
+  "lowercase": "utenh",
+  "uppercase": "Rod"
+ },
+ {
+  "english": "helps",
+  "lowercase": "gradu",
+  "uppercase": "Adagbo"
+ },
+ {
+  "english": "here",
+  "lowercase": "eble",
+  "uppercase": "Ekste"
+ },
+ {
+  "english": "high",
+  "lowercase": "kala",
+  "uppercase": "Befug"
+ },
+ {
+  "english": "holoterminus",
+  "lowercase": "sebildussion",
+  "uppercase": "Prungagafjor"
+ },
+ {
+  "english": "holy",
+  "lowercase": "pok",
+  "uppercase": "Sth"
+ },
+ {
+  "english": "home",
+  "lowercase": "lahve",
+  "uppercase": "Okka"
+ },
+ {
+  "english": "hopes",
+  "lowercase": "uhteid",
+  "uppercase": "Lufir"
+ },
+ {
+  "english": "hostility",
+  "lowercase": "hetimiliari",
+  "uppercase": "Esjarmogi"
+ },
+ {
+  "english": "how",
+  "lowercase": "eyn",
+  "uppercase": "Fisy"
+ },
+ {
+  "english": "hundred",
+  "lowercase": "restrafi",
+  "uppercase": "Hoveni"
+ },
+ {
+  "english": "hydration",
+  "lowercase": "lesvelust",
+  "uppercase": "Vitalentu"
+ },
+ {
+  "english": "i",
+  "lowercase": "feni",
+  "uppercase": "Ukn"
+ },
+ {
+  "english": "identification",
+  "lowercase": "urustuureykhol",
+  "uppercase": "Edhonekistusk"
+ },
+ {
+  "english": "idiot",
+  "lowercase": "taajan",
+  "uppercase": "Nolle"
+ },
+ {
+  "english": "if",
+  "lowercase": "vama",
+  "uppercase": "Luy"
+ },
+ {
+  "english": "illegal",
+  "lowercase": "lufirmu",
+  "uppercase": "Uafhend"
+ },
+ {
+  "english": "immediate",
+  "lowercase": "eblegenskaa",
+  "uppercase": "Alparaat"
+ },
+ {
+  "english": "immediately",
+  "lowercase": "lilementerml",
+  "uppercase": "Syfirdalsrul"
+ },
+ {
+  "english": "imminent",
+  "lowercase": "osmyendak",
+  "uppercase": "Plungumid"
+ },
+ {
+  "english": "impress",
+  "lowercase": "kitdoss",
+  "uppercase": "Ahirdisf"
+ },
+ {
+  "english": "impure",
+  "lowercase": "vegris",
+  "uppercase": "Addurhe"
+ },
+ {
+  "english": "in",
+  "lowercase": "smy",
+  "uppercase": "Lafu"
+ },
+ {
+  "english": "incineration",
+  "lowercase": "emmeragaske",
+  "uppercase": "Ohlsonhisteri"
+ },
+ {
+  "english": "increase",
+  "lowercase": "unarmun",
+  "uppercase": "Erbergr"
+ },
+ {
+  "english": "inedible",
+  "lowercase": "arritning",
+  "uppercase": "Vokopiol"
+ },
+ {
+  "english": "informed",
+  "lowercase": "tulungask",
+  "uppercase": "Sarvoint"
+ },
+ {
+  "english": "initializing",
+  "lowercase": "arcussativtje",
+  "uppercase": "Ulottikopossa"
+ },
+ {
+  "english": "initiate",
+  "lowercase": "relsesea",
+  "uppercase": "Diovisu"
+ },
+ {
+  "english": "insertion",
+  "lowercase": "icerifikam",
+  "uppercase": "Omsotjens"
+ },
+ {
+  "english": "installation",
+  "lowercase": "afnagriskeid",
+  "uppercase": "Tudostajaroa"
+ },
+ {
+  "english": "instead",
+  "lowercase": "lulvaksma",
+  "uppercase": "Rycaktas"
+ },
+ {
+  "english": "insulting",
+  "lowercase": "debokhalli",
+  "uppercase": "Urmateyr"
+ },
+ {
+  "english": "interstellar",
+  "lowercase": "ramedhonesker",
+  "uppercase": "Tohistunahuo",
+  "allcaps": "Alkupersenhet "
+ },
+ {
+  "english": "into",
+  "lowercase": "edra",
+  "uppercase": "Iovik"
+ },
+ {
+  "english": "investigate",
+  "lowercase": "kranteringar",
+  "uppercase": "Nationense"
+ },
+ {
+  "english": "invisible",
+  "lowercase": "earkivelig",
+  "uppercase": "Elfellselon",
+  "allcaps": "Lofarssue "
+ },
+ {
+  "english": "is",
+  "lowercase": "iho",
+  "uppercase": "Dit"
+ },
+ {
+  "english": "isotope",
+  "lowercase": "ehandl",
+  "uppercase": "Ivnokks"
+ },
+ {
+  "english": "isotopes",
+  "lowercase": "kasprive",
+  "uppercase": "Yindningja"
+ },
+ {
+  "english": "it",
+  "lowercase": "ufa",
+  "uppercase": "Yese"
+ },
+ {
+  "english": "jobs",
+  "lowercase": "oku",
+  "uppercase": "Fayy"
+ },
+ {
+  "english": "journey",
+  "lowercase": "giladde",
+  "uppercase": "Kafirmu"
+ },
+ {
+  "english": "joy",
+  "lowercase": "buyrg",
+  "uppercase": "Nans"
+ },
+ {
+  "english": "joyful",
+  "lowercase": "gidahlbe",
+  "uppercase": "Piptag"
+ },
+ {
+  "english": "just",
+  "lowercase": "ugand",
+  "uppercase": "Irin"
+ },
+ {
+  "english": "keep",
+  "lowercase": "esi",
+  "uppercase": "Yisk"
+ },
+ {
+  "english": "kneel",
+  "lowercase": "rukunar",
+  "uppercase": "Vaslet"
+ },
+ {
+  "english": "know",
+  "lowercase": "ada",
+  "uppercase": "Nasv"
+ },
+ {
+  "english": "knowledge",
+  "lowercase": "udutafabok",
+  "uppercase": "Muutosuu"
+ },
+ {
+  "english": "korvax",
+  "lowercase": "innfor",
+  "uppercase": "Bevarif"
+ },
+ {
+  "english": "language",
+  "lowercase": "susykohta",
+  "uppercase": "Ionsfil"
+ },
+ {
+  "english": "large",
+  "lowercase": "rill",
+  "uppercase": "Guprov"
+ },
+ {
+  "english": "late",
+  "lowercase": "kijo",
+  "uppercase": "Livs"
+ },
+ {
+  "english": "laughing",
+  "lowercase": "umadurku",
+  "uppercase": "Isition"
+ },
+ {
+  "english": "leak",
+  "lowercase": "taur",
+  "uppercase": "Sem"
+ },
+ {
+  "english": "leave",
+  "lowercase": "lomstaj",
+  "uppercase": "Nutuks"
+ },
+ {
+  "english": "left",
+  "lowercase": "ertim",
+  "uppercase": "Ivkop"
+ },
+ {
+  "english": "legacy",
+  "lowercase": "colainu",
+  "uppercase": "Ladratfi"
+ },
+ {
+  "english": "let",
+  "lowercase": "nefe",
+  "uppercase": "Orha"
+ },
+ {
+  "english": "levels",
+  "lowercase": "aasyn",
+  "uppercase": "Tasjo"
+ },
+ {
+  "english": "life",
+  "lowercase": "kuk",
+  "uppercase": "Isva"
+ },
+ {
+  "english": "like",
+  "lowercase": "greid",
+  "uppercase": "Luro"
+ },
+ {
+  "english": "liquid",
+  "lowercase": "tajaroa",
+  "uppercase": "Ivsyuri"
+ },
+ {
+  "english": "logs",
+  "lowercase": "oma",
+  "uppercase": "Mapu"
+ },
+ {
+  "english": "look",
+  "lowercase": "volev",
+  "uppercase": "Uci"
+ },
+ {
+  "english": "looks",
+  "lowercase": "sigl",
+  "uppercase": "Renasys"
+ },
+ {
+  "english": "loot",
+  "lowercase": "tiss",
+  "uppercase": "Tatil"
+ },
+ {
+  "english": "lord",
+  "lowercase": "ubu",
+  "uppercase": "Ung"
+ },
+ {
+  "english": "lords",
+  "lowercase": "mail",
+  "uppercase": "Ikumyn"
+ },
+ {
+  "english": "lose",
+  "lowercase": "mamund",
+  "uppercase": "Laks"
+ },
+ {
+  "english": "losses",
+  "lowercase": "buoarvn",
+  "uppercase": "Punkusjo"
+ },
+ {
+  "english": "lost",
+  "lowercase": "kili",
+  "uppercase": "Finun"
+ },
+ {
+  "english": "love",
+  "lowercase": "vei",
+  "uppercase": "Tau"
+ },
+ {
+  "english": "loving",
+  "lowercase": "jatab",
+  "uppercase": "Purritt"
+ },
+ {
+  "english": "low",
+  "lowercase": "eck",
+  "uppercase": "Yukja"
+ },
+ {
+  "english": "luck",
+  "lowercase": "vajour",
+  "uppercase": "Orn"
+ },
+ {
+  "english": "lunch",
+  "lowercase": "irrio",
+  "uppercase": "Krep"
+ },
+ {
+  "english": "magnetic",
+  "lowercase": "slonsvi",
+  "uppercase": "Abbameig"
+ },
+ {
+  "english": "magnificence",
+  "lowercase": "vuskapesplande",
+  "uppercase": "Truktilfusino"
+ },
+ {
+  "english": "make",
+  "lowercase": "oolfs",
+  "uppercase": "Isfi"
+ },
+ {
+  "english": "makes",
+  "lowercase": "rappe",
+  "uppercase": "Dilad"
+ },
+ {
+  "english": "manufacture",
+  "lowercase": "odsarvaakaav",
+  "uppercase": "Gisvendarvo",
+  "allcaps": "Lofgeirsikja "
+ },
+ {
+  "english": "many",
+  "lowercase": "johon",
+  "uppercase": "Gesgei"
+ },
+ {
+  "english": "market",
+  "lowercase": "thanatu",
+  "uppercase": "Jufra"
+ },
+ {
+  "english": "markets",
+  "lowercase": "amfinn",
+  "uppercase": "Dadrattel"
+ },
+ {
+  "english": "materialises",
+  "lowercase": "erndatallri",
+  "uppercase": "Koterlaskaust"
+ },
+ {
+  "english": "maybe",
+  "lowercase": "hatof",
+  "uppercase": "Elbae"
+ },
+ {
+  "english": "me",
+  "lowercase": "ukt",
+  "uppercase": "Boba"
+ },
+ {
+  "english": "measures",
+  "lowercase": "yuyppirk",
+  "uppercase": "Egnilovsh"
+ },
+ {
+  "english": "medial",
+  "lowercase": "kelofa",
+  "uppercase": "Jussu"
+ },
+ {
+  "english": "memories",
+  "lowercase": "silamnin",
+  "uppercase": "Tofludes"
+ },
+ {
+  "english": "memory-smell",
+  "lowercase": "ardennelmarki",
+  "uppercase": "Giumorborusun"
+ },
+ {
+  "english": "menace",
+  "lowercase": "evard",
+  "uppercase": "Kebye"
+ },
+ {
+  "english": "message",
+  "lowercase": "osamkom",
+  "uppercase": "Irmyend"
+ },
+ {
+  "english": "messages",
+  "lowercase": "wesetykk",
+  "uppercase": "Oitaprase"
+ },
+ {
+  "english": "mind",
+  "lowercase": "fasto",
+  "uppercase": "Eida"
+ },
+ {
+  "english": "mine",
+  "lowercase": "uka",
+  "uppercase": "Tetiet"
+ },
+ {
+  "english": "mined",
+  "lowercase": "sitiiv",
+  "uppercase": "Ahve"
+ },
+ {
+  "english": "miner",
+  "lowercase": "yakhola",
+  "uppercase": "Roholaf"
+ },
+ {
+  "english": "mining",
+  "lowercase": "sleve",
+  "uppercase": "Xafilm",
+  "allcaps": "Iseltj "
+ },
+ {
+  "english": "mission",
+  "lowercase": "torkung",
+  "uppercase": "Ebelli"
+ },
+ {
+  "english": "missions",
+  "lowercase": "eaksumen",
+  "uppercase": "Syrefer"
+ },
+ {
+  "english": "mistrusts",
+  "lowercase": "omplingel",
+  "uppercase": "Ipolarien"
+ },
+ {
+  "english": "money",
+  "lowercase": "lemen",
+  "uppercase": "Avyeyde"
+ },
+ {
+  "english": "monolith",
+  "lowercase": "pelistosa",
+  "uppercase": "Tesikker"
+ },
+ {
+  "english": "more",
+  "lowercase": "ammr",
+  "uppercase": "Lelin"
+ },
+ {
+  "english": "mother",
+  "lowercase": "umint",
+  "uppercase": "Uulikku"
+ },
+ {
+  "english": "mourned",
+  "lowercase": "aeglufj",
+  "uppercase": "Invente"
+ },
+ {
+  "english": "much",
+  "lowercase": "aksid",
+  "uppercase": "Liar"
+ },
+ {
+  "english": "multi-tool",
+  "lowercase": "vabandistr",
+  "uppercase": "Ogbindema"
+ },
+ {
+  "english": "murder",
+  "lowercase": "aspekt",
+  "uppercase": "Lokyinni"
+ },
+ {
+  "english": "murderous",
+  "lowercase": "alningoprog",
+  "uppercase": "Geshistotoa"
+ },
+ {
+  "english": "must",
+  "lowercase": "kiyrs",
+  "uppercase": "Fijoll"
+ },
+ {
+  "english": "my",
+  "lowercase": "lis",
+  "uppercase": "Oyt"
+ },
+ {
+  "english": "nada",
+  "lowercase": "omg",
+  "uppercase": "Gagnin"
+ },
+ {
+  "english": "nanites",
+  "lowercase": "tehtimps",
+  "uppercase": "Legiljok"
+ },
+ {
+  "english": "nasal",
+  "lowercase": "toft",
+  "uppercase": "Sibl"
+ },
+ {
+  "english": "nearly",
+  "lowercase": "raumh",
+  "uppercase": "Bryonen"
+ },
+ {
+  "english": "nears",
+  "lowercase": "iinp",
+  "uppercase": "Lopu"
+ },
+ {
+  "english": "need",
+  "lowercase": "kostr",
+  "uppercase": "Oaja"
+ },
+ {
+  "english": "negotiations",
+  "lowercase": "sevikkarvott",
+  "uppercase": "Tumerollennyas"
+ },
+ {
+  "english": "network",
+  "lowercase": "stinerad",
+  "uppercase": "Resluaf"
+ },
+ {
+  "english": "neutrality",
+  "lowercase": "arklarnesrat",
+  "uppercase": "Yuttosturko"
+ },
+ {
+  "english": "never",
+  "lowercase": "sisar",
+  "uppercase": "Susiysty"
+ },
+ {
+  "english": "new",
+  "lowercase": "neki",
+  "uppercase": "Anja"
+ },
+ {
+  "english": "next",
+  "lowercase": "fuski",
+  "uppercase": "Ekda"
+ },
+ {
+  "english": "no",
+  "lowercase": "bon",
+  "uppercase": "Pipa"
+ },
+ {
+  "english": "noise",
+  "lowercase": "nodbi",
+  "uppercase": "Ayderp"
+ },
+ {
+  "english": "not",
+  "lowercase": "yubar",
+  "uppercase": "Fic"
+ },
+ {
+  "english": "now",
+  "lowercase": "ludk",
+  "uppercase": "Lefir"
+ },
+ {
+  "english": "obedient",
+  "lowercase": "smyandirsa",
+  "uppercase": "Ejneran"
+ },
+ {
+  "english": "observe",
+  "lowercase": "aeydis",
+  "uppercase": "Igognu"
+ },
+ {
+  "english": "of",
+  "lowercase": "mem",
+  "uppercase": "Rok"
+ },
+ {
+  "english": "offer",
+  "lowercase": "base",
+  "uppercase": "Abjori"
+ },
+ {
+  "english": "offers",
+  "lowercase": "kejelm",
+  "uppercase": "Egormu"
+ },
+ {
+  "english": "offload",
+  "lowercase": "mavias",
+  "uppercase": "Ladfotoko"
+ },
+ {
+  "english": "on",
+  "lowercase": "moli",
+  "uppercase": "Enl"
+ },
+ {
+  "english": "once",
+  "lowercase": "lofs",
+  "uppercase": "Trat"
+ },
+ {
+  "english": "one",
+  "lowercase": "koku",
+  "uppercase": "Asjo"
+ },
+ {
+  "english": "online",
+  "lowercase": "yiskirja",
+  "uppercase": "Tusjons"
+ },
+ {
+  "english": "only",
+  "lowercase": "vasti",
+  "uppercase": "Ildis"
+ },
+ {
+  "english": "operate",
+  "lowercase": "dokument",
+  "uppercase": "Kileppar"
+ },
+ {
+  "english": "operation",
+  "lowercase": "gautionent",
+  "uppercase": "Konefinnosl"
+ },
+ {
+  "english": "opportunities",
+  "lowercase": "koulukkureritt",
+  "uppercase": "Haefichelgan"
+ },
+ {
+  "english": "opportunity",
+  "lowercase": "dasbrefafrag",
+  "uppercase": "Osynishorik"
+ },
+ {
+  "english": "or",
+  "lowercase": "kosh",
+  "uppercase": "Rase"
+ },
+ {
+  "english": "orbital",
+  "lowercase": "istaoiri",
+  "uppercase": "Uelemake",
+  "allcaps": "Atsestr "
+ },
+ {
+  "english": "origin",
+  "lowercase": "baturk",
+  "uppercase": "Lejenter"
+ },
+ {
+  "english": "other",
+  "lowercase": "etnin",
+  "uppercase": "Pepsat"
+ },
+ {
+  "english": "our",
+  "lowercase": "smin",
+  "uppercase": "Paja"
+ },
+ {
+  "english": "out",
+  "lowercase": "fajor",
+  "uppercase": "Kue"
+ },
+ {
+  "english": "overcharged",
+  "lowercase": "urderserin",
+  "uppercase": "Kationsettelm"
+ },
+ {
+  "english": "overcharges",
+  "lowercase": "mogineskeidod",
+  "uppercase": "Rageroisuude"
+ },
+ {
+  "english": "oxide",
+  "lowercase": "tatni",
+  "uppercase": "Arup"
+ },
+ {
+  "english": "oxides",
+  "lowercase": "segull",
+  "uppercase": "Opurrio"
+ },
+ {
+  "english": "paid",
+  "lowercase": "euttu",
+  "uppercase": "Iore"
+ },
+ {
+  "english": "pain",
+  "lowercase": "ervot",
+  "uppercase": "Hetei"
+ },
+ {
+  "english": "painful",
+  "lowercase": "risfjor",
+  "uppercase": "Ikistikk"
+ },
+ {
+  "english": "part",
+  "lowercase": "dabas",
+  "uppercase": "Anma"
+ },
+ {
+  "english": "partner",
+  "lowercase": "felleena",
+  "uppercase": "Melastri"
+ },
+ {
+  "english": "pay",
+  "lowercase": "ime",
+  "uppercase": "Idsk"
+ },
+ {
+  "english": "payment",
+  "lowercase": "afabelt",
+  "uppercase": "Avhantal"
+ },
+ {
+  "english": "peaceful",
+  "lowercase": "migengd",
+  "uppercase": "Yejarlit"
+ },
+ {
+  "english": "perhaps",
+  "lowercase": "udeligh",
+  "uppercase": "Yottunar"
+ },
+ {
+  "english": "peril",
+  "lowercase": "okkai",
+  "uppercase": "Ayderp"
+ },
+ {
+  "english": "permanently",
+  "lowercase": "loekreppjar",
+  "uppercase": "Okkafiskt"
+ },
+ {
+  "english": "petition",
+  "lowercase": "ofrustry",
+  "uppercase": "Alptakaa"
+ },
+ {
+  "english": "pheremones",
+  "lowercase": "radseydarde",
+  "uppercase": "Trverdiaa"
+ },
+ {
+  "english": "pirate",
+  "lowercase": "niksjo",
+  "uppercase": "Asmikor"
+ },
+ {
+  "english": "planet",
+  "lowercase": "omvar",
+  "uppercase": "Robili"
+ },
+ {
+  "english": "planetary",
+  "lowercase": "bagelighe",
+  "uppercase": "Leskjolla"
+ },
+ {
+  "english": "plans",
+  "lowercase": "yuhytam",
+  "uppercase": "Omautt"
+ },
+ {
+  "english": "please",
+  "lowercase": "reyggdak",
+  "uppercase": "Ukidoss"
+ },
+ {
+  "english": "pleasure",
+  "lowercase": "purritett",
+  "uppercase": "Vaykelpo"
+ },
+ {
+  "english": "plutonium",
+  "lowercase": "ertimitotym",
+  "uppercase": "Ulotcard"
+ },
+ {
+  "english": "point",
+  "lowercase": "fufen",
+  "uppercase": "Nedsmu"
+ },
+ {
+  "english": "polo",
+  "lowercase": "aki",
+  "uppercase": "Kis"
+ },
+ {
+  "english": "positive",
+  "lowercase": "zachariar",
+  "uppercase": "Rarittamig"
+ },
+ {
+  "english": "possible",
+  "lowercase": "engdalogn",
+  "uppercase": "Lafjorden"
+ },
+ {
+  "english": "power",
+  "lowercase": "brudg",
+  "uppercase": "Gukvis"
+ },
+ {
+  "english": "prepare",
+  "lowercase": "stjene",
+  "uppercase": "Tificer"
+ },
+ {
+  "english": "pressure",
+  "lowercase": "ufsluheik",
+  "uppercase": "Iluettisv"
+ },
+ {
+  "english": "price",
+  "lowercase": "akrofs",
+  "uppercase": "Urey"
+ },
+ {
+  "english": "prize",
+  "lowercase": "ufilmu",
+  "uppercase": "Dagitt"
+ },
+ {
+  "english": "prizes",
+  "lowercase": "donetup",
+  "uppercase": "Ulgafel"
+ },
+ {
+  "english": "product",
+  "lowercase": "cekelahti",
+  "uppercase": "Ruyckta"
+ },
+ {
+  "english": "production",
+  "lowercase": "akitaoiria",
+  "uppercase": "Olberessuu",
+  "allcaps": "Aregenerese "
+ },
+ {
+  "english": "products",
+  "lowercase": "jartturkr",
+  "uppercase": "Pimuusvas"
+ },
+ {
+  "english": "profit",
+  "lowercase": "iuska",
+  "uppercase": "Masbet"
+ },
+ {
+  "english": "profits",
+  "lowercase": "yisane",
+  "uppercase": "Fattet"
+ },
+ {
+  "english": "progenitor",
+  "lowercase": "kudaguryevo",
+  "uppercase": "Fangligalds"
+ },
+ {
+  "english": "progress",
+  "lowercase": "neydareit",
+  "uppercase": "Raturkeby"
+ },
+ {
+  "english": "promising",
+  "lowercase": "dequistorin",
+  "uppercase": "Akulaitel"
+ },
+ {
+  "english": "protect",
+  "lowercase": "grimmer",
+  "uppercase": "Eutraunub"
+ },
+ {
+  "english": "protocol",
+  "lowercase": "tossierse",
+  "uppercase": "Gibindreg"
+ },
+ {
+  "english": "purchase",
+  "lowercase": "snuning",
+  "uppercase": "Teksjokau"
+ },
+ {
+  "english": "purchased",
+  "lowercase": "ledkorjat",
+  "uppercase": "Taelektrol"
+ },
+ {
+  "english": "purge",
+  "lowercase": "ucerin",
+  "uppercase": "Nokku"
+ },
+ {
+  "english": "quantities",
+  "lowercase": "vitalahjor",
+  "uppercase": "Faslugervegg"
+ },
+ {
+  "english": "queries",
+  "lowercase": "leitara",
+  "uppercase": "Mukada"
+ },
+ {
+  "english": "quick",
+  "lowercase": "akke",
+  "uppercase": "Yuyden"
+ },
+ {
+  "english": "radiation",
+  "lowercase": "ahverusys",
+  "uppercase": "Desikular"
+ },
+ {
+  "english": "rare",
+  "lowercase": "tiydel",
+  "uppercase": "Gor"
+ },
+ {
+  "english": "reach",
+  "lowercase": "peproto",
+  "uppercase": "Onbe"
+ },
+ {
+  "english": "ready",
+  "lowercase": "idhato",
+  "uppercase": "Afssof"
+ },
+ {
+  "english": "real",
+  "lowercase": "lefax",
+  "uppercase": "Tor"
+ },
+ {
+  "english": "recall",
+  "lowercase": "pistunut",
+  "uppercase": "Ivogum"
+ },
+ {
+  "english": "receive",
+  "lowercase": "jolundav",
+  "uppercase": "Udirsaa"
+ },
+ {
+  "english": "recharging",
+  "lowercase": "ninslistonmu",
+  "uppercase": "Giguldisoike"
+ },
+ {
+  "english": "refresher",
+  "lowercase": "ulottammsot",
+  "uppercase": "Uskauppe"
+ },
+ {
+  "english": "rejoice",
+  "lowercase": "pisyfi",
+  "uppercase": "Sipuol"
+ },
+ {
+  "english": "relations",
+  "lowercase": "yarkinteck",
+  "uppercase": "Viisituks"
+ },
+ {
+  "english": "release",
+  "lowercase": "tizensh",
+  "uppercase": "Ejnerap"
+ },
+ {
+  "english": "remedy",
+  "lowercase": "utbetje",
+  "uppercase": "Itajan"
+ },
+ {
+  "english": "remember",
+  "lowercase": "lerings",
+  "uppercase": "Ahuomaija"
+ },
+ {
+  "english": "remove",
+  "lowercase": "enarn",
+  "uppercase": "Isijasp"
+ },
+ {
+  "english": "repair",
+  "lowercase": "tetetti",
+  "uppercase": "Udutynd"
+ },
+ {
+  "english": "repairs",
+  "lowercase": "iperani",
+  "uppercase": "Fossagas"
+ },
+ {
+  "english": "reparations",
+  "lowercase": "sasjonumen",
+  "uppercase": "Pingagidelen"
+ },
+ {
+  "english": "repayment",
+  "lowercase": "amlistor",
+  "uppercase": "Nikoposit"
+ },
+ {
+  "english": "replace",
+  "lowercase": "nasingo",
+  "uppercase": "Nuprog"
+ },
+ {
+  "english": "replication",
+  "lowercase": "lotningsaskr",
+  "uppercase": "Syrustunarf"
+ },
+ {
+  "english": "reply",
+  "lowercase": "lamane",
+  "uppercase": "Rulofa"
+ },
+ {
+  "english": "report",
+  "lowercase": "eidim",
+  "uppercase": "Rattett",
+  "allcaps": "Razalask "
+ },
+ {
+  "english": "representative",
+  "lowercase": "farskopiokita",
+  "uppercase": "Illuroisitrvelus"
+ },
+ {
+  "english": "request",
+  "lowercase": "elsbar",
+  "uppercase": "Ustrufj"
+ },
+ {
+  "english": "require",
+  "lowercase": "onlige",
+  "uppercase": "Nefich"
+ },
+ {
+  "english": "required",
+  "lowercase": "malingisfil",
+  "uppercase": "Oajansisa"
+ },
+ {
+  "english": "resource",
+  "lowercase": "afturkung",
+  "uppercase": "Soituss"
+ },
+ {
+  "english": "respect",
+  "lowercase": "yekelag",
+  "uppercase": "Mirjold"
+ },
+ {
+  "english": "respond",
+  "lowercase": "nandosvas",
+  "uppercase": "Adjacen"
+ },
+ {
+  "english": "retain",
+  "lowercase": "eellab",
+  "uppercase": "Tomuni"
+ },
+ {
+  "english": "revision",
+  "lowercase": "krobild",
+  "uppercase": "Irfoljod"
+ },
+ {
+  "english": "reward",
+  "lowercase": "oliin",
+  "uppercase": "Etsegra"
+ },
+ {
+  "english": "rewards",
+  "lowercase": "ramsket",
+  "uppercase": "Mabilitl"
+ },
+ {
+  "english": "rich",
+  "lowercase": "iakir",
+  "uppercase": "Revni"
+ },
+ {
+  "english": "right",
+  "lowercase": "caktas",
+  "uppercase": "Mista"
+ },
+ {
+  "english": "ruined",
+  "lowercase": "umhva",
+  "uppercase": "Tuters"
+ },
+ {
+  "english": "run",
+  "lowercase": "odsa",
+  "uppercase": "Tusbe"
+ },
+ {
+  "english": "sad",
+  "lowercase": "dag",
+  "uppercase": "Iog"
+ },
+ {
+  "english": "salesgek",
+  "lowercase": "ekdalii",
+  "uppercase": "Leonist"
+ },
+ {
+  "english": "same",
+  "lowercase": "foe",
+  "uppercase": "Brams"
+ },
+ {
+  "english": "save",
+  "lowercase": "rojuna",
+  "uppercase": "Etj"
+ },
+ {
+  "english": "savings",
+  "lowercase": "pustung",
+  "uppercase": "Trekti"
+ },
+ {
+  "english": "say",
+  "lowercase": "zabe",
+  "uppercase": "Odfa"
+ },
+ {
+  "english": "scam",
+  "lowercase": "velise",
+  "uppercase": "Ejner"
+ },
+ {
+  "english": "scan",
+  "lowercase": "nanel",
+  "uppercase": "Hugar"
+ },
+ {
+  "english": "scent",
+  "lowercase": "latil",
+  "uppercase": "Fiysin"
+ },
+ {
+  "english": "scrub",
+  "lowercase": "doganga",
+  "uppercase": "Udirsj"
+ },
+ {
+  "english": "scurrilous",
+  "lowercase": "kisjonssefic",
+  "uppercase": "Dovirdistei"
+ },
+ {
+  "english": "see",
+  "lowercase": "ins",
+  "uppercase": "Riki"
+ },
+ {
+  "english": "seek",
+  "lowercase": "vigrad",
+  "uppercase": "Aav"
+ },
+ {
+  "english": "seems",
+  "lowercase": "famige",
+  "uppercase": "Yihyta"
+ },
+ {
+  "english": "seen",
+  "lowercase": "nand",
+  "uppercase": "Oun"
+ },
+ {
+  "english": "sell",
+  "lowercase": "leliri",
+  "uppercase": "Todlu"
+ },
+ {
+  "english": "senate",
+  "lowercase": "ordalr",
+  "uppercase": "Instus"
+ },
+ {
+  "english": "service",
+  "lowercase": "filslod",
+  "uppercase": "Ulostiko"
+ },
+ {
+  "english": "shall",
+  "lowercase": "yohdis",
+  "uppercase": "Vervo"
+ },
+ {
+  "english": "shard",
+  "lowercase": "ajoi",
+  "uppercase": "Yuydes"
+ },
+ {
+  "english": "share",
+  "lowercase": "belate",
+  "uppercase": "Kapapi"
+ },
+ {
+  "english": "shield",
+  "lowercase": "kadarg",
+  "uppercase": "Ragnetb"
+ },
+ {
+  "english": "shielding",
+  "lowercase": "islapirker",
+  "uppercase": "Pohjupadal"
+ },
+ {
+  "english": "shiny",
+  "lowercase": "senne",
+  "uppercase": "Gusvard"
+ },
+ {
+  "english": "ship",
+  "lowercase": "onyh",
+  "uppercase": "Enkam"
+ },
+ {
+  "english": "shows",
+  "lowercase": "timi",
+  "uppercase": "Joll"
+ },
+ {
+  "english": "sightings",
+  "lowercase": "niihinsigi",
+  "uppercase": "Kuldudagi"
+ },
+ {
+  "english": "silence",
+  "lowercase": "lottaflu",
+  "uppercase": "Ruvningess"
+ },
+ {
+  "english": "silicate",
+  "lowercase": "dokeningo",
+  "uppercase": "Fluttelma"
+ },
+ {
+  "english": "silicates",
+  "lowercase": "lulgangarn",
+  "uppercase": "Porykkintoi"
+ },
+ {
+  "english": "simple",
+  "lowercase": "idjact",
+  "uppercase": "Hytai"
+ },
+ {
+  "english": "site",
+  "lowercase": "issfa",
+  "uppercase": "Itlig"
+ },
+ {
+  "english": "sits",
+  "lowercase": "sksip",
+  "uppercase": "Yahy"
+ },
+ {
+  "english": "skills",
+  "lowercase": "drita",
+  "uppercase": "Iojakir"
+ },
+ {
+  "english": "slug",
+  "lowercase": "nat",
+  "uppercase": "Taoir"
+ },
+ {
+  "english": "smell",
+  "lowercase": "aadil",
+  "uppercase": "Aelse"
+ },
+ {
+  "english": "smells",
+  "lowercase": "liknafna",
+  "uppercase": "Nitija"
+ },
+ {
+  "english": "so",
+  "lowercase": "gost",
+  "uppercase": "Vof"
+ },
+ {
+  "english": "solution",
+  "lowercase": "kotdostaja",
+  "uppercase": "Edbokbi"
+ },
+ {
+  "english": "some",
+  "lowercase": "tun",
+  "uppercase": "Ner"
+ },
+ {
+  "english": "sorry",
+  "lowercase": "ferl",
+  "uppercase": "Oreyggi"
+ },
+ {
+  "english": "soul",
+  "lowercase": "numri",
+  "uppercase": "Leman"
+ },
+ {
+  "english": "spawn",
+  "lowercase": "kouluk",
+  "uppercase": "Naterm"
+ },
+ {
+  "english": "spawning",
+  "lowercase": "yeydenum",
+  "uppercase": "Ivujens"
+ },
+ {
+  "english": "speak",
+  "lowercase": "umursk",
+  "uppercase": "Hakenn"
+ },
+ {
+  "english": "speech",
+  "lowercase": "udglatn",
+  "uppercase": "Futruchs"
+ },
+ {
+  "english": "spittle",
+  "lowercase": "ilbandr",
+  "uppercase": "Arjeko"
+ },
+ {
+  "english": "spy",
+  "lowercase": "duo",
+  "uppercase": "Let"
+ },
+ {
+  "english": "stalled",
+  "lowercase": "avisman",
+  "uppercase": "Aljentta"
+ },
+ {
+  "english": "stand",
+  "lowercase": "erhei",
+  "uppercase": "Rugero"
+ },
+ {
+  "english": "stars",
+  "lowercase": "inberi",
+  "uppercase": "Kaava"
+ },
+ {
+  "english": "starship",
+  "lowercase": "lefabeig",
+  "uppercase": "Dibinddel",
+  "allcaps": "Limplundi "
+ },
+ {
+  "english": "start",
+  "lowercase": "agle",
+  "uppercase": "Duqui"
+ },
+ {
+  "english": "station",
+  "lowercase": "kasesen",
+  "uppercase": "Utssukja"
+ },
+ {
+  "english": "stench",
+  "lowercase": "uknin",
+  "uppercase": "Anatik"
+ },
+ {
+  "english": "still",
+  "lowercase": "saker",
+  "uppercase": "Nargni"
+ },
+ {
+  "english": "stockpile",
+  "lowercase": "slissfarh",
+  "uppercase": "Asmiddeldr"
+ },
+ {
+  "english": "stole",
+  "lowercase": "uide",
+  "uppercase": "Abill"
+ },
+ {
+  "english": "stop",
+  "lowercase": "yavin",
+  "uppercase": "Fere"
+ },
+ {
+  "english": "storage",
+  "lowercase": "teykkil",
+  "uppercase": "Achari"
+ },
+ {
+  "english": "stranded",
+  "lowercase": "isgarosm",
+  "uppercase": "Ergarord"
+ },
+ {
+  "english": "stranger",
+  "lowercase": "ratsamkvam",
+  "uppercase": "Tiinamonc"
+ },
+ {
+  "english": "strata",
+  "lowercase": "borgars",
+  "uppercase": "Kulibok"
+ },
+ {
+  "english": "strengthen",
+  "lowercase": "suojentarh",
+  "uppercase": "Muudessip"
+ },
+ {
+  "english": "stupid",
+  "lowercase": "kunafj",
+  "uppercase": "Piltark"
+ },
+ {
+  "english": "succeeds",
+  "lowercase": "rutskonfir",
+  "uppercase": "Eyoisto"
+ },
+ {
+  "english": "such",
+  "lowercase": "eif",
+  "uppercase": "Funi"
+ },
+ {
+  "english": "suffer",
+  "lowercase": "dulanka",
+  "uppercase": "Ubbell"
+ },
+ {
+  "english": "suit",
+  "lowercase": "ail",
+  "uppercase": "Mabi"
+ },
+ {
+  "english": "suppose",
+  "lowercase": "ufilmhul",
+  "uppercase": "Huveranin"
+ },
+ {
+  "english": "suppression",
+  "lowercase": "ladsidutgef",
+  "uppercase": "Atkopiaperin"
+ },
+ {
+  "english": "suspicious",
+  "lowercase": "rerhandeks",
+  "uppercase": "Lelmarkivfor"
+ },
+ {
+  "english": "swallow",
+  "lowercase": "clarit",
+  "uppercase": "Riftere"
+ },
+ {
+  "english": "sweet",
+  "lowercase": "rasysot",
+  "uppercase": "Efermi"
+ },
+ {
+  "english": "synthetigek",
+  "lowercase": "moramistuna",
+  "uppercase": "Iggjalablodr"
+ },
+ {
+  "english": "syrup",
+  "lowercase": "inutu",
+  "uppercase": "Vejourn"
+ },
+ {
+  "english": "system",
+  "lowercase": "nadrand",
+  "uppercase": "Netuel",
+  "allcaps": "Laiseku "
+ },
+ {
+  "english": "take",
+  "lowercase": "yengur",
+  "uppercase": "Nafek"
+ },
+ {
+  "english": "tank",
+  "lowercase": "age",
+  "uppercase": "Osho"
+ },
+ {
+  "english": "tax",
+  "lowercase": "amm",
+  "uppercase": "Rivn"
+ },
+ {
+  "english": "teach",
+  "lowercase": "ainut",
+  "uppercase": "Orumr"
+ },
+ {
+  "english": "technology",
+  "lowercase": "ivplacesiki",
+  "uppercase": "Sugautendig"
+ },
+ {
+  "english": "temperature",
+  "lowercase": "daguryuchere",
+  "uppercase": "Hesaurustr"
+ },
+ {
+  "english": "template",
+  "lowercase": "udkatab",
+  "uppercase": "Ihinstig"
+ },
+ {
+  "english": "ten",
+  "lowercase": "lekst",
+  "uppercase": "Vunu"
+ },
+ {
+  "english": "terrible",
+  "lowercase": "kogssap",
+  "uppercase": "Ronologr"
+ },
+ {
+  "english": "terror",
+  "lowercase": "gaareyr",
+  "uppercase": "Nosisa"
+ },
+ {
+  "english": "test",
+  "lowercase": "bud",
+  "uppercase": "Ligr"
+ },
+ {
+  "english": "that",
+  "lowercase": "eble",
+  "uppercase": "Qui"
+ },
+ {
+  "english": "the",
+  "lowercase": "nitr",
+  "uppercase": "Elj"
+ },
+ {
+  "english": "their",
+  "lowercase": "ionshi",
+  "uppercase": "Utlan"
+ },
+ {
+  "english": "them",
+  "lowercase": "lean",
+  "uppercase": "Punkt"
+ },
+ {
+  "english": "there",
+  "lowercase": "bolgaf",
+  "uppercase": "Aggs"
+ },
+ {
+  "english": "thing",
+  "lowercase": "etetyn",
+  "uppercase": "Tandli"
+ },
+ {
+  "english": "things",
+  "lowercase": "yotostj",
+  "uppercase": "Hakef"
+ },
+ {
+  "english": "thirst",
+  "lowercase": "daudals",
+  "uppercase": "Ekrepro"
+ },
+ {
+  "english": "this",
+  "lowercase": "huvu",
+  "uppercase": "Abbam"
+ },
+ {
+  "english": "thought",
+  "lowercase": "jakorret",
+  "uppercase": "Orkundi"
+ },
+ {
+  "english": "three",
+  "lowercase": "koogis",
+  "uppercase": "Hofso"
+ },
+ {
+  "english": "through",
+  "lowercase": "rakninal",
+  "uppercase": "Etoimilj"
+ },
+ {
+  "english": "time",
+  "lowercase": "udirs",
+  "uppercase": "Arsho",
+  "allcaps": "Gasord "
+ },
+ {
+  "english": "tiny",
+  "lowercase": "yija",
+  "uppercase": "Liarv"
+ },
+ {
+  "english": "tired",
+  "lowercase": "geti",
+  "uppercase": "Pling"
+ },
+ {
+  "english": "tiring",
+  "lowercase": "erkaup",
+  "uppercase": "Eseali"
+ },
+ {
+  "english": "to",
+  "lowercase": "fani",
+  "uppercase": "Lis"
+ },
+ {
+  "english": "today",
+  "lowercase": "elfac",
+  "uppercase": "Slegt"
+ },
+ {
+  "english": "together",
+  "lowercase": "golysterin",
+  "uppercase": "Egenney"
+ },
+ {
+  "english": "toil",
+  "lowercase": "lepta",
+  "uppercase": "Enja"
+ },
+ {
+  "english": "toilgek",
+  "lowercase": "tejarra",
+  "uppercase": "Kemidod"
+ },
+ {
+  "english": "tongue",
+  "lowercase": "atossio",
+  "uppercase": "Fonsrevb"
+ },
+ {
+  "english": "too",
+  "lowercase": "ily",
+  "uppercase": "Oott"
+ },
+ {
+  "english": "trade",
+  "lowercase": "udglat",
+  "uppercase": "Acer",
+  "allcaps": "Srit "
+ },
+ {
+  "english": "trader",
+  "lowercase": "onumme",
+  "uppercase": "Suleran"
+ },
+ {
+  "english": "trades",
+  "lowercase": "lighe",
+  "uppercase": "Kimorch"
+ },
+ {
+  "english": "trading",
+  "lowercase": "likioae",
+  "uppercase": "Kivendi"
+ },
+ {
+  "english": "tradition",
+  "lowercase": "asafntin",
+  "uppercase": "Ahkoposs"
+ },
+ {
+  "english": "trapped",
+  "lowercase": "ivsakert",
+  "uppercase": "Onustina"
+ },
+ {
+  "english": "traveller",
+  "lowercase": "jelusagnad",
+  "uppercase": "Zofilmikr"
+ },
+ {
+  "english": "treaty",
+  "lowercase": "eseap",
+  "uppercase": "Ceketisk"
+ },
+ {
+  "english": "trouble",
+  "lowercase": "kisdokur",
+  "uppercase": "Jeells"
+ },
+ {
+  "english": "trust",
+  "lowercase": "lima",
+  "uppercase": "Eana"
+ },
+ {
+  "english": "trustworthy",
+  "lowercase": "ajsa'orgarall",
+  "uppercase": "Lasdandtalkna"
+ },
+ {
+  "english": "truth",
+  "lowercase": "argero",
+  "uppercase": "Talok"
+ },
+ {
+  "english": "two",
+  "lowercase": "erqu",
+  "uppercase": "Voll"
+ },
+ {
+  "english": "uncommon",
+  "lowercase": "kasiinauk",
+  "uppercase": "Mumandter"
+ },
+ {
+  "english": "underling",
+  "lowercase": "icerittel",
+  "uppercase": "Nisogaarkko"
+ },
+ {
+  "english": "understand",
+  "lowercase": "ridiagristok",
+  "uppercase": "Rutvikasia"
+ },
+ {
+  "english": "unexpected",
+  "lowercase": "gaskinlei",
+  "uppercase": "Lordsetusja"
+ },
+ {
+  "english": "unhappy",
+  "lowercase": "affugtni",
+  "uppercase": "Dergerav"
+ },
+ {
+  "english": "units",
+  "lowercase": "sritz",
+  "uppercase": "Gangur"
+ },
+ {
+  "english": "unknown",
+  "lowercase": "nufeksey",
+  "uppercase": "Lakupsata"
+ },
+ {
+  "english": "unlock",
+  "lowercase": "spjal",
+  "uppercase": "Ivninam"
+ },
+ {
+  "english": "unmasking",
+  "lowercase": "dusomuudes",
+  "uppercase": "Pepbevard"
+ },
+ {
+  "english": "unpaid",
+  "lowercase": "fugeir",
+  "uppercase": "Intallr"
+ },
+ {
+  "english": "unselected",
+  "lowercase": "kadalvonmu",
+  "uppercase": "Iblanesjo"
+ },
+ {
+  "english": "unspent",
+  "lowercase": "neranse",
+  "uppercase": "Jofort"
+ },
+ {
+  "english": "us",
+  "lowercase": "uka",
+  "uppercase": "Cike"
+ },
+ {
+  "english": "usage",
+  "lowercase": "opnafj",
+  "uppercase": "Tettir"
+ },
+ {
+  "english": "user",
+  "lowercase": "nikea",
+  "uppercase": "Yuns"
+ },
+ {
+  "english": "using",
+  "lowercase": "desst",
+  "uppercase": "Alje"
+ },
+ {
+  "english": "usual",
+  "lowercase": "usvar",
+  "uppercase": "Gosfil"
+ },
+ {
+  "english": "vault",
+  "lowercase": "eigild",
+  "uppercase": "Odvari"
+ },
+ {
+  "english": "vaults",
+  "lowercase": "madurey",
+  "uppercase": "Nisfrit"
+ },
+ {
+  "english": "vegetable",
+  "lowercase": "buninakobs",
+  "uppercase": "Burtaoiri"
+ },
+ {
+  "english": "very",
+  "lowercase": "poy",
+  "uppercase": "Olo"
+ },
+ {
+  "english": "video",
+  "lowercase": "evisuu",
+  "uppercase": "Sokit"
+ },
+ {
+  "english": "visit",
+  "lowercase": "ereri",
+  "uppercase": "Rome"
+ },
+ {
+  "english": "vy'keen",
+  "lowercase": "tasjon",
+  "uppercase": "Sysetelf"
+ },
+ {
+  "english": "wager",
+  "lowercase": "orja",
+  "uppercase": "Yosteri"
+ },
+ {
+  "english": "walk",
+  "lowercase": "ruf",
+  "uppercase": "Vil"
+ },
+ {
+  "english": "war",
+  "lowercase": "ope",
+  "uppercase": "Tek"
+ },
+ {
+  "english": "warning",
+  "lowercase": "disholmr",
+  "uppercase": "Anvisa"
+ },
+ {
+  "english": "warp",
+  "lowercase": "sotul",
+  "uppercase": "Vudbo"
+ },
+ {
+  "english": "was",
+  "lowercase": "sisk",
+  "uppercase": "Uaa"
+ },
+ {
+  "english": "watch",
+  "lowercase": "uaalik",
+  "uppercase": "Apor"
+ },
+ {
+  "english": "watches",
+  "lowercase": "nipperi",
+  "uppercase": "Iginkan"
+ },
+ {
+  "english": "we",
+  "lowercase": "vosa",
+  "uppercase": "Vahi"
+ },
+ {
+  "english": "weak",
+  "lowercase": "aurup",
+  "uppercase": "Flutt"
+ },
+ {
+  "english": "weakening",
+  "lowercase": "tustyapermo",
+  "uppercase": "Etuistidpu"
+ },
+ {
+  "english": "wealth",
+  "lowercase": "nibindga",
+  "uppercase": "Befugtn"
+ },
+ {
+  "english": "weapon",
+  "lowercase": "omnings",
+  "uppercase": "Pokol",
+  "allcaps": "Iljod "
+ },
+ {
+  "english": "welcome",
+  "lowercase": "iointalo",
+  "uppercase": "Dismuladi"
+ },
+ {
+  "english": "were",
+  "lowercase": "nent",
+  "uppercase": "Spilt"
+ },
+ {
+  "english": "what",
+  "lowercase": "bular",
+  "uppercase": "Furfi"
+ },
+ {
+  "english": "which",
+  "lowercase": "giebur",
+  "uppercase": "Dishvam"
+ },
+ {
+  "english": "while",
+  "lowercase": "pespl",
+  "uppercase": "Daudsy"
+ },
+ {
+  "english": "whistle",
+  "lowercase": "chardami",
+  "uppercase": "Anneydi"
+ },
+ {
+  "english": "why",
+  "lowercase": "syv",
+  "uppercase": "Musda"
+ },
+ {
+  "english": "will",
+  "lowercase": "orki",
+  "uppercase": "Rala"
+ },
+ {
+  "english": "willing",
+  "lowercase": "oriste",
+  "uppercase": "Peravde"
+ },
+ {
+  "english": "wished",
+  "lowercase": "drityin",
+  "uppercase": "Roleverd"
+ },
+ {
+  "english": "with",
+  "lowercase": "yerju",
+  "uppercase": "Meheio"
+ },
+ {
+  "english": "withheld",
+  "lowercase": "dratfilm",
+  "uppercase": "Dostusa"
+ },
+ {
+  "english": "without",
+  "lowercase": "duppes",
+  "uppercase": "Etuellin"
+ },
+ {
+  "english": "work",
+  "lowercase": "afj",
+  "uppercase": "Kela"
+ },
+ {
+  "english": "worker",
+  "lowercase": "etasjou",
+  "uppercase": "Idhator"
+ },
+ {
+  "english": "workshy",
+  "lowercase": "gognume",
+  "uppercase": "Taknings"
+ },
+ {
+  "english": "worship",
+  "lowercase": "kajalav",
+  "uppercase": "Rudighet"
+ },
+ {
+  "english": "would",
+  "lowercase": "lelri",
+  "uppercase": "Atri"
+ },
+ {
+  "english": "wrong",
+  "lowercase": "fahan",
+  "uppercase": "Rugrens"
+ },
+ {
+  "english": "yellow",
+  "lowercase": "ossappe",
+  "uppercase": "Refri"
+ },
+ {
+  "english": "yes",
+  "lowercase": "opav",
+  "uppercase": "Dir"
+ },
+ {
+  "english": "you",
+  "lowercase": "kuje",
+  "uppercase": "Sit"
+ },
+ {
+  "english": "your",
+  "lowercase": "omfa",
+  "uppercase": "Uunn"
+ },
+ {
+  "english": "yourself",
+  "lowercase": "osuhtei",
+  "uppercase": "Nohusagn"
+ }
+]

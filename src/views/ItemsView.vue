@@ -52,7 +52,7 @@ export default {
 </script>
 
 <template>
-	<section id="drawer">
+	<section id="items">
 		<div class="container">
 
 			<div class="types">
@@ -259,15 +259,12 @@ export default {
 
 <style>
 /* DRAWER */
-#drawer {
-	padding: 12px;
-}
-#drawer .container > div:not(:last-of-type) {
+#items .container > div:not(:last-of-type) {
 	margin-bottom: 24px;
 }
 
 /* DRAWER > TYPES */
-#drawer .types ul {
+#items .types ul {
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -275,10 +272,10 @@ export default {
 	justify-content: center;
 	gap: 4px;
 }
-#drawer .types li {
+#items .types li {
 	width: 25%;
 }
-#drawer .types button {
+#items .types button {
 	background: transparent;
 	border-left: solid transparent 4px;
 	display: flex;
@@ -292,34 +289,34 @@ export default {
     padding: 8px 4px;
 }
 @media ( min-width: 1024px ) {
-	#drawer .types ul {
+	#items .types ul {
 		gap: 10px;
 	}
-	#drawer .types button {
+	#items .types button {
 		flex-direction: row;
 		padding: 12px 16px;
 		gap: 16px;
 		font-size: 20px;
 	}
 }
-#drawer .types button svg {
+#items .types button svg {
 	fill: #fff;
 	height: 24px;
 	width: auto;
 	max-width: 24px;
 }
-#drawer .types button:hover,
-#drawer .types button.active {
+#items .types button:hover,
+#items .types button.active {
 	background: rgba(103,116,173,0.5);
 	border-left: solid #fff 4px;
 }
-#drawer .types button:hover svg,
-#drawer .types button.active svg {
+#items .types button:hover svg,
+#items .types button.active svg {
 	filter: drop-shadow(0 0 4px rgba(224, 177, 66, 1));
 }
 
 /* DRAWER > FILTER */
-#drawer .filter input {
+#items .filter input {
 	border: none;
 	border-radius: 0;
 	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;

@@ -33,6 +33,11 @@ const router = createRouter({
 			name: 'item',
 			component: () => import('../views/ItemView.vue')
 		},
+		{
+			path: '/translator',
+			name: 'translator',
+			component: () => import('../views/TranslatorView.vue')
+		},
 		{ 
 			path: '/:pathMatch(.*)', 
 			component: () => import('../views/404View.vue'),

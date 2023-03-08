@@ -75,7 +75,6 @@ button {
 
 /* BODY */
 section {
-	padding: 12px 0;
 	padding: 64px 0;
 	min-height: calc( 100vh - 90px - 49px );
 }

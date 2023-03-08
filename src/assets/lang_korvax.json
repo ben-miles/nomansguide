@@ -1,0 +1,3446 @@
+[
+	{
+	 "english": "a",
+	 "lowercase": "ond",
+	 "uppercase": "Tiso"
+	},
+	{
+	 "english": "about",
+	 "lowercase": "eksin",
+	 "uppercase": "Enpoka"
+	},
+	{
+	 "english": "absence",
+	 "lowercase": "ommuna",
+	 "uppercase": "Illovoy"
+	},
+	{
+	 "english": "absorb",
+	 "lowercase": "iudac",
+	 "uppercase": "Horusang"
+	},
+	{
+	 "english": "abyss",
+	 "lowercase": "limyzya",
+	 "uppercase": "Sensh"
+	},
+	{
+	 "english": "accidentally",
+	 "lowercase": "onstanasheb",
+	 "uppercase": "Ulebskabent"
+	},
+	{
+	 "english": "accommodate",
+	 "lowercase": "egezhgorone",
+	 "uppercase": "Fimoviatniko"
+	},
+	{
+	 "english": "activity",
+	 "lowercase": "lechatura",
+	 "uppercase": "Zodokistup"
+	},
+	{
+	 "english": "additional",
+	 "lowercase": "oduboevui",
+	 "uppercase": "Raktotolya"
+	},
+	{
+	 "english": "adjust",
+	 "lowercase": "slyudya",
+	 "uppercase": "Naymitas"
+	},
+	{
+	 "english": "admires",
+	 "lowercase": "turazn",
+	 "uppercase": "Anrogor"
+	},
+	{
+	 "english": "adores",
+	 "lowercase": "gobekin",
+	 "uppercase": "Velsk"
+	},
+	{
+	 "english": "advance",
+	 "lowercase": "kopinestv",
+	 "uppercase": "Gityars"
+	},
+	{
+	 "english": "after",
+	 "lowercase": "vikoel",
+	 "uppercase": "Govoul"
+	},
+	{
+	 "english": "again",
+	 "lowercase": "myzah",
+	 "uppercase": "Rukhac"
+	},
+	{
+	 "english": "ago",
+	 "lowercase": "mec",
+	 "uppercase": "Eto"
+	},
+	{
+	 "english": "ahem",
+	 "lowercase": "epet",
+	 "uppercase": "Tous"
+	},
+	{
+	 "english": "aid",
+	 "lowercase": "zeme",
+	 "uppercase": "Enk"
+	},
+	{
+	 "english": "aids",
+	 "lowercase": "zadu",
+	 "uppercase": "Zel"
+	},
+	{
+	 "english": "aiee",
+	 "lowercase": "leziam",
+	 "uppercase": "Relya"
+	},
+	{
+	 "english": "alarmed",
+	 "lowercase": "fitskiti",
+	 "uppercase": "Kihvald"
+	},
+	{
+	 "english": "alert",
+	 "lowercase": "zania",
+	 "uppercase": "Yakuta"
+	},
+	{
+	 "english": "all",
+	 "lowercase": "ukh",
+	 "uppercase": "Ufi"
+	},
+	{
+	 "english": "allocated",
+	 "lowercase": "ryimskyviu",
+	 "uppercase": "Oustyugora"
+	},
+	{
+	 "english": "allow",
+	 "lowercase": "ektro",
+	 "uppercase": "Duly"
+	},
+	{
+	 "english": "alone",
+	 "lowercase": "eural",
+	 "uppercase": "Irovo"
+	},
+	{
+	 "english": "already",
+	 "lowercase": "boksitog",
+	 "uppercase": "Lotnoyet"
+	},
+	{
+	 "english": "am",
+	 "lowercase": "hum",
+	 "uppercase": "Gad"
+	},
+	{
+	 "english": "an",
+	 "lowercase": "dud",
+	 "uppercase": "Zob"
+	},
+	{
+	 "english": "analysis",
+	 "lowercase": "uboevushc",
+	 "uppercase": "Imenskyvi"
+	},
+	{
+	 "english": "ancestor",
+	 "lowercase": "emanzheg",
+	 "uppercase": "Eynoyet"
+	},
+	{
+	 "english": "and",
+	 "lowercase": "suma",
+	 "uppercase": "Mun"
+	},
+	{
+	 "english": "anomaly",
+	 "lowercase": "nuyovsh",
+	 "uppercase": "Odinov"
+	},
+	{
+	 "english": "answer",
+	 "lowercase": "havinsk",
+	 "uppercase": "Alugan"
+	},
+	{
+	 "english": "anything",
+	 "lowercase": "etlogriv",
+	 "uppercase": "Nadeyshma"
+	},
+	{
+	 "english": "apologies",
+	 "lowercase": "gradnayank",
+	 "uppercase": "Opolenkur"
+	},
+	{
+	 "english": "apply",
+	 "lowercase": "godoi",
+	 "uppercase": "Piki"
+	},
+	{
+	 "english": "approaches",
+	 "lowercase": "tetyukhladu",
+	 "uppercase": "Yishnymitt"
+	},
+	{
+	 "english": "appropriate",
+	 "lowercase": "rubcheguta",
+	 "uppercase": "Okminusinst"
+	},
+	{
+	 "english": "are",
+	 "lowercase": "lak",
+	 "uppercase": "Rus"
+	},
+	{
+	 "english": "around",
+	 "lowercase": "benyev",
+	 "uppercase": "Imaiu"
+	},
+	{
+	 "english": "artificial",
+	 "lowercase": "kihopyevetsi",
+	 "uppercase": "Kinovorogo"
+	},
+	{
+	 "english": "as",
+	 "lowercase": "yud",
+	 "uppercase": "Kaha"
+	},
+	{
+	 "english": "asks",
+	 "lowercase": "liynk",
+	 "uppercase": "Engoy"
+	},
+	{
+	 "english": "assemble",
+	 "lowercase": "ilskogae",
+	 "uppercase": "Kuchigrya"
+	},
+	{
+	 "english": "assist",
+	 "lowercase": "ziyvayan",
+	 "uppercase": "Hovsk"
+	},
+	{
+	 "english": "at",
+	 "lowercase": "ilo",
+	 "uppercase": "Ais"
+	},
+	{
+	 "english": "atlas",
+	 "lowercase": "tologri",
+	 "uppercase": "Imaiu",
+	 "allcaps": "Abli "
+	},
+	{
+	 "english": "atmospheric",
+	 "lowercase": "yeleznikovk",
+	 "uppercase": "Onnikaltiys",
+	 "allcaps": "Spiyskovods "
+	},
+	{
+	 "english": "attack",
+	 "lowercase": "bashcaha",
+	 "uppercase": "Sokopey"
+	},
+	{
+	 "english": "attention",
+	 "lowercase": "azinokamsk",
+	 "uppercase": "Imechorant"
+	},
+	{
+	 "english": "automated",
+	 "lowercase": "oitelebe",
+	 "uppercase": "Orykohaba"
+	},
+	{
+	 "english": "available",
+	 "lowercase": "ladogdanko",
+	 "uppercase": "Afimovskyv"
+	},
+	{
+	 "english": "average",
+	 "lowercase": "ervomart",
+	 "uppercase": "Hernusin"
+	},
+	{
+	 "english": "avoid",
+	 "lowercase": "negors",
+	 "uppercase": "Vinos"
+	},
+	{
+	 "english": "await",
+	 "lowercase": "etrop",
+	 "uppercase": "Ovkara"
+	},
+	{
+	 "english": "awaits",
+	 "lowercase": "oukoyan",
+	 "uppercase": "Druzha"
+	},
+	{
+	 "english": "awakes",
+	 "lowercase": "trezhir",
+	 "uppercase": "Krasav"
+	},
+	{
+	 "english": "away",
+	 "lowercase": "ums",
+	 "uppercase": "Donays"
+	},
+	{
+	 "english": "ayee",
+	 "lowercase": "ter",
+	 "uppercase": "Rubc"
+	},
+	{
+	 "english": "back",
+	 "lowercase": "hesh",
+	 "uppercase": "Tov"
+	},
+	{
+	 "english": "back-up",
+	 "lowercase": "yinsta",
+	 "uppercase": "Obskarve"
+	},
+	{
+	 "english": "bad",
+	 "lowercase": "has",
+	 "uppercase": "Iud"
+	},
+	{
+	 "english": "bathe",
+	 "lowercase": "kroymsk",
+	 "uppercase": "Movsky"
+	},
+	{
+	 "english": "be",
+	 "lowercase": "yems",
+	 "uppercase": "Apo"
+	},
+	{
+	 "english": "beaten",
+	 "lowercase": "uitel",
+	 "uppercase": "Ralner"
+	},
+	{
+	 "english": "beautiful",
+	 "lowercase": "ligarimovs",
+	 "uppercase": "Pavlevigor"
+	},
+	{
+	 "english": "beckons",
+	 "lowercase": "gepast",
+	 "uppercase": "Etomut"
+	},
+	{
+	 "english": "becomes",
+	 "lowercase": "oblasovs",
+	 "uppercase": "Oboria"
+	},
+	{
+	 "english": "been",
+	 "lowercase": "ubi",
+	 "uppercase": "Aly"
+	},
+	{
+	 "english": "before",
+	 "lowercase": "iinsky",
+	 "uppercase": "Bansk"
+	},
+	{
+	 "english": "begins",
+	 "lowercase": "emvab",
+	 "uppercase": "Pikines"
+	},
+	{
+	 "english": "behold",
+	 "lowercase": "lazovay",
+	 "uppercase": "Vitins"
+	},
+	{
+	 "english": "benevolence",
+	 "lowercase": "efremkhonyev",
+	 "uppercase": "Yarnyaginin"
+	},
+	{
+	 "english": "best",
+	 "lowercase": "odvi",
+	 "uppercase": "Kotr"
+	},
+	{
+	 "english": "better",
+	 "lowercase": "rubinsky",
+	 "uppercase": "Sayan"
+	},
+	{
+	 "english": "between",
+	 "lowercase": "ikhardo",
+	 "uppercase": "Umanovok"
+	},
+	{
+	 "english": "beware",
+	 "lowercase": "amady",
+	 "uppercase": "Ipking"
+	},
+	{
+	 "english": "biggest",
+	 "lowercase": "gutaysh",
+	 "uppercase": "Tomark"
+	},
+	{
+	 "english": "biological",
+	 "lowercase": "ludatayrnya",
+	 "uppercase": "Delabulak"
+	},
+	{
+	 "english": "bless",
+	 "lowercase": "angels",
+	 "uppercase": "Unit"
+	},
+	{
+	 "english": "blob",
+	 "lowercase": "loyt",
+	 "uppercase": "Pra"
+	},
+	{
+	 "english": "blockage",
+	 "lowercase": "irbiturtr",
+	 "uppercase": "Doygeysk"
+	},
+	{
+	 "english": "blueprint",
+	 "lowercase": "hovaldanov",
+	 "uppercase": "Beytishenn"
+	},
+	{
+	 "english": "board",
+	 "lowercase": "bukhoy",
+	 "uppercase": "Antoyre"
+	},
+	{
+	 "english": "both",
+	 "lowercase": "vukt",
+	 "uppercase": "Ibo"
+	},
+	{
+	 "english": "brain",
+	 "lowercase": "ubanov",
+	 "uppercase": "Hinog"
+	},
+	{
+	 "english": "breach",
+	 "lowercase": "runinsk",
+	 "uppercase": "Luykin"
+	},
+	{
+	 "english": "breached",
+	 "lowercase": "esyegors",
+	 "uppercase": "Doymkarpi"
+	},
+	{
+	 "english": "brings",
+	 "lowercase": "nodeli",
+	 "uppercase": "Insarye"
+	},
+	{
+	 "english": "broadcasts",
+	 "lowercase": "yesseltsy",
+	 "uppercase": "Hudozhaian"
+	},
+	{
+	 "english": "build",
+	 "lowercase": "sumanz",
+	 "uppercase": "Evsky"
+	},
+	{
+	 "english": "business",
+	 "lowercase": "kusanqab",
+	 "uppercase": "Zekimovis"
+	},
+	{
+	 "english": "busy",
+	 "lowercase": "ruiu",
+	 "uppercase": "For"
+	},
+	{
+	 "english": "but",
+	 "lowercase": "ads",
+	 "uppercase": "Zehn"
+	},
+	{
+	 "english": "calm",
+	 "lowercase": "vanog",
+	 "uppercase": "Ekt"
+	},
+	{
+	 "english": "cannot",
+	 "lowercase": "neudint",
+	 "uppercase": "Luziames"
+	},
+	{
+	 "english": "capacitor",
+	 "lowercase": "veycuhnyev",
+	 "uppercase": "Kakhnyev"
+	},
+	{
+	 "english": "carapace",
+	 "lowercase": "dazhevsko",
+	 "uppercase": "Islozhosk"
+	},
+	{
+	 "english": "careful",
+	 "lowercase": "poyatii",
+	 "uppercase": "Voboya"
+	},
+	{
+	 "english": "casing",
+	 "lowercase": "tubimu",
+	 "uppercase": "Holisk"
+	},
+	{
+	 "english": "catalogue",
+	 "lowercase": "rukhaluymsky",
+	 "uppercase": "Arganiae"
+	},
+	{
+	 "english": "catalyst ",
+	 "lowercase": "rukutsky ",
+	 "uppercase": "Yulinskyvi "
+	},
+	{
+	 "english": "central",
+	 "lowercase": "torzya",
+	 "uppercase": "Ubkinosl"
+	},
+	{
+	 "english": "centre",
+	 "lowercase": "lovan",
+	 "uppercase": "Zodalnec"
+	},
+	{
+	 "english": "certain",
+	 "lowercase": "naulum",
+	 "uppercase": "Rasnyocta"
+	},
+	{
+	 "english": "charging",
+	 "lowercase": "runinok",
+	 "uppercase": "Udzhantam"
+	},
+	{
+	 "english": "check",
+	 "lowercase": "rozo",
+	 "uppercase": "Sivirs"
+	},
+	{
+	 "english": "child",
+	 "lowercase": "burgun",
+	 "uppercase": "Kargo"
+	},
+	{
+	 "english": "choose",
+	 "lowercase": "eurash",
+	 "uppercase": "Omarits"
+	},
+	{
+	 "english": "circuit",
+	 "lowercase": "onstara",
+	 "uppercase": "Poveshe"
+	},
+	{
+	 "english": "clarify",
+	 "lowercase": "ugurusan",
+	 "uppercase": "Nirogoc"
+	},
+	{
+	 "english": "closer",
+	 "lowercase": "hutins",
+	 "uppercase": "Nosohchev"
+	},
+	{
+	 "english": "combine",
+	 "lowercase": "zunykehady",
+	 "uppercase": "Yokmin"
+	},
+	{
+	 "english": "comes",
+	 "lowercase": "ovdor",
+	 "uppercase": "Merovs"
+	},
+	{
+	 "english": "command",
+	 "lowercase": "leyskyv",
+	 "uppercase": "Sestovs"
+	},
+	{
+	 "english": "commences",
+	 "lowercase": "roshoyarvie",
+	 "uppercase": "Ovdorona"
+	},
+	{
+	 "english": "commendable",
+	 "lowercase": "uppunicoigno",
+	 "uppercase": "Biyskiyevkar"
+	},
+	{
+	 "english": "common",
+	 "lowercase": "kosarac",
+	 "uppercase": "Kalyuc",
+	 "allcaps": "Eft "
+	},
+	{
+	 "english": "communion",
+	 "lowercase": "gulkevino",
+	 "uppercase": "Ryluskyvin"
+	},
+	{
+	 "english": "compensation",
+	 "lowercase": "apredovuralsk",
+	 "uppercase": "Zoriastaixu"
+	},
+	{
+	 "english": "complete",
+	 "lowercase": "hudenpokro",
+	 "uppercase": "Naulari"
+	},
+	{
+	 "english": "concentrate",
+	 "lowercase": "vagraduzhumi",
+	 "uppercase": "Ozhiyevskyv"
+	},
+	{
+	 "english": "concerned",
+	 "lowercase": "reapoluchi",
+	 "uppercase": "Reposskazh"
+	},
+	{
+	 "english": "congratulations",
+	 "lowercase": "ozmodemerouglego",
+	 "uppercase": "Ibolskovorkhot"
+	},
+	{
+	 "english": "connection",
+	 "lowercase": "zovoaltiysk",
+	 "uppercase": "Boyandrov"
+	},
+	{
+	 "english": "constantly",
+	 "lowercase": "uapseusius",
+	 "uppercase": "Hetskaiushn"
+	},
+	{
+	 "english": "contact",
+	 "lowercase": "gochinoo",
+	 "uppercase": "Ovdoro"
+	},
+	{
+	 "english": "containment",
+	 "lowercase": "iyevskyvin",
+	 "uppercase": "Udozhelyeaex"
+	},
+	{
+	 "english": "continue",
+	 "lowercase": "piyskit",
+	 "uppercase": "Vezhnosl"
+	},
+	{
+	 "english": "contraband",
+	 "lowercase": "rodiashikhv",
+	 "uppercase": "Zelidovoso",
+	 "allcaps": "Kihtyomoles "
+	},
+	{
+	 "english": "contribution",
+	 "lowercase": "elburgansiysk",
+	 "uppercase": "Vunymitenemola"
+	},
+	{
+	 "english": "control",
+	 "lowercase": "nozhenyo",
+	 "uppercase": "Kuznetsi"
+	},
+	{
+	 "english": "controlled",
+	 "lowercase": "oguchaylov",
+	 "uppercase": "Slovantur"
+	},
+	{
+	 "english": "convergence",
+	 "lowercase": "nozavolochen",
+	 "uppercase": "Tetyevolgove"
+	},
+	{
+	 "english": "core",
+	 "lowercase": "aso",
+	 "uppercase": "Osl"
+	},
+	{
+	 "english": "corrosive",
+	 "lowercase": "chashiesi",
+	 "uppercase": "Rouralskoi"
+	},
+	{
+	 "english": "corrupted",
+	 "lowercase": "lolashtar",
+	 "uppercase": "Sutokinom"
+	},
+	{
+	 "english": "costume",
+	 "lowercase": "kuyshest",
+	 "uppercase": "Omariins"
+	},
+	{
+	 "english": "create",
+	 "lowercase": "inich",
+	 "uppercase": "Zeyanse"
+	},
+	{
+	 "english": "creation",
+	 "lowercase": "rakinovk",
+	 "uppercase": "Ozzhevoi"
+	},
+	{
+	 "english": "creatures",
+	 "lowercase": "ichinskyvi",
+	 "uppercase": "Doukovskyv"
+	},
+	{
+	 "english": "criminal",
+	 "lowercase": "gotovnoye",
+	 "uppercase": "Osnodons",
+	 "allcaps": "Nikurils "
+	},
+	{
+	 "english": "danger",
+	 "lowercase": "fitsii",
+	 "uppercase": "Sudzhi"
+	},
+	{
+	 "english": "dangerous",
+	 "lowercase": "yebkovsegem",
+	 "uppercase": "Doukoyan"
+	},
+	{
+	 "english": "darkness",
+	 "lowercase": "utsialn",
+	 "uppercase": "Helebska"
+	},
+	{
+	 "english": "data",
+	 "lowercase": "aishi",
+	 "uppercase": "Ovu",
+	 "allcaps": "Odgo "
+	},
+	{
+	 "english": "databank",
+	 "lowercase": "voybrazd",
+	 "uppercase": "Zihelektr"
+	},
+	{
+	 "english": "dead",
+	 "lowercase": "kolsh",
+	 "uppercase": "Atc"
+	},
+	{
+	 "english": "decrease",
+	 "lowercase": "gachyovod",
+	 "uppercase": "Agodarnau"
+	},
+	{
+	 "english": "delivery",
+	 "lowercase": "pionovk",
+	 "uppercase": "Dazernoeme"
+	},
+	{
+	 "english": "design",
+	 "lowercase": "kuhrom",
+	 "uppercase": "Iushval"
+	},
+	{
+	 "english": "desk",
+	 "lowercase": "retyuz",
+	 "uppercase": "Ipk"
+	},
+	{
+	 "english": "destiny",
+	 "lowercase": "epikiner",
+	 "uppercase": "Nezhne"
+	},
+	{
+	 "english": "detected",
+	 "lowercase": "atchinog",
+	 "uppercase": "Loneralsk"
+	},
+	{
+	 "english": "detection",
+	 "lowercase": "zahskyviumv",
+	 "uppercase": "Manogorone"
+	},
+	{
+	 "english": "dialect",
+	 "lowercase": "charye",
+	 "uppercase": "Tayndalm"
+	},
+	{
+	 "english": "did",
+	 "lowercase": "ubi",
+	 "uppercase": "Vurov"
+	},
+	{
+	 "english": "different",
+	 "lowercase": "utsiiatni",
+	 "uppercase": "Nugeleizh"
+	},
+	{
+	 "english": "disagree",
+	 "lowercase": "honyevs",
+	 "uppercase": "Erskyvin"
+	},
+	{
+	 "english": "disappointing",
+	 "lowercase": "zavodskommun",
+	 "uppercase": "Vuyksanovskyvin"
+	},
+	{
+	 "english": "disaster",
+	 "lowercase": "tuyndala",
+	 "uppercase": "Akinoslo"
+	},
+	{
+	 "english": "discharge",
+	 "lowercase": "tovnoslu",
+	 "uppercase": "Isoglebez"
+	},
+	{
+	 "english": "disconnected",
+	 "lowercase": "engoyetainicc",
+	 "uppercase": "Tizaniatnin"
+	},
+	{
+	 "english": "disconnection",
+	 "lowercase": "ovetsialnyokha",
+	 "uppercase": "Ayevskovkazh"
+	},
+	{
+	 "english": "discover",
+	 "lowercase": "barnyev",
+	 "uppercase": "Dogotovis"
+	},
+	{
+	 "english": "discoveries",
+	 "lowercase": "yermeshkov",
+	 "uppercase": "Udzhevronako"
+	},
+	{
+	 "english": "discuss",
+	 "lowercase": "gansiysk",
+	 "uppercase": "Alzama"
+	},
+	{
+	 "english": "discussions",
+	 "lowercase": "drovskyvinta",
+	 "uppercase": "Nokurinburgu"
+	},
+	{
+	 "english": "disengaged",
+	 "lowercase": "zerzhukovok",
+	 "uppercase": "Yegodstavino"
+	},
+	{
+	 "english": "dislike",
+	 "lowercase": "zoyormonc",
+	 "uppercase": "Dorornye"
+	},
+	{
+	 "english": "disruption",
+	 "lowercase": "giseppusiat",
+	 "uppercase": "Romeshcuhinsk"
+	},
+	{
+	 "english": "distortion",
+	 "lowercase": "arachyegon",
+	 "uppercase": "Pogotovia"
+	},
+	{
+	 "english": "divergent",
+	 "lowercase": "topoluche",
+	 "uppercase": "Kohrustyugo"
+	},
+	{
+	 "english": "do",
+	 "lowercase": "nag",
+	 "uppercase": "Ort"
+	},
+	{
+	 "english": "donate",
+	 "lowercase": "biysk",
+	 "uppercase": "Ingra"
+	},
+	{
+	 "english": "doors",
+	 "lowercase": "fitsia",
+	 "uppercase": "Deymkar"
+	},
+	{
+	 "english": "drama",
+	 "lowercase": "tobo",
+	 "uppercase": "Semyon"
+	},
+	{
+	 "english": "draw",
+	 "lowercase": "ogu",
+	 "uppercase": "Yosh"
+	},
+	{
+	 "english": "drill",
+	 "lowercase": "ladomo",
+	 "uppercase": "Resman"
+	},
+	{
+	 "english": "drone",
+	 "lowercase": "kesper",
+	 "uppercase": "Epet"
+	},
+	{
+	 "english": "each",
+	 "lowercase": "ray",
+	 "uppercase": "Menog"
+	},
+	{
+	 "english": "earn",
+	 "lowercase": "nevet",
+	 "uppercase": "Kezh"
+	},
+	{
+	 "english": "earning",
+	 "lowercase": "rimontoro",
+	 "uppercase": "Inacheny"
+	},
+	{
+	 "english": "echoes",
+	 "lowercase": "turyin",
+	 "uppercase": "Inach"
+	},
+	{
+	 "english": "education",
+	 "lowercase": "inkangbial",
+	 "uppercase": "Hiliskovsk"
+	},
+	{
+	 "english": "effective",
+	 "lowercase": "panovoku",
+	 "uppercase": "Imorskyvin"
+	},
+	{
+	 "english": "eheu",
+	 "lowercase": "mog",
+	 "uppercase": "Retsk"
+	},
+	{
+	 "english": "electron",
+	 "lowercase": "rameshevs",
+	 "uppercase": "Osilkul"
+	},
+	{
+	 "english": "electronic",
+	 "lowercase": "haetsivosh",
+	 "uppercase": "Fokinosloze"
+	},
+	{
+	 "english": "element",
+	 "lowercase": "zorial",
+	 "uppercase": "Elgoron"
+	},
+	{
+	 "english": "elements",
+	 "lowercase": "nazyvaye",
+	 "uppercase": "Vaypolocha"
+	},
+	{
+	 "english": "eleven",
+	 "lowercase": "voyer",
+	 "uppercase": "Orskogo"
+	},
+	{
+	 "english": "embrace",
+	 "lowercase": "deyskyvi",
+	 "uppercase": "Odemyach"
+	},
+	{
+	 "english": "emergency",
+	 "lowercase": "eapoluch",
+	 "uppercase": "Alinichel"
+	},
+	{
+	 "english": "encounters",
+	 "lowercase": "rudskoideco",
+	 "uppercase": "Ivnosokopy"
+	},
+	{
+	 "english": "end",
+	 "lowercase": "avas",
+	 "uppercase": "Aoz"
+	},
+	{
+	 "english": "endangered",
+	 "lowercase": "ryunguryu",
+	 "uppercase": "Rovodylurus"
+	},
+	{
+	 "english": "ending",
+	 "lowercase": "omlya",
+	 "uppercase": "Dudino"
+	},
+	{
+	 "english": "energy",
+	 "lowercase": "naibol",
+	 "uppercase": "Meshets"
+	},
+	{
+	 "english": "engaged",
+	 "lowercase": "moletsk",
+	 "uppercase": "Lukhny"
+	},
+	{
+	 "english": "enjoy",
+	 "lowercase": "ekana",
+	 "uppercase": "Aktot"
+	},
+	{
+	 "english": "enough",
+	 "lowercase": "mertaur",
+	 "uppercase": "Urovn"
+	},
+	{
+	 "english": "enter",
+	 "lowercase": "esoz",
+	 "uppercase": "Hodin"
+	},
+	{
+	 "english": "enthusiast",
+	 "lowercase": "tivnyevsk",
+	 "uppercase": "Aymazykaluy"
+	},
+	{
+	 "english": "entities",
+	 "lowercase": "zuberech",
+	 "uppercase": "Yanoyeru"
+	},
+	{
+	 "english": "entity",
+	 "lowercase": "kevich",
+	 "uppercase": "Vikinoo",
+	 "allcaps": "Katrogor "
+	},
+	{
+	 "english": "entrance",
+	 "lowercase": "uganrogo",
+	 "uppercase": "Ivilsky"
+	},
+	{
+	 "english": "escape",
+	 "lowercase": "izeli",
+	 "uppercase": "Roreche"
+	},
+	{
+	 "english": "escaped",
+	 "lowercase": "sozavo",
+	 "uppercase": "Yuzhasav"
+	},
+	{
+	 "english": "even",
+	 "lowercase": "onno",
+	 "uppercase": "Teyn"
+	},
+	{
+	 "english": "everything",
+	 "lowercase": "zereslibro",
+	 "uppercase": "Lermonche"
+	},
+	{
+	 "english": "everywhere",
+	 "lowercase": "efremiuraza",
+	 "uppercase": "Koyanskyvin"
+	},
+	{
+	 "english": "examination",
+	 "lowercase": "kahaylovke",
+	 "uppercase": "Tutayskommu"
+	},
+	{
+	 "english": "examine",
+	 "lowercase": "azanski",
+	 "uppercase": "Eltsovka"
+	},
+	{
+	 "english": "excellent",
+	 "lowercase": "aplyoginooz",
+	 "uppercase": "Losukyvinnu"
+	},
+	{
+	 "english": "excess",
+	 "lowercase": "epovozm",
+	 "uppercase": "Helyeli"
+	},
+	{
+	 "english": "excitement",
+	 "lowercase": "hutarabaltay",
+	 "uppercase": "Nilokhvin"
+	},
+	{
+	 "english": "existence",
+	 "lowercase": "somonoslav",
+	 "uppercase": "Histrogo"
+	},
+	{
+	 "english": "exocraft",
+	 "lowercase": "nuguryuka",
+	 "uppercase": "Yosayando"
+	},
+	{
+	 "english": "expected",
+	 "lowercase": "hegornoe",
+	 "uppercase": "Negepasho"
+	},
+	{
+	 "english": "expenditure",
+	 "lowercase": "mirnoznoykha",
+	 "uppercase": "Shovskyvium"
+	},
+	{
+	 "english": "experiment",
+	 "lowercase": "zohcherdesk",
+	 "uppercase": "Oriasamynu"
+	},
+	{
+	 "english": "experiments",
+	 "lowercase": "kasayevkargun",
+	 "uppercase": "Hinyevskyvi"
+	},
+	{
+	 "english": "extracting",
+	 "lowercase": "myachinskyv",
+	 "uppercase": "Opyevoyeniz"
+	},
+	{
+	 "english": "eyes",
+	 "lowercase": "dika",
+	 "uppercase": "Zale"
+	},
+	{
+	 "english": "fabled",
+	 "lowercase": "evdarg",
+	 "uppercase": "Konayan"
+	},
+	{
+	 "english": "face",
+	 "lowercase": "ikov",
+	 "uppercase": "Tuap"
+	},
+	{
+	 "english": "facility",
+	 "lowercase": "yesotska",
+	 "uppercase": "Ibayevoi"
+	},
+	{
+	 "english": "fade",
+	 "lowercase": "dey",
+	 "uppercase": "Ripin"
+	},
+	{
+	 "english": "failed",
+	 "lowercase": "eurazl",
+	 "uppercase": "Hinach"
+	},
+	{
+	 "english": "failure",
+	 "lowercase": "irnyevs",
+	 "uppercase": "Yersky"
+	},
+	{
+	 "english": "fan",
+	 "lowercase": "deyk",
+	 "uppercase": "Iks"
+	},
+	{
+	 "english": "fascinating",
+	 "lowercase": "leznakoideob",
+	 "uppercase": "Tuchimaiutsky"
+	},
+	{
+	 "english": "faster",
+	 "lowercase": "yeskoid",
+	 "uppercase": "Niykhac"
+	},
+	{
+	 "english": "fault",
+	 "lowercase": "afimo",
+	 "uppercase": "Pozzhe"
+	},
+	{
+	 "english": "favourites",
+	 "lowercase": "zarenyovs",
+	 "uppercase": "Tinskyviu"
+	},
+	{
+	 "english": "federation",
+	 "lowercase": "hilovkarapu",
+	 "uppercase": "Eapoluninsk"
+	},
+	{
+	 "english": "feed",
+	 "lowercase": "oluc",
+	 "uppercase": "Usmot"
+	},
+	{
+	 "english": "feel",
+	 "lowercase": "iys",
+	 "uppercase": "Dika"
+	},
+	{
+	 "english": "fifty ",
+	 "lowercase": "tayomod "
+	},
+	{
+	 "english": "file",
+	 "lowercase": "sosyla",
+	 "uppercase": "Desno"
+	},
+	{
+	 "english": "filter",
+	 "lowercase": "tisovsky",
+	 "uppercase": "Vudinog"
+	},
+	{
+	 "english": "find",
+	 "lowercase": "otele",
+	 "uppercase": "Douko"
+	},
+	{
+	 "english": "findings",
+	 "lowercase": "duiutskaz",
+	 "uppercase": "Vaskyuvium"
+	},
+	{
+	 "english": "fine",
+	 "lowercase": "ayg",
+	 "uppercase": "Oyan"
+	},
+	{
+	 "english": "finish",
+	 "lowercase": "opkin",
+	 "uppercase": "Turlovk"
+	},
+	{
+	 "english": "fire",
+	 "lowercase": "utsiv",
+	 "uppercase": "Hovis"
+	},
+	{
+	 "english": "five",
+	 "lowercase": "nisiy",
+	 "uppercase": "Hen"
+	},
+	{
+	 "english": "flesh",
+	 "lowercase": "ernu",
+	 "uppercase": "Dost"
+	},
+	{
+	 "english": "follow",
+	 "lowercase": "namenta",
+	 "uppercase": "Ginski"
+	},
+	{
+	 "english": "for",
+	 "lowercase": "sut",
+	 "uppercase": "Lono"
+	},
+	{
+	 "english": "forbidden",
+	 "lowercase": "yonkiesbro",
+	 "uppercase": "Padnayan"
+	},
+	{
+	 "english": "forgiven",
+	 "lowercase": "tadtrund",
+	 "uppercase": "Asliberal"
+	},
+	{
+	 "english": "formula",
+	 "lowercase": "oglegoda",
+	 "uppercase": "Yukopinog"
+	},
+	{
+	 "english": "found",
+	 "lowercase": "davli",
+	 "uppercase": "Krem"
+	},
+	{
+	 "english": "four",
+	 "lowercase": "loyur",
+	 "uppercase": "Tiny"
+	},
+	{
+	 "english": "friend",
+	 "lowercase": "yattira",
+	 "uppercase": "Yatish"
+	},
+	{
+	 "english": "from",
+	 "lowercase": "nil",
+	 "uppercase": "Eseny"
+	},
+	{
+	 "english": "fun",
+	 "lowercase": "tepr",
+	 "uppercase": "Liyuy"
+	},
+	{
+	 "english": "future",
+	 "lowercase": "ougleb",
+	 "uppercase": "Zeyvai"
+	},
+	{
+	 "english": "galaxy",
+	 "lowercase": "ondro",
+	 "uppercase": "Ukrasu"
+	},
+	{
+	 "english": "gate",
+	 "lowercase": "ugin",
+	 "uppercase": "Ichi"
+	},
+	{
+	 "english": "gek",
+	 "lowercase": "akov",
+	 "uppercase": "Huru"
+	},
+	{
+	 "english": "generation",
+	 "lowercase": "amillerob",
+	 "uppercase": "Nodrovskyvi"
+	},
+	{
+	 "english": "geological",
+	 "lowercase": "rimiinakorja",
+	 "uppercase": "Prudniymita"
+	},
+	{
+	 "english": "gift",
+	 "lowercase": "lac",
+	 "uppercase": "Yabiry"
+	},
+	{
+	 "english": "give",
+	 "lowercase": "vue",
+	 "uppercase": "Ners"
+	},
+	{
+	 "english": "go",
+	 "lowercase": "gar",
+	 "uppercase": "Yizy"
+	},
+	{
+	 "english": "good",
+	 "lowercase": "muchad",
+	 "uppercase": "Ograt"
+	},
+	{
+	 "english": "goodbye",
+	 "lowercase": "lomayishn",
+	 "uppercase": "Myzyva"
+	},
+	{
+	 "english": "goods",
+	 "lowercase": "sosnoz",
+	 "uppercase": "Yatk"
+	},
+	{
+	 "english": "great",
+	 "lowercase": "nodalny",
+	 "uppercase": "Pikako"
+	},
+	{
+	 "english": "greed",
+	 "lowercase": "vezdar",
+	 "uppercase": "Yurbat"
+	},
+	{
+	 "english": "had",
+	 "lowercase": "luk",
+	 "uppercase": "Vic"
+	},
+	{
+	 "english": "happening",
+	 "lowercase": "lagodoij",
+	 "uppercase": "Tigorskyvi"
+	},
+	{
+	 "english": "hard",
+	 "lowercase": "butur",
+	 "uppercase": "Nicheg"
+	},
+	{
+	 "english": "harvest",
+	 "lowercase": "munart",
+	 "uppercase": "Buinskit"
+	},
+	{
+	 "english": "has",
+	 "lowercase": "nur",
+	 "uppercase": "Laga"
+	},
+	{
+	 "english": "have",
+	 "lowercase": "lamy",
+	 "uppercase": "Yeys"
+	},
+	{
+	 "english": "hazard",
+	 "lowercase": "esial",
+	 "uppercase": "Bolesno"
+	},
+	{
+	 "english": "healing",
+	 "lowercase": "uyevsky",
+	 "uppercase": "Zulunin"
+	},
+	{
+	 "english": "hear",
+	 "lowercase": "mogon",
+	 "uppercase": "Hus"
+	},
+	{
+	 "english": "heartbeat",
+	 "lowercase": "yabrsukyvi",
+	 "uppercase": "Emovista"
+	},
+	{
+	 "english": "hello",
+	 "lowercase": "evoy",
+	 "uppercase": "Ariins"
+	},
+	{
+	 "english": "help",
+	 "lowercase": "yichie",
+	 "uppercase": "Skr"
+	},
+	{
+	 "english": "here",
+	 "lowercase": "edin",
+	 "uppercase": "Emnik"
+	},
+	{
+	 "english": "high",
+	 "lowercase": "len",
+	 "uppercase": "Biazy",
+	 "allcaps": "Rutyu "
+	},
+	{
+	 "english": "highest",
+	 "lowercase": "brasavil",
+	 "uppercase": "Dobryac"
+	},
+	{
+	 "english": "highly",
+	 "lowercase": "styugo",
+	 "uppercase": "Eninsk",
+	 "allcaps": "Amillov "
+	},
+	{
+	 "english": "hmm",
+	 "lowercase": "nik",
+	 "uppercase": "Naym"
+	},
+	{
+	 "english": "hole",
+	 "lowercase": "bogut",
+	 "uppercase": "Lilero"
+	},
+	{
+	 "english": "holoterminus",
+	 "lowercase": "sycahnovoyet",
+	 "uppercase": "Rochyolkovom"
+	},
+	{
+	 "english": "holy",
+	 "lowercase": "riki",
+	 "uppercase": "Tul"
+	},
+	{
+	 "english": "hopes",
+	 "lowercase": "vomestu",
+	 "uppercase": "Maiu"
+	},
+	{
+	 "english": "how",
+	 "lowercase": "ezn",
+	 "uppercase": "Gop"
+	},
+	{
+	 "english": "hundred ",
+	 "lowercase": "rysahnymi "
+	},
+	{
+	 "english": "i",
+	 "lowercase": "ges",
+	 "uppercase": "Vod"
+	},
+	{
+	 "english": "ignore",
+	 "lowercase": "dushc",
+	 "uppercase": "Roloysva"
+	},
+	{
+	 "english": "imagined",
+	 "lowercase": "lezname",
+	 "uppercase": "Kanashets"
+	},
+	{
+	 "english": "immediate",
+	 "lowercase": "edinkarsal",
+	 "uppercase": "Aplyovos"
+	},
+	{
+	 "english": "immediately",
+	 "lowercase": "mezenskyvin",
+	 "uppercase": "Uapsheboksit",
+	 "allcaps": "Zadakyuncam "
+	},
+	{
+	 "english": "imminently",
+	 "lowercase": "zaviatnikha",
+	 "uppercase": "Ervomoste"
+	},
+	{
+	 "english": "impossible",
+	 "lowercase": "ushkalinsky",
+	 "uppercase": "Helissentam"
+	},
+	{
+	 "english": "improbable",
+	 "lowercase": "yeyskyvium",
+	 "uppercase": "Imashacher"
+	},
+	{
+	 "english": "impure",
+	 "lowercase": "okmin",
+	 "uppercase": "Adzhevs"
+	},
+	{
+	 "english": "in",
+	 "lowercase": "tuni",
+	 "uppercase": "Mal"
+	},
+	{
+	 "english": "information",
+	 "lowercase": "telnoslanud",
+	 "uppercase": "Arzamarime"
+	},
+	{
+	 "english": "initialize",
+	 "lowercase": "revkaryans",
+	 "uppercase": "Irenskompl"
+	},
+	{
+	 "english": "insert",
+	 "lowercase": "puchay",
+	 "uppercase": "Noriali"
+	},
+	{
+	 "english": "insignificant",
+	 "lowercase": "iiakhnevichu",
+	 "uppercase": "Idetskyvinuus"
+	},
+	{
+	 "english": "instantiation",
+	 "lowercase": "sudzhachitama",
+	 "uppercase": "Hedurechevskyv"
+	},
+	{
+	 "english": "intelligence",
+	 "lowercase": "inkangbaserta",
+	 "uppercase": "Midovurasuk"
+	},
+	{
+	 "english": "interesting",
+	 "lowercase": "vuktyabrasko",
+	 "uppercase": "Lozhenskiy"
+	},
+	{
+	 "english": "interface",
+	 "lowercase": "pogaetsiis",
+	 "uppercase": "Apulaanhu"
+	},
+	{
+	 "english": "interrupted",
+	 "lowercase": "iiskiyevsky",
+	 "uppercase": "Yakhnyevskyv"
+	},
+	{
+	 "english": "interruption",
+	 "lowercase": "kiyshomanotes",
+	 "uppercase": "Husovetskiyev"
+	},
+	{
+	 "english": "invisible",
+	 "lowercase": "ebskaluett",
+	 "uppercase": "Enburgunca",
+	 "allcaps": "Madygeys "
+	},
+	{
+	 "english": "irrelevance",
+	 "lowercase": "gotyabinokac",
+	 "uppercase": "Popavliaiuts"
+	},
+	{
+	 "english": "is",
+	 "lowercase": "ine",
+	 "uppercase": "Dob"
+	},
+	{
+	 "english": "isolated",
+	 "lowercase": "pitkyak",
+	 "uppercase": "Lamyzihets"
+	},
+	{
+	 "english": "isotope",
+	 "lowercase": "elburg",
+	 "uppercase": "Kirenik"
+	},
+	{
+	 "english": "it",
+	 "lowercase": "vir",
+	 "uppercase": "Zor"
+	},
+	{
+	 "english": "its",
+	 "lowercase": "yon",
+	 "uppercase": "Lug"
+	},
+	{
+	 "english": "job",
+	 "lowercase": "form",
+	 "uppercase": "Kotic"
+	},
+	{
+	 "english": "join",
+	 "lowercase": "per",
+	 "uppercase": "Baychi"
+	},
+	{
+	 "english": "journey",
+	 "lowercase": "hidutogq",
+	 "uppercase": "Kulebsk",
+	 "allcaps": "Nochin "
+	},
+	{
+	 "english": "joyful",
+	 "lowercase": "hachyeg",
+	 "uppercase": "Rinush"
+	},
+	{
+	 "english": "keep",
+	 "lowercase": "etl",
+	 "uppercase": "Zov"
+	},
+	{
+	 "english": "know",
+	 "lowercase": "ady",
+	 "uppercase": "Opr"
+	},
+	{
+	 "english": "knowledge",
+	 "lowercase": "vikhopyevo",
+	 "uppercase": "Noymittac"
+	},
+	{
+	 "english": "knows",
+	 "lowercase": "ryanov",
+	 "uppercase": "Ruka"
+	},
+	{
+	 "english": "korvax",
+	 "lowercase": "itelis",
+	 "uppercase": "Bokhodim"
+	},
+	{
+	 "english": "language",
+	 "lowercase": "tuapsemu",
+	 "uppercase": "Iudachy"
+	},
+	{
+	 "english": "largest",
+	 "lowercase": "modeys",
+	 "uppercase": "Anninok"
+	},
+	{
+	 "english": "learn",
+	 "lowercase": "achi",
+	 "uppercase": "Zepetu"
+	},
+	{
+	 "english": "learned",
+	 "lowercase": "nerogoro",
+	 "uppercase": "Uguryevs"
+	},
+	{
+	 "english": "leave",
+	 "lowercase": "monogor",
+	 "uppercase": "Ortivn"
+	},
+	{
+	 "english": "let",
+	 "lowercase": "ogn",
+	 "uppercase": "Puga"
+	},
+	{
+	 "english": "level",
+	 "lowercase": "otdy",
+	 "uppercase": "Zimeino"
+	},
+	{
+	 "english": "life",
+	 "lowercase": "liny",
+	 "uppercase": "Keme"
+	},
+	{
+	 "english": "lifeform",
+	 "lowercase": "fitsawar",
+	 "uppercase": "Snezhash"
+	},
+	{
+	 "english": "lifeforms",
+	 "lowercase": "rozanykhar",
+	 "uppercase": "Furmavia"
+	},
+	{
+	 "english": "light",
+	 "lowercase": "niemei",
+	 "uppercase": "Oitel"
+	},
+	{
+	 "english": "like",
+	 "lowercase": "hilku",
+	 "uppercase": "Nudal"
+	},
+	{
+	 "english": "log",
+	 "lowercase": "chu",
+	 "uppercase": "Kem"
+	},
+	{
+	 "english": "logged",
+	 "lowercase": "palla",
+	 "uppercase": "Yanovo"
+	},
+	{
+	 "english": "logs",
+	 "lowercase": "pes",
+	 "uppercase": "Nasi"
+	},
+	{
+	 "english": "long",
+	 "lowercase": "syk",
+	 "uppercase": "Kuyby"
+	},
+	{
+	 "english": "longrange",
+	 "lowercase": "isilnyevsk",
+	 "uppercase": "Yalugani"
+	},
+	{
+	 "english": "look",
+	 "lowercase": "yuch",
+	 "uppercase": "Vet"
+	},
+	{
+	 "english": "looks",
+	 "lowercase": "tiam",
+	 "uppercase": "Siysk"
+	},
+	{
+	 "english": "loop",
+	 "lowercase": "yuc",
+	 "uppercase": "Vano"
+	},
+	{
+	 "english": "loss",
+	 "lowercase": "akh",
+	 "uppercase": "Fomi"
+	},
+	{
+	 "english": "low",
+	 "lowercase": "edn",
+	 "uppercase": "Zuhch"
+	},
+	{
+	 "english": "material",
+	 "lowercase": "udutong",
+	 "uppercase": "Eyskyvi"
+	},
+	{
+	 "english": "maximum",
+	 "lowercase": "iutskyv",
+	 "uppercase": "Lonyarn"
+	},
+	{
+	 "english": "may",
+	 "lowercase": "but",
+	 "uppercase": "Yitn"
+	},
+	{
+	 "english": "me",
+	 "lowercase": "vok",
+	 "uppercase": "Bez"
+	},
+	{
+	 "english": "medial",
+	 "lowercase": "lerov",
+	 "uppercase": "Katyvik"
+	},
+	{
+	 "english": "message",
+	 "lowercase": "rabanov",
+	 "uppercase": "Izilyu"
+	},
+	{
+	 "english": "metal",
+	 "lowercase": "satkar",
+	 "uppercase": "Ginsk"
+	},
+	{
+	 "english": "mind",
+	 "lowercase": "flagi",
+	 "uppercase": "Elgo"
+	},
+	{
+	 "english": "mined",
+	 "lowercase": "tinsar",
+	 "uppercase": "Alyn"
+	},
+	{
+	 "english": "minor",
+	 "lowercase": "akinog",
+	 "uppercase": "Kine"
+	},
+	{
+	 "english": "mission",
+	 "lowercase": "urzhiva",
+	 "uppercase": "Edelin"
+	},
+	{
+	 "english": "missions",
+	 "lowercase": "ebnyevka",
+	 "uppercase": "Uberben"
+	},
+	{
+	 "english": "moment",
+	 "lowercase": "torzhig",
+	 "uppercase": "Piyatsk"
+	},
+	{
+	 "english": "monolith",
+	 "lowercase": "reutokaya",
+	 "uppercase": "Utninsk"
+	},
+	{
+	 "english": "more",
+	 "lowercase": "arii",
+	 "uppercase": "Mich"
+	},
+	{
+	 "english": "morning",
+	 "lowercase": "ektrov",
+	 "uppercase": "Ovostavl"
+	},
+	{
+	 "english": "mortal",
+	 "lowercase": "luygins",
+	 "uppercase": "Nanyigyi"
+	},
+	{
+	 "english": "most",
+	 "lowercase": "tana",
+	 "uppercase": "Yupol"
+	},
+	{
+	 "english": "motor",
+	 "lowercase": "aetsk",
+	 "uppercase": "Iiskiy"
+	},
+	{
+	 "english": "move",
+	 "lowercase": "lin",
+	 "uppercase": "Ogn"
+	},
+	{
+	 "english": "much",
+	 "lowercase": "anko",
+	 "uppercase": "Mash"
+	},
+	{
+	 "english": "multitool",
+	 "lowercase": "uglinooz",
+	 "uppercase": "Zonikovke"
+	},
+	{
+	 "english": "must",
+	 "lowercase": "lore",
+	 "uppercase": "Gatsi"
+	},
+	{
+	 "english": "my",
+	 "lowercase": "mech",
+	 "uppercase": "Rado"
+	},
+	{
+	 "english": "nada",
+	 "lowercase": "pev",
+	 "uppercase": "Haylo"
+	},
+	{
+	 "english": "nanites",
+	 "lowercase": "ugulmato",
+	 "uppercase": "Layanskiti"
+	},
+	{
+	 "english": "nature",
+	 "lowercase": "ukovsev",
+	 "uppercase": "Udyonn"
+	},
+	{
+	 "english": "negotiation",
+	 "lowercase": "rusakoidammag",
+	 "uppercase": "Gityabinkang"
+	},
+	{
+	 "english": "network",
+	 "lowercase": "tulakoid",
+	 "uppercase": "Sotsky"
+	},
+	{
+	 "english": "neural",
+	 "lowercase": "ereseng",
+	 "uppercase": "Sperv"
+	},
+	{
+	 "english": "new",
+	 "lowercase": "oeto",
+	 "uppercase": "Arus"
+	},
+	{
+	 "english": "next",
+	 "lowercase": "gods",
+	 "uppercase": "Emer"
+	},
+	{
+	 "english": "no",
+	 "lowercase": "bod",
+	 "uppercase": "Rily"
+	},
+	{
+	 "english": "non-intelligent",
+	 "lowercase": "sevelskyvinume",
+	 "uppercase": "Ipatigorbashcuhud"
+	},
+	{
+	 "english": "nonexistence",
+	 "lowercase": "yorskovokhay",
+	 "uppercase": "Zimanovomari"
+	},
+	{
+	 "english": "not",
+	 "lowercase": "zay",
+	 "uppercase": "Gac"
+	},
+	{
+	 "english": "notes",
+	 "lowercase": "mari",
+	 "uppercase": "Amura"
+	},
+	{
+	 "english": "nothing",
+	 "lowercase": "nerogobe",
+	 "uppercase": "Zedokis"
+	},
+	{
+	 "english": "now",
+	 "lowercase": "luy",
+	 "uppercase": "Maiu"
+	},
+	{
+	 "english": "of",
+	 "lowercase": "nii",
+	 "uppercase": "Slo"
+	},
+	{
+	 "english": "offer",
+	 "lowercase": "bess",
+	 "uppercase": "Adimir"
+	},
+	{
+	 "english": "on",
+	 "lowercase": "nok",
+	 "uppercase": "Erd"
+	},
+	{
+	 "english": "once",
+	 "lowercase": "mak",
+	 "uppercase": "Usla"
+	},
+	{
+	 "english": "one",
+	 "lowercase": "lem",
+	 "uppercase": "Avlo"
+	},
+	{
+	 "english": "only",
+	 "lowercase": "yalsko",
+	 "uppercase": "Ipets"
+	},
+	{
+	 "english": "open",
+	 "lowercase": "paye",
+	 "uppercase": "Ond"
+	},
+	{
+	 "english": "operational",
+	 "lowercase": "uynakoskjar",
+	 "uppercase": "Usumanzhelya"
+	},
+	{
+	 "english": "operator",
+	 "lowercase": "edynald",
+	 "uppercase": "Oiteleno"
+	},
+	{
+	 "english": "or",
+	 "lowercase": "liz",
+	 "uppercase": "Som"
+	},
+	{
+	 "english": "orb",
+	 "lowercase": "ray",
+	 "uppercase": "Kur"
+	},
+	{
+	 "english": "orbital",
+	 "lowercase": "kazaniem",
+	 "uppercase": "Vilskolo",
+	 "allcaps": "Ayskyv "
+	},
+	{
+	 "english": "order",
+	 "lowercase": "emyo",
+	 "uppercase": "Bezhn"
+	},
+	{
+	 "english": "organic",
+	 "lowercase": "akanaul",
+	 "uppercase": "Meinoozy",
+	 "allcaps": "Tedoykhalya "
+	},
+	{
+	 "english": "origin",
+	 "lowercase": "bezhna",
+	 "uppercase": "Megisem"
+	},
+	{
+	 "english": "other",
+	 "lowercase": "evdar",
+	 "uppercase": "Ranoet"
+	},
+	{
+	 "english": "our",
+	 "lowercase": "tinan",
+	 "uppercase": "Rio"
+	},
+	{
+	 "english": "over",
+	 "lowercase": "oevus",
+	 "uppercase": "Voale"
+	},
+	{
+	 "english": "overcharges",
+	 "lowercase": "nouraktichev",
+	 "uppercase": "Samarimovik"
+	},
+	{
+	 "english": "overheat",
+	 "lowercase": "gobekin",
+	 "uppercase": "Pogaetsk"
+	},
+	{
+	 "english": "overload",
+	 "lowercase": "amyzylsor",
+	 "uppercase": "Olkovyelki"
+	},
+	{
+	 "english": "overpowered",
+	 "lowercase": "ibiraetsim",
+	 "uppercase": "Ozlovayevsky"
+	},
+	{
+	 "english": "overseer",
+	 "lowercase": "hilovskyv",
+	 "uppercase": "Enshacho"
+	},
+	{
+	 "english": "oxide",
+	 "lowercase": "uyev",
+	 "uppercase": "Avet"
+	},
+	{
+	 "english": "oxides",
+	 "lowercase": "tagoda",
+	 "uppercase": "Prudnye"
+	},
+	{
+	 "english": "package",
+	 "lowercase": "viremovse",
+	 "uppercase": "Zimeinog"
+	},
+	{
+	 "english": "pain",
+	 "lowercase": "etamb",
+	 "uppercase": "Iavl"
+	},
+	{
+	 "english": "passes",
+	 "lowercase": "vomins",
+	 "uppercase": "Odpork"
+	},
+	{
+	 "english": "past",
+	 "lowercase": "ayv",
+	 "uppercase": "Vaye"
+	},
+	{
+	 "english": "pattern",
+	 "lowercase": "ogutay",
+	 "uppercase": "Yushnyev"
+	},
+	{
+	 "english": "pay",
+	 "lowercase": "irz",
+	 "uppercase": "Illo"
+	},
+	{
+	 "english": "peace",
+	 "lowercase": "ulma",
+	 "uppercase": "Leznav"
+	},
+	{
+	 "english": "percent",
+	 "lowercase": "zensky",
+	 "uppercase": "Lokhoy"
+	},
+	{
+	 "english": "performing",
+	 "lowercase": "yuzhasavia",
+	 "uppercase": "Churilovke"
+	},
+	{
+	 "english": "perhaps",
+	 "lowercase": "vegorsky",
+	 "uppercase": "Zolovoyen"
+	},
+	{
+	 "english": "permanent",
+	 "lowercase": "pestneves",
+	 "uppercase": "Ozzhetsi"
+	},
+	{
+	 "english": "permissions",
+	 "lowercase": "elnostomuksh",
+	 "uppercase": "Agiruneate"
+	},
+	{
+	 "english": "persist",
+	 "lowercase": "atovor",
+	 "uppercase": "Virsan"
+	},
+	{
+	 "english": "planetary",
+	 "lowercase": "bedyniskap",
+	 "uppercase": "Miyzherep"
+	},
+	{
+	 "english": "plants",
+	 "lowercase": "poshate",
+	 "uppercase": "Mestno"
+	},
+	{
+	 "english": "please",
+	 "lowercase": "stvovat",
+	 "uppercase": "Vochiuh"
+	},
+	{
+	 "english": "pleased",
+	 "lowercase": "tionoslu",
+	 "uppercase": "Plimors"
+	},
+	{
+	 "english": "pleasure",
+	 "lowercase": "rostarsky",
+	 "uppercase": "Zanskom"
+	},
+	{
+	 "english": "poison",
+	 "lowercase": "dishacha",
+	 "uppercase": "Nazyv"
+	},
+	{
+	 "english": "polo",
+	 "lowercase": "amy",
+	 "uppercase": "Lebu"
+	},
+	{
+	 "english": "portable",
+	 "lowercase": "odvigatc",
+	 "uppercase": "Uketyvkaz"
+	},
+	{
+	 "english": "possessions",
+	 "lowercase": "abrsekyvina",
+	 "uppercase": "Yubnoyerdis"
+	},
+	{
+	 "english": "power",
+	 "lowercase": "borod",
+	 "uppercase": "Hepet"
+	},
+	{
+	 "english": "praise",
+	 "lowercase": "arenshec",
+	 "uppercase": "Sulino",
+	 "allcaps": "Payevsk "
+	},
+	{
+	 "english": "prepared",
+	 "lowercase": "ukoyenaea",
+	 "uppercase": "Ripinstav"
+	},
+	{
+	 "english": "present",
+	 "lowercase": "eudint",
+	 "uppercase": "Ubtsovsk"
+	},
+	{
+	 "english": "primary",
+	 "lowercase": "gester",
+	 "uppercase": "Bavlek"
+	},
+	{
+	 "english": "private",
+	 "lowercase": "ezhnyev",
+	 "uppercase": "Shnymi"
+	},
+	{
+	 "english": "probability",
+	 "lowercase": "mavirsakhta",
+	 "uppercase": "Urzhegodovu"
+	},
+	{
+	 "english": "probable",
+	 "lowercase": "plimskyv",
+	 "uppercase": "Grivoshes"
+	},
+	{
+	 "english": "procedure",
+	 "lowercase": "zelovodst",
+	 "uppercase": "Engileyn"
+	},
+	{
+	 "english": "process",
+	 "lowercase": "uzlovshi",
+	 "uppercase": "Giseysky"
+	},
+	{
+	 "english": "product",
+	 "lowercase": "beycahnogo",
+	 "uppercase": "Stvere"
+	},
+	{
+	 "english": "production",
+	 "lowercase": "amyzyvayev",
+	 "uppercase": "Pallasoves"
+	},
+	{
+	 "english": "progress",
+	 "lowercase": "oglegkorg",
+	 "uppercase": "Seskaiang"
+	},
+	{
+	 "english": "projection",
+	 "lowercase": "amskyvium",
+	 "uppercase": "Brazmanga"
+	},
+	{
+	 "english": "promised",
+	 "lowercase": "ubchekans",
+	 "uppercase": "Nizheguta"
+	},
+	{
+	 "english": "protection",
+	 "lowercase": "alumyzyakh",
+	 "uppercase": "Yoborzyakha"
+	},
+	{
+	 "english": "provide",
+	 "lowercase": "ershovos",
+	 "uppercase": "Mezens"
+	},
+	{
+	 "english": "pure",
+	 "lowercase": "kadn",
+	 "uppercase": "Esh"
+	},
+	{
+	 "english": "purify",
+	 "lowercase": "ransi",
+	 "uppercase": "Voikhay"
+	},
+	{
+	 "english": "puzzle",
+	 "lowercase": "timya",
+	 "uppercase": "Relyel"
+	},
+	{
+	 "english": "quarantine",
+	 "lowercase": "yucharabaz",
+	 "uppercase": "Noozyibkov"
+	},
+	{
+	 "english": "question",
+	 "lowercase": "kandalast",
+	 "uppercase": "Istrezhy"
+	},
+	{
+	 "english": "rampant",
+	 "lowercase": "barnya",
+	 "uppercase": "Broneten"
+	},
+	{
+	 "english": "rare",
+	 "lowercase": "vaiut",
+	 "uppercase": "Hik"
+	},
+	{
+	 "english": "real",
+	 "lowercase": "loymsik",
+	 "uppercase": "Urz"
+	},
+	{
+	 "english": "reality",
+	 "lowercase": "godskovo",
+	 "uppercase": "Tuyrnyevo"
+	},
+	{
+	 "english": "rebirth",
+	 "lowercase": "usinni",
+	 "uppercase": "Dachin"
+	},
+	{
+	 "english": "reboot",
+	 "lowercase": "gutayga",
+	 "uppercase": "Zehegu"
+	},
+	{
+	 "english": "recall",
+	 "lowercase": "roleemo",
+	 "uppercase": "Kireng"
+	},
+	{
+	 "english": "recharge",
+	 "lowercase": "desnoura",
+	 "uppercase": "Grozove"
+	},
+	{
+	 "english": "reciprocal",
+	 "lowercase": "lashimkin",
+	 "uppercase": "Yeniiakha"
+	},
+	{
+	 "english": "reconstruction",
+	 "lowercase": "arechnostarii",
+	 "uppercase": "Futekumskyviump"
+	},
+	{
+	 "english": "recorded",
+	 "lowercase": "olzoves",
+	 "uppercase": "Tetyusin"
+	},
+	{
+	 "english": "red",
+	 "lowercase": "sno",
+	 "uppercase": "Groz",
+	 "allcaps": "Vuk "
+	},
+	{
+	 "english": "reduced",
+	 "lowercase": "rilovking",
+	 "uppercase": "Plastr"
+	},
+	{
+	 "english": "reestablish",
+	 "lowercase": "ryinstevovo",
+	 "uppercase": "Enyevkarosl"
+	},
+	{
+	 "english": "regard ",
+	 "lowercase": "vidoro "
+	},
+	{
+	 "english": "reject",
+	 "lowercase": "ikungr",
+	 "uppercase": "Topot"
+	},
+	{
+	 "english": "relearn",
+	 "lowercase": "tepushc",
+	 "uppercase": "Ukovsky"
+	},
+	{
+	 "english": "relevant",
+	 "lowercase": "yozhensk",
+	 "uppercase": "Bavlyaqua"
+	},
+	{
+	 "english": "remain",
+	 "lowercase": "erpukh",
+	 "uppercase": "Tesevozy"
+	},
+	{
+	 "english": "remains",
+	 "lowercase": "kitotor",
+	 "uppercase": "Payevsk"
+	},
+	{
+	 "english": "remove",
+	 "lowercase": "epano",
+	 "uppercase": "Kanskiy"
+	},
+	{
+	 "english": "repair",
+	 "lowercase": "uvorki",
+	 "uppercase": "Vigali"
+	},
+	{
+	 "english": "report",
+	 "lowercase": "elgov",
+	 "uppercase": "Ratilleu"
+	},
+	{
+	 "english": "request",
+	 "lowercase": "ennits",
+	 "uppercase": "Yebnoyen"
+	},
+	{
+	 "english": "requests",
+	 "lowercase": "hidenpokh",
+	 "uppercase": "Ichestre"
+	},
+	{
+	 "english": "required",
+	 "lowercase": "nokamskyv",
+	 "uppercase": "Osloborzy"
+	},
+	{
+	 "english": "research",
+	 "lowercase": "napatoust",
+	 "uppercase": "Mobarkad"
+	},
+	{
+	 "english": "researcher",
+	 "lowercase": "gubkinogors",
+	 "uppercase": "Ofitsuancu"
+	},
+	{
+	 "english": "reset",
+	 "lowercase": "nudet",
+	 "uppercase": "Terga"
+	},
+	{
+	 "english": "resist",
+	 "lowercase": "roshary",
+	 "uppercase": "Fiksyo"
+	},
+	{
+	 "english": "resonance",
+	 "lowercase": "herkaslibe",
+	 "uppercase": "Insarypov"
+	},
+	{
+	 "english": "resources",
+	 "lowercase": "lonereche",
+	 "uppercase": "Lamskyviu"
+	},
+	{
+	 "english": "respect",
+	 "lowercase": "zehasha",
+	 "uppercase": "Nineykhat"
+	},
+	{
+	 "english": "restoration",
+	 "lowercase": "zuhmandarent",
+	 "uppercase": "Uppugnatus"
+	},
+	{
+	 "english": "restore",
+	 "lowercase": "zadracepa",
+	 "uppercase": "Daskovopa"
+	},
+	{
+	 "english": "retreat",
+	 "lowercase": "uriyeve",
+	 "uppercase": "Sodelik"
+	},
+	{
+	 "english": "returning",
+	 "lowercase": "yabysihtagin",
+	 "uppercase": "Odorodubo"
+	},
+	{
+	 "english": "reward",
+	 "lowercase": "pessk",
+	 "uppercase": "Evkari"
+	},
+	{
+	 "english": "rewarding",
+	 "lowercase": "renyevoi",
+	 "uppercase": "Napadnovik"
+	},
+	{
+	 "english": "rewards",
+	 "lowercase": "ruskyuviu",
+	 "uppercase": "Netsivil"
+	},
+	{
+	 "english": "sales",
+	 "lowercase": "virsk",
+	 "uppercase": "Dulia"
+	},
+	{
+	 "english": "sample",
+	 "lowercase": "gansiys",
+	 "uppercase": "Gezhach"
+	},
+	{
+	 "english": "save",
+	 "lowercase": "shichi",
+	 "uppercase": "Eva"
+	},
+	{
+	 "english": "saw",
+	 "lowercase": "olot",
+	 "uppercase": "Osn"
+	},
+	{
+	 "english": "say",
+	 "lowercase": "zuyor",
+	 "uppercase": "Otla"
+	},
+	{
+	 "english": "scan",
+	 "lowercase": "omin",
+	 "uppercase": "Ibaye",
+	 "allcaps": "Odubo "
+	},
+	{
+	 "english": "scared",
+	 "lowercase": "ebakim",
+	 "uppercase": "Oobsk"
+	},
+	{
+	 "english": "score",
+	 "lowercase": "uver",
+	 "uppercase": "Yevo"
+	},
+	{
+	 "english": "secondary",
+	 "lowercase": "kelepikiyev",
+	 "uppercase": "Yemakhdenpo"
+	},
+	{
+	 "english": "secret",
+	 "lowercase": "liyarvid",
+	 "uppercase": "Yungri"
+	},
+	{
+	 "english": "see",
+	 "lowercase": "itk",
+	 "uppercase": "Selt"
+	},
+	{
+	 "english": "seeing",
+	 "lowercase": "emansk",
+	 "uppercase": "Abink"
+	},
+	{
+	 "english": "seek",
+	 "lowercase": "yirnye",
+	 "uppercase": "Ach"
+	},
+	{
+	 "english": "sees",
+	 "lowercase": "gar",
+	 "uppercase": "Rishc"
+	},
+	{
+	 "english": "sends",
+	 "lowercase": "lileys",
+	 "uppercase": "Demenn"
+	},
+	{
+	 "english": "sentinel",
+	 "lowercase": "ugulmato",
+	 "uppercase": "Peyskyvi",
+	 "allcaps": "Akovskyv "
+	},
+	{
+	 "english": "series",
+	 "lowercase": "sosno",
+	 "uppercase": "Kezhely"
+	},
+	{
+	 "english": "service",
+	 "lowercase": "gaetsim",
+	 "uppercase": "Vosteiro"
+	},
+	{
+	 "english": "settle",
+	 "lowercase": "novsky",
+	 "uppercase": "Sushc"
+	},
+	{
+	 "english": "seven ",
+	 "lowercase": "yarny "
+	},
+	{
+	 "english": "shall",
+	 "lowercase": "zeleu",
+	 "uppercase": "Yonos"
+	},
+	{
+	 "english": "share",
+	 "lowercase": "bilets",
+	 "uppercase": "Kutays"
+	},
+	{
+	 "english": "shed",
+	 "lowercase": "ishcoh",
+	 "uppercase": "Buko"
+	},
+	{
+	 "english": "shell",
+	 "lowercase": "huvisto",
+	 "uppercase": "Shim"
+	},
+	{
+	 "english": "shine",
+	 "lowercase": "nenyk",
+	 "uppercase": "Ritovn"
+	},
+	{
+	 "english": "ship",
+	 "lowercase": "pomo",
+	 "uppercase": "Erchi"
+	},
+	{
+	 "english": "show",
+	 "lowercase": "rin",
+	 "uppercase": "Ionov"
+	},
+	{
+	 "english": "signal",
+	 "lowercase": "iniche",
+	 "uppercase": "Yungri"
+	},
+	{
+	 "english": "silicate",
+	 "lowercase": "domostok",
+	 "uppercase": "Georgiyev"
+	},
+	{
+	 "english": "silicates",
+	 "lowercase": "miosskaia",
+	 "uppercase": "Rodnikhimb"
+	},
+	{
+	 "english": "six",
+	 "lowercase": "atel",
+	 "uppercase": "Evro"
+	},
+	{
+	 "english": "sixteen",
+	 "lowercase": "tebeyt",
+	 "uppercase": "Akayev"
+	},
+	{
+	 "english": "skilled",
+	 "lowercase": "bezhdo",
+	 "uppercase": "Deneudin"
+	},
+	{
+	 "english": "slavery",
+	 "lowercase": "darnau",
+	 "uppercase": "Yakovoma"
+	},
+	{
+	 "english": "sleep",
+	 "lowercase": "kiro",
+	 "uppercase": "Kubaks"
+	},
+	{
+	 "english": "smiles",
+	 "lowercase": "itkyart",
+	 "uppercase": "Nesaraya"
+	},
+	{
+	 "english": "so",
+	 "lowercase": "hola",
+	 "uppercase": "Yul"
+	},
+	{
+	 "english": "soon",
+	 "lowercase": "meysk",
+	 "uppercase": "Abins"
+	},
+	{
+	 "english": "sorry",
+	 "lowercase": "form",
+	 "uppercase": "Rabaka"
+	},
+	{
+	 "english": "sounds",
+	 "lowercase": "minyan",
+	 "uppercase": "Ainstal"
+	},
+	{
+	 "english": "speaks",
+	 "lowercase": "hekovrop",
+	 "uppercase": "Izans"
+	},
+	{
+	 "english": "specialists",
+	 "lowercase": "dachyegoryk",
+	 "uppercase": "Blizkimryus"
+	},
+	{
+	 "english": "species",
+	 "lowercase": "lamsky",
+	 "uppercase": "Zavolod"
+	},
+	{
+	 "english": "speech",
+	 "lowercase": "vogratsk",
+	 "uppercase": "Gotoran"
+	},
+	{
+	 "english": "stabilise",
+	 "lowercase": "poshaets",
+	 "uppercase": "Tuskuyviumh"
+	},
+	{
+	 "english": "stalled",
+	 "lowercase": "balaish",
+	 "uppercase": "Anuderbi"
+	},
+	{
+	 "english": "stars",
+	 "lowercase": "ismanz",
+	 "uppercase": "Kubak"
+	},
+	{
+	 "english": "starship",
+	 "lowercase": "luymsikyvi",
+	 "uppercase": "Davliaiu",
+	 "allcaps": "Mublemyonk "
+	},
+	{
+	 "english": "starships",
+	 "lowercase": "koyashmaniar",
+	 "uppercase": "Udinovozyo",
+	 "allcaps": "Linichik "
+	},
+	{
+	 "english": "start",
+	 "lowercase": "algo",
+	 "uppercase": "Dubn"
+	},
+	{
+	 "english": "states",
+	 "lowercase": "lairtzy",
+	 "uppercase": "Bavlovs"
+	},
+	{
+	 "english": "station",
+	 "lowercase": "livnye",
+	 "uppercase": "Yemansk"
+	},
+	{
+	 "english": "statistics",
+	 "lowercase": "vorogorodia",
+	 "uppercase": "Tanovnosti"
+	},
+	{
+	 "english": "still",
+	 "lowercase": "sutok",
+	 "uppercase": "Oblast"
+	},
+	{
+	 "english": "stone",
+	 "lowercase": "yamazyv",
+	 "uppercase": "Teka"
+	},
+	{
+	 "english": "strange",
+	 "lowercase": "irisogle",
+	 "uppercase": "Exandy"
+	},
+	{
+	 "english": "strata",
+	 "lowercase": "bogonet",
+	 "uppercase": "Lepiki"
+	},
+	{
+	 "english": "stronger",
+	 "lowercase": "hatsialn",
+	 "uppercase": "Verkess"
+	},
+	{
+	 "english": "studies",
+	 "lowercase": "gadzhen",
+	 "uppercase": "Oscowini"
+	},
+	{
+	 "english": "subvert",
+	 "lowercase": "avliaiut",
+	 "uppercase": "Meglinogo"
+	},
+	{
+	 "english": "succeeds",
+	 "lowercase": "suselyoshe",
+	 "uppercase": "Ezovets"
+	},
+	{
+	 "english": "success",
+	 "lowercase": "radnic",
+	 "uppercase": "Vikovr"
+	},
+	{
+	 "english": "such",
+	 "lowercase": "eli",
+	 "uppercase": "Gep"
+	},
+	{
+	 "english": "suit",
+	 "lowercase": "amb",
+	 "uppercase": "Nets"
+	},
+	{
+	 "english": "superior",
+	 "lowercase": "kehtubinsk",
+	 "uppercase": "Mavinskyv"
+	},
+	{
+	 "english": "suppose",
+	 "lowercase": "virskovs",
+	 "uppercase": "Idetelny"
+	},
+	{
+	 "english": "suspicious",
+	 "lowercase": "soglegkou",
+	 "uppercase": "Mikhanskyvi"
+	},
+	{
+	 "english": "synthetic",
+	 "lowercase": "shoyarov",
+	 "uppercase": "Obekinestu"
+	},
+	{
+	 "english": "system",
+	 "lowercase": "odorov",
+	 "uppercase": "Oginin"
+	},
+	{
+	 "english": "take",
+	 "lowercase": "zilyu",
+	 "uppercase": "Ogni"
+	},
+	{
+	 "english": "task",
+	 "lowercase": "rac",
+	 "uppercase": "Sinn"
+	},
+	{
+	 "english": "teach",
+	 "lowercase": "amcha",
+	 "uppercase": "Peysahm"
+	},
+	{
+	 "english": "tech",
+	 "lowercase": "neka",
+	 "uppercase": "Zat"
+	},
+	{
+	 "english": "technological",
+	 "lowercase": "ognitskazhevo",
+	 "uppercase": "Lukulebakaian",
+	 "allcaps": "Hudogorsmanov "
+	},
+	{
+	 "english": "technology",
+	 "lowercase": "kislobninog",
+	 "uppercase": "Tegraychiny"
+	},
+	{
+	 "english": "temporal",
+	 "lowercase": "agnitsan",
+	 "uppercase": "Sukholm"
+	},
+	{
+	 "english": "ten",
+	 "lowercase": "mest",
+	 "uppercase": "Zaba"
+	},
+	{
+	 "english": "terminal",
+	 "lowercase": "merobayev",
+	 "uppercase": "Enburgu"
+	},
+	{
+	 "english": "terminate",
+	 "lowercase": "pudomaysh",
+	 "uppercase": "Ogrivoikh"
+	},
+	{
+	 "english": "test",
+	 "lowercase": "brs",
+	 "uppercase": "Mar"
+	},
+	{
+	 "english": "the",
+	 "lowercase": "olkh",
+	 "uppercase": "Ene"
+	},
+	{
+	 "english": "their",
+	 "lowercase": "iushki",
+	 "uppercase": "Yekam"
+	},
+	{
+	 "english": "them",
+	 "lowercase": "loyar",
+	 "uppercase": "Rorek"
+	},
+	{
+	 "english": "there",
+	 "lowercase": "bodarn",
+	 "uppercase": "Ales"
+	},
+	{
+	 "english": "these",
+	 "lowercase": "zeliz",
+	 "uppercase": "Yokha"
+	},
+	{
+	 "english": "they",
+	 "lowercase": "erc",
+	 "uppercase": "Zuye"
+	},
+	{
+	 "english": "things",
+	 "lowercase": "zovantu",
+	 "uppercase": "Holun"
+	},
+	{
+	 "english": "think",
+	 "lowercase": "shoya",
+	 "uppercase": "Zinogo"
+	},
+	{
+	 "english": "this",
+	 "lowercase": "ibol",
+	 "uppercase": "Adaky"
+	},
+	{
+	 "english": "thousand ",
+	 "lowercase": "degtyar "
+	},
+	{
+	 "english": "three",
+	 "lowercase": "lidovo",
+	 "uppercase": "Havins"
+	},
+	{
+	 "english": "through",
+	 "lowercase": "shmanag",
+	 "uppercase": "Evelinsk"
+	},
+	{
+	 "english": "time",
+	 "lowercase": "viati",
+	 "uppercase": "Avash"
+	},
+	{
+	 "english": "timeline",
+	 "lowercase": "ekandal",
+	 "uppercase": "Teprazdni"
+	},
+	{
+	 "english": "tiny",
+	 "lowercase": "zer",
+	 "uppercase": "Mashe"
+	},
+	{
+	 "english": "tissue",
+	 "lowercase": "ibayev",
+	 "uppercase": "Nemant"
+	},
+	{
+	 "english": "to",
+	 "lowercase": "gep",
+	 "uppercase": "Mech"
+	},
+	{
+	 "english": "today",
+	 "lowercase": "enbur",
+	 "uppercase": "Tilast"
+	},
+	{
+	 "english": "tools",
+	 "lowercase": "eski",
+	 "uppercase": "Eveto"
+	},
+	{
+	 "english": "topic",
+	 "lowercase": "glazov",
+	 "uppercase": "Arossi"
+	},
+	{
+	 "english": "touch",
+	 "lowercase": "ozzhev",
+	 "uppercase": "Hanyevk"
+	},
+	{
+	 "english": "toxic",
+	 "lowercase": "vozd",
+	 "uppercase": "Yundal",
+	 "allcaps": "Teyug "
+	},
+	{
+	 "english": "toxins",
+	 "lowercase": "olniaet",
+	 "uppercase": "Yekalt"
+	},
+	{
+	 "english": "trade",
+	 "lowercase": "vigradu",
+	 "uppercase": "Adsk"
+	},
+	{
+	 "english": "transfer",
+	 "lowercase": "medynosba",
+	 "uppercase": "Yeyskog"
+	},
+	{
+	 "english": "transmission",
+	 "lowercase": "bonyevkazhel",
+	 "uppercase": "Zainskogoli"
+	},
+	{
+	 "english": "transmitter",
+	 "lowercase": "unguruslaval",
+	 "uppercase": "Puysohkinoozyb"
+	},
+	{
+	 "english": "trapped",
+	 "lowercase": "kitimanz",
+	 "uppercase": "Poluchis"
+	},
+	{
+	 "english": "traveller",
+	 "lowercase": "kostalymusk",
+	 "uppercase": "Zazhelekal"
+	},
+	{
+	 "english": "traveller's",
+	 "lowercase": "devoikhoviche",
+	 "uppercase": "Rafimorsky"
+	},
+	{
+	 "english": "travels",
+	 "lowercase": "ezensk",
+	 "uppercase": "Honyevol"
+	},
+	{
+	 "english": "truth",
+	 "lowercase": "atniko",
+	 "uppercase": "Udets"
+	},
+	{
+	 "english": "try",
+	 "lowercase": "nadz",
+	 "uppercase": "Hakov"
+	},
+	{
+	 "english": "twelve",
+	 "lowercase": "dudino",
+	 "uppercase": "Yukalyn"
+	},
+	{
+	 "english": "two",
+	 "lowercase": "esti",
+	 "uppercase": "Yung"
+	},
+	{
+	 "english": "unavailable",
+	 "lowercase": "ikargoffri",
+	 "uppercase": "Yobrazdnikolo"
+	},
+	{
+	 "english": "uncommon",
+	 "lowercase": "kuvartkal",
+	 "uppercase": "Nolitama"
+	},
+	{
+	 "english": "unexpected",
+	 "lowercase": "gulyarnau",
+	 "uppercase": "Meplimskyvin"
+	},
+	{
+	 "english": "unit",
+	 "lowercase": "abe",
+	 "uppercase": "Ekums"
+	},
+	{
+	 "english": "unite",
+	 "lowercase": "anga",
+	 "uppercase": "Etaru"
+	},
+	{
+	 "english": "units",
+	 "lowercase": "truni",
+	 "uppercase": "Gukoye"
+	},
+	{
+	 "english": "universe",
+	 "lowercase": "raktorab",
+	 "uppercase": "Etlogor"
+	},
+	{
+	 "english": "unknown",
+	 "lowercase": "ognitog",
+	 "uppercase": "Metyevka"
+	},
+	{
+	 "english": "unlock",
+	 "lowercase": "trane",
+	 "uppercase": "Kinskit"
+	},
+	{
+	 "english": "unpleasing",
+	 "lowercase": "unechovori",
+	 "uppercase": "Ozeleuzen"
+	},
+	{
+	 "english": "upload",
+	 "lowercase": "zoria",
+	 "uppercase": "Ralskoi",
+	 "allcaps": "Dreapo "
+	},
+	{
+	 "english": "uploading",
+	 "lowercase": "imbaykala",
+	 "uppercase": "Orodskoye"
+	},
+	{
+	 "english": "upon",
+	 "lowercase": "usm",
+	 "uppercase": "Zohsk"
+	},
+	{
+	 "english": "us",
+	 "lowercase": "vob",
+	 "uppercase": "Biyc"
+	},
+	{
+	 "english": "use",
+	 "lowercase": "oul",
+	 "uppercase": "Dopis"
+	},
+	{
+	 "english": "using",
+	 "lowercase": "devoi",
+	 "uppercase": "Anud"
+	},
+	{
+	 "english": "valuable",
+	 "lowercase": "ubovkin",
+	 "uppercase": "Georgiyev"
+	},
+	{
+	 "english": "value",
+	 "lowercase": "iyevol",
+	 "uppercase": "Enza"
+	},
+	{
+	 "english": "very",
+	 "lowercase": "rolo",
+	 "uppercase": "Pay"
+	},
+	{
+	 "english": "vessel",
+	 "lowercase": "skovrov",
+	 "uppercase": "Niselts"
+	},
+	{
+	 "english": "victory",
+	 "lowercase": "kazhdogo",
+	 "uppercase": "Nikakhal"
+	},
+	{
+	 "english": "video",
+	 "lowercase": "eyevoz",
+	 "uppercase": "Torod"
+	},
+	{
+	 "english": "violence",
+	 "lowercase": "tushkanau",
+	 "uppercase": "Oyarskyv"
+	},
+	{
+	 "english": "virus",
+	 "lowercase": "layevk",
+	 "uppercase": "Ognit"
+	},
+	{
+	 "english": "visible",
+	 "lowercase": "akzhets",
+	 "uppercase": "Avolovsk"
+	},
+	{
+	 "english": "vital",
+	 "lowercase": "inka",
+	 "uppercase": "Bestno"
+	},
+	{
+	 "english": "voice",
+	 "lowercase": "obuzh",
+	 "uppercase": "Bulans"
+	},
+	{
+	 "english": "vy'keen",
+	 "lowercase": "udyono",
+	 "uppercase": "Ubimusc"
+	},
+	{
+	 "english": "vy'keen",
+	 "lowercase": "udyono",
+	 "uppercase": "Ubimusc"
+	},
+	{
+	 "english": "wait",
+	 "lowercase": "etomu",
+	 "uppercase": "Kur"
+	},
+	{
+	 "english": "waited",
+	 "lowercase": "teryu",
+	 "uppercase": "Lilets"
+	},
+	{
+	 "english": "wakes",
+	 "lowercase": "aymaz",
+	 "uppercase": "Nosl"
+	},
+	{
+	 "english": "wants",
+	 "lowercase": "apsh",
+	 "uppercase": "Erzha"
+	},
+	{
+	 "english": "warn",
+	 "lowercase": "siselb",
+	 "uppercase": "Mos"
+	},
+	{
+	 "english": "warning",
+	 "lowercase": "durenise",
+	 "uppercase": "Ashkar"
+	},
+	{
+	 "english": "warp",
+	 "lowercase": "tovsh",
+	 "uppercase": "Zabak"
+	},
+	{
+	 "english": "warped",
+	 "lowercase": "ishieme",
+	 "uppercase": "Rakess"
+	},
+	{
+	 "english": "warping",
+	 "lowercase": "talnyev",
+	 "uppercase": "Odnyauza"
+	},
+	{
+	 "english": "was",
+	 "lowercase": "tima",
+	 "uppercase": "Vay"
+	},
+	{
+	 "english": "watching",
+	 "lowercase": "demyonnom",
+	 "uppercase": "Bolgodoz"
+	},
+	{
+	 "english": "water",
+	 "lowercase": "aktotm",
+	 "uppercase": "Udutog"
+	},
+	{
+	 "english": "waters",
+	 "lowercase": "kitiman",
+	 "uppercase": "Tensk"
+	},
+	{
+	 "english": "way",
+	 "lowercase": "dano",
+	 "uppercase": "Ryokh"
+	},
+	{
+	 "english": "we",
+	 "lowercase": "yuz",
+	 "uppercase": "Yase"
+	},
+	{
+	 "english": "weaponry",
+	 "lowercase": "ebskalt",
+	 "uppercase": "Gudermes"
+	},
+	{
+	 "english": "welcome",
+	 "lowercase": "itvaarde",
+	 "uppercase": "Duvezdare"
+	},
+	{
+	 "english": "well",
+	 "lowercase": "ach",
+	 "uppercase": "Vaybi"
+	},
+	{
+	 "english": "what",
+	 "lowercase": "bashich",
+	 "uppercase": "Gradn"
+	},
+	{
+	 "english": "where",
+	 "lowercase": "asavi",
+	 "uppercase": "Litusyn"
+	},
+	{
+	 "english": "while",
+	 "lowercase": "roko",
+	 "uppercase": "Daniiu"
+	},
+	{
+	 "english": "white",
+	 "lowercase": "nani",
+	 "uppercase": "Glazo"
+	},
+	{
+	 "english": "why",
+	 "lowercase": "ubk",
+	 "uppercase": "Nutey"
+	},
+	{
+	 "english": "will",
+	 "lowercase": "push",
+	 "uppercase": "Sht"
+	},
+	{
+	 "english": "with",
+	 "lowercase": "zenam",
+	 "uppercase": "Nivat"
+	},
+	{
+	 "english": "words",
+	 "lowercase": "azyvay",
+	 "uppercase": "Zohyego"
+	},
+	{
+	 "english": "work",
+	 "lowercase": "akh",
+	 "uppercase": "Len"
+	},
+	{
+	 "english": "world",
+	 "lowercase": "evdar",
+	 "uppercase": "Aplyov"
+	},
+	{
+	 "english": "worlds",
+	 "lowercase": "tunevi",
+	 "uppercase": "Manikho"
+	},
+	{
+	 "english": "worship",
+	 "lowercase": "ladaniv",
+	 "uppercase": "Rukakov",
+	 "allcaps": "Asnovsky "
+	},
+	{
+	 "english": "would",
+	 "lowercase": "mirn",
+	 "uppercase": "Ayma"
+	},
+	{
+	 "english": "wrong",
+	 "lowercase": "furm",
+	 "uppercase": "Sasovo"
+	},
+	{
+	 "english": "yes",
+	 "lowercase": "pozz",
+	 "uppercase": "Dono"
+	},
+	{
+	 "english": "yet",
+	 "lowercase": "yup",
+	 "uppercase": "Oen"
+	},
+	{
+	 "english": "you",
+	 "lowercase": "ludo",
+	 "uppercase": "Tin"
+	},
+	{
+	 "english": "your",
+	 "lowercase": "petu",
+	 "uppercase": "Yevs"
+	},
+	{
+	 "english": "yourself",
+	 "lowercase": "ransiys",
+	 "uppercase": "Oktyabi"
+	},
+	{
+	 "english": "youth",
+	 "lowercase": "livaiu",
+	 "uppercase": "Kayzyav"
+	}
+]
