@@ -194,6 +194,8 @@ export default {
 	font-size: 36px;
 	font-weight: 600;
 	margin: -1px -1px 0;
+	padding: 6px 0 8px;
+	text-align: center;
 }
 .card .value {
 	background: #fff;
@@ -204,6 +206,8 @@ export default {
 	bottom: 0;
 	left: 0;
 	padding: 8px;
+	margin: 0 0 -1px -1px;
+}
 .card .value:after {
 	content: url("../assets/images/icons/units.svg");
 	display: block;
