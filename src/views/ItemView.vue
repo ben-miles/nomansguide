@@ -66,7 +66,7 @@ export default {
 		<div v-else class="resource">
 			<div class="container">
 				<div class="row">
-					<div class="column">
+					<div class="column column-half">
 						<div class="card" :id="newSelectedItem.id" :style="'background-image: linear-gradient(' + newSelectedItem.colors[0] + ', ' + newSelectedItem.colors[1] + ');'">
 							<h2 class="name">{{newSelectedItem.name}}</h2>
 							<h3 class="value">{{newSelectedItem.value.toLocaleString("en-US")}}</h3>
@@ -77,7 +77,7 @@ export default {
 						</div>
 					</div>
 
-					<div class="column">
+					<div class="column column-half">
 						<div class="details sources">
 							<h3>Sources:</h3>
 							<ul v-if="newSelectedItem.sources">

@@ -101,7 +101,7 @@ section {
 	.row {
 		flex-direction: row;
 	}	
-	.column {
+	.column.column-half {
 		width: 50%;
 	}
 }
