@@ -170,3 +170,144 @@ export default {
 		</div>
 	</section>
 </template>
+
+<style>
+/* RESOURCES */
+.card {
+	border: 8px solid #fff;
+	margin: 0 0 30px;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	box-shadow: 0 4px 48px rgba(0,0,0,.7);
+}
+.card img {
+	display: block;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	padding: 12px 14px 16px;
+	transform: translateZ(64px);
+}
+.card .name {
+	background: #fff;
+	color: #000;
+	font-size: 36px;
+	font-weight: 600;
+	margin: -1px -1px 0;
+}
+.card .value {
+	background: #fff;
+	color: #000;
+	font-size: 36px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 8px;
+.card .value:after {
+	content: url("../assets/images/icons/units.svg");
+	display: block;
+	float: right;
+	height: 36px;
+	width: 36px;
+	margin-left: 12px;
+}
+
+/* DETAILS */
+.details {
+	background: rgb(123,130,163,.2);
+    border-top: 1px solid rgba(255,255,255,.5);
+	margin: 0 0 30px;
+	padding: 12px 24px;
+}
+.details+.details {
+	margin-bottom: 0;
+}
+.details h3 {
+	margin: -12px -24px 12px;
+    padding: 12px 24px;
+    background: rgba(255,255,255,.125);
+}
+.details p {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 12px;
+}
+.details ul {
+    list-style: circle;
+	padding: 0 0 0 20px;
+}
+.details h4 {
+	margin: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+.description p {
+    margin-bottom: 0;
+}
+
+/* RECIPES */
+.recipes {
+    align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: space-between;
+}
+.recipe {
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 8px;
+	width: calc( 50% - 6px );
+}
+.yield {
+	font-size: 14px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	margin-top: 12px;
+	width: 100%;
+}
+.ingredient {
+	margin: 0 0 2px;
+	display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.quantity {
+	display: inline-block;
+	text-align: right;
+	margin: 0 10px 0 0;
+	min-width: 30px;
+}
+a.item.small {
+	align-items: center;
+	border: 2px solid #fff;
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+a.item.small .title {
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	padding: 4px;
+}
+a.item.small img {
+	height: auto;
+	width: 24px;
+	margin: 0;
+}
+
+/* ITEM LISTS */
+.uses .items {
+	display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+</style>
