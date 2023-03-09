@@ -1,6 +1,6 @@
 <script>
 import { RouterLink } from 'vue-router'
-import itemsData from '../assets/items.json'
+import itemsData from '../assets/data/items.json'
 import VanillaTilt from 'vanilla-tilt'
 
 export default {

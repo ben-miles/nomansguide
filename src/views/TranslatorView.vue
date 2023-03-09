@@ -1,8 +1,8 @@
 <script>
-import atlasLangData from '../assets/lang_atlas.json'
-import gekLangData from '../assets/lang_gek.json'
-import korvaxLangData from '../assets/lang_korvax.json'
-import vykeenLangData from '../assets/lang_vykeen.json'
+import atlasLangData from '../assets/data/lang_atlas.json'
+import gekLangData from '../assets/data/lang_gek.json'
+import korvaxLangData from '../assets/data/lang_korvax.json'
+import vykeenLangData from '../assets/data/lang_vykeen.json'
 
 export default {
 	data() {
