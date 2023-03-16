@@ -98,15 +98,17 @@ export default {
 </template>
 
 <style>
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 /* DRAWER > FILTER */
 #items .filter input {
 	border: none;
 	border-radius: 0;
-	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	outline: none;
 	padding: 8px;
   	width: 100%;
 }
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 </style>

@@ -80,8 +80,8 @@ export default {
 					</div>
 
 					<div class="column column-half">
+						<h3 class="item-heading">Sources:</h3>
 						<div class="details sources">
-							<h3>Sources:</h3>
 							<ul v-if="newSelectedItem.sources">
 								<li v-for="source in newSelectedItem.sources">{{source}}</li>
 							</ul>
@@ -141,8 +141,8 @@ export default {
 							</div>
 						</div>
 
+						<h3 v-if="usesCrafting.length || usesRefining.length" class="item-heading">Uses:</h3>
 						<div v-if="usesCrafting.length || usesRefining.length" class="details uses">
-							<h3>Uses:</h3>
 							<div v-if="usesCrafting.length" class="crafting">
 								<h4>Crafting:</h4>
 								<p>{{newSelectedItem.name}} is used as an ingredient for crafting the following products:</p>
@@ -202,11 +202,13 @@ export default {
 .card .value {
 	background: #fff;
 	color: #000;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 36px;
 	font-weight: 600;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	line-height: 36px;
 	padding: 8px;
 	margin: 0 0 -1px -1px;
 }
@@ -219,6 +221,10 @@ export default {
 }
 
 /* DETAILS */
+h3.item-heading {
+	padding: 12px 24px;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
+}
 .details {
 	background: rgb(123,130,163,.2);
     border-top: 1px solid rgba(255,255,255,.5);
@@ -228,13 +234,7 @@ export default {
 .details+.details {
 	margin-bottom: 0;
 }
-.details h3 {
-	margin: -12px -24px 12px;
-    padding: 12px 24px;
-    background: rgba(255,255,255,.125);
-}
 .details p {
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	margin-bottom: 12px;
@@ -272,7 +272,6 @@ export default {
 }
 .yield {
 	font-size: 14px;
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	margin-top: 12px;
 	width: 100%;
 }

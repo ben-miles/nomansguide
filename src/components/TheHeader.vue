@@ -145,7 +145,8 @@ header {
 	text-shadow: 0 0 25px rgba(164, 255, 247, 0.7), 0 0 5px rgba(255, 255, 255, 0.5);
 }
 .site-title {
-	font-size: 30px;	
+	font-family: "geosanslight-nmsregular", Vazirmatn, Helvetica, Arial, sans-serif;
+	font-size: 30px;
 	text-transform: uppercase;
 }
 .tagline {
@@ -167,6 +168,7 @@ header {
 	color: #9fa2aa;
 	display: block;
 	outline: none;
+	font-family: "geosanslight-nmsregular", Vazirmatn, Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200;300;400;500;600&display=swap');
 
 /* RESET */
 *,
@@ -29,18 +29,20 @@ body {
 }
 
 body {
-	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	font-weight: 300;
-	color: #fff;
 	background-color: #000;
 	background-image: url("images/backgrounds/bkgDefaultViewSmall.jpg");
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	color: #fff;
 	cursor: auto;
 	cursor: url("images/cursors/nmg_cursor_normal.svg") 17 17, auto;
+	font-family: "Vazirmatn", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: normal;
+}
 body.home {
 	background-image: url("images/backgrounds/bkgHomeViewSmall.jpg");
 }
@@ -51,11 +53,6 @@ body.home {
 	body.home {
 		background-image: url("images/backgrounds/bkgHomeViewLarge.jpg");
 	}
-}
-
-.light, 
-small {
-  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,7 +73,6 @@ button {
 	cursor: url("images/cursors/nmg_cursor_active.svg") 25 25, pointer;
 	border: none;
 	outline: none;
-	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
 }
 
 /* BODY */

@@ -126,7 +126,8 @@ export default {
 	align-items: center;
 	flex-direction: column;
 	gap: 8px;
-	font-size: 16px;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
+	font-size: 20px;
 	width: 100%;
 	background: rgba(43,65,96,0.2);
 	color: #fff;
@@ -163,7 +164,7 @@ export default {
 #items .filter input {
 	border: none;
 	border-radius: 0;
-	font-family: "geosanslight-nmsregular", "Raleway", Helvetica, Arial, sans-serif;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	outline: none;
