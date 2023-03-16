@@ -193,6 +193,7 @@ export default {
 .card .name {
 	background: #fff;
 	color: #000;
+	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 36px;
 	font-weight: 600;
 	margin: -1px -1px 0;
@@ -292,15 +293,17 @@ a.item.small {
 	border: 2px solid #fff;
 	display: flex;
 	flex-direction: row;
-	width: auto;
+	flex-grow: 1;
 }
 a.item.small .title {
 	background: #fff;
 	color: #000;
 	font-size: 14px;
 	font-weight: 400;
-	text-align: center;
+	line-height: 16px;
 	padding: 4px;
+	text-align: center;
+	width: 100%;
 }
 a.item.small img {
 	height: auto;
