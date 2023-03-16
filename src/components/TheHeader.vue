@@ -3,12 +3,14 @@ import { RouterLink } from 'vue-router'
 import IconLogo from './icons/IconLogo.vue'
 import IconItems from '../components/icons/IconItems.vue'
 import IconTranslator from '../components/icons/IconTranslator.vue';
+// import IconQuestionMark from '../components/icons/IconQuestionMark.vue';
 
 export default {
 	components: { 
 		IconLogo,
 		IconItems,
 		IconTranslator,
+		// IconQuestionMark
 	},
 	methods: {
 		toggleDrawer() {
@@ -37,9 +39,12 @@ export default {
 		</RouterLink>
 		<div class="menu">
 			<ul class="nav">
-				<li class="nav-item" id="about">
-					<RouterLink to="/about">About</RouterLink>
-				</li>
+				<!-- <li class="nav-item" id="about">
+					<RouterLink to="/about">
+						<IconQuestionMark />
+						<span>About</span>
+					</RouterLink>
+				</li> -->
 				<li class="nav-item" id="translator">
 					<RouterLink to="/translator">Translator</RouterLink>
 						<IconTranslator />
