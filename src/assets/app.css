@@ -34,16 +34,22 @@ body {
 	font-weight: 300;
 	color: #fff;
 	background-color: #000;
-	background-image: url("images/backgrounds/sm.jpg");
+	background-image: url("images/backgrounds/bkgDefaultViewSmall.jpg");
+	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	cursor: auto;
 	cursor: url("images/cursors/nmg_cursor_normal.svg") 17 17, auto;
+body.home {
+	background-image: url("images/backgrounds/bkgHomeViewSmall.jpg");
 }
 @media ( min-width: 721px ) {
 	body {
-		background-image: url("images/backgrounds/lg.jpg");
+		background-image: url("images/backgrounds/bkgDefaultViewLarge.jpg");
+	}
+	body.home {
+		background-image: url("images/backgrounds/bkgHomeViewLarge.jpg");
 	}
 }
 

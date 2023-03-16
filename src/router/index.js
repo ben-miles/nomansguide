@@ -62,6 +62,8 @@ function toTitleCase(str) {
 }
 
 router.beforeEach((to, from, next) => {
+	// Set the route's name as a class on the body element 
+	document.body.classList = to.name
 	// Get the page title from the route meta data
 	const pageTitle = to.meta.title
 	// If the route has params, use them as the page title
