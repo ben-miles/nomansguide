@@ -75,10 +75,10 @@ export default {
 	filter: saturate(1);
 }
 .module-language::before {
-	background-image: url(src/assets/images/backgrounds/bkgTranslator.jpg), linear-gradient(rgba(255,0,0,1), rgba(0,0,255,1));
+	background-image: url(@/assets/images/backgrounds/bkgTranslator.jpg), linear-gradient(rgba(255,0,0,1), rgba(0,0,255,1));
 }
 .module-items::before {
-	background-image: url(src/assets/images/backgrounds/bkgItems.jpg), linear-gradient(rgba(255,0,0,1), rgba(0,0,255,1));
+	background-image: url(@/assets/images/backgrounds/bkgItems.jpg), linear-gradient(rgba(255,0,0,1), rgba(0,0,255,1));
 }
 .module .inside {
 	bottom: 0;
