@@ -102,47 +102,29 @@ export default {
 </template>
 
 <style>
-/* DRAWER */
-#items .container > div:not(:last-of-type) {
-	margin-bottom: 24px;
-}
-
 /* DRAWER > TYPES */
-#items .types ul {
-	list-style: none;
+#items .types {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	gap: 10px;
 	justify-content: center;
-	gap: 4px;
+	margin-bottom: 24px;
 }
-#items .types li {
-	width: 25%;
-}
-#items .types button {
+#items .types .type {
 	background: transparent;
 	border-left: solid transparent 4px;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
-	gap: 8px;
+	flex-basis: calc( 25% - 8px );
+	flex-direction: row;
 	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 20px;
+	gap: 16px;
 	width: 100%;
 	background: rgba(43,65,96,0.2);
 	color: #fff;
-    padding: 8px 4px;
-}
-@media ( min-width: 1024px ) {
-	#items .types ul {
-		gap: 10px;
-	}
-	#items .types button {
-		flex-direction: row;
-		padding: 12px 16px;
-		gap: 16px;
-		font-size: 20px;
-	}
+    padding: 12px 16px;
 }
 #items .types button svg {
 	fill: #fff;
@@ -167,13 +149,14 @@ export default {
 	font-family: "geosanslight-nmsregular", "Vazirmatn", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
+	margin-bottom: 24px;
 	outline: none;
 	padding: 8px;
   	width: 100%;
 }
 
 /* DRAWER > ITEMS */
-.items {
+#items .items {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -189,6 +172,8 @@ a.item {
 a.item .name {
 	background: #fff;
 	color: #000;
+	font-size: 14px;
+	font-weight: 400;
 	height: 20px;
 	overflow: hidden;
 	text-align: center;
