@@ -13,6 +13,6 @@ export default {
 
 <template>
 	<TheHeader />
-	<RouterView />
+	<RouterView :key="$route.path" />
 	<TheFooter />
 </template>
