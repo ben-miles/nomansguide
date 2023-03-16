@@ -106,6 +106,12 @@ section {
 	.column.column-half {
 		width: 50%;
 	}
+	.column.column-third {
+		width: 33.3%;
+	}
+	.column.column-fourth {
+		width: 25%;
+	}
 }
 
 /* ITEM BACKGROUNDS */
