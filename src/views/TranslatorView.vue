@@ -3,8 +3,20 @@ import atlasLangData from '../assets/data/lang_atlas.json'
 import gekLangData from '../assets/data/lang_gek.json'
 import korvaxLangData from '../assets/data/lang_korvax.json'
 import vykeenLangData from '../assets/data/lang_vykeen.json'
+// import IconAll from '../components/icons/IconAll.vue'
+import IconAtlas from '../components/icons/IconAtlas.vue'
+import IconGek from '../components/icons/IconGek.vue'
+import IconKorvax from '../components/icons/IconKorvax.vue'
+import IconVykeen from '../components/icons/IconVykeen.vue'
 
 export default {
+	components: {
+		// IconAll,
+		IconAtlas,
+		IconGek,
+		IconKorvax,
+		IconVykeen
+	},
 	data() {
 		return {
 			filter: "",

@@ -1,4 +1,5 @@
 <script>
+// import IconCreativeCommons from '../components/icons/IconCreativeCommons.vue'
 export default {
   data() {
     return {
@@ -6,13 +7,13 @@ export default {
 	  currentYear: new Date().getFullYear()
     }
   }
+	// 	IconCreativeCommons
 }
 </script>
 
 <template>
 	<footer>
 		<div class="copyright">© {{ publishYear }} - {{ currentYear }} <a href="https://benmiles.com/" target="_blank">Ben Miles</a>. <a href="#" target="_self">No Man's Guide</a> is not affiliated with <a href="https://www.nomanssky.com/" target="_blank">No Man's Sky</a> or <a href="https://hellogames.org/" target="_blank">Hello Games</a>. </div>
-		<div class="credits">Some data and images sourced from <a href="https://nomanssky.fandom.com/" target="_blank">No Man's Sky Wiki</a>, under a <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="../assets/images/icons/cc.svg" alt="Creative Commons Logo" class="creativecommons" loading="lazy"> Creative Commons Attribution 3.0</a> license. </div>
 	</footer>
 </template>
 
@@ -29,9 +30,12 @@ footer a {
 	text-decoration: none;
 	font-weight: 500;
 }
-footer .creativecommons {
-    height: 16px;
-    top: 4px;
-    margin: 0 0 0 3px;
+/* footer .icon-creativecommons {
+	display: inline;
+    fill: red;
+	height: 12px;
+    margin: 0 0 0 4px;
+	width: auto;
+} */
 }
 </style>

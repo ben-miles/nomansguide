@@ -1,9 +1,11 @@
 <script>
 import { RouterLink } from 'vue-router'
 import itemsData from '../assets/data/items.json'
+import IconUnits from '../components/icons/IconUnits.vue'
 import VanillaTilt from 'vanilla-tilt'
 
 export default {
+	components: { IconUnits },
 	data() {
 		return {
 			newSelectedItem: itemsData[this.$route.params.itemId]
@@ -69,7 +71,7 @@ export default {
 					<div class="column column-half">
 						<div class="card" :id="newSelectedItem.id" :style="'background-image: linear-gradient(' + newSelectedItem.colors[0] + ', ' + newSelectedItem.colors[1] + ');'">
 							<h2 class="name">{{newSelectedItem.name}}</h2>
-							<h3 class="value">{{newSelectedItem.value.toLocaleString("en-US")}}</h3>
+							<h3 class="value">{{newSelectedItem.value.toLocaleString("en-US")}} <IconUnits /></h3>
 							<img :alt="newSelectedItem.name" :src="'../items/' + newSelectedItem.id + '.png'" loading="lazy">
 						</div>
 						<div v-if="newSelectedItem.description" class="details description">
@@ -208,8 +210,7 @@ export default {
 	padding: 8px;
 	margin: 0 0 -1px -1px;
 }
-.card .value:after {
-	content: url("../assets/images/icons/units.svg");
+.card .value .icon-units {
 	display: block;
 	float: right;
 	height: 36px;
