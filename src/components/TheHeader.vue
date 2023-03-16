@@ -34,7 +34,7 @@ export default {
 			<IconLogo />
 			<div class="title">
 				<h1 class="site-title">No Man's Guide</h1>
-				<h2 class="tagline">An unofficial field guide for <a href="https://www.nomanssky.com/" target= "_blank">No Man's Sky</a>.</h2>
+				<h2 class="tagline">An unofficial field guide for <i>No Man's Sky</i>.</h2>
 			</div>
 		</RouterLink>
 		<div class="menu">
@@ -46,11 +46,13 @@ export default {
 					</RouterLink>
 				</li> -->
 				<li class="nav-item" id="translator">
-					<RouterLink to="/translator">Translator</RouterLink>
+					<RouterLink to="/translator">
 						<IconTranslator />
+						<span>Translator</span>
+					</RouterLink>
 				</li>
 				<li class="nav-item" id="items">
-					<RouterLink to="/items" class="toggle">
+					<RouterLink to="/items">
 						<IconItems />
 						<span>Items</span>
 					</RouterLink>
@@ -78,33 +80,33 @@ header {
 }
 
 /* LOGO */
-#atlas {
+#logo {
     height: 64px;
     filter: drop-shadow(0 0 10px rgba(164, 255, 247, 0.7));
     transition: all 0.5s;
 }
-#atlas * {
+#logo * {
 	transition: all 0.25s;
 	fill: rgb(245, 255, 252);
 }
-#atlas #bottom-right,
-#atlas #top-right,
-#atlas #left,
-#atlas #middle {
+#logo #bottom-right,
+#logo #top-right,
+#logo #left,
+#logo #middle {
 	fill: #000;
 }
-#atlas #diamond,
-#atlas #core {
+#logo #diamond,
+#logo #core {
 	stroke: #000;
 }
-.brand:hover #atlas {
+.brand:hover #logo {
 	filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 	transform: scale(1.1);
 }
-.brand:hover #atlas #diamond {
+.brand:hover #logo #diamond {
 	fill: #070707;
 }
-.brand:hover #atlas #core {
+.brand:hover #logo #core {
 	fill: #bf1b19;
 	opacity: 0.9;
 	stroke: none;
@@ -121,13 +123,13 @@ header {
 		transform: scale(1.25) translate(-10%, -7%);
 	}
 }
-.brand:hover #atlas #bottom-right,
-.brand:hover #atlas #top-right,
-.brand:hover #atlas #left,
-.brand:hover #atlas #middle {
+.brand:hover #logo #bottom-right,
+.brand:hover #logo #top-right,
+.brand:hover #logo #left,
+.brand:hover #logo #middle {
 	fill: #fff;
 }
-.brand:hover #atlas #top-right {
+.brand:hover #logo #top-right {
 	opacity: 0.7;
 }
 
@@ -135,7 +137,7 @@ header {
 .brand .title {
 	display: none;
 }
-@media ( min-width: 576px ) {
+@media ( min-width: 721px ) {
 	.brand .title {
 		display: flex;
 		flex-direction: column;
@@ -155,7 +157,7 @@ header {
 	text-transform: uppercase;
 }
 .tagline {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /* MENU */
@@ -171,7 +173,9 @@ header {
 	border: none;
 	border-radius: 5px 5px 0 0;
 	color: #9fa2aa;
-	display: block;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	outline: none;
 	font-family: "geosanslight-nmsregular", Vazirmatn, Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -191,7 +195,7 @@ header {
 .menu a svg {
 	height: 16px;
 	width: auto;
-	margin-right: 4px;
+	margin-right: 10px;
 	fill: #9fa2aa;
 }
 .menu a:hover svg,
