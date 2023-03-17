@@ -2,7 +2,7 @@
 
 ![Screenshot - March 4, 2023](./.github/images/screenshot_2023-03-04_720_min.png)
 
-A second-screen companion app for the game "No Man's Sky." A convenient way to find location, crafting, refining and cooking information for over one hundred in-game items (and growing). Future updates tentatively include translations for the various alien languages.
+A second-screen companion app for the game "No Man's Sky." A convenient way to find location, crafting, refining and cooking information for over one hundred in-game items, as well as a translator for the various alien languages.
 
 [![Vue](https://img.shields.io/badge/Vue%203-green?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
