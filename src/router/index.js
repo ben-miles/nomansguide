@@ -61,7 +61,7 @@ function toTitleCase(str) {
 		);
 }
 
-router.beforeEach((to, from, next) => {
+router.afterEach((to, from, next) => {
 	// Set the route's name as a class on the body element 
 	document.body.classList = to.name
 	// Get the page title from the route meta data
@@ -78,8 +78,6 @@ router.beforeEach((to, from, next) => {
 	else {
 		document.title = siteTitle
 	}
-	// Continue resolving the route
-	next()
 })
 
 export default router
