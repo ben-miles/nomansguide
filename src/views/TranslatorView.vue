@@ -3,7 +3,7 @@ import atlasLangData from '../assets/data/lang_atlas.json'
 import gekLangData from '../assets/data/lang_gek.json'
 import korvaxLangData from '../assets/data/lang_korvax.json'
 import vykeenLangData from '../assets/data/lang_vykeen.json'
-// import IconAll from '../components/icons/IconAll.vue'
+import IconAll from '../components/icons/IconAll.vue'
 import IconAtlas from '../components/icons/IconAtlas.vue'
 import IconGek from '../components/icons/IconGek.vue'
 import IconKorvax from '../components/icons/IconKorvax.vue'
@@ -11,7 +11,7 @@ import IconVykeen from '../components/icons/IconVykeen.vue'
 
 export default {
 	components: {
-		// IconAll,
+		IconAll,
 		IconAtlas,
 		IconGek,
 		IconKorvax,
@@ -21,28 +21,40 @@ export default {
 		return {
 			filter: "",
 			selectedLanguage: "all",
-			atlas: atlasLangData,
-			gek: gekLangData,
-			korvax: korvaxLangData,
-			vykeen: vykeenLangData
+			langData: [
+				atlasLangData,
+				gekLangData,
+				korvaxLangData,
+				vykeenLangData
+			] 
 		}
 	},
 	methods: {
-		// selectLanguage(language){
-		// 	this.selectedLanguage = language;
-		// 	// Set all Type buttons as inactive
-		// 	let typeButtons = document.getElementsByClassName("type");
-		// 	for(var i = 0; i < typeButtons.length; i++){
-		// 		typeButtons[i].classList.remove("active");
-		// 	}
-		// 	// Set this Type button as active
-		// 	let thisTypeButton = document.getElementById(language);
-		// 	thisTypeButton.classList.add("active");
-		// },
+		selectLanguage(language){
+			this.selectedLanguage = language;
+			// Set all Type buttons as inactive
+			let typeButtons = document.getElementsByClassName("type");
+			for(var i = 0; i < typeButtons.length; i++){
+				typeButtons[i].classList.remove("active");
+			}
+			// Set this Type button as active
+			let thisTypeButton = document.getElementById(language);
+			thisTypeButton.classList.add("active");
+		},
 		languageFiltered(langData){
-			// filter only by name
-			if(this.filter !== "") {
-				return langData.filter(record => {
+			// filter by text input AND type
+			if(this.filter !== "" && this.selectedLanguage !== "all") {
+				if(langData.name === this.selectedLanguage){
+					return langData.translations.filter(record => {
+						return Object.values(record).some(word => 
+							word.toLowerCase().includes(this.filter.toLowerCase())
+						)
+					})
+				}
+			}			
+			// filter only by text input
+			else if(this.filter !== "") {
+				return langData.translations.filter(record => {
 					return Object.values(record).some(word => 
 						word.toLowerCase().includes(this.filter.toLowerCase())
 					)
@@ -61,116 +73,57 @@ export default {
 	<section id="translations">
 		<div class="container">
 
-			<!-- <div class="types">
+			<div class="types">
 				<button class="type active" id="all" @click="selectLanguage('all')">
 					<IconAll />
 					<div>All</div>
 				</button>
-				<button class="type" id="atlas" @click="selectLanguage('atlas')">
+				<button class="type" id="Atlas" @click="selectLanguage('Atlas')">
 					<IconAtlas />
 					<div>Atlas</div>
 				</button>
-				<button class="type" id="gek" @click="selectLanguage('gek')">
+				<button class="type" id="Gek" @click="selectLanguage('Gek')">
 					<IconGek />
 					<div>Gek</div>
 				</button>
-				<button class="type" id="korvax" @click="selectLanguage('korvax')">
+				<button class="type" id="Korvax" @click="selectLanguage('Korvax')">
 					<IconKorvax />
 					<div>Korvax</div>
 				</button>
-				<button class="type" id="vykeen" @click="selectLanguage('vykeen')">
+				<button class="type" id="Vy'keen" @click="selectLanguage('Vy\'keen')">
 					<IconVykeen />
 					<div>Vy'keen</div>
 				</button>
-			</div> -->
+			</div>
 
 			<div class="filter">
 				<input v-model="filter" type="text" placeholder="Start typing to find known translations...">
 			</div>
 
-			<div v-if="languageFiltered(atlas).length>0" class="language language-atlas">
-				<div class="heading">
-					<IconAtlas />
-					<h3>Atlas</h3>
-				</div>
-				<div class="translations">
-					<div class="column-headings">
-						<div class="column column-fourth"><b>English:</b></div>
-						<div class="column column-fourth"><b>Uppercase:</b></div>
-						<div class="column column-fourth"><b>Lowercase:</b></div>
-						<div class="column column-fourth"><b>All Caps:</b></div>
+			<div v-for="language in langData">
+				<div v-if="languageFiltered(language) && languageFiltered(language).length>0" class="language">
+					<div class="heading">
+						<component :is="language.icon"></component>
+						<h3>{{ language.name }}</h3>
 					</div>
-					<div v-for="record in languageFiltered(atlas)" class="translation">
-						<div class="column column-fourth"><b>English:</b> {{ record.english }}</div>
-						<div class="column column-fourth"><b>Uppercase:</b> {{ record.lowercase }}</div>
-						<div class="column column-fourth"><b>Lowercase:</b> {{ record.uppercase }}</div>
-						<div class="column column-fourth"><b>All Caps:</b> {{ record.allcaps }}</div>
-					</div>
-				</div>
-			</div>
-
-			<div v-if="languageFiltered(gek).length>0" class="language language-gek">
-				<div class="heading">
-					<IconGek />
-					<h3>Gek</h3>
-				</div>
-				<div class="translations">
-					<div class="column-headings">
-						<div class="column column-fourth"><b>English:</b></div>
-						<div class="column column-fourth"><b>Uppercase:</b></div>
-						<div class="column column-fourth"><b>Lowercase:</b></div>
-						<div class="column column-fourth"><b>All Caps:</b></div>
-					</div>
-					<div v-for="record in languageFiltered(gek)" class="translation">
-						<div class="column column-fourth"><b>English:</b> {{ record.english }}</div>
-						<div class="column column-fourth"><b>Uppercase:</b> {{ record.lowercase }}</div>
-						<div class="column column-fourth"><b>Lowercase:</b> {{ record.uppercase }}</div>
-						<div class="column column-fourth"><b>All Caps:</b> {{ record.allcaps }}</div>
+					<div class="translations">
+						<div class="column-headings">
+							<div class="column column-fourth"><b>English:</b></div>
+							<div class="column column-fourth"><b>Lowercase:</b></div>
+							<div class="column column-fourth"><b>Capitalized:</b></div>
+							<div class="column column-fourth"><b>All Caps:</b></div>
+						</div>
+						<div v-for="translation in languageFiltered(language)" class="translation">
+							<div class="column column-fourth"><b>English:</b> {{ translation.english }}</div>
+							<div class="column column-fourth"><b>Lowercase:</b> {{ translation.lowercase }}</div>
+							<div class="column column-fourth"><b>Capitalized:</b> {{ translation.uppercase }}</div>
+							<div class="column column-fourth"><b>All Caps:</b> {{ translation.allcaps }}</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div v-if="languageFiltered(korvax).length>0" class="language language-korvax">
-				<div class="heading">
-					<IconKorvax />
-					<h3>Korvax</h3>
-				</div>
-				<div class="translations">
-					<div class="column-headings">
-						<div class="column column-fourth"><b>English:</b></div>
-						<div class="column column-fourth"><b>Uppercase:</b></div>
-						<div class="column column-fourth"><b>Lowercase:</b></div>
-						<div class="column column-fourth"><b>All Caps:</b></div>
-					</div>
-					<div v-for="record in languageFiltered(korvax)" class="translation">
-						<div class="column column-fourth"><b>English:</b> {{ record.english }}</div>
-						<div class="column column-fourth"><b>All Caps:</b> {{ record.allcaps }}</div>
-							<div class="column column-fourth"><b>Lowercase:</b> {{ record.lowercase }}</div>
-							<div class="column column-fourth"><b>Capitalized:</b> {{ record.uppercase }}</div>
-					</div>
-				</div>
-			</div>
-
-			<div v-if="languageFiltered(vykeen).length>0" class="language language-vykeen">
-				<div class="heading">
-					<IconVykeen />
-					<h3>Vy'keen</h3>
-				</div>
-				<div class="translations">
-					<div class="column-headings">
-						<div class="column column-fourth"><b>English:</b></div>
-						<div class="column column-fourth"><b>Uppercase:</b></div>
-						<div class="column column-fourth"><b>Lowercase:</b></div>
-						<div class="column column-fourth"><b>All Caps:</b></div>
-					</div>
-					<div v-for="record in languageFiltered(vykeen)" class="translation">
-						<div class="column column-fourth"><b>English:</b> {{ record.english }}</div>
-						<div class="column column-fourth"><b>Uppercase:</b> {{ record.lowercase }}</div>
-						<div class="column column-fourth"><b>Lowercase:</b> {{ record.uppercase }}</div>
-						<div class="column column-fourth"><b>All Caps:</b> {{ record.allcaps }}</div>
-					</div>
-				</div>
-			</div>
+			<div class="note">NOTE: There are 2 - 3 alien words for any English word, based on capitalization -- Lowercase, capitalized, and all-caps words are unique.</div>
 			
 		</div>
 	</section>
