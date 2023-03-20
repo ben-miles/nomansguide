@@ -10,7 +10,16 @@ const router = createRouter({
 		{
 			path: '/',
 			name: 'home',
-			component: () => import('../views/HomeView.vue')
+			component: () => import('../views/HomeView.vue'),
+			meta: {
+				title: 'No Man\'s Guide',
+				metaTags: [
+					{
+					  name: 'description',
+					  content: 'Where to find resources, how to craft anything, and translate alien languages in No Man\'s Sky.'
+					}
+				]
+			}
 		},
 		// {
 		// 	path: '/about',
@@ -25,24 +34,53 @@ const router = createRouter({
 			name: 'items',
 			component: () => import('../views/ItemsView.vue'),
 			meta: {
-				title: 'Items'
+				title: 'Items',
+				metaTags: [
+					{
+					  name: 'description',
+					  content: 'Where to find resources and how to craft anything in No Man\'s Sky.'
+					}
+				]
 			}
 		},
 		{
 			path: '/item/:itemId',
 			name: 'item',
-			component: () => import('../views/ItemView.vue')
+			component: () => import('../views/ItemView.vue'),
+			meta: {
+				metaTags: [
+					{
+					  name: 'description',
+					  content: 'An item from No Man\'s Sky.'
+					}
+				]
+			}
 		},
 		{
 			path: '/translator',
 			name: 'translator',
-			component: () => import('../views/TranslatorView.vue')
+			component: () => import('../views/TranslatorView.vue'),
+			meta: {
+				title: 'Translator',
+				metaTags: [
+					{
+					  name: 'description',
+					  content: 'Translate alien languages in No Man\'s Sky.'
+					}
+				]
+			}
 		},
 		{ 
 			path: '/:pathMatch(.*)', 
 			component: () => import('../views/404View.vue'),
 			meta: {
-				title: '404'
+				title: '404',
+				metaTags: [
+					{
+					  name: 'description',
+					  content: 'Page not found.'
+					}
+				]
 			}
 		}
 	]
