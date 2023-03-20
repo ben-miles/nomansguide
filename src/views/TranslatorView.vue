@@ -114,10 +114,10 @@ export default {
 							<div class="column column-fourth"><b>All Caps:</b></div>
 						</div>
 						<div v-for="translation in languageFiltered(language)" class="translation">
-							<div class="column column-fourth"><b>English:</b> {{ translation.english }}</div>
-							<div class="column column-fourth"><b>Lowercase:</b> {{ translation.lowercase }}</div>
-							<div class="column column-fourth"><b>Capitalized:</b> {{ translation.uppercase }}</div>
-							<div class="column column-fourth"><b>All Caps:</b> {{ translation.allcaps }}</div>
+							<div class="column column-fourth"><span v-if="translation.english"><b>English:</b> {{ translation.english }}</span></div>
+							<div class="column column-fourth"><span v-if="translation.lowercase"><b>Lowercase:</b> {{ translation.lowercase }}</span></div>
+							<div class="column column-fourth"><span v-if="translation.uppercase"><b>Capitalized:</b> {{ translation.uppercase }}</span></div>
+							<div class="column column-fourth"><span v-if="translation.allcaps"><b>All Caps:</b> {{ translation.allcaps.toUpperCase() }}</span></div>
 						</div>
 					</div>
 				</div>
