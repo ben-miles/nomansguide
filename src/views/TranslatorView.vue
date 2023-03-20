@@ -123,7 +123,7 @@ export default {
 				</div>
 			</div>
 
-			<div class="note">NOTE: There are 2 - 3 alien words for any English word, based on capitalization -- Lowercase, capitalized, and all-caps words are unique.</div>
+			<div class="note"><b>NOTE:</b> There are two to three words in every Alien language for any English word, based on capitalization -- Capitalized, lowercase, and ALL CAPS words are distinct from one another.</div>
 			
 		</div>
 	</section>
@@ -240,5 +240,11 @@ export default {
 	.translation b {
 		display: none;
 	}
+}
+#translations .note {
+	padding: 10px 20px;
+    background: rgba(255,255,255,0.125);
+    margin: 0 50px;
+    border-left: 4px solid #fff;
 }
 </style>
