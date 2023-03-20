@@ -144,9 +144,9 @@ export default {
 					</div>
 					<div v-for="record in languageFiltered(korvax)" class="translation">
 						<div class="column column-fourth"><b>English:</b> {{ record.english }}</div>
-						<div class="column column-fourth"><b>Uppercase:</b> {{ record.lowercase }}</div>
-						<div class="column column-fourth"><b>Lowercase:</b> {{ record.uppercase }}</div>
 						<div class="column column-fourth"><b>All Caps:</b> {{ record.allcaps }}</div>
+							<div class="column column-fourth"><b>Lowercase:</b> {{ record.lowercase }}</div>
+							<div class="column column-fourth"><b>Capitalized:</b> {{ record.uppercase }}</div>
 					</div>
 				</div>
 			</div>
