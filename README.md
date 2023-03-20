@@ -1,6 +1,6 @@
 # No Man's Guide
 
-![Screenshot - March 4, 2023](./.github/images/screenshot_2023-03-04_720_min.png)
+![Screenshot - March 4, 2023](./.github/images/screenshot_2023-03-20_720_min.png)
 
 A second-screen companion app for the game "No Man's Sky." A convenient way to find location, crafting, refining and cooking information for over one hundred in-game items, as well as a translator for the various alien languages.
 
@@ -28,6 +28,7 @@ A second-screen companion app for the game "No Man's Sky." A convenient way to f
 
 ## Special Thanks
 
+- Most of the data I use was sourced from the [No Man's Sky Wiki on Fandom](https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki)
 - This project makes use of [Vanilla Tilt JS](https://micku7zu.github.io/vanilla-tilt.js/)
 - This project is part of the [No Man's Sky Community Developers & Designers (NMSCD)](https://nmscd.com/) collection
 - This project is tested with [BrowserStack](https://www.browserstack.com/)

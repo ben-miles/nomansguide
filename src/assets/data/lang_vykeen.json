@@ -1,4 +1,7 @@
-[
+{
+	"name": "Vy'keen",
+	"icon": "IconVykeen",
+	"translations": [
  {
   "english": "a",
   "lowercase": "ney",
@@ -3839,3 +3842,4 @@
   "uppercase": "Xife"
  }
 ]
+}

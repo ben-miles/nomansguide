@@ -1,4 +1,7 @@
-[
+{
+	"name": "Korvax",
+	"icon": "IconKorvax",
+	"translations": [
 	{
 	 "english": "a",
 	 "lowercase": "ond",
@@ -3444,3 +3447,4 @@
 	 "uppercase": "Kayzyav"
 	}
 ]
+}

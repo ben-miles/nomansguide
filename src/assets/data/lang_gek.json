@@ -1,4 +1,7 @@
-[
+{
+	"name": "Gek",
+	"icon": "IconGek",
+	"translations": [
  {
   "english": "a",
   "lowercase": "non",
@@ -3566,3 +3569,4 @@
   "uppercase": "Nohusagn"
  }
 ]
+}

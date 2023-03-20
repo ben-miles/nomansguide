@@ -293,7 +293,7 @@ a.item.small {
 	border: 2px solid #fff;
 	display: flex;
 	flex-direction: row;
-	flex-grow: 1;
+	flex-basis: content;
 }
 a.item.small .title {
 	background: #fff;
