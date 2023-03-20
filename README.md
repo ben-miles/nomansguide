@@ -1,6 +1,6 @@
 # No Man's Guide
 
-![Screenshot - March 4, 2023](./.github/images/screenshot_2023-03-04_720_min.png)
+![Screenshot - March 4, 2023](./.github/images/screenshot_2023-03-20_720_min.png)
 
 A second-screen companion app for the game "No Man's Sky." A convenient way to find location, crafting, refining and cooking information for over one hundred in-game items (and growing). Future updates tentatively include translations for the various alien languages.
 
