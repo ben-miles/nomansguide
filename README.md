@@ -28,6 +28,7 @@ A second-screen companion app for the game "No Man's Sky." A convenient way to f
 
 ## Special Thanks
 
+- Most of the data I use was sourced from the [No Man's Sky Wiki on Fandom](https://nomanssky.fandom.com/wiki/No_Man%27s_Sky_Wiki)
 - This project makes use of [Vanilla Tilt JS](https://micku7zu.github.io/vanilla-tilt.js/)
 - This project is part of the [No Man's Sky Community Developers & Designers (NMSCD)](https://nmscd.com/) collection
 - This project is tested with [BrowserStack](https://www.browserstack.com/)
