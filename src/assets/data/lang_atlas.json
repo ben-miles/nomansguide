@@ -1,4 +1,7 @@
-[
+{
+	"name": "Atlas",
+	"icon": "IconAtlas",
+	"translations": [
  {
   "english": "a",
   "lowercase": "noq",
@@ -1320,3 +1323,4 @@
   "allcaps": "Dogari"
  }
 ]
+}
