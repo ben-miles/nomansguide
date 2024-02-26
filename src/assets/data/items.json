@@ -5987,6 +5987,33 @@
 		],
 		"value": 5200000
 	},
+	"remembrance": {
+		"id": "remembrance",
+		"name": "Remembrance",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "Everything you ever knew is within.",
+		"sources": [],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "heart_of_the_sun",
+						"quantity": 1
+					},
+					{
+						"id": "platinum",
+						"quantity": 16
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 20
+	},
 	"radon": {
 		"id": "radon",
 		"name": "Radon",
