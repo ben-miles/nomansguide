@@ -690,15 +690,6 @@
 			{
 				"ingredients": [
 					{
-						"id": "chloride_lattice",
-						"quantity": 1
-					}
-				],
-				"yield": 150
-			},
-			{
-				"ingredients": [
-					{
 						"id": "chlorine",
 						"quantity": 1
 					},
