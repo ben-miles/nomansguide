@@ -130,6 +130,41 @@
 		],
 		"value": 3
 	},
+	"amino_chamber": {
+		"id": "amino_chamber",
+		"name": "Amino Chamber",
+		"colors": [
+			"#f6a452",
+			"#f3a923"
+		],
+		"type": "crafted_products",
+		"description": "A specialist biological catalyzation device. This unit takes advantage of naturally occurring enzymes in order to facilitate increased energy yields and faster processing in a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units.",
+			"From some Galactic Trade Terminals."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "metal_plating",
+						"quantity": 1
+					},
+					{
+						"id": "chlorine",
+						"quantity": 20
+					},
+					{
+						"id": "condensed_carbon",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 12300
+	},
 	"ammonia": {
 		"id": "ammonia",
 		"name": "Ammonia",
