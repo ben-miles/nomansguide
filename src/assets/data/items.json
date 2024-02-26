@@ -6879,6 +6879,90 @@
 		],
 		"value": 32
 	},
+	"starship_launch_fuel": {
+		"id": "starship_launch_fuel",
+		"name": "Starship Launch Fuel",
+		"colors": [
+			"#6f46cf",
+			"#bf1747"
+		],
+		"type": "crafted_products",
+		"description": "Highly reactive solid-state fuel, required to fuel Starship Launch Thrusters. Created from crystallized Di-hydrogen, found in blue deposits on all worlds.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"It can also be found mixed with carbon in carbon-based plants or trees. For easy discovery, scan the surrounding flora with the Analysis Visor.",
+			"With assistance from a Farmer, Star Bulbs can also be grown as a product of Star Bramble with a harvest time of approximately 4 hours and yielding 25 Star Bulbs."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 40
+					},
+					{
+						"id": "metal_plating",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "ferrite_dust",
+						"quantity": 20
+					},
+					{
+						"id": "sodium_nitrate",
+						"quantity": 5
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "pure_ferrite",
+						"quantity": 20
+					},
+					{
+						"id": "sodium",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "magnetised_ferrite",
+						"quantity": 10
+					},
+					{
+						"id": "sodium_nitrate",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 450
+	},
 	"stasis_device": {
 		"id": "stasis_device",
 		"name": "Stasis Device",
