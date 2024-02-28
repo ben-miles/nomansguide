@@ -30,6 +30,9 @@ export default {
 			// Set this Type button as active
 			let thisTypeButton = document.getElementById(itemType);
 			thisTypeButton.classList.add("active");
+		},
+		focusInput(){
+			document.getElementById("items-filter-input").focus();
 		}
 	},
 	computed: {
@@ -57,6 +60,9 @@ export default {
 				return Object.values(itemsData);
 			}
 		}
+	},
+	mounted() {
+		this.focusInput();
 	}
 }
 </script>
@@ -85,7 +91,7 @@ export default {
 			</div>
 
 			<div class="filter">
-				<input v-model="filter" type="text" placeholder="Start typing to filter items...">
+				<input id="items-filter-input" v-model="filter" type="text" placeholder="Start typing to filter items...">
 			</div>
 
 			<div class="items">

@@ -64,7 +64,13 @@ export default {
 			else {
 				return false;
 			}
+		},
+		focusInput(){
+			document.getElementById("translator-filter-input").focus();
 		}
+	},
+	mounted() {
+		this.focusInput();
 	}
 }
 </script>
@@ -97,7 +103,7 @@ export default {
 			</div>
 
 			<div class="filter">
-				<input v-model="filter" type="text" placeholder="Start typing to find known translations...">
+				<input id="translator-filter-input" v-model="filter" type="text" placeholder="Start typing to find known translations...">
 			</div>
 
 			<div v-for="language in langData">
