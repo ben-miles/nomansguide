@@ -3482,6 +3482,21 @@
 		],
 		"value": 400000
 	},
+	"hyaline_brain": {
+		"id": "hyaline_brain",
+		"name": "Hyaline Brain",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "The central processing unit of a Sentinel interceptor ship. The circuitry writhes microscopically, constantly rearranging itself as it scans for anomalies. A vital component for any entity wishing to construct their own Pilot Interface for a Sentinel Interceptor. Status: VOLATILE",
+		"sources": [
+			"Loot from crashed Sentinel Interceptors",
+			"Loot from destroying enemy sentinel interceptors in space"
+		],
+		"value": 35000
+	},
 	"hydraulic_wiring": {
 		"id": "hydraulic_wiring",
 		"name": "Hydraulic Wiring",
