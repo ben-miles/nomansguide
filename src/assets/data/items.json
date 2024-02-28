@@ -6197,6 +6197,20 @@
 		],
 		"value": 5200000
 	},
+	"radiant_shard": {
+		"id": "radiant_shard",
+		"name": "Radiant Shard",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "A fragment of glassy lifeforce, chipped from a larger formation. Dynamic intermolecular binding gives the shard a strangely flexible, sinewy quality. It writhes gently, almost as if it were seeking something... Highly sought after for salvage operations, as it can be used to bypass the security systems of key Sentinel ship technologies.",
+		"sources": [
+			"Can be mined from large purple crystals on corrupted planets."
+		],
+		"value": 1900
+	},
 	"remembrance": {
 		"id": "remembrance",
 		"name": "Remembrance",
