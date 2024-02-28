@@ -3608,6 +3608,21 @@
 		],
 		"value": 464
 	},
+	"inverted_mirror": {
+		"id": "inverted_mirror",
+		"name": "Inverted Mirror",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "A pane of watchful glass, retrieved from the smoking remains of the corrupted swarm's Dissonance Resonators. It emits more light than it reflects, casting a faint purple hue on its surroundings. Highly sought after for salvage operations, as it can be used to bypass the security systems of key Sentinel ship technologies.",
+		"sources": [
+			"Loot from a Dissonance Resonator with the Inverted Mirror tag."
+		],
+		"value": 17000
+	
+	},
 	"ion_battery": {
 		"id": "ion_battery",
 		"name": "Ion Battery",
