@@ -30,6 +30,12 @@ export default {
 			// Set this Type button as active
 			let thisTypeButton = document.getElementById(itemType);
 			thisTypeButton.classList.add("active");
+		},
+		clearInput(){
+			this.filter = "";
+		},
+		focusInput(){
+			document.getElementById("items-filter-input").focus();
 		}
 	},
 	computed: {
@@ -57,6 +63,9 @@ export default {
 				return Object.values(itemsData);
 			}
 		}
+	},
+	mounted() {
+		this.focusInput();
 	}
 }
 </script>
@@ -85,7 +94,8 @@ export default {
 			</div>
 
 			<div class="filter">
-				<input v-model="filter" type="text" placeholder="Start typing to filter items...">
+				<input id="items-filter-input" v-model="filter" type="text" placeholder="Start typing to filter items...">
+				<button id="items-filter-reset" type="reset" @click="clearInput">&times;</button>
 			</div>
 
 			<div class="items">
@@ -153,6 +163,24 @@ export default {
 	outline: none;
 	padding: 8px;
   	width: 100%;
+}
+#items-filter-input:placeholder-shown+button {
+  opacity: 0;
+  pointer-events: none;
+}
+#items-filter-reset {
+  position: absolute;
+  display: block;
+  width: 39px;
+  height: 39px;
+  line-height: 1em;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  background: #ddd;
+  padding: 8px;
+  transition: .125s;
 }
 
 /* DRAWER > ITEMS */

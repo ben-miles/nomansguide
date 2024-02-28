@@ -68,7 +68,8 @@ a {
   color: inherit; }
 
 a, 
-button {
+button,
+input {
 	cursor: pointer;
 	cursor: url("images/cursors/nmg_cursor_active.svg") 25 25, pointer;
 	border: none;

@@ -64,7 +64,16 @@ export default {
 			else {
 				return false;
 			}
+		},
+		clearInput(){
+			this.filter = "";
+		},
+		focusInput(){
+			document.getElementById("translator-filter-input").focus();
 		}
+	},
+	mounted() {
+		this.focusInput();
 	}
 }
 </script>
@@ -97,7 +106,8 @@ export default {
 			</div>
 
 			<div class="filter">
-				<input v-model="filter" type="text" placeholder="Start typing to find known translations...">
+				<input id="translator-filter-input" v-model="filter" type="text" placeholder="Start typing to find known translations...">
+				<button id="translator-filter-reset" type="reset" @click="clearInput">&times;</button>
 			</div>
 
 			<div v-for="language in langData">
@@ -182,6 +192,26 @@ export default {
 	padding: 8px;
   	width: 100%;
 }
+#translator-filter-input:placeholder-shown+button {
+  opacity: 0;
+  pointer-events: none;
+}
+#translator-filter-reset {
+  position: absolute;
+  display: block;
+  width: 39px;
+  height: 39px;
+  line-height: 1em;
+  font-size: 20px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  background: #ddd;
+  padding: 8px;
+  transition: .125s;
+}
+
+/* DRAWER > LANGUAGES */
 .language {
 	margin-bottom: 60px;
 }
