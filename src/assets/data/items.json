@@ -5021,6 +5021,172 @@
 		],
 		"value": 3
 	},
+	"nanite_cluster": {
+		"id": "nanite_cluster",
+		"name": "Nanite Cluster",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "A dense miasma of Nanites, undulating in its potentiality. These clusters are stable, but unrestricted nanite foam can produce undesirable runaway reactions in the presence of organic matter. Used in the construction of advanced technologies. Highly valuable to specialist traders.",
+		"sources": [			
+			"Searching abandoned buildings on planets.",
+			"Uploading Discoveries",
+			"Discovering all creatures on a planet and claiming the rewarded nanites.",
+			"Feeding certain animals, which will lead you to a buried object that yields them.",
+			"Searching Damaged Machinery.",
+			"Destroying Sentinels.",
+			"Destroying Freighter cargo containers with no resource tag.",
+			"Reward for completing missions.",
+			"Can be found in storage containers while exploring Crashed Freighters.",
+			"Selling Upgrade Modules to Technology Merchants.",
+			"From certain Space Encounters.",
+			"Through multiple steps of refining, Residual Goop can be converted to Viscous Fluids, to Living Slime, to Runaway Mould and then to Nanite Cluster.",
+			"Payment during certain NPC missions."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "runaway_mould",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "platinum",
+						"quantity": 35
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "platinum",
+						"quantity": 25
+					},
+					{
+						"id": "gold",
+						"quantity": 15
+					},
+					{
+						"id": "silver",
+						"quantity": 15
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hexite",
+						"quantity": 1
+					},
+					{
+						"id": "faecium",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pugneum",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "larval_core",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hadal_core",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "salvaged_data",
+						"quantity": 1
+					}
+				],
+				"yield": 15
+			},
+			{
+				"ingredients": [
+					{
+						"id": "tainted_metal",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "flesh_rope",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "vile_spawn",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radiant_shard",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "inverted_mirror",
+						"quantity": 1
+					}
+				],
+				"yield": 95
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hyaline_brain",
+						"quantity": 1
+					}
+				],
+				"yield": 230
+			}
+		],
+		"value": 0
+	},
 	"nipnip": {
 		"id": "nipnip",
 		"name": "NipNip",
