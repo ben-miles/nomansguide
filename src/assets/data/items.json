@@ -7302,6 +7302,27 @@
 		],
 		"value": 1000
 	},
+	"storm_crystal": {
+		"id": "storm_crystal",
+		"name": "Storm Crystal",
+		"colors": [
+			"#d4d4d4",
+			"#cccccc"
+		],
+		"type": "curiosities",
+		"description": "A rare and highly valuable cluster of storm crystals. These crystalline structures thrive in stormy conditions, and naturally attract lighting strikes, becoming spectacularly luminescent when ionised. Exclusively found on extreme weather planets.",
+		"sources": [
+			"It can be harvested on extreme weather planets during storms. Look for planets with activated minerals and search during a storm. Not all extreme weather or activated mineral planets have storm crystals.",
+			"From the Mercenaries Guild envoy aboard space stations",
+			"Certain Nexus missions",
+			"Analysing a Crystal Fragment",
+			"Derelict Freighter Crates",
+			"Suspicious Packet (Goods)",
+			"From Bounty Hunter missions in outlaw systems",
+			"Mission Board Missions"
+		],
+		"value": 211150
+	},
 	"sulphurine": {
 		"id": "sulphurine", 
 		"name": "Sulphurine",
