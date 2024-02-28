@@ -7754,6 +7754,20 @@
 		],
 		"value": 3
 	},
+	"vile_spawn": {
+		"id": "vile_spawn",
+		"name": "Vile Spawn",
+		"colors": [
+			"#d4d4d4",
+			"#cccccc"
+		],
+		"type": "curiosities",
+		"description": "The fragile embryo of a Hungering Tendril, still dripping with mucal butter. It wails and recoils when touched. May be extracted from embryotic sacs with the aid of a Visceral Synthesiser.",
+		"sources": [
+			"Obtained from the drops from hungering tendrils after beating Titan Worms."
+		],
+		"value": 16
+	},
 	"viscous_fluids": {
 		"id": "viscous_fluids",
 		"name": "Viscous Fluids",
