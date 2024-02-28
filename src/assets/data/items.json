@@ -130,6 +130,41 @@
 		],
 		"value": 3
 	},
+	"amino_chamber": {
+		"id": "amino_chamber",
+		"name": "Amino Chamber",
+		"colors": [
+			"#f6a452",
+			"#f3a923"
+		],
+		"type": "crafted_products",
+		"description": "A specialist biological catalyzation device. This unit takes advantage of naturally occurring enzymes in order to facilitate increased energy yields and faster processing in a wide range of advanced technologies.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites.",
+			"Available from some Technology Merchants for 5000+ units.",
+			"From some Galactic Trade Terminals."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "metal_plating",
+						"quantity": 1
+					},
+					{
+						"id": "chlorine",
+						"quantity": 20
+					},
+					{
+						"id": "condensed_carbon",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 12300
+	},
 	"ammonia": {
 		"id": "ammonia",
 		"name": "Ammonia",
@@ -686,15 +721,6 @@
 					}
 				],
 				"yield": 5
-			},
-			{
-				"ingredients": [
-					{
-						"id": "chloride_lattice",
-						"quantity": 1
-					}
-				],
-				"yield": 150
 			},
 			{
 				"ingredients": [
@@ -2108,6 +2134,20 @@
 		],
 		"value": 14
 	},
+	"flesh_rope": {
+		"id": "flesh_rope",
+		"name": "Flesh Rope",
+		"colors": [
+			"#545e84",
+			"#512742"
+		],
+		"type": "curiosities",
+		"description": "The coiled remains of a Hungering Tendril's digestive tract. Though its meaty walls still convulse, there is surely no way for a fresh tendril to regrow from these meagre scraps... Such specialist offal is rarely traded on the Galactic Exchange and is thus highly valuable.",
+		"sources": [
+			"Can be harvested from Titan Worms."
+		],
+		"value": 16016
+	},
 	"frigate_fuel_50_tonnes": {
 		"id": "frigate_fuel_50_tonnes",
 		"name": "Frigate Fuel (50 Tonnes)",
@@ -3442,6 +3482,21 @@
 		],
 		"value": 400000
 	},
+	"hyaline_brain": {
+		"id": "hyaline_brain",
+		"name": "Hyaline Brain",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "The central processing unit of a Sentinel interceptor ship. The circuitry writhes microscopically, constantly rearranging itself as it scans for anomalies. A vital component for any entity wishing to construct their own Pilot Interface for a Sentinel Interceptor. Status: VOLATILE",
+		"sources": [
+			"Loot from crashed Sentinel Interceptors",
+			"Loot from destroying enemy sentinel interceptors in space"
+		],
+		"value": 35000
+	},
 	"hydraulic_wiring": {
 		"id": "hydraulic_wiring",
 		"name": "Hydraulic Wiring",
@@ -3552,6 +3607,21 @@
 			}
 		],
 		"value": 464
+	},
+	"inverted_mirror": {
+		"id": "inverted_mirror",
+		"name": "Inverted Mirror",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "A pane of watchful glass, retrieved from the smoking remains of the corrupted swarm's Dissonance Resonators. It emits more light than it reflects, casting a faint purple hue on its surroundings. Highly sought after for salvage operations, as it can be used to bypass the security systems of key Sentinel ship technologies.",
+		"sources": [
+			"Loot from a Dissonance Resonator with the Inverted Mirror tag."
+		],
+		"value": 17000
+	
 	},
 	"ion_battery": {
 		"id": "ion_battery",
@@ -4951,6 +5021,172 @@
 		],
 		"value": 3
 	},
+	"nanite_cluster": {
+		"id": "nanite_cluster",
+		"name": "Nanite Cluster",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "A dense miasma of Nanites, undulating in its potentiality. These clusters are stable, but unrestricted nanite foam can produce undesirable runaway reactions in the presence of organic matter. Used in the construction of advanced technologies. Highly valuable to specialist traders.",
+		"sources": [			
+			"Searching abandoned buildings on planets.",
+			"Uploading Discoveries",
+			"Discovering all creatures on a planet and claiming the rewarded nanites.",
+			"Feeding certain animals, which will lead you to a buried object that yields them.",
+			"Searching Damaged Machinery.",
+			"Destroying Sentinels.",
+			"Destroying Freighter cargo containers with no resource tag.",
+			"Reward for completing missions.",
+			"Can be found in storage containers while exploring Crashed Freighters.",
+			"Selling Upgrade Modules to Technology Merchants.",
+			"From certain Space Encounters.",
+			"Through multiple steps of refining, Residual Goop can be converted to Viscous Fluids, to Living Slime, to Runaway Mould and then to Nanite Cluster.",
+			"Payment during certain NPC missions."
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "runaway_mould",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "platinum",
+						"quantity": 35
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "platinum",
+						"quantity": 25
+					},
+					{
+						"id": "gold",
+						"quantity": 15
+					},
+					{
+						"id": "silver",
+						"quantity": 15
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hexite",
+						"quantity": 1
+					},
+					{
+						"id": "faecium",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "pugneum",
+						"quantity": 25
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "larval_core",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hadal_core",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "salvaged_data",
+						"quantity": 1
+					}
+				],
+				"yield": 15
+			},
+			{
+				"ingredients": [
+					{
+						"id": "tainted_metal",
+						"quantity": 1
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "flesh_rope",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "vile_spawn",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "radiant_shard",
+						"quantity": 1
+					}
+				],
+				"yield": 50
+			},
+			{
+				"ingredients": [
+					{
+						"id": "inverted_mirror",
+						"quantity": 1
+					}
+				],
+				"yield": 95
+			},
+			{
+				"ingredients": [
+					{
+						"id": "hyaline_brain",
+						"quantity": 1
+					}
+				],
+				"yield": 230
+			}
+		],
+		"value": 0
+	},
 	"nipnip": {
 		"id": "nipnip",
 		"name": "NipNip",
@@ -5961,6 +6197,47 @@
 		],
 		"value": 5200000
 	},
+	"radiant_shard": {
+		"id": "radiant_shard",
+		"name": "Radiant Shard",
+		"colors": [
+			"#413f71",
+			"#4d2957"
+		],
+		"type": "curiosities",
+		"description": "A fragment of glassy lifeforce, chipped from a larger formation. Dynamic intermolecular binding gives the shard a strangely flexible, sinewy quality. It writhes gently, almost as if it were seeking something... Highly sought after for salvage operations, as it can be used to bypass the security systems of key Sentinel ship technologies.",
+		"sources": [
+			"Can be mined from large purple crystals on corrupted planets."
+		],
+		"value": 1900
+	},
+	"remembrance": {
+		"id": "remembrance",
+		"name": "Remembrance",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "Everything you ever knew is within.",
+		"sources": [],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "heart_of_the_sun",
+						"quantity": 1
+					},
+					{
+						"id": "platinum",
+						"quantity": 16
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 20
+	},
 	"radon": {
 		"id": "radon",
 		"name": "Radon",
@@ -6168,6 +6445,29 @@
 			}
 		],
 		"value": 299
+	},
+	"salvaged_data": {
+		"id": "salvaged_data",
+		"name": "Salvaged Data",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "The salvageable heart of some ancient technology. Unreadable in its current form. These databanks can be spent at a Construction Research Unit and used to research new Construction Blueprints.",
+		"sources": [
+			"Found in Buried Technology Modules and each of them rewards the player 2-4 Salvaged Data",
+			"Can be purchased as a component from some Minor Settlements",
+			"Storage containers in Crashed Freighters",
+			"Companions can dig it up",
+			"Gift from the Merchants Guild envoy",
+			"Nexus missions",
+			"Mission Board missions",
+			"Missions from the bounty master in outlaw systems",
+			"From the Base Computer Archives mission"
+		],
+		"value": 52000
+	
 	},
 	"silicate_powder": {
 		"id": "silicate_powder",
@@ -6826,6 +7126,120 @@
 		],
 		"value": 32
 	},
+	"starshield_battery": {
+		"id": "starshield_battery",
+		"name": "Starshield Battery",
+		"colors": [
+			"#ffa14b",
+			"#ffad00"
+		],
+		"type": "crafted_products",
+		"description": "A power storage unit optimised for use in starship defensive systems. Tritium-fuelled capacitors provide quick-release charge for the Deflector Shield, but would overload smaller-scale equipment.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "tritium",
+						"quantity": 50
+					},
+					{
+						"id": "gold",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 500
+	
+	},
+	"starship_launch_fuel": {
+		"id": "starship_launch_fuel",
+		"name": "Starship Launch Fuel",
+		"colors": [
+			"#6f46cf",
+			"#bf1747"
+		],
+		"type": "crafted_products",
+		"description": "Highly reactive solid-state fuel, required to fuel Starship Launch Thrusters. Created from crystallized Di-hydrogen, found in blue deposits on all worlds.",
+		"sources": [
+			"This element can be harvested from wild plants, but requires the use of Haz-Mat Gauntlet.",
+			"It can also be found mixed with carbon in carbon-based plants or trees. For easy discovery, scan the surrounding flora with the Analysis Visor.",
+			"With assistance from a Farmer, Star Bulbs can also be grown as a product of Star Bramble with a harvest time of approximately 4 hours and yielding 25 Star Bulbs."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 40
+					},
+					{
+						"id": "metal_plating",
+						"quantity": 1
+					}
+				],
+				"yield": 1
+			}
+		],
+		"refining": [
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "ferrite_dust",
+						"quantity": 20
+					},
+					{
+						"id": "sodium_nitrate",
+						"quantity": 5
+					}
+				],
+				"yield": 2
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "pure_ferrite",
+						"quantity": 20
+					},
+					{
+						"id": "sodium",
+						"quantity": 10
+					}
+				],
+				"yield": 1
+			},
+			{
+				"ingredients": [
+					{
+						"id": "di_hydrogen",
+						"quantity": 10
+					},
+					{
+						"id": "magnetised_ferrite",
+						"quantity": 10
+					},
+					{
+						"id": "sodium_nitrate",
+						"quantity": 5
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 450
+	},
 	"stasis_device": {
 		"id": "stasis_device",
 		"name": "Stasis Device",
@@ -6887,6 +7301,27 @@
 			}
 		],
 		"value": 1000
+	},
+	"storm_crystal": {
+		"id": "storm_crystal",
+		"name": "Storm Crystal",
+		"colors": [
+			"#d4d4d4",
+			"#cccccc"
+		],
+		"type": "curiosities",
+		"description": "A rare and highly valuable cluster of storm crystals. These crystalline structures thrive in stormy conditions, and naturally attract lighting strikes, becoming spectacularly luminescent when ionised. Exclusively found on extreme weather planets.",
+		"sources": [
+			"It can be harvested on extreme weather planets during storms. Look for planets with activated minerals and search during a storm. Not all extreme weather or activated mineral planets have storm crystals.",
+			"From the Mercenaries Guild envoy aboard space stations",
+			"Certain Nexus missions",
+			"Analysing a Crystal Fragment",
+			"Derelict Freighter Crates",
+			"Suspicious Packet (Goods)",
+			"From Bounty Hunter missions in outlaw systems",
+			"Mission Board Missions"
+		],
+		"value": 211150
 	},
 	"sulphurine": {
 		"id": "sulphurine", 
@@ -7108,6 +7543,21 @@
 			"Can be found in a Freighter after purchasing one."
 		],
 		"value": 6
+	},
+	"tritium_hypercluster": {
+		"id": "tritium_hypercluster",
+		"name": "Tritium Hypercluster",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "A shard of pure crystalised Tritium. Select in the Inventory and crack open.",
+		"sources": [
+			"Asteroid mining occasionally provides Tritium Hyperclusters.",
+			"One of the possible results of opening a Glowing Mineral."
+		],
+		"value": 3280
 	},
 	"unstable_gel": {
 		"id": "unstable_gel",
@@ -7369,6 +7819,20 @@
 			}
 		],
 		"value": 3
+	},
+	"vile_spawn": {
+		"id": "vile_spawn",
+		"name": "Vile Spawn",
+		"colors": [
+			"#d4d4d4",
+			"#cccccc"
+		],
+		"type": "curiosities",
+		"description": "The fragile embryo of a Hungering Tendril, still dripping with mucal butter. It wails and recoils when touched. May be extracted from embryotic sacs with the aid of a Visceral Synthesiser.",
+		"sources": [
+			"Obtained from the drops from hungering tendrils after beating Titan Worms."
+		],
+		"value": 16
 	},
 	"viscous_fluids": {
 		"id": "viscous_fluids",
