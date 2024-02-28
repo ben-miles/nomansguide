@@ -7544,6 +7544,21 @@
 		],
 		"value": 6
 	},
+	"tritium_hypercluster": {
+		"id": "tritium_hypercluster",
+		"name": "Tritium Hypercluster",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "A shard of pure crystalised Tritium. Select in the Inventory and crack open.",
+		"sources": [
+			"Asteroid mining occasionally provides Tritium Hyperclusters.",
+			"One of the possible results of opening a Glowing Mineral."
+		],
+		"value": 3280
+	},
 	"unstable_gel": {
 		"id": "unstable_gel",
 		"name": "Unstable Gel",
