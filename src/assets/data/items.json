@@ -2134,6 +2134,20 @@
 		],
 		"value": 14
 	},
+	"flesh_rope": {
+		"id": "flesh_rope",
+		"name": "Flesh Rope",
+		"colors": [
+			"#545e84",
+			"#512742"
+		],
+		"type": "curiosities",
+		"description": "The coiled remains of a Hungering Tendril's digestive tract. Though its meaty walls still convulse, there is surely no way for a fresh tendril to regrow from these meagre scraps... Such specialist offal is rarely traded on the Galactic Exchange and is thus highly valuable.",
+		"sources": [
+			"Can be harvested from Titan Worms."
+		],
+		"value": 16016
+	},
 	"frigate_fuel_50_tonnes": {
 		"id": "frigate_fuel_50_tonnes",
 		"name": "Frigate Fuel (50 Tonnes)",
