@@ -6446,6 +6446,29 @@
 		],
 		"value": 299
 	},
+	"salvaged_data": {
+		"id": "salvaged_data",
+		"name": "Salvaged Data",
+		"colors": [
+			"#426758",
+			"#1a2733"
+		],
+		"type": "curiosities",
+		"description": "The salvageable heart of some ancient technology. Unreadable in its current form. These databanks can be spent at a Construction Research Unit and used to research new Construction Blueprints.",
+		"sources": [
+			"Found in Buried Technology Modules and each of them rewards the player 2-4 Salvaged Data",
+			"Can be purchased as a component from some Minor Settlements",
+			"Storage containers in Crashed Freighters",
+			"Companions can dig it up",
+			"Gift from the Merchants Guild envoy",
+			"Nexus missions",
+			"Mission Board missions",
+			"Missions from the bounty master in outlaw systems",
+			"From the Base Computer Archives mission"
+		],
+		"value": 52000
+	
+	},
 	"silicate_powder": {
 		"id": "silicate_powder",
 		"name": "Silicate Powder",
