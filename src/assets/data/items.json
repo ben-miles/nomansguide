@@ -7126,6 +7126,36 @@
 		],
 		"value": 32
 	},
+	"starshield_battery": {
+		"id": "starshield_battery",
+		"name": "Starshield Battery",
+		"colors": [
+			"#ffa14b",
+			"#ffad00"
+		],
+		"type": "crafted_products",
+		"description": "A power storage unit optimised for use in starship defensive systems. Tritium-fuelled capacitors provide quick-release charge for the Deflector Shield, but would overload smaller-scale equipment.",
+		"sources": [
+			"Blueprint can be found in Manufacturing Facilities and Operations Centres, or purchased from Synthesis Laboratory for 250 Nanites."
+		],
+		"crafting": [
+			{
+				"ingredients": [
+					{
+						"id": "tritium",
+						"quantity": 50
+					},
+					{
+						"id": "gold",
+						"quantity": 20
+					}
+				],
+				"yield": 1
+			}
+		],
+		"value": 500
+	
+	},
 	"starship_launch_fuel": {
 		"id": "starship_launch_fuel",
 		"name": "Starship Launch Fuel",
